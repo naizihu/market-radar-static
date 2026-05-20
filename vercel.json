@@ -1,0 +1,22 @@
+{
+  "headers": [
+    {
+      "source": "/data/market-snapshot.js",
+      "headers": [
+        {
+          "key": "Cache-Control",
+          "value": "public, max-age=60, stale-while-revalidate=300"
+        }
+      ]
+    },
+    {
+      "source": "/(.*)",
+      "headers": [
+        {
+          "key": "Cache-Control",
+          "value": "public, max-age=0, must-revalidate"
+        }
+      ]
+    }
+  ]
+}

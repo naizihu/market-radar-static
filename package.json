@@ -1,0 +1,16 @@
+{
+  "name": "market-radar-static",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "V0.1 static market tracking dashboard with scheduled snapshot refresh.",
+  "scripts": {
+    "check": "node --check app.js && node --check scripts/fetch-market-data.mjs && node --check scripts/serve.mjs",
+    "snapshot": "node scripts/fetch-market-data.mjs",
+    "snapshot:force": "node scripts/fetch-market-data.mjs --force",
+    "dev": "node scripts/serve.mjs"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}

@@ -1,0 +1,265 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>全球股票市场追踪</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <div class="app-shell">
+      <aside class="sidebar" aria-label="股票列表">
+        <div class="brand">
+          <div class="brand-mark" aria-hidden="true">M</div>
+          <div>
+            <p class="eyebrow">实时市场</p>
+            <h1>股票追踪台</h1>
+          </div>
+        </div>
+
+        <label class="search-box">
+          <span>搜索</span>
+          <input id="stockSearch" type="search" placeholder="代码 / 名称" autocomplete="off" />
+        </label>
+        <button id="addWatchButton" class="add-watch-button" type="button" disabled>加入自选</button>
+
+        <div class="watchlist-header">
+          <span>股票列表</span>
+          <span id="marketClock">--:--:--</span>
+        </div>
+        <div id="stockList" class="stock-list"></div>
+      </aside>
+
+      <main class="workspace">
+        <header class="topbar">
+          <div>
+            <p class="eyebrow">Global Equity Radar</p>
+            <h2>全球市场总览</h2>
+          </div>
+          <div class="market-pulse">
+            <span class="pulse-dot"></span>
+            <span id="syncStatus">上次同步 --:--:--</span>
+          </div>
+        </header>
+
+        <section class="overview-band" aria-label="全球市场总览">
+          <div class="market-card-panel">
+            <div class="panel-heading">
+              <div>
+                <p class="eyebrow">Markets</p>
+                <h2>国家与期货</h2>
+              </div>
+              <span>当前 / 今日 / 7日 / 1月</span>
+            </div>
+            <div id="marketCards" class="market-card-grid"></div>
+          </div>
+
+          <div id="overviewStats" class="breadth-panel">
+            <div class="metric-block">
+              <span>上涨股票</span>
+              <strong id="advancers">0</strong>
+            </div>
+            <div class="metric-block">
+              <span>下跌股票</span>
+              <strong id="decliners">0</strong>
+            </div>
+            <div class="metric-block">
+              <span>平均涨跌幅</span>
+              <strong id="avgChange">0.00%</strong>
+            </div>
+            <div class="metric-block">
+              <span>活跃信号</span>
+              <strong id="signalCount">0</strong>
+            </div>
+          </div>
+        </section>
+
+        <section class="breadth-chart-panel" aria-label="关键宽度指标">
+          <div class="panel-heading">
+            <div>
+              <p class="eyebrow">Market Breadth</p>
+              <h2>20日均线上方权重</h2>
+            </div>
+            <span>区间 0 - 100</span>
+          </div>
+          <div class="breadth-chart-grid">
+            <div class="breadth-chart-card">
+              <div class="chart-title">
+                <strong>S&P 500</strong>
+                <span id="sp500BreadthValue">--</span>
+              </div>
+              <canvas id="sp500BreadthChart" width="560" height="240" aria-label="S&P 500 近100日20日均线上方权重"></canvas>
+            </div>
+            <div class="breadth-chart-card">
+              <div class="chart-title">
+                <strong>沪深300</strong>
+                <span id="csi300BreadthValue">--</span>
+              </div>
+              <canvas id="csi300BreadthChart" width="560" height="240" aria-label="沪深300近100日20日均线上方权重"></canvas>
+            </div>
+          </div>
+        </section>
+
+        <section class="detail-grid">
+          <article class="chart-area" aria-label="股票详情">
+            <div class="section-head">
+              <div>
+                <p id="selectedExchange" class="eyebrow">NASDAQ</p>
+                <h2 id="selectedName">Apple Inc.</h2>
+              </div>
+              <div class="quote-tile">
+                <span id="selectedSymbol">AAPL</span>
+                <strong id="selectedPrice">$0.00</strong>
+                <em id="selectedChange">0.00%</em>
+              </div>
+            </div>
+            <div class="chart-toolbar" role="group" aria-label="图表设置">
+              <span class="chart-range-label">近一年日K</span>
+              <label class="indicator-toggle">
+                <input id="toggleMA" type="checkbox" checked />
+                <span>MA</span>
+              </label>
+              <label class="indicator-toggle">
+                <input id="toggleRSI" type="checkbox" checked />
+                <span>RSI</span>
+              </label>
+              <label class="indicator-toggle">
+                <input id="toggleOBV" type="checkbox" checked />
+                <span>OBV</span>
+              </label>
+              <button id="zoomInButton" class="chart-tool-button" type="button" aria-label="放大图表">+</button>
+              <button id="zoomOutButton" class="chart-tool-button" type="button" aria-label="缩小图表">-</button>
+              <button id="zoomResetButton" class="chart-tool-button" type="button">重置</button>
+            </div>
+            <div class="chart-wrap">
+              <canvas id="priceChart" width="980" height="430" aria-label="价格走势图"></canvas>
+            </div>
+          </article>
+
+          <aside class="signal-panel" aria-label="技术指标与信号">
+            <div class="section-head compact">
+              <div>
+                <p class="eyebrow">Signals</p>
+                <h2>关键均线与信号</h2>
+              </div>
+              <span id="riskBadge" class="risk-badge">中性</span>
+            </div>
+            <div id="indicatorGrid" class="indicator-grid"></div>
+            <div class="signal-list" id="signalList"></div>
+          </aside>
+        </section>
+
+        <section class="data-note-panel" aria-label="数据取数说明">
+          <div class="panel-heading">
+            <div>
+              <p class="eyebrow">Data Notes</p>
+              <h2>数据说明</h2>
+            </div>
+            <span>4小时静态快照</span>
+          </div>
+          <div class="data-note-grid">
+            <div class="data-note">
+              <strong>股票与自选</strong>
+              <p>Yahoo Finance 日线 OHLCV，快照拉取近2年历史；详情主图默认展示近一年，可缩放，侧边迷你图展示近6个月。</p>
+            </div>
+            <div class="data-note">
+              <strong>指数与ETF代理</strong>
+              <p>指数优先取本体近2年日线；若指数不可用或日线不足，切换主流ETF代理，并在卡片中标注代理符号。</p>
+            </div>
+            <div class="data-note">
+              <strong>期货、利率、外汇、加密</strong>
+              <p>黄金、原油、铜、10年美债、美元指数、BTC、ETH 使用 Yahoo Finance 近2年日线；卡片趋势展示近6个月。</p>
+            </div>
+            <div class="data-note">
+              <strong>技术指标</strong>
+              <p>MA20/50/60/120/200、RSI、OBV、乖离率使用完整快照历史计算；MA展示窗口可缩放但计算不被截断。</p>
+            </div>
+            <div class="data-note">
+              <strong>市场宽度</strong>
+              <p>S&P 500 与沪深300宽度图展示近100个日度点，按20日均线上方比例计算；当前用代表标的，后续可替换完整成分股权重源。</p>
+            </div>
+          </div>
+        </section>
+
+        <section class="roadmap-panel" aria-label="部署与后端演进路线">
+          <div class="panel-heading">
+            <div>
+              <p class="eyebrow">Deployment Roadmap</p>
+              <h2>部署与后端演进</h2>
+            </div>
+            <span>先静态发布，后端渐进增强</span>
+          </div>
+
+          <div class="roadmap-summary">
+            <div>
+              <strong>为什么现在不急着上后端</strong>
+              <p>当前仍在打磨 UI、指标、信号规则和数据结构。4小时静态快照已经能覆盖低频查看场景，先稳定数据模型和指标引擎，后续迁移到后端会更稳。</p>
+            </div>
+            <div>
+              <strong>当前适合的发布方式</strong>
+              <p>短期可部署为静态网站，快照文件随站点发布或放在公开地址。这样可以跨设备访问，同时继续快速迭代前端体验。</p>
+            </div>
+          </div>
+
+          <div class="backend-capability-grid">
+            <div class="backend-card">
+              <strong>自动数据刷新</strong>
+              <p>后端或 serverless 定时任务每4小时拉取数据；失败时保留旧快照并记录错误。</p>
+            </div>
+            <div class="backend-card">
+              <strong>云端自选</strong>
+              <p>账号登录后同步自选股、分组、排序和关注标签，实现跨设备个性化。</p>
+            </div>
+            <div class="backend-card">
+              <strong>告警通知</strong>
+              <p>MA20抵扣、RSI极值、放量、突破MA200、宽度极值等触发邮件、Telegram或浏览器通知。</p>
+            </div>
+            <div class="backend-card">
+              <strong>历史数据仓库</strong>
+              <p>保存 OHLCV、指标和信号结果，支持回看过去任意一天的市场状态。</p>
+            </div>
+            <div class="backend-card">
+              <strong>真实市场宽度</strong>
+              <p>维护指数成分股与权重，每天计算权重高于MA20比例，替代当前代表样本估算。</p>
+            </div>
+            <div class="backend-card">
+              <strong>扫描器与持仓</strong>
+              <p>批量扫描全市场信号，并可把指标结果映射到个人组合和持仓风险。</p>
+            </div>
+          </div>
+
+          <div class="stage-track">
+            <div class="stage-item">
+              <span>1</span>
+              <strong>静态站发布</strong>
+              <p>页面上线，快照随站点发布，先实现跨设备查看。</p>
+            </div>
+            <div class="stage-item">
+              <span>2</span>
+              <strong>自动快照服务</strong>
+              <p>轻量任务自动生成 market-snapshot，前端仍只读快照。</p>
+            </div>
+            <div class="stage-item">
+              <span>3</span>
+              <strong>用户与云自选</strong>
+              <p>增加登录、云端 watchlist、分组和偏好保存。</p>
+            </div>
+            <div class="stage-item">
+              <span>4</span>
+              <strong>信号通知</strong>
+              <p>后端定时计算规则并推送关键提醒。</p>
+            </div>
+            <div class="stage-item">
+              <span>5</span>
+              <strong>完整数据平台</strong>
+              <p>多数据源、成分股权重、历史指标库、回测和扫描器。</p>
+            </div>
+          </div>
+        </section>
+      </main>
+    </div>
+
+    <script src="./data/market-snapshot.js"></script>
+    <script src="./app.js"></script>
+  </body>
+</html>
