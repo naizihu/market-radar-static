@@ -19,11 +19,19 @@ jobs:
     steps:
       - name: Checkout repository
         uses: actions/checkout@v6
+        with:
+          fetch-depth: 0
 
       - name: Set up Node.js
         uses: actions/setup-node@v6
         with:
           node-version: 24
+
+      - name: Sync latest main
+        shell: bash
+        run: |
+          git fetch origin main
+          git reset --hard origin/main
 
       - name: Check scripts
         run: npm run check
