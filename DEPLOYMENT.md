@@ -1,78 +1,125 @@
-# V0.1 静态发布流程
+# Market Radar 部署流程
 
-## 1. 推送到 GitHub
+本项目采用 **静态前端 + 静态快照文件** 的发布方式。V0.2 不需要后端、数据库或登录系统。
 
-在本地初始化并推送仓库：
+## 1. 本地上线前检查
 
 ```bash
-git init
-git add .
-git commit -m "chore: prepare v0.1 static release"
-git branch -M main
-git remote add origin <your-github-repo-url>
-git push -u origin main
+npm run check
+git diff --check
 ```
 
-如果仓库已经存在，只需要正常提交并推送本轮改动。
+`git diff --check` 中如果只出现 Windows 换行提示，例如 `LF will be replaced by CRLF`，不影响上线。
 
-## 2. 开启 GitHub Actions 写权限
+本地预览：
 
-进入 GitHub 仓库：
+```bash
+npm run dev
+```
+
+打开：
 
 ```text
-Settings -> Actions -> General -> Workflow permissions
+http://localhost:4173
 ```
 
-选择：
+## 2. 提交并推送 GitHub
+
+已有远端仓库：
 
 ```text
-Read and write permissions
+https://github.com/naizihu/market-radar-static.git
 ```
 
-保存后，`.github/workflows/refresh-snapshot.yml` 就可以每 4 小时自动提交新的 `data/market-snapshot.js`。
+常规提交流程：
 
-## 3. 手动验证快照刷新
+```bash
+git add app.js styles.css index.html package.json README.md DEPLOYMENT.md
+git commit -m "feat: release v0.2 chart polish"
+git pull --rebase origin main
+git push origin main
+```
 
-进入：
+如果 `git pull --rebase` 过程中出现冲突，先解决冲突，再继续：
+
+```bash
+git rebase --continue
+git push origin main
+```
+
+## 3. Vercel 自动部署
+
+Vercel 项目绑定 GitHub 仓库后，每次 `main` 分支有新提交都会自动部署。
+
+推荐配置：
+
+- Framework Preset：`Other`
+- Build Command：留空或填写 `npm run check`
+- Output Directory：留空，使用项目根目录
+- Node 版本：Vercel 默认即可，项目要求 `>=20`
+
+部署后检查：
+
+- 页面可以直接通过 Vercel 域名访问。
+- 手机访问不应要求登录 Vercel。
+- 全球市场总览、市场宽度、股票详情图、数据说明正常显示。
+- 当前价格红线与价格标签、抵扣价标注、宽度图对齐正常。
+
+## 4. GitHub Actions 自动刷新快照
+
+工作流文件：
 
 ```text
-Actions -> Refresh market snapshot -> Run workflow
+.github/workflows/refresh-snapshot.yml
 ```
 
-检查 workflow 是否成功：
+触发方式：
 
-- `Check scripts` 通过。
-- `Refresh snapshot` 成功生成快照。
-- 如果快照有变化，会出现提交 `chore: refresh market snapshot`。
-- 如果没有变化，会输出 `No snapshot changes to commit.`。
+- 定时：每 4 小时运行一次。
+- 手动：GitHub 页面进入 `Actions -> Refresh market snapshot -> Run workflow`。
 
-## 4. 连接 Vercel
+工作流逻辑：
 
-在 Vercel 新建项目：
+1. 拉取最新 `main`。
+2. 运行 `npm run check`。
+3. 运行 `npm run snapshot:force`。
+4. 如果 `data/market-snapshot.js` 有变化，自动提交：
 
-- Import Git Repository：选择该 GitHub 仓库。
-- Framework Preset：选择 `Other` 或保持默认静态识别。
-- Build Command：可留空，或填 `npm run check`。
-- Output Directory：留空，使用项目根目录。
+```text
+chore: refresh market snapshot
+```
 
-部署完成后，Vercel 会在每次 GitHub 有新提交时自动重新部署。
+5. Vercel 检测到该提交后自动重新部署。
 
-## 5. 上线后检查
+## 5. GitHub Actions 权限
 
-打开 Vercel 域名，确认：
+仓库需要允许 Actions 写入内容：
 
-- 全球市场总览正常显示。
-- 自选股列表正常显示。
-- 股票、ETF、外汇、期货详情图正常显示。
-- 页面底部数据说明正常显示。
-- 顶部同步时间会随 `data/market-snapshot.js` 更新。
+```text
+Settings -> Actions -> General -> Workflow permissions -> Read and write permissions
+```
 
-## 6. V0.1 边界
+如果权限不足，刷新任务可能能生成快照，但无法自动提交。
 
-V0.1 仍是静态站：
+## 6. 上线后验收
+
+部署成功后建议按顺序检查：
+
+1. 打开 Vercel 域名，确认页面无需登录即可访问。
+2. 检查顶部“上次同步”时间。
+3. 检查全球市场总览卡片和趋势小图。
+4. 检查等权 / 权重 MA20 宽度图。
+5. 点击市场卡片或自选股，确认详情图切换正常。
+6. 检查 MA、RSI、OBV、Volume、抵扣价和当前价线。
+7. 手机端打开同一域名，确认布局可读。
+8. 手动触发一次 `Refresh market snapshot`，确认绿色成功。
+
+## 7. V0.2 边界
+
+V0.2 仍是静态发布版：
 
 - 不包含后端。
 - 不包含登录。
-- 自选股仍保存在当前设备的 `localStorage`。
+- 自选股保存在当前设备的 `localStorage`。
 - 数据刷新通过 GitHub Actions 生成静态快照。
-- 后续可以再演进到 serverless 快照服务、云端自选、通知和扫描器。
+- UI 仍保留 V0.3 的继续优化空间。

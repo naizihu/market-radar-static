@@ -196,6 +196,7 @@ h2 {
 
 .stock-price {
   text-align: right;
+  line-height: 1.2;
 }
 
 .custom-tag,
@@ -327,7 +328,11 @@ h2 {
 #priceChart {
   display: block;
   width: 100%;
-  height: auto;
+}
+
+#priceChart {
+  height: clamp(500px, 52vw, 680px);
+  cursor: crosshair;
 }
 
 .panel-heading {
@@ -403,8 +408,8 @@ h2 {
 
 .market-sparkline {
   display: block;
-  width: 126px;
-  height: 28px;
+  width: min(148px, 100%);
+  height: 34px;
   margin-top: 7px;
   border-radius: 4px;
   background: rgba(5, 123, 119, 0.06);
@@ -426,13 +431,16 @@ h2 {
 
 .breadth-panel {
   display: grid;
-  grid-template-columns: repeat(2, minmax(0, 1fr));
+  grid-template-columns: 1fr;
   align-items: stretch;
   padding: 16px;
 }
 
 .breadth-chart-panel {
   margin-top: 18px;
+  max-width: none;
+  margin-right: 268px;
+  margin-left: 0;
 }
 
 .data-note-panel {
@@ -515,7 +523,7 @@ h2 {
 
 .data-note-grid {
   display: grid;
-  grid-template-columns: repeat(5, minmax(0, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
   gap: 10px;
 }
 
@@ -554,12 +562,19 @@ h2 {
 .breadth-chart-card canvas {
   display: block;
   width: 100%;
-  height: clamp(250px, 32vw, 340px);
+  height: 240px;
+  aspect-ratio: 9 / 4;
   border-radius: 6px;
 }
 
 #weightedBreadthSection .breadth-chart-card canvas {
-  height: clamp(300px, 38vw, 420px);
+  height: 240px;
+}
+
+#weightedBreadthSection {
+  max-width: none;
+  margin-right: 268px;
+  margin-left: 0;
 }
 
 .chart-title {
@@ -682,6 +697,25 @@ h2 {
   font-style: normal;
   font-weight: 800;
   line-height: 1.35;
+}
+
+.radar-heading {
+  grid-column: 1 / -1;
+  display: flex;
+  align-items: end;
+  justify-content: space-between;
+  gap: 12px;
+  padding-bottom: 4px;
+}
+
+.radar-heading span {
+  color: var(--muted);
+  font-size: 0.74rem;
+  font-weight: 900;
+}
+
+.radar-heading strong {
+  font-size: 1.05rem;
 }
 
 .detail-grid {
@@ -924,6 +958,11 @@ h2 {
     grid-template-columns: 1fr;
   }
 
+  .breadth-chart-panel,
+  #weightedBreadthSection {
+    margin-right: 0;
+  }
+
   .data-note-grid {
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
@@ -936,7 +975,7 @@ h2 {
 
   .breadth-panel {
     display: grid;
-    grid-template-columns: repeat(4, minmax(0, 1fr));
+    grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 
   .metric-block {

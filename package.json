@@ -5,7 +5,7 @@
   "type": "module",
   "description": "V0.1 static market tracking dashboard with scheduled snapshot refresh.",
   "scripts": {
-    "check": "node --check app.js && node --check scripts/fetch-market-data.mjs && node --check scripts/serve.mjs",
+    "check": "node -e \"const fs=require('fs'),cp=require('child_process');for(const f of ['app.js','scripts/fetch-market-data.mjs','scripts/serve.mjs']){const args=['--check'];if(f.endsWith('.mjs'))args.push('--input-type=module');const r=cp.spawnSync(process.execPath,args,{input:fs.readFileSync(f),stdio:['pipe','inherit','inherit']});if(r.status)process.exit(r.status);console.log(f+': ok')}\"",
     "snapshot": "node scripts/fetch-market-data.mjs",
     "snapshot:force": "node scripts/fetch-market-data.mjs --force",
     "dev": "node scripts/serve.mjs"

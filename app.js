@@ -162,6 +162,7 @@ const state = {
   showMA: true,
   showRSI: true,
   showOBV: true,
+  chartHover: null,
   query: "",
 };
 
@@ -502,7 +503,7 @@ function calculateRSI(values, period = 14) {
 
 function getMASet(values) {
   const last = values.length - 1;
-  const ma20Deduction = values.at(-20) || null;
+  const ma20Deduction = values.at(-21) || null;
   return {
     ma20: movingAverage(values, 20)[last],
     ma50: movingAverage(values, 50)[last],
@@ -510,8 +511,8 @@ function getMASet(values) {
     ma120: movingAverage(values, 120)[last],
     ma200: movingAverage(values, 200)[last],
     ma20Deduction,
-    ma60Deduction: values.at(-60) || null,
-    ma120Deduction: values.at(-120) || null,
+    ma60Deduction: values.at(-61) || null,
+    ma120Deduction: values.at(-121) || null,
   };
 }
 
@@ -552,13 +553,13 @@ function getBias(price, ma) {
   return ((price - ma) / ma) * 100;
 }
 
-function relationText(subject, base, subjectLabel, baseLabel) {
+function relationTextLegacy(subject, base, subjectLabel, baseLabel) {
   if (!subject || !base) return "数据不足";
   const diff = ((subject - base) / base) * 100;
   return `${subjectLabel} ${diff >= 0 ? "高于" : "低于"} ${baseLabel} ${formatPercent(Math.abs(diff))}`;
 }
 
-function getRuleAnalyses(stock, indicators) {
+function getRuleAnalysesLegacy(stock, indicators) {
   const price = stock.price;
   const volumeProfile = getVolumeProfile(stock);
   const obv = volumeProfile.usable ? calculateOBV(stock.history, stock.volumeHistory) : [];
@@ -663,7 +664,7 @@ function detectSignals(stock) {
     });
   }
 
-  if (prices.at(-20) && prices[last] > prices.at(-20)) {
+  if (prices.at(-21) && prices[last] > prices.at(-21)) {
     signals.push({
       type: "buy",
       title: "MA20 抵扣偏多",
@@ -727,6 +728,12 @@ function formatDetailValue(value, instrument) {
   return formatCurrency(value);
 }
 
+function formatOneDecimalValue(value, instrument) {
+  if (!Number.isFinite(value)) return "--";
+  if (instrument?.detailType || instrument?.code) return value.toFixed(1);
+  return `$${value.toFixed(1)}`;
+}
+
 function renderStockListLegacy() {
   const query = state.query.trim().toLowerCase();
   const filtered = stocks.filter((stock) => {
@@ -743,6 +750,7 @@ function renderStockListLegacy() {
     .map((stock) => {
       const change = getChange(stock);
       const weekChange = getPeriodChange(stock, 7);
+      const monthChange = getPeriodChange(stock, 21);
       const activeClass = stock.symbol === state.selectedSymbol ? " is-active" : "";
       return `
         <button class="stock-button${activeClass}" data-symbol="${stock.symbol}">
@@ -823,12 +831,13 @@ function drawStockMiniCharts(list) {
   list.forEach((stock) => {
     const priceCanvas = els.stockList.querySelector(`[data-chart="${stock.symbol}"]`);
     const volumeCanvas = els.stockList.querySelector(`[data-volume="${stock.symbol}"]`);
-    if (priceCanvas) drawMiniLine(priceCanvas, stock.history.slice(-126));
-    if (volumeCanvas) drawMiniVolume(volumeCanvas, stock.volumeHistory.slice(-126));
+    if (priceCanvas) drawMiniLine(priceCanvas, stock.history.slice(-240));
+    if (volumeCanvas) drawMiniVolume(volumeCanvas, stock.volumeHistory.slice(-240));
   });
 }
 
 function drawMiniLine(canvas, values, color = "#8ee0ad") {
+  syncCanvasToDisplaySize(canvas);
   const ctx = canvas.getContext("2d");
   const min = Math.min(...values);
   const max = Math.max(...values);
@@ -847,6 +856,7 @@ function drawMiniLine(canvas, values, color = "#8ee0ad") {
 }
 
 function drawMiniVolume(canvas, values) {
+  syncCanvasToDisplaySize(canvas);
   const ctx = canvas.getContext("2d");
   const max = Math.max(...values);
   const highVolumeLine = percentile(values, 0.9);
@@ -979,9 +989,9 @@ function drawSingleBreadthChartLegacy(canvas, values, color) {
   ctx.fillStyle = "#fffdf7";
   ctx.fillRect(0, 0, canvas.width, canvas.height);
 
-  ctx.fillStyle = "rgba(22, 138, 84, 0.08)";
+  ctx.fillStyle = "rgba(22, 138, 84, 0.055)";
   ctx.fillRect(pad.left, pad.top, width, height * 0.2);
-  ctx.fillStyle = "rgba(200, 76, 60, 0.08)";
+  ctx.fillStyle = "rgba(200, 76, 60, 0.055)";
   ctx.fillRect(pad.left, pad.top + height * 0.8, width, height * 0.2);
 
   ctx.strokeStyle = "#e6dccb";
@@ -1007,7 +1017,91 @@ function drawSingleBreadthChartLegacy(canvas, values, color) {
   ctx.fillText("<20 极冷", pad.left + 6, pad.top + height - 6);
 }
 
-function renderDetails() {
+function relationText(subject, base, subjectLabel, baseLabel) {
+  if (!subject || !base) return "数据不足";
+  const diff = ((subject - base) / base) * 100;
+  return `${subjectLabel} ${diff >= 0 ? "高于" : "低于"} ${baseLabel} ${formatPercent(Math.abs(diff))}`;
+}
+
+function getRuleAnalyses(stock, indicators) {
+  const price = stock.price;
+  const volumeProfile = getVolumeProfile(stock);
+  const obv = volumeProfile.usable ? calculateOBV(stock.history, stock.volumeHistory) : [];
+  const obvMa = volumeProfile.usable ? movingAverage(obv, 20).at(-1) : null;
+  const obvLast = volumeProfile.usable ? obv.at(-1) : null;
+  const bias20 = getBias(price, indicators.ma20);
+  const rsiValue = indicators.rsi ?? 50;
+  const deductionGap = indicators.ma20Deduction ? getBias(price, indicators.ma20Deduction) : null;
+
+  return [
+    {
+      type: price > indicators.ma20 ? "buy" : "sell",
+      title: price > indicators.ma20 ? "股价在 MA20 上方" : "股价低于 MA20",
+      text: price > indicators.ma20 ? "短期趋势维持强势，回踩 MA20 时可观察承接。" : "短期趋势偏弱，需要重新站回 MA20 才能改善。",
+    },
+    {
+      type: deductionGap === null ? "neutral" : deductionGap >= 0 ? "buy" : "sell",
+      title: deductionGap === null ? "MA20 抵扣数据不足" : deductionGap >= 0 ? "MA20 抵扣偏多" : "MA20 抵扣承压",
+      text:
+        deductionGap === null
+          ? "历史 K 线不足，暂时无法判断 MA20 后续运行方向。"
+          : deductionGap >= 0
+            ? "当前价高于 MA20 抵扣价，若价格稳定，MA20 更容易继续上行。"
+            : "当前价低于 MA20 抵扣价，MA20 后续可能走平或下弯。",
+    },
+    {
+      type: indicators.ma20 > indicators.ma60 && indicators.ma60 > indicators.ma120 ? "buy" : "neutral",
+      title: indicators.ma20 > indicators.ma60 && indicators.ma60 > indicators.ma120 ? "多头均线排列" : "均线排列未完全多头",
+      text:
+        indicators.ma20 > indicators.ma60 && indicators.ma60 > indicators.ma120
+          ? "MA20 高于 MA60，MA60 高于 MA120，趋势结构偏多。"
+          : "MA20、MA60、MA120 尚未形成完整多头排列。",
+    },
+    {
+      type: price > indicators.ma200 ? "buy" : "sell",
+      title: price > indicators.ma200 ? "长期趋势向好" : "长期趋势承压",
+      text: price > indicators.ma200 ? "股价高于 MA200，长期趋势保持向上。" : "股价低于 MA200，长期趋势仍需修复。",
+    },
+    {
+      type: rsiValue >= 70 ? "sell" : rsiValue <= 30 ? "buy" : "neutral",
+      title: `RSI ${indicators.rsi ? indicators.rsi.toFixed(1) : "--"}`,
+      text: rsiValue >= 70 ? "RSI 超买，短线追高风险升高。" : rsiValue <= 30 ? "RSI 超卖，可能出现技术修复。" : "RSI 处于中性区，动能没有进入极端状态。",
+    },
+    ...(volumeProfile.usable
+      ? [
+          {
+            type: obvLast > obvMa ? "buy" : "sell",
+            title: volumeProfile.referenceOnly ? "OBV 参考口径" : obvLast > obvMa ? "OBV 量能确认" : "OBV 量能背离",
+            text: volumeProfile.referenceOnly
+              ? `OBV 使用当前成交量口径计算，仅作辅助参考。${obvLast > obvMa ? "当前高于20日均值。" : "当前低于20日均值。"}`
+              : obvLast > obvMa
+                ? "OBV 高于20日均值，资金流入对价格有确认。"
+                : "OBV 低于20日均值，价格上涨的量能确认不足。",
+          },
+        ]
+      : [
+          {
+            type: "neutral",
+            title: "OBV 暂不适用",
+            text: volumeProfile.reason,
+          },
+        ]),
+    {
+      type: bias20 === null ? "neutral" : Math.abs(bias20) > 8 ? "sell" : bias20 > 0 ? "buy" : "neutral",
+      title: `MA20 乖离率 ${bias20 === null ? "--" : formatPercent(bias20)}`,
+      text: bias20 === null ? "数据不足。" : Math.abs(bias20) > 8 ? "价格偏离 MA20 过大，短线波动风险上升。" : "价格与 MA20 距离可控，趋势延续性更健康。",
+    },
+  ];
+}
+
+function drawVolumeUnavailableNote(ctx, reason, left, y) {
+  ctx.fillStyle = "rgba(109, 116, 116, 0.78)";
+  ctx.font = "800 12px Inter, sans-serif";
+  ctx.textAlign = "left";
+  ctx.fillText(`OBV 暂不适用：${reason}`, left, y);
+}
+
+function renderDetailsLegacy() {
   const stock = getSelectedStock();
   const change = getChange(stock);
   const indicators = detectSignals(stock);
@@ -1079,6 +1173,7 @@ function renderDetails() {
 
 function drawPriceChart(stock) {
   const canvas = els.priceChart;
+  syncCanvasToDisplaySize(canvas);
   const ctx = canvas.getContext("2d");
   const volumeProfile = getVolumeProfile(stock);
   const shouldShowOBV = state.showOBV && volumeProfile.usable;
@@ -1091,6 +1186,7 @@ function drawPriceChart(stock) {
   const ma200 = movingAverage(stock.history, 200).slice(-viewLength);
   const rsi = calculateRSI(stock.history).slice(-viewLength);
   const obv = shouldShowOBV ? calculateOBV(stock.history, stock.volumeHistory).slice(-viewLength) : [];
+  const volumes = (stock.volumeHistory || []).slice(-viewLength);
   const allValues = [
     ...prices,
     ...candles.map((row) => row.high).filter(Number.isFinite),
@@ -1100,10 +1196,17 @@ function drawPriceChart(stock) {
     ...(state.showMA ? ma120.filter(Boolean) : []),
     ...(state.showMA ? ma200.filter(Boolean) : []),
   ];
-  const min = Math.min(...allValues) * 0.994;
-  const max = Math.max(...allValues) * 1.006;
-  const lowerPanels = (state.showRSI ? 1 : 0) + (shouldShowOBV ? 1 : 0);
-  const pad = { left: 58, right: 28, top: 32, bottom: lowerPanels ? 58 + lowerPanels * 58 : 44 };
+  const rawMin = Math.min(...allValues);
+  const rawMax = Math.max(...allValues);
+  const range = Math.max(rawMax - rawMin, Math.abs(rawMax) * 0.02, 1);
+  const min = rawMin - range * 0.06;
+  const max = rawMax + range * 0.14;
+  const panelGap = 18;
+  const volumeH = 50;
+  const rsiH = state.showRSI ? 48 : 0;
+  const obvH = shouldShowOBV ? 40 : state.showOBV ? 18 : 0;
+  const lowerPanelsHeight = volumeH + (rsiH ? panelGap + rsiH : 0) + (obvH ? panelGap + obvH : 0);
+  const pad = { left: 58, right: 32, top: 44, bottom: lowerPanelsHeight + 34 };
   const chartH = canvas.height - pad.top - pad.bottom;
   const chartW = canvas.width - pad.left - pad.right;
 
@@ -1111,9 +1214,9 @@ function drawPriceChart(stock) {
   ctx.fillStyle = "#fffdf7";
   ctx.fillRect(0, 0, canvas.width, canvas.height);
 
-  ctx.strokeStyle = "#e6dccb";
+  ctx.strokeStyle = "rgba(167, 153, 133, 0.22)";
   ctx.lineWidth = 1;
-  ctx.fillStyle = "#6d7474";
+  ctx.fillStyle = "rgba(109, 116, 116, 0.62)";
   ctx.font = "700 12px Inter, sans-serif";
   ctx.textAlign = "right";
   for (let i = 0; i <= 4; i += 1) {
@@ -1136,13 +1239,15 @@ function drawPriceChart(stock) {
 
   const lastPrice = prices[prices.length - 1];
   const lastY = scaleY(lastPrice, min, max, pad.top, chartH);
-  ctx.strokeStyle = "#c84c3c";
-  ctx.setLineDash([5, 6]);
+  ctx.strokeStyle = "rgba(200, 76, 60, 0.44)";
+  ctx.lineWidth = 1.15;
+  ctx.setLineDash([3, 6]);
   ctx.beginPath();
   ctx.moveTo(pad.left, lastY);
   ctx.lineTo(canvas.width - pad.right, lastY);
   ctx.stroke();
   ctx.setLineDash([]);
+  drawCurrentPriceLabel(ctx, lastPrice, lastY, pad, chartH, stock);
 
   ctx.fillStyle = "#1f2426";
   ctx.textAlign = "left";
@@ -1161,23 +1266,27 @@ function drawPriceChart(stock) {
     });
   }
 
-  [
-    { period: 20, value: stock.history.at(-20), offset: 14 },
-    { period: 60, value: stock.history.at(-60), offset: 30 },
-    { period: 120, value: stock.history.at(-120), offset: 46 },
-  ].forEach((line) => {
-    drawDeductionLine(ctx, prices.length, line.period, pad, chartW, chartH, line.value, line.offset, stock);
-  });
+  drawDeductionLines(ctx, [
+    { period: 20, value: stock.history.at(-21), color: "rgba(31, 36, 38, 0.58)" },
+    { period: 60, value: stock.history.at(-61), color: "rgba(31, 36, 38, 0.48)" },
+    { period: 120, value: stock.history.at(-121), color: "rgba(31, 36, 38, 0.4)" },
+  ], prices.length, pad, chartW, chartH, stock);
+
+  drawPriceHover(ctx, stock, prices, min, max, pad, chartW, chartH);
+
+  let panelTop = pad.top + chartH + 24;
+  drawVolumePanel(ctx, volumes, volumeProfile, pad.left, panelTop, chartW, volumeH);
+  panelTop += volumeH + panelGap;
 
   if (state.showRSI) {
-    const rsiTop = canvas.height - (shouldShowOBV ? 124 : 74);
-    drawRsiPanel(ctx, rsi, pad.left, rsiTop, chartW);
+    drawRsiPanel(ctx, rsi, pad.left, panelTop, chartW);
+    panelTop += rsiH + panelGap;
   }
 
   if (shouldShowOBV) {
-    drawObvPanel(ctx, obv, pad.left, canvas.height - 62, chartW, volumeProfile.referenceOnly);
+    drawObvPanel(ctx, obv, pad.left, panelTop, chartW, volumeProfile.referenceOnly);
   } else if (state.showOBV) {
-    drawVolumeUnavailableNote(ctx, volumeProfile.reason, pad.left, canvas.height - 28);
+    drawVolumeUnavailableNote(ctx, volumeProfile.reason, pad.left, panelTop + 12);
   }
 }
 
@@ -1209,21 +1318,150 @@ function drawCandles(ctx, candles, min, max, pad, chartW, chartH) {
   });
 }
 
-function drawDeductionLine(ctx, length, period, pad, chartW, chartH, deductionPrice, labelOffset = 14, instrument = null) {
-  if (!Number.isFinite(deductionPrice) || length < period) return;
-  const index = Math.max(0, length - period);
-  const x = pad.left + (chartW / (length - 1)) * index;
-  ctx.strokeStyle = "rgba(31, 36, 38, 0.34)";
-  ctx.setLineDash([3, 5]);
+function drawCurrentPriceLabel(ctx, price, y, pad, chartH, instrument) {
+  if (!Number.isFinite(price)) return;
+  const label = formatOneDecimalValue(price, instrument);
+  const labelW = Math.max(46, Math.ceil(ctx.measureText(label).width) + 14);
+  const labelH = 20;
+  const labelX = Math.max(4, pad.left - labelW - 8);
+  const labelY = clamp(y - labelH / 2, pad.top + 2, pad.top + chartH - labelH - 2);
+
+  ctx.save();
+  ctx.setLineDash([]);
+  ctx.fillStyle = "rgba(255, 253, 247, 0.94)";
+  ctx.strokeStyle = "rgba(200, 76, 60, 0.42)";
+  ctx.lineWidth = 1;
+  ctx.fillRect(labelX, labelY, labelW, labelH);
+  ctx.strokeRect(labelX, labelY, labelW, labelH);
+  ctx.fillStyle = "rgba(200, 76, 60, 0.78)";
+  ctx.font = "800 11px Inter, sans-serif";
+  ctx.textAlign = "center";
+  ctx.fillText(label, labelX + labelW / 2, labelY + 14);
+  ctx.restore();
+}
+
+function drawDeductionLines(ctx, lines, length, pad, chartW, chartH, instrument) {
+  ctx.font = "800 11px Inter, sans-serif";
+  const visibleLines = lines
+    .filter((line) => Number.isFinite(line.value) && length > line.period)
+    .map((line) => {
+      const index = Math.max(0, length - line.period - 1);
+      const x = pad.left + (chartW / Math.max(1, length - 1)) * index;
+      const label = formatOneDecimalValue(line.value, instrument);
+      const width = Math.ceil(ctx.measureText(label).width) + 8;
+      return { ...line, x, label, width };
+    });
+
+  visibleLines.forEach((line) => {
+    ctx.strokeStyle = line.color;
+    ctx.lineWidth = 1.35;
+    ctx.setLineDash([3, 5]);
+    ctx.beginPath();
+    ctx.moveTo(line.x, pad.top);
+    ctx.lineTo(line.x, pad.top + chartH);
+    ctx.stroke();
+  });
+  ctx.setLineDash([]);
+
+  const labelY = 22;
+  const minGap = 8;
+  const labels = visibleLines
+    .map((line) => ({
+      ...line,
+      labelX: clamp(line.x - line.width / 2, pad.left, pad.left + chartW - line.width),
+    }))
+    .sort((a, b) => a.labelX - b.labelX);
+
+  for (let i = 1; i < labels.length; i += 1) {
+    const previousRight = labels[i - 1].labelX + labels[i - 1].width + minGap;
+    if (labels[i].labelX < previousRight) labels[i].labelX = previousRight;
+  }
+  for (let i = labels.length - 1; i >= 0; i -= 1) {
+    labels[i].labelX = Math.min(labels[i].labelX, pad.left + chartW - labels[i].width);
+    if (i > 0 && labels[i - 1].labelX + labels[i - 1].width + minGap > labels[i].labelX) {
+      labels[i - 1].labelX = labels[i].labelX - labels[i - 1].width - minGap;
+    }
+  }
+
+  labels.forEach((line) => {
+    ctx.fillStyle = line.color;
+    ctx.font = "800 11px Inter, sans-serif";
+    ctx.textAlign = "left";
+    ctx.fillText(line.label, Math.max(pad.left, line.labelX + 4), labelY);
+  });
+}
+
+function drawPriceHover(ctx, stock, prices, min, max, pad, chartW, chartH) {
+  const hover = state.chartHover;
+  if (!hover) return;
+  if (hover.x < pad.left || hover.x > pad.left + chartW || hover.y < pad.top || hover.y > pad.top + chartH) return;
+
+  const index = clamp(Math.round(((hover.x - pad.left) / chartW) * (prices.length - 1)), 0, prices.length - 1);
+  const close = prices[index];
+  const x = pad.left + (chartW / Math.max(1, prices.length - 1)) * index;
+
+  ctx.save();
+  ctx.strokeStyle = "rgba(31, 36, 38, 0.38)";
+  ctx.lineWidth = 1;
+  ctx.setLineDash([3, 4]);
+  ctx.beginPath();
+  ctx.moveTo(pad.left, hover.y);
+  ctx.lineTo(pad.left + chartW, hover.y);
+  ctx.stroke();
   ctx.beginPath();
   ctx.moveTo(x, pad.top);
   ctx.lineTo(x, pad.top + chartH);
   ctx.stroke();
   ctx.setLineDash([]);
-  ctx.fillStyle = "rgba(31, 36, 38, 0.62)";
+
+  const label = formatOneDecimalValue(close, stock);
+  const labelW = 54;
+  const labelX = 2;
+  const labelY = clamp(hover.y - 12, pad.top + 14, pad.top + chartH - 10);
+  ctx.fillStyle = "rgba(255, 253, 247, 0.92)";
+  ctx.strokeStyle = "rgba(109, 116, 116, 0.28)";
+  ctx.lineWidth = 1;
+  ctx.fillRect(labelX, labelY - 14, labelW, 22);
+  ctx.strokeRect(labelX, labelY - 14, labelW, 22);
+  ctx.fillStyle = "rgba(31, 36, 38, 0.82)";
   ctx.font = "800 11px Inter, sans-serif";
   ctx.textAlign = "left";
-  ctx.fillText(formatDetailValue(deductionPrice, instrument), x + 5, pad.top + labelOffset);
+  ctx.fillText(label, labelX + 7, labelY + 1);
+  ctx.restore();
+}
+
+function drawVolumePanel(ctx, values, volumeProfile, left, top, chartW, height) {
+  ctx.strokeStyle = "rgba(167, 153, 133, 0.16)";
+  ctx.beginPath();
+  ctx.moveTo(left, top);
+  ctx.lineTo(left + chartW, top);
+  ctx.moveTo(left, top + height);
+  ctx.lineTo(left + chartW, top + height);
+  ctx.stroke();
+  ctx.fillStyle = "rgba(109, 116, 116, 0.78)";
+  ctx.font = "800 12px Inter, sans-serif";
+  ctx.textAlign = "left";
+  ctx.fillText("Volume", left, top - 8);
+
+  const usableValues = values.filter((value) => Number.isFinite(value) && value > 0);
+  if (!volumeProfile.usable || usableValues.length < 10) {
+    ctx.fillStyle = "rgba(109, 116, 116, 0.72)";
+    ctx.font = "800 12px Inter, sans-serif";
+    ctx.fillText(`Volume 暂不适用：${volumeProfile.reason}`, left + 8, top + height / 2 + 4);
+    return;
+  }
+
+  const max = Math.max(...usableValues);
+  const highVolumeLine = percentile(usableValues, 0.8);
+  const barWidth = Math.max(1, chartW / values.length);
+  values.forEach((value, index) => {
+    if (!Number.isFinite(value) || value <= 0) return;
+    const barH = Math.max(1, (value / max) * (height - 8));
+    const x = left + index * barWidth;
+    const y = top + height - barH;
+    ctx.fillStyle = value >= highVolumeLine ? "rgba(80, 178, 128, 0.48)" : "rgba(109, 116, 116, 0.26)";
+    ctx.fillRect(x, y, Math.max(1, barWidth * 0.68), barH);
+  });
 }
 
 function drawLine(ctx, values, min, max, pad, chartW, chartH, color, width) {
@@ -1297,6 +1535,83 @@ function drawVolumeUnavailableNote(ctx, reason, left, y) {
   ctx.fillText(`OBV 暂不适用：${reason}`, left, y);
 }
 
+function renderDetails() {
+  const stock = getSelectedStock();
+  const change = getChange(stock);
+  const indicators = detectSignals(stock);
+  const analyses = getRuleAnalyses(stock, indicators);
+  const riskType = analyses.some((signal) => signal.type === "sell")
+    ? "sell"
+    : analyses.some((signal) => signal.type === "buy")
+      ? "buy"
+      : "neutral";
+
+  els.selectedExchange.textContent = stock.exchange;
+  els.selectedName.textContent = stock.name;
+  els.selectedSymbol.textContent = stock.symbol;
+  els.selectedPrice.textContent = formatDetailValue(stock.price, stock);
+  els.selectedChange.textContent = formatPercent(change);
+  els.selectedChange.className = change >= 0 ? "change-up" : "change-down";
+  els.riskBadge.textContent = riskType === "buy" ? "偏多" : riskType === "sell" ? "风险" : "中性";
+  els.riskBadge.className = `risk-badge ${riskType}`;
+
+  els.indicatorGrid.innerHTML = [
+    ["MA20", indicators.ma20, relationText(stock.price, indicators.ma20, "当前价", "MA20")],
+    ["MA60", indicators.ma60, relationText(indicators.ma60, indicators.ma20, "MA60", "MA20")],
+    ["MA120", indicators.ma120, relationText(indicators.ma120, indicators.ma50, "MA120", "MA50")],
+    ["MA200", indicators.ma200, relationText(indicators.ma200, stock.price, "MA200", "当前价")],
+  ]
+    .map(([label, value, relation]) => `
+      <div class="indicator-card">
+        <span>${label}</span>
+        <strong>${value ? formatDetailValue(value, stock) : "--"}</strong>
+        <em class="${relation.includes("高于") ? "change-up" : "change-down"}">${relation}</em>
+      </div>
+    `)
+    .join("");
+
+  const deductionGap = indicators.ma20Deduction
+    ? ((stock.price - indicators.ma20Deduction) / indicators.ma20Deduction) * 100
+    : null;
+  els.indicatorGrid.insertAdjacentHTML(
+    "beforeend",
+    `
+      <div class="indicator-card wide">
+        <span>MA20 抵扣价</span>
+        <strong>${indicators.ma20Deduction ? formatDetailValue(indicators.ma20Deduction, stock) : "--"}</strong>
+        <em class="${deductionGap === null || deductionGap >= 0 ? "change-up" : "change-down"}">
+          ${deductionGap === null ? "数据不足" : `当前价 ${deductionGap >= 0 ? "高于" : "低于"} ${formatPercent(Math.abs(deductionGap))}`}
+        </em>
+      </div>
+    `,
+  );
+
+  els.signalList.innerHTML = `
+    <div class="analysis-title">固定规则分析结果</div>
+    ${analyses
+      .map((signal) => `
+      <div class="signal-item ${signal.type}">
+        <strong>${signal.title}</strong>
+        <p>${signal.text}</p>
+      </div>
+    `)
+      .join("")}
+    <div class="rule-note">
+      <strong>规则备注</strong>
+      <p>以上判断由固定指标规则生成：价格相对 MA20、MA20 抵扣价、MA20/MA60/MA120 排列、价格相对 MA200、RSI 70/30、OBV 相对20日均值、MA20 乖离率。</p>
+    </div>
+  `;
+
+  drawPriceChart(stock);
+}
+
+function drawVolumeUnavailableNote(ctx, reason, left, y) {
+  ctx.fillStyle = "rgba(109, 116, 116, 0.78)";
+  ctx.font = "800 12px Inter, sans-serif";
+  ctx.textAlign = "left";
+  ctx.fillText(`OBV 暂不适用：${reason}`, left, y);
+}
+
 function tickInstrument(instrument, index, scale = 1) {
   const last = instrument.history[instrument.history.length - 1];
   const direction = Math.sin(Date.now() / 2500 + index) * instrument.volatility * 0.11 * scale;
@@ -1356,7 +1671,7 @@ function createMarketCard({ eyebrow, title, price, change, weekChange, monthChan
   const resolvedMonthChange = Number.isFinite(monthChange) ? monthChange : getSeriesChange(history, 21);
   queueMicrotask(() => {
     const canvas = document.querySelector(`[data-market-chart="${chartId}"]`);
-    if (canvas && history?.length) drawMiniLine(canvas, history.slice(-126), "#057b77");
+    if (canvas && history?.length) drawMiniLine(canvas, history.slice(-240), "#057b77");
   });
   return `
     <article class="market-card ${isFuture ? "future-card" : ""}${state.selectedSymbol === chartKey ? " is-active" : ""}" data-detail-symbol="${chartKey}" role="button" tabindex="0">
@@ -1364,7 +1679,7 @@ function createMarketCard({ eyebrow, title, price, change, weekChange, monthChan
         <span class="market-label">${eyebrow}</span>
         <strong>${title}</strong>
         <em>${meta}</em>
-        <canvas class="market-sparkline" data-market-chart="${chartId}" width="180" height="34" aria-label="${title}\u8fd16\u4e2a\u6708\u8d8b\u52bf"></canvas>
+        <canvas class="market-sparkline" data-market-chart="${chartId}" width="180" height="34" aria-label="${title}\u8fd11\u5e74\u8d8b\u52bf"></canvas>
       </div>
       <div class="market-values">
         <strong>${price}</strong>
@@ -1531,6 +1846,20 @@ els.zoomResetButton.addEventListener("click", () => {
   renderDetails();
 });
 
+els.priceChart.addEventListener("mousemove", (event) => {
+  const rect = els.priceChart.getBoundingClientRect();
+  state.chartHover = {
+    x: ((event.clientX - rect.left) / rect.width) * els.priceChart.width,
+    y: ((event.clientY - rect.top) / rect.height) * els.priceChart.height,
+  };
+  drawPriceChart(getSelectedStock());
+});
+
+els.priceChart.addEventListener("mouseleave", () => {
+  state.chartHover = null;
+  drawPriceChart(getSelectedStock());
+});
+
 let breadthResizeTimer = null;
 window.addEventListener("resize", () => {
   window.clearTimeout(breadthResizeTimer);
@@ -1553,6 +1882,7 @@ function renderStockList() {
     .map((stock) => {
       const change = getChange(stock);
       const weekChange = getPeriodChange(stock, 7);
+      const monthChange = getPeriodChange(stock, 21);
       const activeClass = stock.symbol === state.selectedSymbol ? " is-active" : "";
       const customActions = customWatchSymbols.has(stock.symbol)
         ? `<span class="custom-tag">\u81ea\u9009</span><span class="remove-watch" data-remove-symbol="${stock.symbol}" role="button" aria-label="\u5220\u9664 ${stock.symbol}">\u5220\u9664</span>`
@@ -1567,11 +1897,12 @@ function renderStockList() {
             <strong>${formatCurrency(stock.price)}</strong>
             <span class="${change >= 0 ? "change-up" : "change-down"}">\u4eca\u65e5 ${formatPercent(change)}</span>
             <span class="${weekChange >= 0 ? "change-up" : "change-down"}">7\u65e5 ${formatPercent(weekChange)}</span>
+            <span class="${monthChange >= 0 ? "change-up" : "change-down"}">1\u6708 ${formatPercent(monthChange)}</span>
           </span>
           ${customActions}
           <span class="mini-charts">
-            <canvas class="mini-price" data-chart="${stock.symbol}" width="150" height="54" aria-label="${stock.symbol} \u8fd16\u4e2a\u6708\u4ef7\u683c"></canvas>
-            <canvas class="mini-volume" data-volume="${stock.symbol}" width="150" height="54" aria-label="${stock.symbol} \u8fd16\u4e2a\u6708\u6210\u4ea4\u91cf"></canvas>
+            <canvas class="mini-price" data-chart="${stock.symbol}" width="150" height="54" aria-label="${stock.symbol} \u8fd11\u5e74\u4ef7\u683c"></canvas>
+            <canvas class="mini-volume" data-volume="${stock.symbol}" width="150" height="54" aria-label="${stock.symbol} \u8fd11\u5e74\u6210\u4ea4\u91cf"></canvas>
           </span>
         </button>
       `;
@@ -1582,31 +1913,96 @@ function renderStockList() {
 }
 
 function renderOverview() {
-  const allSignals = stocks.flatMap((stock) => detectSignals(stock).signals.filter((signal) => signal.type !== "neutral"));
-  const todayMoves = stocks.filter((stock) => Math.abs(getChange(stock)) >= 2);
-  const weekMoves = stocks.filter((stock) => Math.abs(getPeriodChange(stock, 7)) >= 5);
-  const highVolume = stocks.filter((stock) => stock.volumeHistory.at(-1) >= percentile(stock.volumeHistory.slice(-126), 0.9));
-  const maEvents = stocks.filter(hasKeyMaEvent);
-  const rsiExtremes = stocks.filter((stock) => {
-    const rsi = calculateRSI(stock.history).at(-1);
-    return rsi >= 70 || rsi <= 30;
-  });
-  const best = [...stocks].sort((a, b) => getChange(b) - getChange(a))[0];
-  const worst = [...stocks].sort((a, b) => getChange(a) - getChange(b))[0];
-
+  const radar = getMarketRadarMetrics();
   els.overviewStats.innerHTML = `
-    ${metricBlock("\u4eca\u65e5\u5f02\u52a8", `${todayMoves.length}`, todayMoves.length > 0, "\u7edd\u5bf9\u65e5\u6da8\u8dcc\u5e45 >= 2%")}
-    ${metricBlock("7\u65e5\u5f02\u52a8", `${weekMoves.length}`, weekMoves.length > 0, "\u7edd\u5bf97\u65e5\u6da8\u8dcc\u5e45 >= 5%")}
-    ${metricBlock("\u653e\u91cf\u5f02\u52a8", `${highVolume.length}`, highVolume.length > 0, "\u6700\u65b0\u91cf >= 6\u4e2a\u670890\u5206\u4f4d")}
-    ${metricBlock("\u5173\u952e\u5747\u7ebf", `${maEvents.length}`, maEvents.length > 0, "\u63a5\u8fd1\u6216\u7a81\u7834 MA20 / MA200")}
-    ${metricBlock("RSI\u6781\u503c", `${rsiExtremes.length}`, rsiExtremes.length > 0, "RSI >= 70 \u6216 <= 30")}
-    ${metricBlock("\u4eca\u65e5\u6700\u5f3a", `${best.symbol} ${formatPercent(getChange(best))}`, getChange(best) >= 0)}
-    ${metricBlock("\u4eca\u65e5\u6700\u5f31", `${worst.symbol} ${formatPercent(getChange(worst))}`, getChange(worst) >= 0)}
-    ${metricBlock("\u6d3b\u8dc3\u4fe1\u53f7", allSignals.length)}
+    <div class="radar-heading">
+      <span>MARKET RADAR</span>
+      <strong>市场状态雷达</strong>
+    </div>
+    ${radar.map((item) => metricBlock(item.label, item.value, item.positive, item.detail)).join("")}
   `;
 
   renderMarketCards();
   drawBreadthChart();
+}
+
+function getMarketRadarMetrics() {
+  const marketMap = new Map([...markets, ...futures].map((item) => [item.code, item]));
+  const equities = ["SPY", "QQQ", "DIA", "RUT", "SSEC", "CSI300", "CSI500", "HSI", "HSTECH", "N225", "KOSPI", "ASX200"]
+    .map((code) => marketMap.get(code))
+    .filter(Boolean);
+  const futuresGroup = ["GC", "CL", "HG", "SI"].map((code) => marketMap.get(code)).filter(Boolean);
+  const crypto = ["BTC", "ETH"].map((code) => marketMap.get(code)).filter(Boolean);
+  const dxy = marketMap.get("DXY");
+  const tnx = marketMap.get("TNX");
+
+  const equityMonth = averagePeriodChange(equities, 21);
+  const cryptoMonth = averagePeriodChange(crypto, 21);
+  const futuresBest = strongestByPeriod(futuresGroup, 21);
+  const equityBest = strongestByPeriod(equities, 21);
+  const equityWorst = weakestByPeriod(equities, 21);
+  const breadthNow = averageLatestBreadth([breadthSeries.sp500, breadthSeries.csi300]);
+  const riskOn = equityMonth >= 0 && cryptoMonth >= 0 && (!dxy || getPeriodChange(dxy, 21) <= 1.5);
+  const pressureParts = [];
+  if (dxy) pressureParts.push(`DXY ${formatPercent(getPeriodChange(dxy, 21))}`);
+  if (tnx) pressureParts.push(`10Y ${formatPercent(getPeriodChange(tnx, 21))}`);
+
+  return [
+    {
+      label: "风险偏好",
+      value: riskOn ? "偏强" : "谨慎",
+      positive: riskOn,
+      detail: `股指1月 ${formatPercent(equityMonth)} / 加密 ${formatPercent(cryptoMonth)}`,
+    },
+    {
+      label: "股指强弱",
+      value: equityBest && equityWorst ? `${equityBest.index} / ${equityWorst.index}` : "--",
+      positive: equityMonth >= 0,
+      detail: equityBest && equityWorst ? `1月最强 ${formatPercent(getPeriodChange(equityBest, 21))}，最弱 ${formatPercent(getPeriodChange(equityWorst, 21))}` : "",
+    },
+    {
+      label: "美元/利率",
+      value: pressureParts.length ? pressureParts.join(" · ") : "--",
+      positive: dxy ? getPeriodChange(dxy, 21) <= 0 : null,
+      detail: "观察美元与长端利率对风险资产的压力",
+    },
+    {
+      label: "商品强弱",
+      value: futuresBest ? `${futuresBest.index} ${formatPercent(getPeriodChange(futuresBest, 21))}` : "--",
+      positive: futuresBest ? getPeriodChange(futuresBest, 21) >= 0 : null,
+      detail: "黄金、原油、铜、白银 1月表现",
+    },
+    {
+      label: "加密资产",
+      value: formatPercent(cryptoMonth),
+      positive: cryptoMonth >= 0,
+      detail: "BTC / ETH 1月平均表现",
+    },
+    {
+      label: "宽度温度",
+      value: Number.isFinite(breadthNow) ? `${breadthNow.toFixed(1)}%` : "--",
+      positive: Number.isFinite(breadthNow) ? breadthNow >= 50 : null,
+      detail: Number.isFinite(breadthNow) ? (breadthNow >= 80 ? "极热区，留意拥挤" : breadthNow <= 20 ? "极冷区，留意修复" : "处于中性区间") : "宽度数据不足",
+    },
+  ];
+}
+
+function averagePeriodChange(items, days) {
+  const values = items.map((item) => getPeriodChange(item, days)).filter(Number.isFinite);
+  return values.length ? values.reduce((sum, value) => sum + value, 0) / values.length : 0;
+}
+
+function strongestByPeriod(items, days) {
+  return [...items].sort((a, b) => getPeriodChange(b, days) - getPeriodChange(a, days))[0] || null;
+}
+
+function weakestByPeriod(items, days) {
+  return [...items].sort((a, b) => getPeriodChange(a, days) - getPeriodChange(b, days))[0] || null;
+}
+
+function averageLatestBreadth(groups) {
+  const values = groups.map((group) => getBreadthValues(group).at(-1)).filter(Number.isFinite);
+  return values.length ? values.reduce((sum, value) => sum + value, 0) / values.length : null;
 }
 
 function hasKeyMaEvent(stock) {
@@ -1777,6 +2173,8 @@ function insertAfter(anchor, tagName, id, className) {
 function drawSingleBreadthChart(canvas, group, color) {
   const values = getBreadthValues(group);
   if (!canvas || !values.length) return;
+  const targetHeight = clamp(Math.round((canvas.clientWidth || canvas.parentElement?.clientWidth || 560) / 2.25), 210, 280);
+  canvas.style.height = `${targetHeight}px`;
   syncCanvasToDisplaySize(canvas);
   const ctx = canvas.getContext("2d");
   const pad = { left: 42, right: 16, top: 18, bottom: 28 };
@@ -1787,9 +2185,9 @@ function drawSingleBreadthChart(canvas, group, color) {
   ctx.fillStyle = "#fffdf7";
   ctx.fillRect(0, 0, canvas.width, canvas.height);
 
-  ctx.fillStyle = "rgba(22, 138, 84, 0.08)";
+  ctx.fillStyle = "rgba(22, 138, 84, 0.055)";
   ctx.fillRect(pad.left, pad.top, width, height * 0.2);
-  ctx.fillStyle = "rgba(200, 76, 60, 0.08)";
+  ctx.fillStyle = "rgba(200, 76, 60, 0.055)";
   ctx.fillRect(pad.left, pad.top + height * 0.8, width, height * 0.2);
 
   ctx.strokeStyle = "#e6dccb";
@@ -1837,7 +2235,8 @@ function renderBreadthMeta(key, group, valueEl, coverageEl, samplesEl) {
   const values = getBreadthValues(group);
   if (valueEl) valueEl.textContent = values.length ? `${values.at(-1).toFixed(1)}%` : "--";
   const coverage = group.coverage || {};
-  const isWeighted = group.method?.includes("weight") || group.method?.includes("market_cap");
+  const method = group.method || "";
+  const isWeighted = method.includes("weighted") || method.includes("market_cap");
   if (coverageEl) {
     coverageEl.innerHTML = `
       <span>\u5168\u90e8\u6837\u672c <strong>${coverage.total ?? "--"}</strong></span>
@@ -1859,7 +2258,7 @@ function renderBreadthMeta(key, group, valueEl, coverageEl, samplesEl) {
   }
 }
 
-function renderBreadthSample(sample, showWeight = false) {
+function renderBreadthSampleLegacy(sample, showWeight = false) {
   const statusClass = sample.status === "MA20上方" ? "change-up" : sample.status === "MA20下方" ? "change-down" : "";
   return `
     <div class="sample-row" role="row">
@@ -1873,6 +2272,20 @@ function renderBreadthSample(sample, showWeight = false) {
   `;
 }
 
+function renderBreadthSample(sample, showWeight = false) {
+  const statusClass = sample.status === "MA20上方" ? "change-up" : sample.status === "MA20下方" ? "change-down" : "";
+  return `
+    <div class="sample-row" role="row">
+      <span>${sample.symbol}</span>
+      <span>${sample.name || sample.sourceSymbol || sample.symbol}</span>
+      <span>${sample.price ? formatNumber(sample.price) : "--"}</span>
+      <span>${sample.ma20 ? formatNumber(sample.ma20) : "--"}</span>
+      ${showWeight ? `<span>${Number.isFinite(sample.weight) ? `${sample.weight.toFixed(2)}%` : "--"}</span>` : ""}
+      <span class="${statusClass}">${sample.status || "数据不足"}</span>
+    </div>
+  `;
+}
+
 function ensureStaticCopy() {
   const notes = document.querySelector(".data-note-grid");
   if (notes && !notes.dataset.updated) {
@@ -1880,23 +2293,23 @@ function ensureStaticCopy() {
     notes.innerHTML = `
       <div class="data-note">
         <strong>\u80a1\u7968\u4e0e\u81ea\u9009</strong>
-        <p>Yahoo Finance \u65e5\u7ebf OHLCV\uff0c\u5feb\u7167\u62c9\u53d6\u8fd12\u5e74\u5386\u53f2\uff1b\u8be6\u60c5\u4e3b\u56fe\u9ed8\u8ba4\u5c55\u793a\u8fd1\u4e00\u5e74\u5e76\u652f\u6301\u7f29\u653e\uff0c\u4fa7\u8fb9\u8ff7\u4f60\u56fe\u5c55\u793a\u8fd16\u4e2a\u6708\u3002</p>
+        <p>Yahoo Finance \u65e5\u7ebf OHLCV\uff0c\u5feb\u7167\u4fdd\u7559\u8fd12\u5e74\uff1b\u81ea\u9009\u5361\u7247\u663e\u793a\u5f53\u524d\u4ef7\u3001\u4eca\u65e5\u30017\u65e5\u30011\u6708\u53d8\u5316\uff0c\u4ef7\u683c\u4e0e\u6210\u4ea4\u91cf\u8ff7\u4f60\u56fe\u90fd\u53d6\u8fd11\u5e74\u3002\u6210\u4ea4\u91cf\u67f1\u6309\u8fd11\u5e74\u7a97\u53e3\u8ba1\u7b97\uff0c\u9ad8\u4e8e\u8be5\u7a97\u53e380\u5206\u4f4d\u6807\u7eff\u8272\u3002</p>
       </div>
       <div class="data-note">
-        <strong>\u56fd\u5bb6\u3001\u671f\u8d27\u4e0e\u8d44\u4ea7</strong>
-        <p>\u7f8e\u80a1\u5e02\u573a\u5361\u7247\u4f7f\u7528 SPY\u3001QQQ\u3001DIA \u7b49\u4e3b\u6d41 ETF \u4e0e\u7f57\u7d202000\uff1b\u5916\u6c47\u5305\u542b DXY\u3001EUR/USD\u3001USD/JPY\u3001GBP/USD\u3001USD/CNY\u3001AUD/USD\uff1b\u671f\u8d27\u5305\u542b\u9ec4\u91d1\u3001\u539f\u6cb9\u3001\u94dc\u3001\u767d\u94f6\u3002</p>
+        <strong>\u6307\u6570\u4e0eETF\u4ee3\u7406</strong>
+        <p>\u5168\u7403\u5e02\u573a\u5361\u7247\u663e\u793a\u5f53\u524d\u4ef7\u3001\u4eca\u65e5\u30017\u65e5\u30011\u6708\u53d8\u5316\uff1b\u8d8b\u52bf\u5c0f\u56fe\u7edf\u4e00\u53d6\u8fd11\u5e74\u65e5\u7ebf\u3002\u6307\u6570\u4f18\u5148\u53d6 Yahoo \u6307\u6570\u672c\u4f53\uff0c\u7f3a\u5931\u65f6\u5207\u6362\u4e3b\u6d41 ETF \u4ee3\u7406\u5e76\u6807\u6ce8\u4ee3\u7406\u7b26\u53f7\u3002</p>
+      </div>
+      <div class="data-note">
+        <strong>\u671f\u8d27\u3001\u5229\u7387\u3001\u5916\u6c47\u3001\u52a0\u5bc6</strong>
+        <p>\u671f\u8d27\u3001\u5229\u7387\u3001\u5916\u6c47\u3001BTC\u3001ETH \u4f7f\u7528 Yahoo Finance \u8fd12\u5e74\u65e5\u7ebf\uff1b\u8be6\u60c5\u56fe\u9ed8\u8ba4\u663e\u793a\u8fd11\u5e74\u65e5K\uff0c\u53ef\u7528 + / - / \u91cd\u7f6e\u7f29\u653e\u3002\u5916\u6c47\u4e0e\u6307\u6570\u6210\u4ea4\u91cf\u53e3\u5f84\u4e0d\u7a33\u5b9a\u65f6\u4e0d\u753b Volume/OBV \u5047\u4fe1\u53f7\u3002</p>
       </div>
       <div class="data-note">
         <strong>\u6280\u672f\u6307\u6807</strong>
-        <p>MA20/50/60/120/200\u3001RSI\u3001\u4e56\u79bb\u7387\u4f7f\u7528\u5b8c\u6574\u5feb\u7167\u5386\u53f2\u8ba1\u7b97\uff1bOBV \u4ec5\u5728\u4e2a\u80a1\u548cETF\u7b49\u6210\u4ea4\u91cf\u53ef\u7528\u6807\u7684\u4e0a\u542f\u7528\uff0c\u671f\u8d27\u4ec5\u4f5c\u53c2\u8003\uff0c\u6307\u6570\u4e0e\u5916\u6c47\u9ed8\u8ba4\u8df3\u8fc7\u3002</p>
+        <p>\u8be6\u60c5\u4e3b\u56fe\u9ed8\u8ba4\u8fd11\u5e74\u5e76\u53ef\u7f29\u653e\uff1bMA20/50/60/120/200 \u7528\u8fd12\u5e74\u5b8c\u6574\u5feb\u7167\u5386\u53f2\u8ba1\u7b97\uff0c\u56fe\u4e0a\u53ea\u5c55\u793a\u5f53\u524d\u7a97\u53e3\uff1bRSI \u4e3a14\u65e5\uff1bOBV \u5e2620\u65e5\u5747\u7ebf\uff1bVolume \u9ad8\u4e8e\u5f53\u524d\u53ef\u89c6\u7a97\u53e380\u5206\u4f4d\u6807\u7eff\u8272\u3002</p>
       </div>
       <div class="data-note">
         <strong>\u5e02\u573a\u5bbd\u5ea6</strong>
-        <p>\u7b49\u6743\u5bbd\u5ea6\u4f7f\u7528 S&P 500 \u548c\u6caa\u6df1300\u5b8c\u6574\u6210\u5206\u80a1\uff0c\u6bcf\u53ea\u80a11\u7968\uff1b\u6743\u91cd\u5bbd\u5ea6\u4f7f\u7528 SPY \u5b98\u65b9\u6301\u4ed3\u6743\u91cd\uff0c\u5931\u8d25\u65f6\u56de\u9000 IVV\uff0c\u6caa\u6df1300\u4f7f\u7528 510300 ETF \u6301\u4ed3\u6743\u91cd\u3002\u4e24\u7c7b\u5bbd\u5ea6\u5747\u5c55\u793a\u8fd1\u4e00\u5e74\u4ea4\u6613\u65e5\uff0c\u7f3a\u5931\u884c\u60c5\u4e0d\u6a21\u62df\u5e76\u4ece\u6709\u6548\u5206\u6bcd\u6392\u9664\u3002</p>
-      </div>
-      <div class="data-note">
-        <strong>\u5237\u65b0\u9891\u7387</strong>
-        <p>\u5f53\u524d\u4e3a4\u5c0f\u65f6\u9759\u6001\u5feb\u7167\u3002\u524d\u7aef\u53ea\u8bfb\u53d6\u751f\u6210\u597d\u7684\u5feb\u7167\u6587\u4ef6\uff0c\u4e0d\u5728\u6d4f\u89c8\u5668\u5185\u6279\u91cf\u8bf7\u6c42\u6210\u5206\u80a1\u884c\u60c5\u3002</p>
+        <p>S\u0026amp;P 500 \u4e0e\u6caa\u6df1300\u5bbd\u5ea6\u5c55\u793a\u8fd11\u5e74\u4ea4\u6613\u65e5\u3002\u7b49\u6743\u5bbd\u5ea6\u4e3a\u7ad9\u4e0aMA20\u6570\u91cf / \u6709\u6548\u6837\u672c\u6570\uff1b\u6743\u91cd\u5bbd\u5ea6\u6309 SPY/510300 \u6301\u4ed3\u6743\u91cd\u52a0\u603b\u3002\u0026gt;80 \u4e3a\u6781\u70ed\uff0c\u0026lt;20 \u4e3a\u6781\u51b7\uff1b\u62b5\u6263\u4ef7\u53d6\u4e0d\u542b\u6700\u65b0K\u7ebf\u7684\u7b2c20/60/120\u6839\u524d\u7f6eK\u7ebf\uff0c\u5feb\u7167\u6bcf4\u5c0f\u65f6\u5237\u65b0\u3002</p>
       </div>
     `;
   }
