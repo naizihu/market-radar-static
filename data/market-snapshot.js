@@ -1,6 +1,6 @@
 window.MARKET_SNAPSHOT = {
   "source": "Yahoo Finance chart API",
-  "generatedAt": "2026-05-31T13:56:03.706Z",
+  "generatedAt": "2026-05-31T17:13:04.741Z",
   "refreshIntervalHours": 4,
   "instruments": {
     "AAPL": {
@@ -135421,7 +135421,7 @@ window.MARKET_SNAPSHOT = {
       "longName": "AUD/USD",
       "exchangeName": "CCY",
       "timezone": "Europe/London",
-      "lastMarketTime": "2026-05-31T04:50:50.000Z",
+      "lastMarketTime": "2026-05-31T17:12:51.000Z",
       "price": 0.7186,
       "previousClose": 0.7164,
       "history": [
@@ -140632,8 +140632,8 @@ window.MARKET_SNAPSHOT = {
       "longName": "Bitcoin USD",
       "exchangeName": "CCC",
       "timezone": "UTC",
-      "lastMarketTime": "2026-05-31T13:55:58.000Z",
-      "price": 73746.8281,
+      "lastMarketTime": "2026-05-31T17:12:58.000Z",
+      "price": 73393.7422,
       "previousClose": 73754.8359,
       "history": [
         67491.4141,
@@ -141366,7 +141366,7 @@ window.MARKET_SNAPSHOT = {
         73536.5547,
         73372.5234,
         73754.8359,
-        73746.8281
+        73393.7422
       ],
       "volumeHistory": [
         27387283769,
@@ -142099,7 +142099,7 @@ window.MARKET_SNAPSHOT = {
         40148145327,
         34457929250,
         19563589191,
-        17318244352
+        16905562112
       ],
       "ohlcv": [
         {
@@ -147946,9 +147946,9 @@ window.MARKET_SNAPSHOT = {
           "date": "2026-05-31",
           "open": 73754.9844,
           "high": 74150.9844,
-          "low": 73654.3828,
-          "close": 73746.8281,
-          "volume": 17318244352
+          "low": 73342.5703,
+          "close": 73393.7422,
+          "volume": 16905562112
         }
       ]
     },
@@ -147963,8 +147963,8 @@ window.MARKET_SNAPSHOT = {
       "longName": "Ethereum USD",
       "exchangeName": "CCC",
       "timezone": "UTC",
-      "lastMarketTime": "2026-05-31T13:55:54.000Z",
-      "price": 2017.72,
+      "lastMarketTime": "2026-05-31T17:13:01.000Z",
+      "price": 1996.75,
       "previousClose": 2019.4583,
       "history": [
         3760.0266,
@@ -148697,7 +148697,7 @@ window.MARKET_SNAPSHOT = {
         2007.5527,
         2011.9785,
         2019.4583,
-        2017.72
+        1996.75
       ],
       "volumeHistory": [
         15290700646,
@@ -149430,7 +149430,7 @@ window.MARKET_SNAPSHOT = {
         18109844096,
         14941194039,
         7478416074,
-        7338397696
+        7834678272
       ],
       "ohlcv": [
         {
@@ -155277,9 +155277,9 @@ window.MARKET_SNAPSHOT = {
           "date": "2026-05-31",
           "open": 2019.2559,
           "high": 2033.1941,
-          "low": 2013.6868,
-          "close": 2017.72,
-          "volume": 7338397696
+          "low": 1997.1278,
+          "close": 1996.75,
+          "volume": 7834678272
         }
       ]
     },
@@ -155290,7 +155290,7 @@ window.MARKET_SNAPSHOT = {
       "isProxy": false,
       "proxyNote": null,
       "currency": "USD",
-      "shortName": "Gold Jun 26",
+      "shortName": "Gold Aug 26",
       "longName": null,
       "exchangeName": "CMX",
       "timezone": "America/New_York",
@@ -568253,7 +568253,7 @@ window.MARKET_SNAPSHOT = {
       "method": "equal_weight_above_ma20",
       "sourceUrl": "https://yfiua.github.io/index-constituents/constituents-sp500.csv",
       "benchmarkCode": "SPY",
-      "generatedAt": "2026-05-31T13:56:05.611Z",
+      "generatedAt": "2026-05-31T17:13:06.603Z",
       "coverage": {
         "total": 503,
         "effective": 503,
@@ -574240,7 +574240,7 @@ window.MARKET_SNAPSHOT = {
       "method": "equal_weight_above_ma20",
       "sourceUrl": "https://yfiua.github.io/index-constituents/constituents-csi300.csv",
       "benchmarkCode": "CSI300",
-      "generatedAt": "2026-05-31T13:56:09.027Z",
+      "generatedAt": "2026-05-31T17:13:09.683Z",
       "coverage": {
         "total": 300,
         "effective": 299,
@@ -578407,7 +578407,7 @@ window.MARKET_SNAPSHOT = {
           "https://www.ishares.com/us/products/239726/ishares-core-sp-500-etf/1467271812596.ajax?fileType=csv&fileName=IVV_holdings&dataType=fund"
         ],
         "benchmarkCode": "SPY",
-        "generatedAt": "2026-05-31T13:56:05.611Z",
+        "generatedAt": "2026-05-31T17:13:06.603Z",
         "coverage": {
           "total": 503,
           "effective": 503,
@@ -584404,7 +584404,7 @@ window.MARKET_SNAPSHOT = {
         "sourceUrl": "https://yfiua.github.io/index-constituents/constituents-csi300.csv",
         "weightSourceUrl": "https://stock.finance.sina.com.cn/fundInfo/view/FundInfo_CGMX.php?symbol=510300",
         "benchmarkCode": "CSI300",
-        "generatedAt": "2026-05-31T13:56:09.027Z",
+        "generatedAt": "2026-05-31T17:13:09.683Z",
         "coverage": {
           "total": 300,
           "effective": 299,
