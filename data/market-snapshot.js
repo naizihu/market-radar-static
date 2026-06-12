@@ -1,6 +1,6 @@
 window.MARKET_SNAPSHOT = {
   "source": "Yahoo Finance chart API",
-  "generatedAt": "2026-06-12T04:27:03.033Z",
+  "generatedAt": "2026-06-12T11:47:49.368Z",
   "refreshIntervalHours": 4,
   "instruments": {
     "AAPL": {
@@ -35231,8 +35231,8 @@ window.MARKET_SNAPSHOT = {
       "longName": "Tencent Holdings Limited",
       "exchangeName": "HKG",
       "timezone": "Asia/Hong_Kong",
-      "lastMarketTime": "2026-06-12T04:00:00.000Z",
-      "price": 465.8,
+      "lastMarketTime": "2026-06-12T08:08:19.000Z",
+      "price": 463.6,
       "previousClose": 457.2,
       "history": [
         370.8,
@@ -35726,7 +35726,7 @@ window.MARKET_SNAPSHOT = {
         453.2,
         465.6,
         457.2,
-        465.8
+        463.6
       ],
       "volumeHistory": [
         14960058,
@@ -36220,7 +36220,7 @@ window.MARKET_SNAPSHOT = {
         37387399,
         35788237,
         28580619,
-        10820941
+        22348046
       ],
       "ohlcv": [
         {
@@ -40154,10 +40154,10 @@ window.MARKET_SNAPSHOT = {
         {
           "date": "2026-06-12",
           "open": 466,
-          "high": 466.8,
+          "high": 467,
           "low": 459.4,
-          "close": 465.8,
-          "volume": 10820941
+          "close": 463.6,
+          "volume": 22348046
         }
       ]
     },
@@ -40172,8 +40172,8 @@ window.MARKET_SNAPSHOT = {
       "longName": "Kweichow Moutai Co., Ltd.",
       "exchangeName": "SHH",
       "timezone": "Asia/Shanghai",
-      "lastMarketTime": "2026-06-12T03:30:00.000Z",
-      "price": 1281.55,
+      "lastMarketTime": "2026-06-12T07:00:03.000Z",
+      "price": 1291.91,
       "previousClose": 1279,
       "history": [
         1571.6801,
@@ -40661,7 +40661,7 @@ window.MARKET_SNAPSHOT = {
         1256,
         1275.88,
         1279,
-        1281.55
+        1291.91
       ],
       "volumeHistory": [
         3317050,
@@ -41149,7 +41149,7 @@ window.MARKET_SNAPSHOT = {
         2786012,
         3924414,
         2535198,
-        2042162
+        5049478
       ],
       "ohlcv": [
         {
@@ -45035,10 +45035,10 @@ window.MARKET_SNAPSHOT = {
         {
           "date": "2026-06-12",
           "open": 1271.1801,
-          "high": 1282,
+          "high": 1295,
           "low": 1265.01,
-          "close": 1281.55,
-          "volume": 2042162
+          "close": 1291.91,
+          "volume": 5049478
         }
       ]
     },
@@ -65177,8 +65177,8 @@ window.MARKET_SNAPSHOT = {
       "longName": "SSE Composite Index",
       "exchangeName": "SHH",
       "timezone": "Asia/Shanghai",
-      "lastMarketTime": "2026-06-12T03:30:19.000Z",
-      "price": 4049.2942,
+      "lastMarketTime": "2026-06-12T07:00:29.000Z",
+      "price": 4031.5129,
       "previousClose": 3987.0149,
       "history": [
         3037.468,
@@ -65666,7 +65666,7 @@ window.MARKET_SNAPSHOT = {
         4010.031,
         3993.2261,
         3987.0149,
-        4049.2942
+        4031.5129
       ],
       "volumeHistory": [
         279500,
@@ -66154,7 +66154,7 @@ window.MARKET_SNAPSHOT = {
         576600,
         598700,
         568500,
-        3247476440
+        1298665168
       ],
       "ohlcv": [
         {
@@ -70042,8 +70042,8 @@ window.MARKET_SNAPSHOT = {
           "open": 4017.8647,
           "high": 4060.271,
           "low": 4008.177,
-          "close": 4049.2942,
-          "volume": 3247476440
+          "close": 4031.5129,
+          "volume": 1298665168
         }
       ]
     },
@@ -70058,8 +70058,8 @@ window.MARKET_SNAPSHOT = {
       "longName": "CSI 300 Index",
       "exchangeName": "SHH",
       "timezone": "Asia/Shanghai",
-      "lastMarketTime": "2026-06-12T03:30:19.000Z",
-      "price": 4794.7095,
+      "lastMarketTime": "2026-06-12T07:00:29.000Z",
+      "price": 4777.3208,
       "previousClose": 4722.4102,
       "history": [
         3544.1201,
@@ -70547,7 +70547,7 @@ window.MARKET_SNAPSHOT = {
         4801.8101,
         4748.5898,
         4722.4102,
-        4794.7095
+        4777.3208
       ],
       "volumeHistory": [
         122800,
@@ -71035,7 +71035,7 @@ window.MARKET_SNAPSHOT = {
         258400,
         259300,
         247200,
-        2660997316
+        3527435228
       ],
       "ohlcv": [
         {
@@ -74921,10 +74921,10 @@ window.MARKET_SNAPSHOT = {
         {
           "date": "2026-06-12",
           "open": 4784.6396,
-          "high": 4809.3838,
+          "high": 4809.8608,
           "low": 4757.5576,
-          "close": 4794.7095,
-          "volume": 2660997316
+          "close": 4777.3208,
+          "volume": 3527435228
         }
       ]
     },
@@ -74939,9 +74939,9 @@ window.MARKET_SNAPSHOT = {
       "longName": "China CSI 500 ETF",
       "exchangeName": "SHH",
       "timezone": "Asia/Shanghai",
-      "lastMarketTime": "2026-06-12T03:30:02.000Z",
-      "price": 8.332,
-      "previousClose": 8.171,
+      "lastMarketTime": "2026-06-12T07:00:02.000Z",
+      "price": 8.242,
+      "previousClose": 8.133,
       "history": [
         5.271,
         5.244,
@@ -75426,7 +75426,8 @@ window.MARKET_SNAPSHOT = {
         8.068,
         8.27,
         8.171,
-        8.332
+        8.133,
+        8.242
       ],
       "volumeHistory": [
         189393224,
@@ -75912,7 +75913,8 @@ window.MARKET_SNAPSHOT = {
         468788369,
         362274674,
         279284122,
-        186957108
+        181558049,
+        313357760
       ],
       "ohlcv": [
         {
@@ -79780,12 +79782,20 @@ window.MARKET_SNAPSHOT = {
           "volume": 279284122
         },
         {
+          "date": "2026-06-11",
+          "open": 8.133,
+          "high": 8.192,
+          "low": 8.068,
+          "close": 8.133,
+          "volume": 181558049
+        },
+        {
           "date": "2026-06-12",
           "open": 8.297,
           "high": 8.37,
-          "low": 8.224,
-          "close": 8.332,
-          "volume": 186957108
+          "low": 8.211,
+          "close": 8.242,
+          "volume": 313357760
         }
       ]
     },
@@ -79800,8 +79810,8 @@ window.MARKET_SNAPSHOT = {
       "longName": "HANG SENG INDEX",
       "exchangeName": "HKG",
       "timezone": "Asia/Hong_Kong",
-      "lastMarketTime": "2026-06-12T04:05:00.000Z",
-      "price": 24740.4102,
+      "lastMarketTime": "2026-06-12T08:08:46.000Z",
+      "price": 24718.0996,
       "previousClose": 24249.2891,
       "history": [
         17937.8398,
@@ -80295,7 +80305,7 @@ window.MARKET_SNAPSHOT = {
         24565.9004,
         24407.9609,
         24249.2891,
-        24740.4102
+        24718.0996
       ],
       "volumeHistory": [
         3139500000,
@@ -84723,9 +84733,9 @@ window.MARKET_SNAPSHOT = {
         {
           "date": "2026-06-12",
           "open": 24501.5,
-          "high": 24762.0605,
+          "high": 24771.6094,
           "low": 24445.5098,
-          "close": 24740.4102,
+          "close": 24718.0996,
           "volume": 0
         }
       ]
@@ -84738,12 +84748,12 @@ window.MARKET_SNAPSHOT = {
       "proxyNote": "恒生科技指数Yahoo不可用时，使用主流恒生科技ETF代理",
       "currency": "HKD",
       "shortName": "CSOP HS TECH",
-      "longName": "CSOP ETF Series - CSOP Hang Seng TECH Index ETF",
+      "longName": "CSOP Hang Seng TECH Index ETF",
       "exchangeName": "HKG",
       "timezone": "Asia/Hong_Kong",
-      "lastMarketTime": "2026-06-12T03:59:53.000Z",
-      "price": 4.64,
-      "previousClose": 4.634,
+      "lastMarketTime": "2026-06-12T08:08:19.000Z",
+      "price": 4.61,
+      "previousClose": 4.56,
       "history": [
         3.64,
         3.67,
@@ -85234,7 +85244,8 @@ window.MARKET_SNAPSHOT = {
         4.664,
         4.676,
         4.634,
-        4.64
+        4.56,
+        4.61
       ],
       "volumeHistory": [
         640228575,
@@ -85726,7 +85737,8 @@ window.MARKET_SNAPSHOT = {
         5081682902,
         3523793477,
         3339293223,
-        1541915756
+        2682555229,
+        3591739074
       ],
       "ohlcv": [
         {
@@ -89642,12 +89654,20 @@ window.MARKET_SNAPSHOT = {
           "volume": 3339293223
         },
         {
+          "date": "2026-06-11",
+          "open": 4.628,
+          "high": 4.64,
+          "low": 4.502,
+          "close": 4.56,
+          "volume": 2682555229
+        },
+        {
           "date": "2026-06-12",
           "open": 4.618,
           "high": 4.654,
-          "low": 4.606,
-          "close": 4.64,
-          "volume": 1541915756
+          "low": 4.586,
+          "close": 4.61,
+          "volume": 3591739074
         }
       ]
     },
@@ -89662,8 +89682,8 @@ window.MARKET_SNAPSHOT = {
       "longName": "Nikkei 225",
       "exchangeName": "OSA",
       "timezone": "Asia/Tokyo",
-      "lastMarketTime": "2026-06-12T04:12:00.000Z",
-      "price": 66387.8438,
+      "lastMarketTime": "2026-06-12T06:45:03.000Z",
+      "price": 66020.0391,
       "previousClose": 64217.2695,
       "history": [
         38876.7109,
@@ -90153,7 +90173,7 @@ window.MARKET_SNAPSHOT = {
         65416.6289,
         64179.2695,
         64217.2695,
-        66387.8438
+        66020.0391
       ],
       "volumeHistory": [
         108200000,
@@ -94547,7 +94567,7 @@ window.MARKET_SNAPSHOT = {
           "open": 65176.2305,
           "high": 67065.9375,
           "low": 64998.1094,
-          "close": 66387.8438,
+          "close": 66020.0391,
           "volume": 0
         }
       ]
@@ -94563,8 +94583,8 @@ window.MARKET_SNAPSHOT = {
       "longName": "KOSPI Composite Index",
       "exchangeName": "KSC",
       "timezone": "Asia/Seoul",
-      "lastMarketTime": "2026-06-12T04:07:00.000Z",
-      "price": 8392.8203,
+      "lastMarketTime": "2026-06-12T09:05:30.000Z",
+      "price": 8123.6201,
       "previousClose": 7763.9502,
       "history": [
         2728.1699,
@@ -95052,7 +95072,7 @@ window.MARKET_SNAPSHOT = {
         8096.9302,
         7730.8198,
         7763.9502,
-        8392.8203
+        8123.6201
       ],
       "volumeHistory": [
         511000,
@@ -95540,7 +95560,7 @@ window.MARKET_SNAPSHOT = {
         448500,
         460900,
         0,
-        331649
+        493406
       ],
       "ohlcv": [
         {
@@ -99426,10 +99446,10 @@ window.MARKET_SNAPSHOT = {
         {
           "date": "2026-06-12",
           "open": 8263.8496,
-          "high": 8424.1299,
-          "low": 8263.8496,
-          "close": 8392.8203,
-          "volume": 331649
+          "high": 8434.4004,
+          "low": 8079.77,
+          "close": 8123.6201,
+          "volume": 493406
         }
       ]
     },
@@ -99444,8 +99464,8 @@ window.MARKET_SNAPSHOT = {
       "longName": "S&P/ASX 200",
       "exchangeName": "ASX",
       "timezone": "Australia/Sydney",
-      "lastMarketTime": "2026-06-12T04:06:44.000Z",
-      "price": 8796.0996,
+      "lastMarketTime": "2026-06-12T06:55:45.000Z",
+      "price": 8804,
       "previousClose": 8633.2002,
       "history": [
         7715.5,
@@ -99955,7 +99975,7 @@ window.MARKET_SNAPSHOT = {
         8604.2002,
         8653.2998,
         8633.2002,
-        8796.0996
+        8804
       ],
       "volumeHistory": [
         565300,
@@ -104529,7 +104549,7 @@ window.MARKET_SNAPSHOT = {
           "open": 8633.2002,
           "high": 8809.2998,
           "low": 8633.2002,
-          "close": 8796.0996,
+          "close": 8804,
           "volume": 0
         }
       ]
@@ -109586,8 +109606,8 @@ window.MARKET_SNAPSHOT = {
       "longName": "US Dollar Index",
       "exchangeName": "NYB",
       "timezone": "America/New_York",
-      "lastMarketTime": "2026-06-12T04:17:00.000Z",
-      "price": 99.774,
+      "lastMarketTime": "2026-06-12T11:37:47.000Z",
+      "price": 99.747,
       "previousClose": 99.86,
       "history": [
         104.65,
@@ -110093,7 +110113,7 @@ window.MARKET_SNAPSHOT = {
         99.91,
         99.95,
         99.86,
-        99.774
+        99.747
       ],
       "volumeHistory": [
         0,
@@ -114629,9 +114649,9 @@ window.MARKET_SNAPSHOT = {
         {
           "date": "2026-06-12",
           "open": 99.67,
-          "high": 99.839,
-          "low": 99.722,
-          "close": 99.774,
+          "high": 99.909,
+          "low": 99.635,
+          "close": 99.747,
           "volume": 0
         }
       ]
@@ -114647,8 +114667,8 @@ window.MARKET_SNAPSHOT = {
       "longName": "EUR/USD",
       "exchangeName": "CCY",
       "timezone": "Europe/London",
-      "lastMarketTime": "2026-06-12T04:26:08.000Z",
-      "price": 1.1574,
+      "lastMarketTime": "2026-06-12T11:47:08.000Z",
+      "price": 1.1581,
       "previousClose": 1.1536,
       "history": [
         1.074,
@@ -115168,7 +115188,7 @@ window.MARKET_SNAPSHOT = {
         1.1528,
         1.1535,
         1.1536,
-        1.1574
+        1.1581
       ],
       "volumeHistory": [
         0,
@@ -119830,9 +119850,9 @@ window.MARKET_SNAPSHOT = {
         {
           "date": "2026-06-12",
           "open": 1.1582,
-          "high": 1.1589,
-          "low": 1.1565,
-          "close": 1.1574,
+          "high": 1.1593,
+          "low": 1.1561,
+          "close": 1.1581,
           "volume": 0
         }
       ]
@@ -119848,8 +119868,8 @@ window.MARKET_SNAPSHOT = {
       "longName": "USD/JPY",
       "exchangeName": "CCY",
       "timezone": "Europe/London",
-      "lastMarketTime": "2026-06-12T04:27:01.000Z",
-      "price": 160.25,
+      "lastMarketTime": "2026-06-12T11:47:47.000Z",
+      "price": 160.133,
       "previousClose": 160.527,
       "history": [
         157.105,
@@ -120369,7 +120389,7 @@ window.MARKET_SNAPSHOT = {
         160.174,
         160.384,
         160.527,
-        160.25
+        160.133
       ],
       "volumeHistory": [
         0,
@@ -125031,9 +125051,9 @@ window.MARKET_SNAPSHOT = {
         {
           "date": "2026-06-12",
           "open": 159.922,
-          "high": 160.307,
+          "high": 160.377,
           "low": 159.897,
-          "close": 160.25,
+          "close": 160.133,
           "volume": 0
         }
       ]
@@ -125049,8 +125069,8 @@ window.MARKET_SNAPSHOT = {
       "longName": "GBP/USD",
       "exchangeName": "CCY",
       "timezone": "Europe/London",
-      "lastMarketTime": "2026-06-12T04:26:08.000Z",
-      "price": 1.3414,
+      "lastMarketTime": "2026-06-12T11:47:08.000Z",
+      "price": 1.3417,
       "previousClose": 1.3362,
       "history": [
         1.274,
@@ -125570,7 +125590,7 @@ window.MARKET_SNAPSHOT = {
         1.3333,
         1.3372,
         1.3362,
-        1.3414
+        1.3417
       ],
       "volumeHistory": [
         0,
@@ -130233,8 +130253,8 @@ window.MARKET_SNAPSHOT = {
           "date": "2026-06-12",
           "open": 1.3417,
           "high": 1.3426,
-          "low": 1.3401,
-          "close": 1.3414,
+          "low": 1.3385,
+          "close": 1.3417,
           "volume": 0
         }
       ]
@@ -130250,8 +130270,8 @@ window.MARKET_SNAPSHOT = {
       "longName": "USD/CNY",
       "exchangeName": "CCY",
       "timezone": "Europe/London",
-      "lastMarketTime": "2026-06-12T04:26:42.000Z",
-      "price": 6.7627,
+      "lastMarketTime": "2026-06-12T11:46:24.000Z",
+      "price": 6.7611,
       "previousClose": 6.7725,
       "history": [
         7.2467,
@@ -130771,7 +130791,7 @@ window.MARKET_SNAPSHOT = {
         6.7655,
         6.7725,
         6.7725,
-        6.7627
+        6.7611
       ],
       "volumeHistory": [
         0,
@@ -135434,8 +135454,8 @@ window.MARKET_SNAPSHOT = {
           "date": "2026-06-12",
           "open": 6.7638,
           "high": 6.7673,
-          "low": 6.7613,
-          "close": 6.7627,
+          "low": 6.76,
+          "close": 6.7611,
           "volume": 0
         }
       ]
@@ -135451,8 +135471,8 @@ window.MARKET_SNAPSHOT = {
       "longName": "AUD/USD",
       "exchangeName": "CCY",
       "timezone": "Europe/London",
-      "lastMarketTime": "2026-06-12T04:25:08.000Z",
-      "price": 0.7043,
+      "lastMarketTime": "2026-06-12T11:47:08.000Z",
+      "price": 0.7045,
       "previousClose": 0.6994,
       "history": [
         0.6608,
@@ -135972,7 +135992,7 @@ window.MARKET_SNAPSHOT = {
         0.704,
         0.7023,
         0.6994,
-        0.7043
+        0.7045
       ],
       "volumeHistory": [
         0,
@@ -140634,9 +140654,9 @@ window.MARKET_SNAPSHOT = {
         {
           "date": "2026-06-12",
           "open": 0.7054,
-          "high": 0.7055,
-          "low": 0.7032,
-          "close": 0.7043,
+          "high": 0.7056,
+          "low": 0.7024,
+          "close": 0.7045,
           "volume": 0
         }
       ]
@@ -140652,9 +140672,9 @@ window.MARKET_SNAPSHOT = {
       "longName": "Bitcoin USD",
       "exchangeName": "CCC",
       "timezone": "UTC",
-      "lastMarketTime": "2026-06-12T04:26:59.000Z",
-      "price": 63694.4609,
-      "previousClose": 61449.2891,
+      "lastMarketTime": "2026-06-12T11:47:42.000Z",
+      "price": 63738.9102,
+      "previousClose": 63561.0547,
       "history": [
         68241.1875,
         66756.3984,
@@ -141385,7 +141405,8 @@ window.MARKET_SNAPSHOT = {
         63090.5898,
         61643.7813,
         61449.2891,
-        63694.4609
+        63561.0547,
+        63738.9102
       ],
       "volumeHistory": [
         34497940694,
@@ -142117,7 +142138,8 @@ window.MARKET_SNAPSHOT = {
         34133252457,
         40144449754,
         27493506779,
-        28321742848
+        29316677897,
+        29569556480
       ],
       "ohlcv": [
         {
@@ -147953,12 +147975,20 @@ window.MARKET_SNAPSHOT = {
           "volume": 27493506779
         },
         {
+          "date": "2026-06-11",
+          "open": 61448.8789,
+          "high": 63851.9492,
+          "low": 61447.9688,
+          "close": 63561.0547,
+          "volume": 29316677897
+        },
+        {
           "date": "2026-06-12",
           "open": 63553.0781,
-          "high": 63662.4727,
-          "low": 63284.3594,
-          "close": 63694.4609,
-          "volume": 28321742848
+          "high": 63830.6523,
+          "low": 62855.6523,
+          "close": 63738.9102,
+          "volume": 29569556480
         }
       ]
     },
@@ -147973,9 +148003,9 @@ window.MARKET_SNAPSHOT = {
       "longName": "Ethereum USD",
       "exchangeName": "CCC",
       "timezone": "UTC",
-      "lastMarketTime": "2026-06-12T04:27:00.000Z",
-      "price": 1675.64,
-      "previousClose": 1620.1377,
+      "lastMarketTime": "2026-06-12T11:47:43.000Z",
+      "price": 1673.4,
+      "previousClose": 1672.2806,
       "history": [
         3559.6177,
         3469.2813,
@@ -148706,7 +148736,8 @@ window.MARKET_SNAPSHOT = {
         1690.1486,
         1637.7067,
         1620.1377,
-        1675.64
+        1672.2806,
+        1673.4
       ],
       "volumeHistory": [
         17142905351,
@@ -149438,7 +149469,8 @@ window.MARKET_SNAPSHOT = {
         17427269148,
         15196855528,
         12655731412,
-        11641241600
+        12379882531,
+        11678950400
       ],
       "ohlcv": [
         {
@@ -155274,12 +155306,20 @@ window.MARKET_SNAPSHOT = {
           "volume": 12655731412
         },
         {
+          "date": "2026-06-11",
+          "open": 1620.14,
+          "high": 1690.4489,
+          "low": 1620.0845,
+          "close": 1672.2806,
+          "volume": 12379882531
+        },
+        {
           "date": "2026-06-12",
           "open": 1671.7079,
-          "high": 1674.9259,
-          "low": 1661.4845,
-          "close": 1675.64,
-          "volume": 11641241600
+          "high": 1681.7585,
+          "low": 1652.5229,
+          "close": 1673.4,
+          "volume": 11678950400
         }
       ]
     },
@@ -155294,8 +155334,8 @@ window.MARKET_SNAPSHOT = {
       "longName": null,
       "exchangeName": "CMX",
       "timezone": "America/New_York",
-      "lastMarketTime": "2026-06-12T04:17:01.000Z",
-      "price": 4213.2998,
+      "lastMarketTime": "2026-06-12T11:37:44.000Z",
+      "price": 4220.8999,
       "previousClose": 4090.3,
       "history": [
         2336,
@@ -155801,7 +155841,7 @@ window.MARKET_SNAPSHOT = {
         4260,
         4108.2002,
         4090.3,
-        4213.2998
+        4220.8999
       ],
       "volumeHistory": [
         132,
@@ -156307,7 +156347,7 @@ window.MARKET_SNAPSHOT = {
         1292,
         525,
         525,
-        25973
+        59877
       ],
       "ohlcv": [
         {
@@ -160338,9 +160378,9 @@ window.MARKET_SNAPSHOT = {
           "date": "2026-06-12",
           "open": 4234.8999,
           "high": 4267.7998,
-          "low": 4192.8999,
-          "close": 4213.2998,
-          "volume": 25973
+          "low": 4191.1001,
+          "close": 4220.8999,
+          "volume": 59877
         }
       ]
     },
@@ -160355,8 +160395,8 @@ window.MARKET_SNAPSHOT = {
       "longName": null,
       "exchangeName": "NYM",
       "timezone": "America/New_York",
-      "lastMarketTime": "2026-06-12T04:17:00.000Z",
-      "price": 86.16,
+      "lastMarketTime": "2026-06-12T11:37:46.000Z",
+      "price": 84.62,
       "previousClose": 87.71,
       "history": [
         78.5,
@@ -160862,7 +160902,7 @@ window.MARKET_SNAPSHOT = {
         88.2,
         90.03,
         87.71,
-        86.16
+        84.62
       ],
       "volumeHistory": [
         322285,
@@ -161368,7 +161408,7 @@ window.MARKET_SNAPSHOT = {
         306101,
         291935,
         291935,
-        15406
+        66587
       ],
       "ohlcv": [
         {
@@ -165399,9 +165439,9 @@ window.MARKET_SNAPSHOT = {
           "date": "2026-06-12",
           "open": 86.64,
           "high": 86.98,
-          "low": 85.13,
-          "close": 86.16,
-          "volume": 15406
+          "low": 83.2,
+          "close": 84.62,
+          "volume": 66587
         }
       ]
     },
@@ -165416,8 +165456,8 @@ window.MARKET_SNAPSHOT = {
       "longName": null,
       "exchangeName": "CMX",
       "timezone": "America/New_York",
-      "lastMarketTime": "2026-06-12T04:16:25.000Z",
-      "price": 6.4155,
+      "lastMarketTime": "2026-06-12T11:37:26.000Z",
+      "price": 6.387,
       "previousClose": 6.259,
       "history": [
         4.5815,
@@ -165923,7 +165963,7 @@ window.MARKET_SNAPSHOT = {
         6.3025,
         6.249,
         6.259,
-        6.4155
+        6.387
       ],
       "volumeHistory": [
         384,
@@ -166429,7 +166469,7 @@ window.MARKET_SNAPSHOT = {
         373,
         509,
         509,
-        5193
+        18371
       ],
       "ohlcv": [
         {
@@ -170459,10 +170499,10 @@ window.MARKET_SNAPSHOT = {
         {
           "date": "2026-06-12",
           "open": 6.388,
-          "high": 6.43,
-          "low": 6.3715,
-          "close": 6.4155,
-          "volume": 5193
+          "high": 6.4455,
+          "low": 6.3585,
+          "close": 6.387,
+          "volume": 18371
         }
       ]
     },
@@ -170477,8 +170517,8 @@ window.MARKET_SNAPSHOT = {
       "longName": null,
       "exchangeName": "CMX",
       "timezone": "America/New_York",
-      "lastMarketTime": "2026-06-12T04:16:21.000Z",
-      "price": 67.07,
+      "lastMarketTime": "2026-06-12T11:37:37.000Z",
+      "price": 67.065,
       "previousClose": 63.885,
       "history": [
         30.176,
@@ -170984,7 +171024,7 @@ window.MARKET_SNAPSHOT = {
         65.094,
         64.599,
         63.885,
-        67.07
+        67.065
       ],
       "volumeHistory": [
         8,
@@ -171490,7 +171530,7 @@ window.MARKET_SNAPSHOT = {
         81,
         4,
         4,
-        6668
+        14761
       ],
       "ohlcv": [
         {
@@ -175521,9 +175561,9 @@ window.MARKET_SNAPSHOT = {
           "date": "2026-06-12",
           "open": 67.495,
           "high": 68.08,
-          "low": 66.58,
-          "close": 67.07,
-          "volume": 6668
+          "low": 65.965,
+          "close": 67.065,
+          "volume": 14761
         }
       ]
     },
@@ -190631,8 +190671,8 @@ window.MARKET_SNAPSHOT = {
       "longName": "Alibaba Group Holding Limited",
       "exchangeName": "HKG",
       "timezone": "Asia/Hong_Kong",
-      "lastMarketTime": "2026-06-12T03:59:58.000Z",
-      "price": 110.3,
+      "lastMarketTime": "2026-06-12T08:08:19.000Z",
+      "price": 110.2,
       "previousClose": 107.4,
       "history": [
         74.15,
@@ -191126,7 +191166,7 @@ window.MARKET_SNAPSHOT = {
         117.1,
         113.5,
         107.4,
-        110.3
+        110.2
       ],
       "volumeHistory": [
         34449076,
@@ -191620,7 +191660,7 @@ window.MARKET_SNAPSHOT = {
         66707175,
         115892674,
         160350719,
-        40401694
+        74744089
       ],
       "ohlcv": [
         {
@@ -195556,8 +195596,8 @@ window.MARKET_SNAPSHOT = {
           "open": 109,
           "high": 111.2,
           "low": 108.8,
-          "close": 110.3,
-          "volume": 40401694
+          "close": 110.2,
+          "volume": 74744089
         }
       ]
     },
@@ -386750,11 +386790,10 @@ window.MARKET_SNAPSHOT = {
       "longName": "Naspers Limited",
       "exchangeName": "JNB",
       "timezone": "Africa/Johannesburg",
-      "lastMarketTime": "2026-06-11T15:00:25.000Z",
-      "price": 86004,
-      "previousClose": 88600,
+      "lastMarketTime": "2026-06-12T11:32:35.000Z",
+      "price": 86040,
+      "previousClose": 86004,
       "history": [
-        76418.2031,
         78065.6016,
         76943,
         74738.7969,
@@ -387254,10 +387293,10 @@ window.MARKET_SNAPSHOT = {
         88396,
         88999,
         88600,
-        86004
+        86004,
+        86040
       ],
       "volumeHistory": [
-        1728655,
         2485920,
         2580200,
         2776110,
@@ -387757,17 +387796,10 @@ window.MARKET_SNAPSHOT = {
         1714558,
         1786541,
         2201454,
-        2006990
+        2006990,
+        666530
       ],
       "ohlcv": [
-        {
-          "date": "2024-06-11",
-          "open": 77100,
-          "high": 76990.3984,
-          "low": 75615.2031,
-          "close": 76418.2031,
-          "volume": 1728655
-        },
         {
           "date": "2024-06-12",
           "open": 76200,
@@ -391767,6 +391799,14 @@ window.MARKET_SNAPSHOT = {
           "low": 86004,
           "close": 86004,
           "volume": 2006990
+        },
+        {
+          "date": "2026-06-12",
+          "open": 87350,
+          "high": 87880,
+          "low": 85628,
+          "close": 86040,
+          "volume": 666530
         }
       ]
     },
@@ -396812,8 +396852,8 @@ window.MARKET_SNAPSHOT = {
       "longName": "Meituan",
       "exchangeName": "HKG",
       "timezone": "Asia/Hong_Kong",
-      "lastMarketTime": "2026-06-12T03:59:56.000Z",
-      "price": 78.1,
+      "lastMarketTime": "2026-06-12T08:08:19.000Z",
+      "price": 77.9,
       "previousClose": 78.1,
       "history": [
         112.6,
@@ -397307,7 +397347,7 @@ window.MARKET_SNAPSHOT = {
         77.2,
         79,
         78.1,
-        78.1
+        77.9
       ],
       "volumeHistory": [
         33337950,
@@ -397801,7 +397841,7 @@ window.MARKET_SNAPSHOT = {
         34253879,
         56328337,
         34922354,
-        18227076
+        47409244
       ],
       "ohlcv": [
         {
@@ -401735,10 +401775,10 @@ window.MARKET_SNAPSHOT = {
         {
           "date": "2026-06-12",
           "open": 78.1,
-          "high": 78.3,
+          "high": 78.4,
           "low": 75.7,
-          "close": 78.1,
-          "volume": 18227076
+          "close": 77.9,
+          "volume": 47409244
         }
       ]
     },
@@ -401753,8 +401793,8 @@ window.MARKET_SNAPSHOT = {
       "longName": "JD.com, Inc.",
       "exchangeName": "HKG",
       "timezone": "Asia/Hong_Kong",
-      "lastMarketTime": "2026-06-12T03:59:54.000Z",
-      "price": 112.1,
+      "lastMarketTime": "2026-06-12T08:08:19.000Z",
+      "price": 112.6,
       "previousClose": 108.9,
       "history": [
         113.8,
@@ -402248,7 +402288,7 @@ window.MARKET_SNAPSHOT = {
         114,
         112.2,
         108.9,
-        112.1
+        112.6
       ],
       "volumeHistory": [
         7249627,
@@ -402742,7 +402782,7 @@ window.MARKET_SNAPSHOT = {
         9044690,
         8768750,
         12831259,
-        4005854
+        20314228
       ],
       "ohlcv": [
         {
@@ -406676,10 +406716,10 @@ window.MARKET_SNAPSHOT = {
         {
           "date": "2026-06-12",
           "open": 109.8,
-          "high": 112.4,
+          "high": 112.9,
           "low": 109.7,
-          "close": 112.1,
-          "volume": 4005854
+          "close": 112.6,
+          "volume": 20314228
         }
       ]
     },
@@ -406694,8 +406734,8 @@ window.MARKET_SNAPSHOT = {
       "longName": "Xiaomi Corporation",
       "exchangeName": "HKG",
       "timezone": "Asia/Hong_Kong",
-      "lastMarketTime": "2026-06-12T03:59:58.000Z",
-      "price": 26.38,
+      "lastMarketTime": "2026-06-12T08:08:19.000Z",
+      "price": 26.2,
       "previousClose": 25.84,
       "history": [
         17.14,
@@ -407189,7 +407229,7 @@ window.MARKET_SNAPSHOT = {
         27.2,
         26.32,
         25.84,
-        26.38
+        26.2
       ],
       "volumeHistory": [
         84361187,
@@ -407683,7 +407723,7 @@ window.MARKET_SNAPSHOT = {
         103973917,
         226252092,
         124356371,
-        54313769
+        131885183
       ],
       "ohlcv": [
         {
@@ -411618,9 +411658,9 @@ window.MARKET_SNAPSHOT = {
           "date": "2026-06-12",
           "open": 26.06,
           "high": 26.5,
-          "low": 26.02,
-          "close": 26.38,
-          "volume": 54313769
+          "low": 25.96,
+          "close": 26.2,
+          "volume": 131885183
         }
       ]
     },
@@ -411635,8 +411675,8 @@ window.MARKET_SNAPSHOT = {
       "longName": "AIA Group Limited",
       "exchangeName": "HKG",
       "timezone": "Asia/Hong_Kong",
-      "lastMarketTime": "2026-06-12T03:59:51.000Z",
-      "price": 74.45,
+      "lastMarketTime": "2026-06-12T08:08:19.000Z",
+      "price": 74.55,
       "previousClose": 73.75,
       "history": [
         56.3,
@@ -412130,7 +412170,7 @@ window.MARKET_SNAPSHOT = {
         71,
         70.25,
         73.75,
-        74.45
+        74.55
       ],
       "volumeHistory": [
         37958743,
@@ -412624,7 +412664,7 @@ window.MARKET_SNAPSHOT = {
         77389804,
         61004348,
         78489223,
-        73656728
+        101186192
       ],
       "ohlcv": [
         {
@@ -416560,8 +416600,8 @@ window.MARKET_SNAPSHOT = {
           "open": 75.5,
           "high": 75.5,
           "low": 74.15,
-          "close": 74.45,
-          "volume": 73656728
+          "close": 74.55,
+          "volume": 101186192
         }
       ]
     },
@@ -416576,8 +416616,8 @@ window.MARKET_SNAPSHOT = {
       "longName": "China Construction Bank Corporation",
       "exchangeName": "HKG",
       "timezone": "Asia/Hong_Kong",
-      "lastMarketTime": "2026-06-12T03:59:50.000Z",
-      "price": 8.89,
+      "lastMarketTime": "2026-06-12T08:08:19.000Z",
+      "price": 8.98,
       "previousClose": 8.69,
       "history": [
         5.49,
@@ -417071,7 +417111,7 @@ window.MARKET_SNAPSHOT = {
         8.69,
         8.75,
         8.69,
-        8.89
+        8.98
       ],
       "volumeHistory": [
         452192082,
@@ -417565,7 +417605,7 @@ window.MARKET_SNAPSHOT = {
         246093414,
         239320135,
         205357363,
-        102354015
+        248112067
       ],
       "ohlcv": [
         {
@@ -421499,10 +421539,10 @@ window.MARKET_SNAPSHOT = {
         {
           "date": "2026-06-12",
           "open": 8.71,
-          "high": 8.9,
+          "high": 8.98,
           "low": 8.68,
-          "close": 8.89,
-          "volume": 102354015
+          "close": 8.98,
+          "volume": 248112067
         }
       ]
     },
@@ -421517,8 +421557,8 @@ window.MARKET_SNAPSHOT = {
       "longName": "Industrial and Commercial Bank of China Limited",
       "exchangeName": "HKG",
       "timezone": "Asia/Hong_Kong",
-      "lastMarketTime": "2026-06-12T03:59:55.000Z",
-      "price": 7.15,
+      "lastMarketTime": "2026-06-12T08:08:19.000Z",
+      "price": 7.22,
       "previousClose": 6.98,
       "history": [
         4.32,
@@ -422012,7 +422052,7 @@ window.MARKET_SNAPSHOT = {
         6.93,
         7,
         6.98,
-        7.15
+        7.22
       ],
       "volumeHistory": [
         299327041,
@@ -422506,7 +422546,7 @@ window.MARKET_SNAPSHOT = {
         223215332,
         227653253,
         236826655,
-        99080243
+        235725149
       ],
       "ohlcv": [
         {
@@ -426440,10 +426480,10 @@ window.MARKET_SNAPSHOT = {
         {
           "date": "2026-06-12",
           "open": 7.01,
-          "high": 7.15,
+          "high": 7.22,
           "low": 6.94,
-          "close": 7.15,
-          "volume": 99080243
+          "close": 7.22,
+          "volume": 235725149
         }
       ]
     },
@@ -426458,8 +426498,8 @@ window.MARKET_SNAPSHOT = {
       "longName": "Bank of China Limited",
       "exchangeName": "HKG",
       "timezone": "Asia/Hong_Kong",
-      "lastMarketTime": "2026-06-12T03:59:50.000Z",
-      "price": 5.49,
+      "lastMarketTime": "2026-06-12T08:08:19.000Z",
+      "price": 5.53,
       "previousClose": 5.37,
       "history": [
         3.7,
@@ -426953,7 +426993,7 @@ window.MARKET_SNAPSHOT = {
         5.39,
         5.42,
         5.37,
-        5.49
+        5.53
       ],
       "volumeHistory": [
         364596682,
@@ -427447,7 +427487,7 @@ window.MARKET_SNAPSHOT = {
         360713808,
         254191992,
         185235830,
-        94928277
+        277564892
       ],
       "ohlcv": [
         {
@@ -431381,10 +431421,10 @@ window.MARKET_SNAPSHOT = {
         {
           "date": "2026-06-12",
           "open": 5.39,
-          "high": 5.49,
+          "high": 5.53,
           "low": 5.34,
-          "close": 5.49,
-          "volume": 94928277
+          "close": 5.53,
+          "volume": 277564892
         }
       ]
     },
@@ -431399,8 +431439,8 @@ window.MARKET_SNAPSHOT = {
       "longName": "HSBC Holdings plc",
       "exchangeName": "HKG",
       "timezone": "Asia/Hong_Kong",
-      "lastMarketTime": "2026-06-12T03:59:52.000Z",
-      "price": 141.9,
+      "lastMarketTime": "2026-06-12T08:08:19.000Z",
+      "price": 142.8,
       "previousClose": 138.5,
       "history": [
         68.15,
@@ -431894,7 +431934,7 @@ window.MARKET_SNAPSHOT = {
         142.1,
         135.3,
         138.5,
-        141.9
+        142.8
       ],
       "volumeHistory": [
         21324484,
@@ -432388,7 +432428,7 @@ window.MARKET_SNAPSHOT = {
         11622898,
         35400697,
         17746424,
-        5377482
+        14737451
       ],
       "ohlcv": [
         {
@@ -436322,10 +436362,10 @@ window.MARKET_SNAPSHOT = {
         {
           "date": "2026-06-12",
           "open": 140.9,
-          "high": 142,
+          "high": 142.8,
           "low": 140.7,
-          "close": 141.9,
-          "volume": 5377482
+          "close": 142.8,
+          "volume": 14737451
         }
       ]
     },
@@ -436340,8 +436380,8 @@ window.MARKET_SNAPSHOT = {
       "longName": "Hong Kong Exchanges and Clearing Limited",
       "exchangeName": "HKG",
       "timezone": "Asia/Hong_Kong",
-      "lastMarketTime": "2026-06-12T03:59:47.000Z",
-      "price": 381.6,
+      "lastMarketTime": "2026-06-12T08:08:19.000Z",
+      "price": 380.6,
       "previousClose": 374,
       "history": [
         262.6,
@@ -436835,7 +436875,7 @@ window.MARKET_SNAPSHOT = {
         384,
         383,
         374,
-        381.6
+        380.6
       ],
       "volumeHistory": [
         3691973,
@@ -437329,7 +437369,7 @@ window.MARKET_SNAPSHOT = {
         4190114,
         6785945,
         10151172,
-        3397570
+        8016763
       ],
       "ohlcv": [
         {
@@ -441263,10 +441303,10 @@ window.MARKET_SNAPSHOT = {
         {
           "date": "2026-06-12",
           "open": 379,
-          "high": 382,
+          "high": 382.6,
           "low": 377,
-          "close": 381.6,
-          "volume": 3397570
+          "close": 380.6,
+          "volume": 8016763
         }
       ]
     },
@@ -441281,8 +441321,8 @@ window.MARKET_SNAPSHOT = {
       "longName": "Ping An Insurance (Group) Company of China, Ltd.",
       "exchangeName": "HKG",
       "timezone": "Asia/Hong_Kong",
-      "lastMarketTime": "2026-06-12T03:59:46.000Z",
-      "price": 58.15,
+      "lastMarketTime": "2026-06-12T08:08:19.000Z",
+      "price": 57.15,
       "previousClose": 56.85,
       "history": [
         36.65,
@@ -441776,7 +441816,7 @@ window.MARKET_SNAPSHOT = {
         56.9,
         57.2,
         56.85,
-        58.15
+        57.15
       ],
       "volumeHistory": [
         49582064,
@@ -442270,7 +442310,7 @@ window.MARKET_SNAPSHOT = {
         23506423,
         22479654,
         26633073,
-        19345482
+        55591345
       ],
       "ohlcv": [
         {
@@ -446205,9 +446245,9 @@ window.MARKET_SNAPSHOT = {
           "date": "2026-06-12",
           "open": 57.1,
           "high": 58.45,
-          "low": 56.8,
-          "close": 58.15,
-          "volume": 19345482
+          "low": 56.35,
+          "close": 57.15,
+          "volume": 55591345
         }
       ]
     },
@@ -446222,7 +446262,7 @@ window.MARKET_SNAPSHOT = {
       "longName": "CNOOC Limited",
       "exchangeName": "HKG",
       "timezone": "Asia/Hong_Kong",
-      "lastMarketTime": "2026-06-12T03:59:59.000Z",
+      "lastMarketTime": "2026-06-12T08:08:19.000Z",
       "price": 24.92,
       "previousClose": 24.72,
       "history": [
@@ -447211,7 +447251,7 @@ window.MARKET_SNAPSHOT = {
         80163810,
         149937593,
         138730609,
-        33754669
+        87625138
       ],
       "ohlcv": [
         {
@@ -451148,7 +451188,7 @@ window.MARKET_SNAPSHOT = {
           "high": 24.98,
           "low": 24.22,
           "close": 24.92,
-          "volume": 33754669
+          "volume": 87625138
         }
       ]
     },
@@ -451163,8 +451203,8 @@ window.MARKET_SNAPSHOT = {
       "longName": "China Mobile Limited",
       "exchangeName": "HKG",
       "timezone": "Asia/Hong_Kong",
-      "lastMarketTime": "2026-06-12T03:59:57.000Z",
-      "price": 82,
+      "lastMarketTime": "2026-06-12T08:08:19.000Z",
+      "price": 81.8,
       "previousClose": 81.85,
       "history": [
         73.55,
@@ -451658,7 +451698,7 @@ window.MARKET_SNAPSHOT = {
         82.3,
         82.45,
         81.85,
-        82
+        81.8
       ],
       "volumeHistory": [
         27456656,
@@ -452152,7 +452192,7 @@ window.MARKET_SNAPSHOT = {
         10405308,
         24953534,
         13751836,
-        4199411
+        18102375
       ],
       "ohlcv": [
         {
@@ -456087,9 +456127,9 @@ window.MARKET_SNAPSHOT = {
           "date": "2026-06-12",
           "open": 81.65,
           "high": 82.15,
-          "low": 81.65,
-          "close": 82,
-          "volume": 4199411
+          "low": 80.95,
+          "close": 81.8,
+          "volume": 18102375
         }
       ]
     },
@@ -456104,8 +456144,8 @@ window.MARKET_SNAPSHOT = {
       "longName": "BYD Company Limited",
       "exchangeName": "HKG",
       "timezone": "Asia/Hong_Kong",
-      "lastMarketTime": "2026-06-12T03:59:53.000Z",
-      "price": 86.5,
+      "lastMarketTime": "2026-06-12T08:08:19.000Z",
+      "price": 86.55,
       "previousClose": 84.95,
       "history": [
         73.3333,
@@ -456599,7 +456639,7 @@ window.MARKET_SNAPSHOT = {
         88.4,
         86.6,
         84.95,
-        86.5
+        86.55
       ],
       "volumeHistory": [
         30513825,
@@ -457093,7 +457133,7 @@ window.MARKET_SNAPSHOT = {
         14797466,
         33622524,
         20844023,
-        6633510
+        16499792
       ],
       "ohlcv": [
         {
@@ -461027,10 +461067,10 @@ window.MARKET_SNAPSHOT = {
         {
           "date": "2026-06-12",
           "open": 84.8,
-          "high": 86.65,
+          "high": 86.7,
           "low": 84.6,
-          "close": 86.5,
-          "volume": 6633510
+          "close": 86.55,
+          "volume": 16499792
         }
       ]
     },
@@ -461045,8 +461085,8 @@ window.MARKET_SNAPSHOT = {
       "longName": "ANTA Sports Products Limited",
       "exchangeName": "HKG",
       "timezone": "Asia/Hong_Kong",
-      "lastMarketTime": "2026-06-12T03:59:57.000Z",
-      "price": 76.2,
+      "lastMarketTime": "2026-06-12T08:08:19.000Z",
+      "price": 76.25,
       "previousClose": 74.6,
       "history": [
         82.15,
@@ -461540,7 +461580,7 @@ window.MARKET_SNAPSHOT = {
         75.3,
         75.35,
         74.6,
-        76.2
+        76.25
       ],
       "volumeHistory": [
         5768260,
@@ -462034,7 +462074,7 @@ window.MARKET_SNAPSHOT = {
         6647267,
         6021651,
         4133858,
-        3471058
+        8150476
       ],
       "ohlcv": [
         {
@@ -465968,10 +466008,10 @@ window.MARKET_SNAPSHOT = {
         {
           "date": "2026-06-12",
           "open": 75.7,
-          "high": 76.55,
+          "high": 76.6,
           "low": 74.05,
-          "close": 76.2,
-          "volume": 3471058
+          "close": 76.25,
+          "volume": 8150476
         }
       ]
     },
@@ -465986,8 +466026,8 @@ window.MARKET_SNAPSHOT = {
       "longName": "Kuaishou Technology",
       "exchangeName": "HKG",
       "timezone": "Asia/Hong_Kong",
-      "lastMarketTime": "2026-06-12T03:59:58.000Z",
-      "price": 46.64,
+      "lastMarketTime": "2026-06-12T08:08:19.000Z",
+      "price": 45.88,
       "previousClose": 45.64,
       "history": [
         52,
@@ -466481,7 +466521,7 @@ window.MARKET_SNAPSHOT = {
         44.34,
         46.02,
         45.64,
-        46.64
+        45.88
       ],
       "volumeHistory": [
         27413330,
@@ -466975,7 +467015,7 @@ window.MARKET_SNAPSHOT = {
         36735664,
         55473572,
         49459518,
-        14508778
+        42416717
       ],
       "ohlcv": [
         {
@@ -470910,9 +470950,9 @@ window.MARKET_SNAPSHOT = {
           "date": "2026-06-12",
           "open": 46.16,
           "high": 47.06,
-          "low": 45.82,
-          "close": 46.64,
-          "volume": 14508778
+          "low": 45.54,
+          "close": 45.88,
+          "volume": 42416717
         }
       ]
     },
@@ -470927,8 +470967,8 @@ window.MARKET_SNAPSHOT = {
       "longName": "NetEase, Inc.",
       "exchangeName": "HKG",
       "timezone": "Asia/Hong_Kong",
-      "lastMarketTime": "2026-06-12T03:59:53.000Z",
-      "price": 200,
+      "lastMarketTime": "2026-06-12T08:08:19.000Z",
+      "price": 199.6,
       "previousClose": 197.8,
       "history": [
         146,
@@ -471422,7 +471462,7 @@ window.MARKET_SNAPSHOT = {
         187.3,
         194.4,
         197.8,
-        200
+        199.6
       ],
       "volumeHistory": [
         5626202,
@@ -471916,7 +471956,7 @@ window.MARKET_SNAPSHOT = {
         5439581,
         9065676,
         10691870,
-        4024583
+        9692131
       ],
       "ohlcv": [
         {
@@ -475850,10 +475890,10 @@ window.MARKET_SNAPSHOT = {
         {
           "date": "2026-06-12",
           "open": 197.8,
-          "high": 200.8,
+          "high": 202,
           "low": 197,
-          "close": 200,
-          "volume": 4024583
+          "close": 199.6,
+          "volume": 9692131
         }
       ]
     },
@@ -475868,8 +475908,8 @@ window.MARKET_SNAPSHOT = {
       "longName": "XPeng Inc.",
       "exchangeName": "HKG",
       "timezone": "Asia/Hong_Kong",
-      "lastMarketTime": "2026-06-12T03:59:45.000Z",
-      "price": 57.5,
+      "lastMarketTime": "2026-06-12T08:08:19.000Z",
+      "price": 57.7,
       "previousClose": 56.2,
       "history": [
         29.5,
@@ -476363,7 +476403,7 @@ window.MARKET_SNAPSHOT = {
         61.3,
         59.55,
         56.2,
-        57.5
+        57.7
       ],
       "volumeHistory": [
         19525136,
@@ -476857,7 +476897,7 @@ window.MARKET_SNAPSHOT = {
         9943857,
         20851722,
         21186040,
-        6317800
+        16415755
       ],
       "ohlcv": [
         {
@@ -480791,10 +480831,10 @@ window.MARKET_SNAPSHOT = {
         {
           "date": "2026-06-12",
           "open": 57.05,
-          "high": 57.75,
+          "high": 58.15,
           "low": 56.2,
-          "close": 57.5,
-          "volume": 6317800
+          "close": 57.7,
+          "volume": 16415755
         }
       ]
     },
@@ -480809,8 +480849,8 @@ window.MARKET_SNAPSHOT = {
       "longName": "Semiconductor Manufacturing International Corporation",
       "exchangeName": "HKG",
       "timezone": "Asia/Hong_Kong",
-      "lastMarketTime": "2026-06-12T03:59:57.000Z",
-      "price": 73.9,
+      "lastMarketTime": "2026-06-12T08:08:19.000Z",
+      "price": 71.65,
       "previousClose": 73.3,
       "history": [
         17.86,
@@ -481304,7 +481344,7 @@ window.MARKET_SNAPSHOT = {
         75,
         72.35,
         73.3,
-        73.9
+        71.65
       ],
       "volumeHistory": [
         74860131,
@@ -481798,7 +481838,7 @@ window.MARKET_SNAPSHOT = {
         96331167,
         108384523,
         80335506,
-        63525771
+        101440814
       ],
       "ohlcv": [
         {
@@ -485733,9 +485773,9 @@ window.MARKET_SNAPSHOT = {
           "date": "2026-06-12",
           "open": 75.55,
           "high": 77,
-          "low": 73.15,
-          "close": 73.9,
-          "volume": 63525771
+          "low": 71.3,
+          "close": 71.65,
+          "volume": 101440814
         }
       ]
     },
@@ -485750,8 +485790,8 @@ window.MARKET_SNAPSHOT = {
       "longName": "Contemporary Amperex Technology Co., Limited",
       "exchangeName": "SHZ",
       "timezone": "Asia/Shanghai",
-      "lastMarketTime": "2026-06-12T04:11:16.000Z",
-      "price": 395.32,
+      "lastMarketTime": "2026-06-12T07:04:16.000Z",
+      "price": 394.85,
       "previousClose": 382.2,
       "history": [
         185.6,
@@ -486239,7 +486279,7 @@ window.MARKET_SNAPSHOT = {
         399.5,
         388.5,
         382.2,
-        395.32
+        394.85
       ],
       "volumeHistory": [
         20310392,
@@ -486727,7 +486767,7 @@ window.MARKET_SNAPSHOT = {
         27735147,
         24435715,
         26865447,
-        26025521
+        41420838
       ],
       "ohlcv": [
         {
@@ -490613,10 +490653,10 @@ window.MARKET_SNAPSHOT = {
         {
           "date": "2026-06-12",
           "open": 399.99,
-          "high": 398.55,
+          "high": 399.54,
           "low": 383.3,
-          "close": 395.32,
-          "volume": 26025521
+          "close": 394.85,
+          "volume": 41420838
         }
       ]
     },
@@ -490631,8 +490671,8 @@ window.MARKET_SNAPSHOT = {
       "longName": "BYD Company Limited",
       "exchangeName": "SHZ",
       "timezone": "Asia/Shanghai",
-      "lastMarketTime": "2026-06-12T04:11:45.000Z",
-      "price": 90.88,
+      "lastMarketTime": "2026-06-12T07:04:45.000Z",
+      "price": 91.6,
       "previousClose": 89.8,
       "history": [
         80.9667,
@@ -491120,7 +491160,7 @@ window.MARKET_SNAPSHOT = {
         91.89,
         90.31,
         89.8,
-        90.88
+        91.6
       ],
       "volumeHistory": [
         56199591,
@@ -491608,7 +491648,7 @@ window.MARKET_SNAPSHOT = {
         28192695,
         24128660,
         31508734,
-        20830545
+        38535178
       ],
       "ohlcv": [
         {
@@ -495494,10 +495534,10 @@ window.MARKET_SNAPSHOT = {
         {
           "date": "2026-06-12",
           "open": 91.22,
-          "high": 91.01,
+          "high": 91.78,
           "low": 89.25,
-          "close": 90.88,
-          "volume": 20830545
+          "close": 91.6,
+          "volume": 38535178
         }
       ]
     },
@@ -495512,8 +495552,8 @@ window.MARKET_SNAPSHOT = {
       "longName": "Ping An Insurance (Group) Company of China, Ltd.",
       "exchangeName": "SHH",
       "timezone": "Asia/Shanghai",
-      "lastMarketTime": "2026-06-12T03:30:02.000Z",
-      "price": 54.15,
+      "lastMarketTime": "2026-06-12T07:00:02.000Z",
+      "price": 54.01,
       "previousClose": 52.64,
       "history": [
         41.4,
@@ -496001,7 +496041,7 @@ window.MARKET_SNAPSHOT = {
         53.93,
         53.22,
         52.64,
-        54.15
+        54.01
       ],
       "volumeHistory": [
         39834017,
@@ -496489,7 +496529,7 @@ window.MARKET_SNAPSHOT = {
         71003001,
         90323526,
         64764147,
-        67001194
+        110295254
       ],
       "ohlcv": [
         {
@@ -500377,8 +500417,8 @@ window.MARKET_SNAPSHOT = {
           "open": 52.46,
           "high": 54.24,
           "low": 52.11,
-          "close": 54.15,
-          "volume": 67001194
+          "close": 54.01,
+          "volume": 110295254
         }
       ]
     },
@@ -500393,8 +500433,8 @@ window.MARKET_SNAPSHOT = {
       "longName": "Industrial and Commercial Bank of China Limited",
       "exchangeName": "SHH",
       "timezone": "Asia/Shanghai",
-      "lastMarketTime": "2026-06-12T03:30:01.000Z",
-      "price": 7.66,
+      "lastMarketTime": "2026-06-12T07:00:01.000Z",
+      "price": 7.78,
       "previousClose": 7.66,
       "history": [
         5.4,
@@ -500882,7 +500922,7 @@ window.MARKET_SNAPSHOT = {
         7.54,
         7.69,
         7.66,
-        7.66
+        7.78
       ],
       "volumeHistory": [
         323476183,
@@ -501370,7 +501410,7 @@ window.MARKET_SNAPSHOT = {
         539705121,
         411524376,
         285525940,
-        211283928
+        423854659
       ],
       "ohlcv": [
         {
@@ -505256,10 +505296,10 @@ window.MARKET_SNAPSHOT = {
         {
           "date": "2026-06-12",
           "open": 7.59,
-          "high": 7.69,
+          "high": 7.78,
           "low": 7.52,
-          "close": 7.66,
-          "volume": 211283928
+          "close": 7.78,
+          "volume": 423854659
         }
       ]
     },
@@ -505274,8 +505314,8 @@ window.MARKET_SNAPSHOT = {
       "longName": "China Merchants Bank Co., Ltd.",
       "exchangeName": "SHH",
       "timezone": "Asia/Shanghai",
-      "lastMarketTime": "2026-06-12T03:30:02.000Z",
-      "price": 39.07,
+      "lastMarketTime": "2026-06-12T07:00:02.000Z",
+      "price": 39.34,
       "previousClose": 38.73,
       "history": [
         33.09,
@@ -505763,7 +505803,7 @@ window.MARKET_SNAPSHOT = {
         38.49,
         38.9,
         38.73,
-        39.07
+        39.34
       ],
       "volumeHistory": [
         51138059,
@@ -506251,7 +506291,7 @@ window.MARKET_SNAPSHOT = {
         66450037,
         93586076,
         59445402,
-        52098265
+        111983390
       ],
       "ohlcv": [
         {
@@ -510137,10 +510177,10 @@ window.MARKET_SNAPSHOT = {
         {
           "date": "2026-06-12",
           "open": 38.59,
-          "high": 39.09,
+          "high": 39.35,
           "low": 38.34,
-          "close": 39.07,
-          "volume": 52098265
+          "close": 39.34,
+          "volume": 111983390
         }
       ]
     },
@@ -510155,8 +510195,8 @@ window.MARKET_SNAPSHOT = {
       "longName": "Wuliangye Yibin Co.,Ltd.",
       "exchangeName": "SHZ",
       "timezone": "Asia/Shanghai",
-      "lastMarketTime": "2026-06-12T04:11:12.000Z",
-      "price": 80.33,
+      "lastMarketTime": "2026-06-12T07:04:12.000Z",
+      "price": 79.92,
       "previousClose": 79.79,
       "history": [
         137.9,
@@ -510644,7 +510684,7 @@ window.MARKET_SNAPSHOT = {
         79.11,
         79.14,
         79.79,
-        80.33
+        79.92
       ],
       "volumeHistory": [
         15452411,
@@ -511132,7 +511172,7 @@ window.MARKET_SNAPSHOT = {
         21841173,
         23072564,
         37819589,
-        18885412
+        35834421
       ],
       "ohlcv": [
         {
@@ -515018,10 +515058,10 @@ window.MARKET_SNAPSHOT = {
         {
           "date": "2026-06-12",
           "open": 79.9,
-          "high": 80.45,
+          "high": 80.92,
           "low": 79.21,
-          "close": 80.33,
-          "volume": 18885412
+          "close": 79.92,
+          "volume": 35834421
         }
       ]
     },
@@ -515036,8 +515076,8 @@ window.MARKET_SNAPSHOT = {
       "longName": "Midea Group Co., Ltd.",
       "exchangeName": "SHZ",
       "timezone": "Asia/Shanghai",
-      "lastMarketTime": "2026-06-12T04:11:30.000Z",
-      "price": 83,
+      "lastMarketTime": "2026-06-12T07:04:30.000Z",
+      "price": 83.23,
       "previousClose": 85.35,
       "history": [
         65.16,
@@ -515525,7 +515565,7 @@ window.MARKET_SNAPSHOT = {
         82.36,
         83.9,
         85.35,
-        83
+        83.23
       ],
       "volumeHistory": [
         25707199,
@@ -516013,7 +516053,7 @@ window.MARKET_SNAPSHOT = {
         22099177,
         38697291,
         52143692,
-        23564045
+        42935287
       ],
       "ohlcv": [
         {
@@ -519900,9 +519940,9 @@ window.MARKET_SNAPSHOT = {
           "date": "2026-06-12",
           "open": 82.5,
           "high": 84.66,
-          "low": 82.65,
-          "close": 83,
-          "volume": 23564045
+          "low": 82.55,
+          "close": 83.23,
+          "volume": 42935287
         }
       ]
     },
@@ -519917,8 +519957,8 @@ window.MARKET_SNAPSHOT = {
       "longName": "Luxshare Precision Industry Co., Ltd.",
       "exchangeName": "SHZ",
       "timezone": "Asia/Shanghai",
-      "lastMarketTime": "2026-06-12T04:11:36.000Z",
-      "price": 65.18,
+      "lastMarketTime": "2026-06-12T07:04:36.000Z",
+      "price": 63.76,
       "previousClose": 64.58,
       "history": [
         33.42,
@@ -520406,7 +520446,7 @@ window.MARKET_SNAPSHOT = {
         69.34,
         65.51,
         64.58,
-        65.18
+        63.76
       ],
       "volumeHistory": [
         130909933,
@@ -520894,7 +520934,7 @@ window.MARKET_SNAPSHOT = {
         171147687,
         134616156,
         122484282,
-        80584245
+        137189604
       ],
       "ohlcv": [
         {
@@ -524781,9 +524821,9 @@ window.MARKET_SNAPSHOT = {
           "date": "2026-06-12",
           "open": 66.18,
           "high": 67.19,
-          "low": 65.15,
-          "close": 65.18,
-          "volume": 80584245
+          "low": 63.7,
+          "close": 63.76,
+          "volume": 137189604
         }
       ]
     },
@@ -524798,8 +524838,8 @@ window.MARKET_SNAPSHOT = {
       "longName": "East Money Information Co.,Ltd.",
       "exchangeName": "SHZ",
       "timezone": "Asia/Shanghai",
-      "lastMarketTime": "2026-06-12T04:11:04.000Z",
-      "price": 18.11,
+      "lastMarketTime": "2026-06-12T07:04:04.000Z",
+      "price": 18,
       "previousClose": 17.36,
       "history": [
         12.18,
@@ -525287,7 +525327,7 @@ window.MARKET_SNAPSHOT = {
         17.88,
         17.78,
         17.36,
-        18.11
+        18
       ],
       "volumeHistory": [
         112141838,
@@ -525775,7 +525815,7 @@ window.MARKET_SNAPSHOT = {
         225858978,
         232814739,
         257070415,
-        277544634
+        473692838
       ],
       "ohlcv": [
         {
@@ -529661,10 +529701,10 @@ window.MARKET_SNAPSHOT = {
         {
           "date": "2026-06-12",
           "open": 17.73,
-          "high": 18.16,
+          "high": 18.23,
           "low": 17.37,
-          "close": 18.11,
-          "volume": 277544634
+          "close": 18,
+          "volume": 473692838
         }
       ]
     },
@@ -529679,8 +529719,8 @@ window.MARKET_SNAPSHOT = {
       "longName": "Zijin Mining Group Company Limited",
       "exchangeName": "SHH",
       "timezone": "Asia/Shanghai",
-      "lastMarketTime": "2026-06-12T03:30:00.000Z",
-      "price": 29.55,
+      "lastMarketTime": "2026-06-12T07:00:03.000Z",
+      "price": 29.09,
       "previousClose": 27.33,
       "history": [
         17.21,
@@ -530168,7 +530208,7 @@ window.MARKET_SNAPSHOT = {
         28.47,
         27.7,
         27.33,
-        29.55
+        29.09
       ],
       "volumeHistory": [
         131900625,
@@ -530656,7 +530696,7 @@ window.MARKET_SNAPSHOT = {
         251316131,
         304408769,
         323143136,
-        340205783
+        509853858
       ],
       "ohlcv": [
         {
@@ -534544,8 +534584,8 @@ window.MARKET_SNAPSHOT = {
           "open": 28.09,
           "high": 29.76,
           "low": 27.81,
-          "close": 29.55,
-          "volume": 340205783
+          "close": 29.09,
+          "volume": 509853858
         }
       ]
     },
@@ -534560,8 +534600,8 @@ window.MARKET_SNAPSHOT = {
       "longName": "PetroChina Company Limited",
       "exchangeName": "SHH",
       "timezone": "Asia/Shanghai",
-      "lastMarketTime": "2026-06-12T03:30:02.000Z",
-      "price": 10.48,
+      "lastMarketTime": "2026-06-12T07:00:05.000Z",
+      "price": 10.38,
       "previousClose": 10.37,
       "history": [
         10,
@@ -535049,7 +535089,7 @@ window.MARKET_SNAPSHOT = {
         10.34,
         10.24,
         10.37,
-        10.48
+        10.38
       ],
       "volumeHistory": [
         172416942,
@@ -535537,7 +535577,7 @@ window.MARKET_SNAPSHOT = {
         241078966,
         138916005,
         185587581,
-        156587309
+        286676074
       ],
       "ohlcv": [
         {
@@ -539425,8 +539465,8 @@ window.MARKET_SNAPSHOT = {
           "open": 10.15,
           "high": 10.56,
           "low": 10.15,
-          "close": 10.48,
-          "volume": 156587309
+          "close": 10.38,
+          "volume": 286676074
         }
       ]
     },
@@ -539441,8 +539481,8 @@ window.MARKET_SNAPSHOT = {
       "longName": "CNOOC Limited",
       "exchangeName": "SHH",
       "timezone": "Asia/Shanghai",
-      "lastMarketTime": "2026-06-12T03:30:01.000Z",
-      "price": 33.73,
+      "lastMarketTime": "2026-06-12T07:00:04.000Z",
+      "price": 33.36,
       "previousClose": 33.82,
       "history": [
         31.42,
@@ -539930,7 +539970,7 @@ window.MARKET_SNAPSHOT = {
         35.04,
         34.05,
         33.82,
-        33.73
+        33.36
       ],
       "volumeHistory": [
         75127338,
@@ -540418,7 +540458,7 @@ window.MARKET_SNAPSHOT = {
         57517725,
         40791649,
         48075267,
-        33554555
+        66967423
       ],
       "ohlcv": [
         {
@@ -544306,8 +544346,8 @@ window.MARKET_SNAPSHOT = {
           "open": 32.86,
           "high": 33.99,
           "low": 32.86,
-          "close": 33.73,
-          "volume": 33554555
+          "close": 33.36,
+          "volume": 66967423
         }
       ]
     },
@@ -544322,8 +544362,8 @@ window.MARKET_SNAPSHOT = {
       "longName": "LONGi Green Energy Technology Co., Ltd.",
       "exchangeName": "SHH",
       "timezone": "Asia/Shanghai",
-      "lastMarketTime": "2026-06-12T03:30:00.000Z",
-      "price": 13.84,
+      "lastMarketTime": "2026-06-12T07:00:03.000Z",
+      "price": 13.46,
       "previousClose": 13.64,
       "history": [
         16.65,
@@ -544811,7 +544851,7 @@ window.MARKET_SNAPSHOT = {
         12.94,
         14.08,
         13.64,
-        13.84
+        13.46
       ],
       "volumeHistory": [
         67113587,
@@ -545299,7 +545339,7 @@ window.MARKET_SNAPSHOT = {
         171480801,
         255495956,
         241938761,
-        104679781
+        186973565
       ],
       "ohlcv": [
         {
@@ -549186,9 +549226,9 @@ window.MARKET_SNAPSHOT = {
           "date": "2026-06-12",
           "open": 13.63,
           "high": 13.87,
-          "low": 13.6,
-          "close": 13.84,
-          "volume": 104679781
+          "low": 13.42,
+          "close": 13.46,
+          "volume": 186973565
         }
       ]
     },
@@ -549203,8 +549243,8 @@ window.MARKET_SNAPSHOT = {
       "longName": "Jiangsu Hengrui Pharmaceuticals Co.,Ltd",
       "exchangeName": "SHH",
       "timezone": "Asia/Shanghai",
-      "lastMarketTime": "2026-06-12T03:30:01.000Z",
-      "price": 48.6,
+      "lastMarketTime": "2026-06-12T07:00:05.000Z",
+      "price": 48.49,
       "previousClose": 46.98,
       "history": [
         42.1,
@@ -549692,7 +549732,7 @@ window.MARKET_SNAPSHOT = {
         46.38,
         47.01,
         46.98,
-        48.6
+        48.49
       ],
       "volumeHistory": [
         21850545,
@@ -550180,7 +550220,7 @@ window.MARKET_SNAPSHOT = {
         62128609,
         62157553,
         47337364,
-        59938544
+        100299020
       ],
       "ohlcv": [
         {
@@ -554066,10 +554106,10 @@ window.MARKET_SNAPSHOT = {
         {
           "date": "2026-06-12",
           "open": 47.2,
-          "high": 48.88,
+          "high": 48.95,
           "low": 46.56,
-          "close": 48.6,
-          "volume": 59938544
+          "close": 48.49,
+          "volume": 100299020
         }
       ]
     },
@@ -554084,8 +554124,8 @@ window.MARKET_SNAPSHOT = {
       "longName": "Shenzhen Mindray Bio-Medical Electronics Co., Ltd.",
       "exchangeName": "SHZ",
       "timezone": "Asia/Shanghai",
-      "lastMarketTime": "2026-06-12T04:11:19.000Z",
-      "price": 149.98,
+      "lastMarketTime": "2026-06-12T07:04:19.000Z",
+      "price": 151.04,
       "previousClose": 146.88,
       "history": [
         296.21,
@@ -554573,7 +554613,7 @@ window.MARKET_SNAPSHOT = {
         142.33,
         143.5,
         146.88,
-        149.98
+        151.04
       ],
       "volumeHistory": [
         3458276,
@@ -555061,7 +555101,7 @@ window.MARKET_SNAPSHOT = {
         6291637,
         6577763,
         9610784,
-        7478738
+        12593608
       ],
       "ohlcv": [
         {
@@ -558947,10 +558987,10 @@ window.MARKET_SNAPSHOT = {
         {
           "date": "2026-06-12",
           "open": 142.88,
-          "high": 150.58,
+          "high": 152.29,
           "low": 143.85,
-          "close": 149.98,
-          "volume": 7478738
+          "close": 151.04,
+          "volume": 12593608
         }
       ]
     },
@@ -558965,8 +559005,8 @@ window.MARKET_SNAPSHOT = {
       "longName": "CITIC Securities Company Limited",
       "exchangeName": "SHH",
       "timezone": "Asia/Shanghai",
-      "lastMarketTime": "2026-06-12T03:30:00.000Z",
-      "price": 26.18,
+      "lastMarketTime": "2026-06-12T07:00:03.000Z",
+      "price": 26.29,
       "previousClose": 25.51,
       "history": [
         18.28,
@@ -559454,7 +559494,7 @@ window.MARKET_SNAPSHOT = {
         25.52,
         25.66,
         25.51,
-        26.18
+        26.29
       ],
       "volumeHistory": [
         41591118,
@@ -559942,7 +559982,7 @@ window.MARKET_SNAPSHOT = {
         104687557,
         174665318,
         145581162,
-        147224598
+        269384528
       ],
       "ohlcv": [
         {
@@ -563828,10 +563868,10 @@ window.MARKET_SNAPSHOT = {
         {
           "date": "2026-06-12",
           "open": 25.56,
-          "high": 26.22,
+          "high": 26.45,
           "low": 25.31,
-          "close": 26.18,
-          "volume": 147224598
+          "close": 26.29,
+          "volume": 269384528
         }
       ]
     },
@@ -563846,8 +563886,8 @@ window.MARKET_SNAPSHOT = {
       "longName": "Inner Mongolia Yili Industrial Group Co., Ltd.",
       "exchangeName": "SHH",
       "timezone": "Asia/Shanghai",
-      "lastMarketTime": "2026-06-12T03:30:01.000Z",
-      "price": 25.6,
+      "lastMarketTime": "2026-06-12T07:00:01.000Z",
+      "price": 25.71,
       "previousClose": 25.61,
       "history": [
         27.02,
@@ -564335,7 +564375,7 @@ window.MARKET_SNAPSHOT = {
         25.12,
         25.58,
         25.61,
-        25.6
+        25.71
       ],
       "volumeHistory": [
         37688732,
@@ -564823,7 +564863,7 @@ window.MARKET_SNAPSHOT = {
         58331243,
         48411041,
         37892162,
-        36544664
+        60687881
       ],
       "ohlcv": [
         {
@@ -568711,8 +568751,8 @@ window.MARKET_SNAPSHOT = {
           "open": 25.64,
           "high": 25.96,
           "low": 25.45,
-          "close": 25.6,
-          "volume": 36544664
+          "close": 25.71,
+          "volume": 60687881
         }
       ]
     }
@@ -568723,7 +568763,7 @@ window.MARKET_SNAPSHOT = {
       "method": "equal_weight_above_ma20",
       "sourceUrl": "https://yfiua.github.io/index-constituents/constituents-sp500.csv",
       "benchmarkCode": "SPY",
-      "generatedAt": "2026-06-12T04:27:05.641Z",
+      "generatedAt": "2026-06-12T11:47:51.944Z",
       "coverage": {
         "total": 503,
         "effective": 502,
@@ -570182,7 +570222,7 @@ window.MARKET_SNAPSHOT = {
           "price": 204.87,
           "ma20": 216.15,
           "status": "MA20下方",
-          "weight": 7.840288851022581
+          "weight": 7.876543514630338
         },
         {
           "symbol": "AAPL",
@@ -570191,7 +570231,7 @@ window.MARKET_SNAPSHOT = {
           "price": 295.63,
           "ma20": 304.24,
           "status": "MA20下方",
-          "weight": 6.891295828860422
+          "weight": 6.866856318130406
         },
         {
           "symbol": "MSFT",
@@ -570200,7 +570240,7 @@ window.MARKET_SNAPSHOT = {
           "price": 390.34,
           "ma20": 420.68,
           "status": "MA20下方",
-          "weight": 4.75001478517314
+          "weight": 4.585853484052628
         },
         {
           "symbol": "AMZN",
@@ -570209,7 +570249,7 @@ window.MARKET_SNAPSHOT = {
           "price": 241.51,
           "ma20": 258.68,
           "status": "MA20下方",
-          "weight": 3.7427444602237814
+          "weight": 3.7326269359728705
         },
         {
           "symbol": "GOOGL",
@@ -570218,7 +570258,7 @@ window.MARKET_SNAPSHOT = {
           "price": 357.77,
           "ma20": 378.49,
           "status": "MA20下方",
-          "weight": 3.364177690482379
+          "weight": 3.3192185595288
         },
         {
           "symbol": "GOOG",
@@ -570227,7 +570267,7 @@ window.MARKET_SNAPSHOT = {
           "price": 356.56,
           "ma20": 375.17,
           "status": "MA20下方",
-          "weight": 2.688405823030381
+          "weight": 2.6664023140914646
         },
         {
           "symbol": "AVGO",
@@ -570236,7 +570276,7 @@ window.MARKET_SNAPSHOT = {
           "price": 385.57,
           "ma20": 421.61,
           "status": "MA20下方",
-          "weight": 2.840051846003746
+          "weight": 2.8922514931343977
         },
         {
           "symbol": "META",
@@ -570245,7 +570285,7 @@ window.MARKET_SNAPSHOT = {
           "price": 568.43,
           "ma20": 606.78,
           "status": "MA20下方",
-          "weight": 2.0102980791416636
+          "weight": 1.9669025644196574
         },
         {
           "symbol": "TSLA",
@@ -570254,7 +570294,7 @@ window.MARKET_SNAPSHOT = {
           "price": 399.15,
           "ma20": 417.59,
           "status": "MA20下方",
-          "weight": 1.727542447719486
+          "weight": 1.7759642479960578
         },
         {
           "symbol": "BRK.B",
@@ -570263,7 +570303,7 @@ window.MARKET_SNAPSHOT = {
           "price": 485.79,
           "ma20": 481.32,
           "status": "MA20上方",
-          "weight": 1.4276587309452682
+          "weight": 1.409227314683464
         },
         {
           "symbol": "WMT",
@@ -570272,7 +570312,7 @@ window.MARKET_SNAPSHOT = {
           "price": 120.5,
           "ma20": 121.83,
           "status": "MA20下方",
-          "weight": 0.8512068420192889
+          "weight": 0.8359439925796878
         },
         {
           "symbol": "LLY",
@@ -570281,7 +570321,7 @@ window.MARKET_SNAPSHOT = {
           "price": 1160.95,
           "ma20": 1079.95,
           "status": "MA20上方",
-          "weight": 1.449442487405263
+          "weight": 1.4553288706984226
         },
         {
           "symbol": "JPM",
@@ -570290,7 +570330,7 @@ window.MARKET_SNAPSHOT = {
           "price": 313.49,
           "ma20": 303.78,
           "status": "MA20上方",
-          "weight": 1.341631336703079
+          "weight": 1.3371119696918954
         },
         {
           "symbol": "XOM",
@@ -570299,7 +570339,7 @@ window.MARKET_SNAPSHOT = {
           "price": 146.6,
           "ma20": 152.07,
           "status": "MA20下方",
-          "weight": 1.0135814127919422
+          "weight": 0.969563927202881
         },
         {
           "symbol": "JNJ",
@@ -570308,7 +570348,7 @@ window.MARKET_SNAPSHOT = {
           "price": 238.33,
           "ma20": 230.3,
           "status": "MA20上方",
-          "weight": 0.9254613788159964
+          "weight": 0.9089357777222341
         },
         {
           "symbol": "V",
@@ -570317,7 +570357,7 @@ window.MARKET_SNAPSHOT = {
           "price": 319.05,
           "ma20": 324.5,
           "status": "MA20下方",
-          "weight": 0.8742379404147266
+          "weight": 0.8488011283724702
         },
         {
           "symbol": "MA",
@@ -570326,7 +570366,7 @@ window.MARKET_SNAPSHOT = {
           "price": 486.51,
           "ma20": 491.77,
           "status": "MA20下方",
-          "weight": 0.6413066337966098
+          "weight": 0.6269662864430748
         },
         {
           "symbol": "COST",
@@ -570335,7 +570375,7 @@ window.MARKET_SNAPSHOT = {
           "price": 975.69,
           "ma20": 1004.03,
           "status": "MA20下方",
-          "weight": 0.7024897105849092
+          "weight": 0.6850173802504342
         },
         {
           "symbol": "ORCL",
@@ -570344,7 +570384,7 @@ window.MARKET_SNAPSHOT = {
           "price": 184.1,
           "ma20": 205.81,
           "status": "MA20下方",
-          "weight": 0.5492395315043994
+          "weight": 0.4937694955166267
         },
         {
           "symbol": "NFLX",
@@ -570353,7 +570393,7 @@ window.MARKET_SNAPSHOT = {
           "price": 81.27,
           "ma20": 85.41,
           "status": "MA20下方",
-          "weight": 0.5574321859087467
+          "weight": 0.5429687448174948
         },
         {
           "symbol": "CVX",
@@ -570362,7 +570402,7 @@ window.MARKET_SNAPSHOT = {
           "price": 185.82,
           "ma20": 188.39,
           "status": "MA20下方",
-          "weight": 0.572832486581475
+          "weight": 0.5511753203137477
         },
         {
           "symbol": "MU",
@@ -570371,7 +570411,7 @@ window.MARKET_SNAPSHOT = {
           "price": 995.87,
           "ma20": 882.85,
           "status": "MA20上方",
-          "weight": 1.6158676528594917
+          "weight": 1.7732434641787451
         },
         {
           "symbol": "ABBV",
@@ -570380,7 +570420,7 @@ window.MARKET_SNAPSHOT = {
           "price": 224.77,
           "ma20": 217.38,
           "status": "MA20上方",
-          "weight": 0.6401125627093366
+          "weight": 0.6286005658989117
         },
         {
           "symbol": "PLTR",
@@ -570389,7 +570429,7 @@ window.MARKET_SNAPSHOT = {
           "price": 131.08,
           "ma20": 139.03,
           "status": "MA20下方",
-          "weight": 0.4790989113408648
+          "weight": 0.47400637316722993
         },
         {
           "symbol": "BAC",
@@ -570398,7 +570438,7 @@ window.MARKET_SNAPSHOT = {
           "price": 55.16,
           "ma20": 52.17,
           "status": "MA20上方",
-          "weight": 0.5826695015066802
+          "weight": 0.5791590894462253
         },
         {
           "symbol": "AMD",
@@ -570407,7 +570447,7 @@ window.MARKET_SNAPSHOT = {
           "price": 488.45,
           "ma20": 478.88,
           "status": "MA20上方",
-          "weight": 1.1872715158040932
+          "weight": 1.2598354777103378
         },
         {
           "symbol": "PG",
@@ -570416,7 +570456,7 @@ window.MARKET_SNAPSHOT = {
           "price": 148.34,
           "ma20": 143.9,
           "status": "MA20上方",
-          "weight": 0.5579327308594724
+          "weight": 0.5457267170357089
         },
         {
           "symbol": "CAT",
@@ -570425,7 +570465,7 @@ window.MARKET_SNAPSHOT = {
           "price": 897.63,
           "ma20": 893.16,
           "status": "MA20上方",
-          "weight": 0.6413860375136928
+          "weight": 0.6608891437087256
         },
         {
           "symbol": "HD",
@@ -570434,7 +570474,7 @@ window.MARKET_SNAPSHOT = {
           "price": 326.01,
           "ma20": 312.01,
           "status": "MA20上方",
-          "weight": 0.5113730044488995
+          "weight": 0.513752732995684
         },
         {
           "symbol": "KO",
@@ -570443,7 +570483,7 @@ window.MARKET_SNAPSHOT = {
           "price": 82.53,
           "ma20": 80.46,
           "status": "MA20上方",
-          "weight": 0.5212180602568472
+          "weight": 0.5057582318937616
         },
         {
           "symbol": "CSCO",
@@ -570452,7 +570492,7 @@ window.MARKET_SNAPSHOT = {
           "price": 121.83,
           "ma20": 120.53,
           "status": "MA20上方",
-          "weight": 0.7557535229821088
+          "weight": 0.7617008680013992
         },
         {
           "symbol": "GE",
@@ -570461,7 +570501,7 @@ window.MARKET_SNAPSHOT = {
           "price": 332.76,
           "ma20": 312.1,
           "status": "MA20上方",
-          "weight": 0.5383883602432862
+          "weight": 0.5524558074150615
         },
         {
           "symbol": "MRK",
@@ -570470,7 +570510,7 @@ window.MARKET_SNAPSHOT = {
           "price": 120.76,
           "ma20": 117.35,
           "status": "MA20上方",
-          "weight": 0.4758604458162902
+          "weight": 0.4742345290322207
         },
         {
           "symbol": "AMAT",
@@ -570479,7 +570519,7 @@ window.MARKET_SNAPSHOT = {
           "price": 552.64,
           "ma20": 461.58,
           "status": "MA20上方",
-          "weight": 0.6348729224922021
+          "weight": 0.6937928377712897
         },
         {
           "symbol": "LRCX",
@@ -570488,7 +570528,7 @@ window.MARKET_SNAPSHOT = {
           "price": 362.52,
           "ma20": 314.18,
           "status": "MA20上方",
-          "weight": 0.6467533267443656
+          "weight": 0.7160616542679198
         },
         {
           "symbol": "MS",
@@ -570497,7 +570537,7 @@ window.MARKET_SNAPSHOT = {
           "price": 212.66,
           "ma20": 204.6,
           "status": "MA20上方",
-          "weight": 0.4003726386289392
+          "weight": 0.4049113293840189
         },
         {
           "symbol": "RTX",
@@ -570506,7 +570546,7 @@ window.MARKET_SNAPSHOT = {
           "price": 184.21,
           "ma20": 177.14,
           "status": "MA20上方",
-          "weight": 0.3835390506073458
+          "weight": 0.3913908329265056
         },
         {
           "symbol": "PM",
@@ -570515,7 +570555,7 @@ window.MARKET_SNAPSHOT = {
           "price": 180.77,
           "ma20": 182.2,
           "status": "MA20下方",
-          "weight": 0.45866300785059494
+          "weight": 0.4454044725062533
         },
         {
           "symbol": "GS",
@@ -570524,7 +570564,7 @@ window.MARKET_SNAPSHOT = {
           "price": 1035.64,
           "ma20": 1009.19,
           "status": "MA20上方",
-          "weight": 0.4835937647939676
+          "weight": 0.49158241550684756
         },
         {
           "symbol": "WFC",
@@ -570533,7 +570573,7 @@ window.MARKET_SNAPSHOT = {
           "price": 82.4,
           "ma20": 77.91,
           "status": "MA20上方",
-          "weight": 0.4082587343787256
+          "weight": 0.403342380902739
         },
         {
           "symbol": "UNH",
@@ -570542,7 +570582,7 @@ window.MARKET_SNAPSHOT = {
           "price": 405.55,
           "ma20": 390.73,
           "status": "MA20上方",
-          "weight": 0.5944483896142186
+          "weight": 0.5814868823242806
         },
         {
           "symbol": "GEV",
@@ -570551,7 +570591,7 @@ window.MARKET_SNAPSHOT = {
           "price": 906.79,
           "ma20": 987.1,
           "status": "MA20下方",
-          "weight": 0.37642387449050435
+          "weight": 0.3868880211416662
         },
         {
           "symbol": "TMUS",
@@ -570560,7 +570600,7 @@ window.MARKET_SNAPSHOT = {
           "price": 185.82,
           "ma20": 186.49,
           "status": "MA20下方",
-          "weight": 0.14149742384188463
+          "weight": 0.13926654100873515
         },
         {
           "symbol": "LIN",
@@ -570569,7 +570609,7 @@ window.MARKET_SNAPSHOT = {
           "price": 515.44,
           "ma20": 507.71,
           "status": "MA20上方",
-          "weight": 0.3828957799879392
+          "weight": 0.380952953376158
         },
         {
           "symbol": "IBM",
@@ -570578,7 +570618,7 @@ window.MARKET_SNAPSHOT = {
           "price": 274.85,
           "ma20": 266.49,
           "status": "MA20上方",
-          "weight": 0.410007626375237
+          "weight": 0.40664109257190034
         },
         {
           "symbol": "INTC",
@@ -570587,7 +570627,7 @@ window.MARKET_SNAPSHOT = {
           "price": 116.96,
           "ma20": 113.25,
           "status": "MA20上方",
-          "weight": 0.8089097885726266
+          "weight": 0.8686758159245717
         },
         {
           "symbol": "MCD",
@@ -570596,7 +570636,7 @@ window.MARKET_SNAPSHOT = {
           "price": 284.77,
           "ma20": 279.22,
           "status": "MA20上方",
-          "weight": 0.32401340077436097
+          "weight": 0.32097710854916306
         },
         {
           "symbol": "PEP",
@@ -570605,7 +570645,7 @@ window.MARKET_SNAPSHOT = {
           "price": 143.73,
           "ma20": 145.57,
           "status": "MA20下方",
-          "weight": 0.31762391432503745
+          "weight": 0.3108859857099247
         },
         {
           "symbol": "VZ",
@@ -570614,7 +570654,7 @@ window.MARKET_SNAPSHOT = {
           "price": 46.94,
           "ma20": 47.13,
           "status": "MA20下方",
-          "weight": 0.3188370825088244
+          "weight": 0.31328715029786697
         },
         {
           "symbol": "AXP",
@@ -570623,7 +570663,7 @@ window.MARKET_SNAPSHOT = {
           "price": 318.49,
           "ma20": 312.24,
           "status": "MA20上方",
-          "weight": 0.2701957725782659
+          "weight": 0.2699144188355511
         },
         {
           "symbol": "T",
@@ -570632,7 +570672,7 @@ window.MARKET_SNAPSHOT = {
           "price": 23,
           "ma20": 24.14,
           "status": "MA20下方",
-          "weight": 0.2616513295539307
+          "weight": 0.2548249738967578
         },
         {
           "symbol": "C",
@@ -570641,7 +570681,7 @@ window.MARKET_SNAPSHOT = {
           "price": 138.07,
           "ma20": 128.3,
           "status": "MA20上方",
-          "weight": 0.3753303144375133
+          "weight": 0.3818454749977958
         },
         {
           "symbol": "KLAC",
@@ -570650,7 +570690,7 @@ window.MARKET_SNAPSHOT = {
           "price": 241.16,
           "ma20": 197.69,
           "status": "MA20上方",
-          "weight": 0.4507105748181824
+          "weight": 0.500206104148348
         },
         {
           "symbol": "NEE",
@@ -570659,7 +570699,7 @@ window.MARKET_SNAPSHOT = {
           "price": 84.84,
           "ma20": 87.42,
           "status": "MA20下方",
-          "weight": 0.28546339868574166
+          "weight": 0.27963064239002494
         },
         {
           "symbol": "AMGN",
@@ -570668,7 +570708,7 @@ window.MARKET_SNAPSHOT = {
           "price": 354.06,
           "ma20": 337.21,
           "status": "MA20上方",
-          "weight": 0.2928459341537739
+          "weight": 0.30172658307705835
         },
         {
           "symbol": "TMO",
@@ -570677,7 +570717,7 @@ window.MARKET_SNAPSHOT = {
           "price": 475.66,
           "ma20": 466.81,
           "status": "MA20上方",
-          "weight": 0.29161366887347334
+          "weight": 0.28280572775348645
         },
         {
           "symbol": "ABT",
@@ -570686,7 +570726,7 @@ window.MARKET_SNAPSHOT = {
           "price": 89.65,
           "ma20": 87.9,
           "status": "MA20上方",
-          "weight": 0.24968147048125594
+          "weight": 0.24670885667296807
         },
         {
           "symbol": "TJX",
@@ -570695,7 +570735,7 @@ window.MARKET_SNAPSHOT = {
           "price": 168.34,
           "ma20": 157.03,
           "status": "MA20上方",
-          "weight": 0.29979325684336394
+          "weight": 0.2958327240801167
         },
         {
           "symbol": "TXN",
@@ -570704,7 +570744,7 @@ window.MARKET_SNAPSHOT = {
           "price": 297.1,
           "ma20": 302.46,
           "status": "MA20下方",
-          "weight": 0.41212137342619304
+          "weight": 0.42670674758809096
         },
         {
           "symbol": "CRM",
@@ -570713,7 +570753,7 @@ window.MARKET_SNAPSHOT = {
           "price": 166.45,
           "ma20": 181.55,
           "status": "MA20下方",
-          "weight": 0.2572268338248254
+          "weight": 0.24682645242717027
         },
         {
           "symbol": "DIS",
@@ -570722,7 +570762,7 @@ window.MARKET_SNAPSHOT = {
           "price": 100.34,
           "ma20": 101.89,
           "status": "MA20下方",
-          "weight": 0.2812881703216564
+          "weight": 0.2813011051548471
         },
         {
           "symbol": "GILD",
@@ -570731,7 +570771,7 @@ window.MARKET_SNAPSHOT = {
           "price": 125.87,
           "ma20": 130.12,
           "status": "MA20下方",
-          "weight": 0.24268992293658173
+          "weight": 0.247136020737378
         },
         {
           "symbol": "SCHW",
@@ -570740,7 +570780,7 @@ window.MARKET_SNAPSHOT = {
           "price": 88.7,
           "ma20": 88.87,
           "status": "MA20下方",
-          "weight": 0.23996506879718957
+          "weight": 0.23433215481615718
         },
         {
           "symbol": "ISRG",
@@ -570749,7 +570789,7 @@ window.MARKET_SNAPSHOT = {
           "price": 412.9,
           "ma20": 424.7,
           "status": "MA20下方",
-          "weight": 0.23565314542648044
+          "weight": 0.23209582530248138
         },
         {
           "symbol": "PFE",
@@ -570758,7 +570798,7 @@ window.MARKET_SNAPSHOT = {
           "price": 26.17,
           "ma20": 25.78,
           "status": "MA20上方",
-          "weight": 0.23423895517412902
+          "weight": 0.23533724673241602
         },
         {
           "symbol": "BA",
@@ -570767,7 +570807,7 @@ window.MARKET_SNAPSHOT = {
           "price": 221.63,
           "ma20": 219.79,
           "status": "MA20上方",
-          "weight": 0.2640374615077916
+          "weight": 0.27517808520099846
         },
         {
           "symbol": "ANET",
@@ -570776,7 +570816,7 @@ window.MARKET_SNAPSHOT = {
           "price": 156.4,
           "ma20": 155.03,
           "status": "MA20上方",
-          "weight": 0.2522997829243089
+          "weight": 0.25554160443305035
         },
         {
           "symbol": "APH",
@@ -570785,7 +570825,7 @@ window.MARKET_SNAPSHOT = {
           "price": 152.46,
           "ma20": 138.93,
           "status": "MA20上方",
-          "weight": 0.2955305838794532
+          "weight": 0.2967553984592423
         },
         {
           "symbol": "COP",
@@ -570794,7 +570834,7 @@ window.MARKET_SNAPSHOT = {
           "price": 115.36,
           "ma20": 118.7,
           "status": "MA20下方",
-          "weight": 0.2365597549557065
+          "weight": 0.22365104302207497
         },
         {
           "symbol": "ADI",
@@ -570803,7 +570843,7 @@ window.MARKET_SNAPSHOT = {
           "price": 412.13,
           "ma20": 411.66,
           "status": "MA20上方",
-          "weight": 0.30892066386653627
+          "weight": 0.31865434113068897
         },
         {
           "symbol": "DE",
@@ -570812,7 +570852,7 @@ window.MARKET_SNAPSHOT = {
           "price": 568.64,
           "ma20": 559.23,
           "status": "MA20上方",
-          "weight": 0.22709262063666008
+          "weight": 0.22661003362354085
         },
         {
           "symbol": "BLK",
@@ -570821,7 +570861,7 @@ window.MARKET_SNAPSHOT = {
           "price": 1016.58,
           "ma20": 1041.01,
           "status": "MA20下方",
-          "weight": 0.23480583740748096
+          "weight": 0.23211492204889028
         },
         {
           "symbol": "UBER",
@@ -570830,7 +570870,7 @@ window.MARKET_SNAPSHOT = {
           "price": 69.55,
           "ma20": 71.99,
           "status": "MA20下方",
-          "weight": 0.22735897487750809
+          "weight": 0.226509524431915
         },
         {
           "symbol": "UNP",
@@ -570839,7 +570879,7 @@ window.MARKET_SNAPSHOT = {
           "price": 268.28,
           "ma20": 268.28,
           "status": "MA20下方",
-          "weight": 0.25500956040855877
+          "weight": 0.25179663195307006
         },
         {
           "symbol": "HON",
@@ -570848,7 +570888,7 @@ window.MARKET_SNAPSHOT = {
           "price": 219.12,
           "ma20": 222.39,
           "status": "MA20下方",
-          "weight": 0.21044296780780317
+          "weight": 0.2201251805798391
         },
         {
           "symbol": "ETN",
@@ -570857,7 +570897,7 @@ window.MARKET_SNAPSHOT = {
           "price": 393.64,
           "ma20": 397.67,
           "status": "MA20下方",
-          "weight": 0.23469929571114176
+          "weight": 0.24183215069528033
         },
         {
           "symbol": "LMT",
@@ -570866,7 +570906,7 @@ window.MARKET_SNAPSHOT = {
           "price": 548.68,
           "ma20": 525.52,
           "status": "MA20上方",
-          "weight": 0.17115823005858055
+          "weight": 0.17579459652132862
         },
         {
           "symbol": "QCOM",
@@ -570875,7 +570915,7 @@ window.MARKET_SNAPSHOT = {
           "price": 202.96,
           "ma20": 221.36,
           "status": "MA20下方",
-          "weight": 0.32845096293792286
+          "weight": 0.34265694118286527
         },
         {
           "symbol": "WELL",
@@ -570884,7 +570924,7 @@ window.MARKET_SNAPSHOT = {
           "price": 210.67,
           "ma20": 209.48,
           "status": "MA20上方",
-          "weight": 0.23762215658806998
+          "weight": 0.23277325725403983
         },
         {
           "symbol": "APP",
@@ -570893,7 +570933,7 @@ window.MARKET_SNAPSHOT = {
           "price": 478.57,
           "ma20": 533.13,
           "status": "MA20下方",
-          "weight": 0.21489359640582176
+          "weight": 0.20502467962996693
         },
         {
           "symbol": "DHR",
@@ -570902,7 +570942,7 @@ window.MARKET_SNAPSHOT = {
           "price": 180.79,
           "ma20": 176.22,
           "status": "MA20上方",
-          "weight": 0.1862228238768062
+          "weight": 0.1801898634711283
         },
         {
           "symbol": "BKNG",
@@ -570911,7 +570951,7 @@ window.MARKET_SNAPSHOT = {
           "price": 163.59,
           "ma20": 162.5,
           "status": "MA20上方",
-          "weight": 0.20820056663296585
+          "weight": 0.2083776662626063
         },
         {
           "symbol": "LOW",
@@ -570920,7 +570960,7 @@ window.MARKET_SNAPSHOT = {
           "price": 221.05,
           "ma20": 214.8,
           "status": "MA20上方",
-          "weight": 0.19502055470753268
+          "weight": 0.1959748320159727
         },
         {
           "symbol": "PANW",
@@ -570929,7 +570969,7 @@ window.MARKET_SNAPSHOT = {
           "price": 279.53,
           "ma20": 263.63,
           "status": "MA20上方",
-          "weight": 0.34222901551733553
+          "weight": 0.35718453974046993
         },
         {
           "symbol": "SPGI",
@@ -570938,7 +570978,7 @@ window.MARKET_SNAPSHOT = {
           "price": 413.34,
           "ma20": 416.98,
           "status": "MA20下方",
-          "weight": 0.2100539901051308
+          "weight": 0.20012787181395408
         },
         {
           "symbol": "CB",
@@ -570947,7 +570987,7 @@ window.MARKET_SNAPSHOT = {
           "price": 327.93,
           "ma20": 322.32,
           "status": "MA20上方",
-          "weight": 0.19356314471043987
+          "weight": 0.18812204887424278
         },
         {
           "symbol": "SYK",
@@ -570956,7 +570996,7 @@ window.MARKET_SNAPSHOT = {
           "price": 305.64,
           "ma20": 307.55,
           "status": "MA20下方",
-          "weight": 0.17142257407874292
+          "weight": 0.16672967252859053
         },
         {
           "symbol": "PLD",
@@ -570965,7 +571005,7 @@ window.MARKET_SNAPSHOT = {
           "price": 147.19,
           "ma20": 143.93,
           "status": "MA20上方",
-          "weight": 0.21813507726142475
+          "weight": 0.2164716714642384
         },
         {
           "symbol": "BMY",
@@ -570974,7 +571014,7 @@ window.MARKET_SNAPSHOT = {
           "price": 56.9,
           "ma20": 56.96,
           "status": "MA20下方",
-          "weight": 0.18255718645653204
+          "weight": 0.18361220144598955
         },
         {
           "symbol": "ACN",
@@ -570983,7 +571023,7 @@ window.MARKET_SNAPSHOT = {
           "price": 167.52,
           "ma20": 177.28,
           "status": "MA20下方",
-          "weight": 0.1688896960148299
+          "weight": 0.16308420414831987
         },
         {
           "symbol": "INTU",
@@ -570992,7 +571032,7 @@ window.MARKET_SNAPSHOT = {
           "price": 276.91,
           "ma20": 329.41,
           "status": "MA20下方",
-          "weight": 0.12733541911151375
+          "weight": 0.1219266952694384
         },
         {
           "symbol": "NEM",
@@ -571001,7 +571041,7 @@ window.MARKET_SNAPSHOT = {
           "price": 97.59,
           "ma20": 106.08,
           "status": "MA20下方",
-          "weight": 0.16280073755801036
+          "weight": 0.16831369738861438
         },
         {
           "symbol": "GLW",
@@ -571010,7 +571050,7 @@ window.MARKET_SNAPSHOT = {
           "price": 176.55,
           "ma20": 186.58,
           "status": "MA20下方",
-          "weight": 0.2112651480682321
+          "weight": 0.21797830424671033
         },
         {
           "symbol": "PGR",
@@ -571019,7 +571059,7 @@ window.MARKET_SNAPSHOT = {
           "price": 202.26,
           "ma20": 198.72,
           "status": "MA20上方",
-          "weight": 0.19246053866436344
+          "weight": 0.18735315355830476
         },
         {
           "symbol": "PH",
@@ -571028,7 +571068,7 @@ window.MARKET_SNAPSHOT = {
           "price": 902.37,
           "ma20": 864.95,
           "status": "MA20上方",
-          "weight": 0.1778391985073226
+          "weight": 0.1801255375884878
         },
         {
           "symbol": "COF",
@@ -571037,7 +571077,7 @@ window.MARKET_SNAPSHOT = {
           "price": 182.04,
           "ma20": 184.37,
           "status": "MA20下方",
-          "weight": 0.17873475182277757
+          "weight": 0.1800220131211131
         },
         {
           "symbol": "VRTX",
@@ -571046,7 +571086,7 @@ window.MARKET_SNAPSHOT = {
           "price": 445.04,
           "ma20": 438.76,
           "status": "MA20上方",
-          "weight": 0.1780573074517151
+          "weight": 0.17874253111171565
         },
         {
           "symbol": "MDT",
@@ -571055,7 +571095,7 @@ window.MARKET_SNAPSHOT = {
           "price": 80.33,
           "ma20": 77.97,
           "status": "MA20上方",
-          "weight": 0.16560801074551398
+          "weight": 0.1629223843498022
         },
         {
           "symbol": "NOW",
@@ -571064,7 +571104,7 @@ window.MARKET_SNAPSHOT = {
           "price": 103.08,
           "ma20": 108.73,
           "status": "MA20下方",
-          "weight": 0.17874279270552013
+          "weight": 0.1707329536310493
         },
         {
           "symbol": "MO",
@@ -571073,7 +571113,7 @@ window.MARKET_SNAPSHOT = {
           "price": 71.41,
           "ma20": 71.93,
           "status": "MA20下方",
-          "weight": 0.1975222743508182
+          "weight": 0.18955933031449282
         },
         {
           "symbol": "CME",
@@ -571082,7 +571122,7 @@ window.MARKET_SNAPSHOT = {
           "price": 262.18,
           "ma20": 274.78,
           "status": "MA20下方",
-          "weight": 0.15313660161177073
+          "weight": 0.1495787840695504
         },
         {
           "symbol": "SO",
@@ -571091,7 +571131,7 @@ window.MARKET_SNAPSHOT = {
           "price": 93.27,
           "ma20": 92.73,
           "status": "MA20上方",
-          "weight": 0.1666312130745074
+          "weight": 0.16246004206832315
         },
         {
           "symbol": "HCA",
@@ -571100,7 +571140,7 @@ window.MARKET_SNAPSHOT = {
           "price": 378.51,
           "ma20": 386.88,
           "status": "MA20下方",
-          "weight": 0.09403209301242862
+          "weight": 0.09369466843364505
         },
         {
           "symbol": "DELL",
@@ -571109,7 +571149,7 @@ window.MARKET_SNAPSHOT = {
           "price": 391.45,
           "ma20": 339.25,
           "status": "MA20上方",
-          "weight": 0.17676373044050236
+          "weight": 0.1838795558957144
         },
         {
           "symbol": "MCK",
@@ -571118,7 +571158,7 @@ window.MARKET_SNAPSHOT = {
           "price": 787.19,
           "ma20": 760.77,
           "status": "MA20上方",
-          "weight": 0.15581421556505023
+          "weight": 0.15250460663777976
         },
         {
           "symbol": "SBUX",
@@ -571127,7 +571167,7 @@ window.MARKET_SNAPSHOT = {
           "price": 102.28,
           "ma20": 100.7,
           "status": "MA20上方",
-          "weight": 0.1810987713490964
+          "weight": 0.1843278268903658
         },
         {
           "symbol": "DUK",
@@ -571136,7 +571176,7 @@ window.MARKET_SNAPSHOT = {
           "price": 124.19,
           "ma20": 123.34,
           "status": "MA20上方",
-          "weight": 0.15678716237690254
+          "weight": 0.15304333590489447
         },
         {
           "symbol": "CMCSA",
@@ -571145,7 +571185,7 @@ window.MARKET_SNAPSHOT = {
           "price": 23.97,
           "ma20": 24.57,
           "status": "MA20下方",
-          "weight": 0.13844490373073232
+          "weight": 0.13606431816353462
         },
         {
           "symbol": "CEG",
@@ -571154,7 +571194,7 @@ window.MARKET_SNAPSHOT = {
           "price": 246.71,
           "ma20": 270.35,
           "status": "MA20下方",
-          "weight": 0.12475630597183085
+          "weight": 0.12484246691850517
         },
         {
           "symbol": "CRWD",
@@ -571163,7 +571203,7 @@ window.MARKET_SNAPSHOT = {
           "price": 691.53,
           "ma20": 671.11,
           "status": "MA20上方",
-          "weight": 0.26284138019983266
+          "weight": 0.2757851607184188
         },
         {
           "symbol": "ADBE",
@@ -571172,7 +571212,7 @@ window.MARKET_SNAPSHOT = {
           "price": 218.8,
           "ma20": 247.71,
           "status": "MA20下方",
-          "weight": 0.1542090543475625
+          "weight": 0.14208883910958986
         },
         {
           "symbol": "VRT",
@@ -571181,7 +571221,7 @@ window.MARKET_SNAPSHOT = {
           "price": 297.88,
           "ma20": 321.62,
           "status": "MA20下方",
-          "weight": 0.173184532509711
+          "weight": 0.1804441517259418
         },
         {
           "symbol": "NOC",
@@ -571190,7 +571230,7 @@ window.MARKET_SNAPSHOT = {
           "price": 552.52,
           "ma20": 548.09,
           "status": "MA20上方",
-          "weight": 0.1164410281056592
+          "weight": 0.11662986087075454
         },
         {
           "symbol": "EQIX",
@@ -571199,7 +571239,7 @@ window.MARKET_SNAPSHOT = {
           "price": 1043.18,
           "ma20": 1066.63,
           "status": "MA20下方",
-          "weight": 0.16428428042401658
+          "weight": 0.1622127894569235
         },
         {
           "symbol": "SNDK",
@@ -571208,7 +571248,7 @@ window.MARKET_SNAPSHOT = {
           "price": 1881.51,
           "ma20": 1593.89,
           "status": "MA20上方",
-          "weight": 0.3905637667933331
+          "weight": 0.43950759823356295
         },
         {
           "symbol": "WDC",
@@ -571217,7 +571257,7 @@ window.MARKET_SNAPSHOT = {
           "price": 529.29,
           "ma20": 514.42,
           "status": "MA20上方",
-          "weight": 0.26744076512858905
+          "weight": 0.2838650946332232
         },
         {
           "symbol": "GD",
@@ -571226,7 +571266,7 @@ window.MARKET_SNAPSHOT = {
           "price": 358.86,
           "ma20": 342.55,
           "status": "MA20上方",
-          "weight": 0.1392218540257342
+          "weight": 0.14396434062532878
         },
         {
           "symbol": "BSX",
@@ -571235,7 +571275,7 @@ window.MARKET_SNAPSHOT = {
           "price": 47.17,
           "ma20": 51.5,
           "status": "MA20下方",
-          "weight": 0.11556658210740353
+          "weight": 0.11083048051394129
         },
         {
           "symbol": "HWM",
@@ -571244,7 +571284,7 @@ window.MARKET_SNAPSHOT = {
           "price": 264.6,
           "ma20": 256.62,
           "status": "MA20上方",
-          "weight": 0.1609824929478442
+          "weight": 0.16779607505174113
         },
         {
           "symbol": "WM",
@@ -571253,7 +571293,7 @@ window.MARKET_SNAPSHOT = {
           "price": 218.79,
           "ma20": 217.91,
           "status": "MA20上方",
-          "weight": 0.13377114063660706
+          "weight": 0.12825274379037124
         },
         {
           "symbol": "TT",
@@ -571262,7 +571302,7 @@ window.MARKET_SNAPSHOT = {
           "price": 460.14,
           "ma20": 458.12,
           "status": "MA20上方",
-          "weight": 0.16000552569462062
+          "weight": 0.16111221380862012
         },
         {
           "symbol": "CVS",
@@ -571271,7 +571311,7 @@ window.MARKET_SNAPSHOT = {
           "price": 100.48,
           "ma20": 94.23,
           "status": "MA20上方",
-          "weight": 0.20083612315110444
+          "weight": 0.20233605875397465
         },
         {
           "symbol": "BX",
@@ -571280,7 +571320,7 @@ window.MARKET_SNAPSHOT = {
           "price": 120.88,
           "ma20": 117.23,
           "status": "MA20上方",
-          "weight": 0.1429156345356074
+          "weight": 0.1433029901444305
         },
         {
           "symbol": "ICE",
@@ -571289,7 +571329,7 @@ window.MARKET_SNAPSHOT = {
           "price": 138.98,
           "ma20": 147.11,
           "status": "MA20下方",
-          "weight": 0.12825509507519645
+          "weight": 0.12482839563167754
         },
         {
           "symbol": "STX",
@@ -571298,7 +571338,7 @@ window.MARKET_SNAPSHOT = {
           "price": 868.09,
           "ma20": 844.73,
           "status": "MA20上方",
-          "weight": 0.28651373899399135
+          "weight": 0.29956463036518566
         },
         {
           "symbol": "WMB",
@@ -571307,7 +571347,7 @@ window.MARKET_SNAPSHOT = {
           "price": 71.62,
           "ma20": 74.3,
           "status": "MA20下方",
-          "weight": 0.1420150556684383
+          "weight": 0.1373216881507744
         },
         {
           "symbol": "MAR",
@@ -571316,7 +571356,7 @@ window.MARKET_SNAPSHOT = {
           "price": 396.89,
           "ma20": 376.42,
           "status": "MA20上方",
-          "weight": 0.136672894196336
+          "weight": 0.13802927285982058
         },
         {
           "symbol": "FCX",
@@ -571325,7 +571365,7 @@ window.MARKET_SNAPSHOT = {
           "price": 66.34,
           "ma20": 64.61,
           "status": "MA20上方",
-          "weight": 0.14345537878970313
+          "weight": 0.15066327824719367
         },
         {
           "symbol": "FDX",
@@ -571334,7 +571374,7 @@ window.MARKET_SNAPSHOT = {
           "price": 338,
           "ma20": 321.97,
           "status": "MA20上方",
-          "weight": 0.11112399439212751
+          "weight": 0.11562778423024453
         },
         {
           "symbol": "PNC",
@@ -571343,7 +571383,7 @@ window.MARKET_SNAPSHOT = {
           "price": 233.94,
           "ma20": 221.35,
           "status": "MA20上方",
-          "weight": 0.15140178116005887
+          "weight": 0.14963004375727962
         },
         {
           "symbol": "UPS",
@@ -571352,7 +571392,7 @@ window.MARKET_SNAPSHOT = {
           "price": 108.65,
           "ma20": 104.03,
           "status": "MA20上方",
-          "weight": 0.12265059980361745
+          "weight": 0.12683355400461385
         },
         {
           "symbol": "MRSH",
@@ -571361,7 +571401,7 @@ window.MARKET_SNAPSHOT = {
           "price": 168.15,
           "ma20": 162.95,
           "status": "MA20上方",
-          "weight": 0.13021707046438624
+          "weight": 0.12874322864550558
         },
         {
           "symbol": "PWR",
@@ -571370,7 +571410,7 @@ window.MARKET_SNAPSHOT = {
           "price": 683.29,
           "ma20": 714.93,
           "status": "MA20下方",
-          "weight": 0.15617907061949485
+          "weight": 0.16112628509544774
         },
         {
           "symbol": "KKR",
@@ -571379,7 +571419,7 @@ window.MARKET_SNAPSHOT = {
           "price": 95.3,
           "ma20": 94.84,
           "status": "MA20上方",
-          "weight": 0.10486818761839942
+          "weight": 0.10336767303571971
         },
         {
           "symbol": "BK",
@@ -571397,7 +571437,7 @@ window.MARKET_SNAPSHOT = {
           "price": 225.77,
           "ma20": 224.15,
           "status": "MA20上方",
-          "weight": 0.14973229288063047
+          "weight": 0.14268083824826627
         },
         {
           "symbol": "REGN",
@@ -571406,7 +571446,7 @@ window.MARKET_SNAPSHOT = {
           "price": 611.48,
           "ma20": 631.42,
           "status": "MA20下方",
-          "weight": 0.09753188722613704
+          "weight": 0.0974205441672164
         },
         {
           "symbol": "USB",
@@ -571415,7 +571455,7 @@ window.MARKET_SNAPSHOT = {
           "price": 57.63,
           "ma20": 54.73,
           "status": "MA20上方",
-          "weight": 0.1419446979444407
+          "weight": 0.14151694180923863
         },
         {
           "symbol": "JCI",
@@ -571424,7 +571464,7 @@ window.MARKET_SNAPSHOT = {
           "price": 144.01,
           "ma20": 140.51,
           "status": "MA20上方",
-          "weight": 0.13712619896094902
+          "weight": 0.1392655359168189
         },
         {
           "symbol": "AMT",
@@ -571433,7 +571473,7 @@ window.MARKET_SNAPSHOT = {
           "price": 189.31,
           "ma20": 185.08,
           "status": "MA20上方",
-          "weight": 0.1452706080688408
+          "weight": 0.13907858882039476
         },
         {
           "symbol": "SHW",
@@ -571442,7 +571482,7 @@ window.MARKET_SNAPSHOT = {
           "price": 316.89,
           "ma20": 304.4,
           "status": "MA20上方",
-          "weight": 0.11265477744424636
+          "weight": 0.11544586259340167
         },
         {
           "symbol": "MCO",
@@ -571451,7 +571491,7 @@ window.MARKET_SNAPSHOT = {
           "price": 441.82,
           "ma20": 446.88,
           "status": "MA20下方",
-          "weight": 0.1111682192472117
+          "weight": 0.10710560987228618
         },
         {
           "symbol": "CDNS",
@@ -571460,7 +571500,7 @@ window.MARKET_SNAPSHOT = {
           "price": 383.74,
           "ma20": 377.61,
           "status": "MA20上方",
-          "weight": 0.1685720811464979
+          "weight": 0.16507529123442855
         },
         {
           "symbol": "SNPS",
@@ -571469,7 +571509,7 @@ window.MARKET_SNAPSHOT = {
           "price": 456.29,
           "ma20": 493.14,
           "status": "MA20下方",
-          "weight": 0.14194369283409788
+          "weight": 0.13821521486432845
         },
         {
           "symbol": "CSX",
@@ -571478,7 +571518,7 @@ window.MARKET_SNAPSHOT = {
           "price": 47.37,
           "ma20": 46.29,
           "status": "MA20上方",
-          "weight": 0.13872934995775113
+          "weight": 0.13914995034644914
         },
         {
           "symbol": "ORLY",
@@ -571487,7 +571527,7 @@ window.MARKET_SNAPSHOT = {
           "price": 90.1,
           "ma20": 89.56,
           "status": "MA20上方",
-          "weight": 0.12253300189350722
+          "weight": 0.11994666419440857
         },
         {
           "symbol": "ABNB",
@@ -571496,7 +571536,7 @@ window.MARKET_SNAPSHOT = {
           "price": 130.87,
           "ma20": 133.28,
           "status": "MA20下方",
-          "weight": 0.08793107323149524
+          "weight": 0.08760381142111674
         },
         {
           "symbol": "MMM",
@@ -571505,7 +571545,7 @@ window.MARKET_SNAPSHOT = {
           "price": 157.91,
           "ma20": 152.46,
           "status": "MA20上方",
-          "weight": 0.1329117712934937
+          "weight": 0.13150924159904975
         },
         {
           "symbol": "CMI",
@@ -571514,7 +571554,7 @@ window.MARKET_SNAPSHOT = {
           "price": 655.69,
           "ma20": 665.32,
           "status": "MA20下方",
-          "weight": 0.14025410234781305
+          "weight": 0.1433441989129971
         },
         {
           "symbol": "ECL",
@@ -571523,7 +571563,7 @@ window.MARKET_SNAPSHOT = {
           "price": 263.63,
           "ma20": 254.69,
           "status": "MA20上方",
-          "weight": 0.1056039283893456
+          "weight": 0.10646938668929436
         },
         {
           "symbol": "SLB",
@@ -571532,7 +571572,7 @@ window.MARKET_SNAPSHOT = {
           "price": 56,
           "ma20": 56.3,
           "status": "MA20下方",
-          "weight": 0.13385054435369007
+          "weight": 0.13270932134706276
         },
         {
           "symbol": "RCL",
@@ -571541,7 +571581,7 @@ window.MARKET_SNAPSHOT = {
           "price": 287.96,
           "ma20": 272.75,
           "status": "MA20上方",
-          "weight": 0.1087519339830661
+          "weight": 0.1145302238576899
         },
         {
           "symbol": "ITW",
@@ -571550,7 +571590,7 @@ window.MARKET_SNAPSHOT = {
           "price": 254.45,
           "ma20": 250.39,
           "status": "MA20上方",
-          "weight": 0.1055516626515188
+          "weight": 0.10551153409309973
         },
         {
           "symbol": "EOG",
@@ -571559,7 +571599,7 @@ window.MARKET_SNAPSHOT = {
           "price": 136.53,
           "ma20": 138.72,
           "status": "MA20下方",
-          "weight": 0.1224787259349948
+          "weight": 0.11715451885104163
         },
         {
           "symbol": "EMR",
@@ -571568,7 +571608,7 @@ window.MARKET_SNAPSHOT = {
           "price": 142.09,
           "ma20": 138.49,
           "status": "MA20上方",
-          "weight": 0.12428792455207553
+          "weight": 0.12658630139321417
         },
         {
           "symbol": "MDLZ",
@@ -571577,7 +571617,7 @@ window.MARKET_SNAPSHOT = {
           "price": 63.36,
           "ma20": 61.75,
           "status": "MA20上方",
-          "weight": 0.13235795549459844
+          "weight": 0.12841958904847023
         },
         {
           "symbol": "KMI",
@@ -571586,7 +571626,7 @@ window.MARKET_SNAPSHOT = {
           "price": 31.36,
           "ma20": 32.35,
           "status": "MA20下方",
-          "weight": 0.10062461175100226
+          "weight": 0.09740345760464
         },
         {
           "symbol": "MSI",
@@ -571595,7 +571635,7 @@ window.MARKET_SNAPSHOT = {
           "price": 410.35,
           "ma20": 406.76,
           "status": "MA20上方",
-          "weight": 0.10969472748463371
+          "weight": 0.10747045823788812
         },
         {
           "symbol": "VLO",
@@ -571604,7 +571644,7 @@ window.MARKET_SNAPSHOT = {
           "price": 255.6,
           "ma20": 252.13,
           "status": "MA20上方",
-          "weight": 0.1266057090026245
+          "weight": 0.1232755286210577
         },
         {
           "symbol": "CI",
@@ -571613,7 +571653,7 @@ window.MARKET_SNAPSHOT = {
           "price": 294.84,
           "ma20": 285.04,
           "status": "MA20上方",
-          "weight": 0.12536942328095269
+          "weight": 0.12280916597191363
         },
         {
           "symbol": "MNST",
@@ -571622,7 +571662,7 @@ window.MARKET_SNAPSHOT = {
           "price": 92.03,
           "ma20": 88.34,
           "status": "MA20上方",
-          "weight": 0.1045163989984115
+          "weight": 0.10364206312885836
         },
         {
           "symbol": "CRH",
@@ -571631,7 +571671,7 @@ window.MARKET_SNAPSHOT = {
           "price": 104.83,
           "ma20": 104.02,
           "status": "MA20上方",
-          "weight": 0.10775888496435732
+          "weight": 0.11104255490827188
         },
         {
           "symbol": "AEP",
@@ -571640,7 +571680,7 @@ window.MARKET_SNAPSHOT = {
           "price": 128.48,
           "ma20": 128.05,
           "status": "MA20上方",
-          "weight": 0.11200849149381141
+          "weight": 0.11003947317584559
         },
         {
           "symbol": "PSX",
@@ -571649,7 +571689,7 @@ window.MARKET_SNAPSHOT = {
           "price": 178.1,
           "ma20": 178.95,
           "status": "MA20下方",
-          "weight": 0.11804417910246134
+          "weight": 0.11370303321060891
         },
         {
           "symbol": "MPC",
@@ -571658,7 +571698,7 @@ window.MARKET_SNAPSHOT = {
           "price": 260.81,
           "ma20": 257.47,
           "status": "MA20上方",
-          "weight": 0.12495129737833846
+          "weight": 0.12165029499246723
         },
         {
           "symbol": "HLT",
@@ -571667,7 +571707,7 @@ window.MARKET_SNAPSHOT = {
           "price": 341.86,
           "ma20": 330.05,
           "status": "MA20上方",
-          "weight": 0.12473921909600287
+          "weight": 0.12391376198788204
         },
         {
           "symbol": "ROST",
@@ -571676,7 +571716,7 @@ window.MARKET_SNAPSHOT = {
           "price": 239.11,
           "ma20": 225.92,
           "status": "MA20上方",
-          "weight": 0.12067153753859969
+          "weight": 0.12227345198054768
         },
         {
           "symbol": "AON",
@@ -571685,7 +571725,7 @@ window.MARKET_SNAPSHOT = {
           "price": 335.17,
           "ma20": 322.94,
           "status": "MA20上方",
-          "weight": 0.11607315772018616
+          "weight": 0.11368293137228375
         },
         {
           "symbol": "NKE",
@@ -571694,7 +571734,7 @@ window.MARKET_SNAPSHOT = {
           "price": 45.96,
           "ma20": 44.23,
           "status": "MA20上方",
-          "weight": 0.08430765044561965
+          "weight": 0.08662686207851318
         },
         {
           "symbol": "WBD",
@@ -571703,7 +571743,7 @@ window.MARKET_SNAPSHOT = {
           "price": 26.86,
           "ma20": 26.94,
           "status": "MA20下方",
-          "weight": 0.10493754023205419
+          "weight": 0.10561003310089309
         },
         {
           "symbol": "CL",
@@ -571712,7 +571752,7 @@ window.MARKET_SNAPSHOT = {
           "price": 89.39,
           "ma20": 88.98,
           "status": "MA20上方",
-          "weight": 0.11657470778125463
+          "weight": 0.11385681227379651
         },
         {
           "symbol": "CTAS",
@@ -571721,7 +571761,7 @@ window.MARKET_SNAPSHOT = {
           "price": 181.88,
           "ma20": 173.97,
           "status": "MA20上方",
-          "weight": 0.09863348816187063
+          "weight": 0.09773212266125664
         },
         {
           "symbol": "GM",
@@ -571730,7 +571770,7 @@ window.MARKET_SNAPSHOT = {
           "price": 80.85,
           "ma20": 80.06,
           "status": "MA20上方",
-          "weight": 0.11546104552140717
+          "weight": 0.1155473768769438
         },
         {
           "symbol": "RSG",
@@ -571739,7 +571779,7 @@ window.MARKET_SNAPSHOT = {
           "price": 208.05,
           "ma20": 207.64,
           "status": "MA20上方",
-          "weight": 0.06913349960002635
+          "weight": 0.06649386590393322
         },
         {
           "symbol": "TDG",
@@ -571748,7 +571788,7 @@ window.MARKET_SNAPSHOT = {
           "price": 1257.59,
           "ma20": 1219.88,
           "status": "MA20上方",
-          "weight": 0.11028673747655625
+          "weight": 0.11243360212037407
         },
         {
           "symbol": "DASH",
@@ -571757,7 +571797,7 @@ window.MARKET_SNAPSHOT = {
           "price": 154.59,
           "ma20": 157.25,
           "status": "MA20下方",
-          "weight": 0.09067200913637256
+          "weight": 0.09123118814689474
         },
         {
           "symbol": "APO",
@@ -571766,7 +571806,7 @@ window.MARKET_SNAPSHOT = {
           "price": 133.91,
           "ma20": 130.36,
           "status": "MA20上方",
-          "weight": 0.09781532834281302
+          "weight": 0.09816330709333167
         },
         {
           "symbol": "APD",
@@ -571775,7 +571815,7 @@ window.MARKET_SNAPSHOT = {
           "price": 278.12,
           "ma20": 285.34,
           "status": "MA20下方",
-          "weight": 0.09890989350614685
+          "weight": 0.09777534161365578
         },
         {
           "symbol": "LHX",
@@ -571784,7 +571824,7 @@ window.MARKET_SNAPSHOT = {
           "price": 312.17,
           "ma20": 308.72,
           "status": "MA20上方",
-          "weight": 0.09090720495659305
+          "weight": 0.09204732278289687
         },
         {
           "symbol": "NSC",
@@ -571793,7 +571833,7 @@ window.MARKET_SNAPSHOT = {
           "price": 310.53,
           "ma20": 312.43,
           "status": "MA20下方",
-          "weight": 0.11147578301211541
+          "weight": 0.11012591108064385
         },
         {
           "symbol": "ELV",
@@ -571802,7 +571842,7 @@ window.MARKET_SNAPSHOT = {
           "price": 399.18,
           "ma20": 399.3,
           "status": "MA20下方",
-          "weight": 0.14360212489975524
+          "weight": 0.1392554849976563
         },
         {
           "symbol": "HOOD",
@@ -571811,7 +571851,7 @@ window.MARKET_SNAPSHOT = {
           "price": 92.23,
           "ma20": 82.19,
           "status": "MA20上方",
-          "weight": 0.10978116697411647
+          "weight": 0.11522675255565724
         },
         {
           "symbol": "SRE",
@@ -571820,7 +571860,7 @@ window.MARKET_SNAPSHOT = {
           "price": 91.54,
           "ma20": 90.65,
           "status": "MA20上方",
-          "weight": 0.09586943471910839
+          "weight": 0.09474900985380053
         },
         {
           "symbol": "TRV",
@@ -571829,7 +571869,7 @@ window.MARKET_SNAPSHOT = {
           "price": 303.9,
           "ma20": 299.64,
           "status": "MA20上方",
-          "weight": 0.10553156044466236
+          "weight": 0.10390037175133687
         },
         {
           "symbol": "OXY",
@@ -571838,7 +571878,7 @@ window.MARKET_SNAPSHOT = {
           "price": 55.47,
           "ma20": 58.08,
           "status": "MA20下方",
-          "weight": 0.0661111327991587
+          "weight": 0.06311977234105244
         },
         {
           "symbol": "DLR",
@@ -571847,7 +571887,7 @@ window.MARKET_SNAPSHOT = {
           "price": 182.84,
           "ma20": 188.09,
           "status": "MA20下方",
-          "weight": 0.09378684608877991
+          "weight": 0.09322428541683593
         },
         {
           "symbol": "TEL",
@@ -571856,7 +571896,7 @@ window.MARKET_SNAPSHOT = {
           "price": 207.74,
           "ma20": 208,
           "status": "MA20下方",
-          "weight": 0.09533471601672676
+          "weight": 0.09635816201173085
         },
         {
           "symbol": "COR",
@@ -571865,7 +571905,7 @@ window.MARKET_SNAPSHOT = {
           "price": 281.48,
           "ma20": 269.09,
           "status": "MA20上方",
-          "weight": 0.08813109018971695
+          "weight": 0.08668917777732123
         },
         {
           "symbol": "PCAR",
@@ -571874,7 +571914,7 @@ window.MARKET_SNAPSHOT = {
           "price": 117.58,
           "ma20": 113.12,
           "status": "MA20上方",
-          "weight": 0.0965981397176548
+          "weight": 0.09792711049301085
         },
         {
           "symbol": "SPG",
@@ -571883,7 +571923,7 @@ window.MARKET_SNAPSHOT = {
           "price": 214.86,
           "ma20": 205.81,
           "status": "MA20上方",
-          "weight": 0.11132300624000638
+          "weight": 0.11045759141300926
         },
         {
           "symbol": "FTNT",
@@ -571892,7 +571932,7 @@ window.MARKET_SNAPSHOT = {
           "price": 145.06,
           "ma20": 136.2,
           "status": "MA20上方",
-          "weight": 0.14119991118040914
+          "weight": 0.14494631542751363
         },
         {
           "symbol": "BKR",
@@ -571901,7 +571941,7 @@ window.MARKET_SNAPSHOT = {
           "price": 63.48,
           "ma20": 64.65,
           "status": "MA20下方",
-          "weight": 0.10040750791695259
+          "weight": 0.09940057524224623
         },
         {
           "symbol": "TFC",
@@ -571910,7 +571950,7 @@ window.MARKET_SNAPSHOT = {
           "price": 50.68,
           "ma20": 48.24,
           "status": "MA20上方",
-          "weight": 0.10102263544676003
+          "weight": 0.10112129260288129
         },
         {
           "symbol": "O",
@@ -571919,7 +571959,7 @@ window.MARKET_SNAPSHOT = {
           "price": 61.91,
           "ma20": 61.3,
           "status": "MA20上方",
-          "weight": 0.09176556918936359
+          "weight": 0.08989743117401931
         },
         {
           "symbol": "AFL",
@@ -571928,7 +571968,7 @@ window.MARKET_SNAPSHOT = {
           "price": 116.45,
           "ma20": 115.9,
           "status": "MA20上方",
-          "weight": 0.08789589436949644
+          "weight": 0.08589716534730929
         },
         {
           "symbol": "CIEN",
@@ -571937,7 +571977,7 @@ window.MARKET_SNAPSHOT = {
           "price": 445.22,
           "ma20": 544.99,
           "status": "MA20下方",
-          "weight": 0.09847066028633338
+          "weight": 0.09913121060868887
         },
         {
           "symbol": "CTVA",
@@ -571946,7 +571986,7 @@ window.MARKET_SNAPSHOT = {
           "price": 74.86,
           "ma20": 78.43,
           "status": "MA20下方",
-          "weight": 0.08051938956352114
+          "weight": 0.0795600608152976
         },
         {
           "symbol": "OKE",
@@ -571955,7 +571995,7 @@ window.MARKET_SNAPSHOT = {
           "price": 89.2,
           "ma20": 89.6,
           "status": "MA20下方",
-          "weight": 0.09179873783067673
+          "weight": 0.08885515085685894
         },
         {
           "symbol": "AJG",
@@ -571964,7 +572004,7 @@ window.MARKET_SNAPSHOT = {
           "price": 220.9,
           "ma20": 207.33,
           "status": "MA20上方",
-          "weight": 0.091224819824925
+          "weight": 0.08996577742432492
         },
         {
           "symbol": "AZO",
@@ -571973,7 +572013,7 @@ window.MARKET_SNAPSHOT = {
           "price": 3081.62,
           "ma20": 3173.07,
           "status": "MA20下方",
-          "weight": 0.08305930339983393
+          "weight": 0.08088376686901043
         },
         {
           "symbol": "TGT",
@@ -571982,7 +572022,7 @@ window.MARKET_SNAPSHOT = {
           "price": 132.64,
           "ma20": 125.41,
           "status": "MA20上方",
-          "weight": 0.09317171855897244
+          "weight": 0.09490379400890439
         },
         {
           "symbol": "MPWR",
@@ -571991,7 +572031,7 @@ window.MARKET_SNAPSHOT = {
           "price": 1589.55,
           "ma20": 1572.5,
           "status": "MA20上方",
-          "weight": 0.11552637769369062
+          "weight": 0.12251969950003108
         },
         {
           "symbol": "D",
@@ -572000,7 +572040,7 @@ window.MARKET_SNAPSHOT = {
           "price": 66.69,
           "ma20": 66.4,
           "status": "MA20上方",
-          "weight": 0.09190829485804439
+          "weight": 0.09021906058722212
         },
         {
           "symbol": "FANG",
@@ -572009,7 +572049,7 @@ window.MARKET_SNAPSHOT = {
           "price": 191.59,
           "ma20": 199.25,
           "status": "MA20下方",
-          "weight": 0.06148058944977483
+          "weight": 0.058898386292765496
         },
         {
           "symbol": "TRGP",
@@ -572018,7 +572058,7 @@ window.MARKET_SNAPSHOT = {
           "price": 269.37,
           "ma20": 267.28,
           "status": "MA20上方",
-          "weight": 0.09422306397756491
+          "weight": 0.09152568007835857
         },
         {
           "symbol": "ALL",
@@ -572027,7 +572067,7 @@ window.MARKET_SNAPSHOT = {
           "price": 219.57,
           "ma20": 215.08,
           "status": "MA20上方",
-          "weight": 0.09336570485513722
+          "weight": 0.09021101985189206
         },
         {
           "symbol": "FAST",
@@ -572036,7 +572076,7 @@ window.MARKET_SNAPSHOT = {
           "price": 46.39,
           "ma20": 44.92,
           "status": "MA20上方",
-          "weight": 0.08537407251935446
+          "weight": 0.08456240328251761
         },
         {
           "symbol": "LITE",
@@ -572045,7 +572085,7 @@ window.MARKET_SNAPSHOT = {
           "price": 889.59,
           "ma20": 909.83,
           "status": "MA20下方",
-          "weight": 0.09820832648685666
+          "weight": 0.10062879756391448
         },
         {
           "symbol": "VST",
@@ -572054,7 +572094,7 @@ window.MARKET_SNAPSHOT = {
           "price": 146.38,
           "ma20": 149.73,
           "status": "MA20下方",
-          "weight": 0.07084922295522458
+          "weight": 0.07357172317822767
         },
         {
           "symbol": "ETR",
@@ -572063,7 +572103,7 @@ window.MARKET_SNAPSHOT = {
           "price": 109.89,
           "ma20": 110.01,
           "status": "MA20下方",
-          "weight": 0.08051938956352114
+          "weight": 0.07871176323797516
         },
         {
           "symbol": "GWW",
@@ -572072,7 +572112,7 @@ window.MARKET_SNAPSHOT = {
           "price": 1313.96,
           "ma20": 1271.25,
           "status": "MA20上方",
-          "weight": 0.09256463191190757
+          "weight": 0.09071959636151902
         },
         {
           "symbol": "EA",
@@ -572081,7 +572121,7 @@ window.MARKET_SNAPSHOT = {
           "price": 203.05,
           "ma20": 201.91,
           "status": "MA20上方",
-          "weight": 0.07391480950083361
+          "weight": 0.07258974837604283
         },
         {
           "symbol": "ADSK",
@@ -572090,7 +572130,7 @@ window.MARKET_SNAPSHOT = {
           "price": 205.57,
           "ma20": 234.22,
           "status": "MA20下方",
-          "weight": 0.07542146990472474
+          "weight": 0.06886186245863896
         },
         {
           "symbol": "KEYS",
@@ -572099,7 +572139,7 @@ window.MARKET_SNAPSHOT = {
           "price": 340.03,
           "ma20": 341.46,
           "status": "MA20下方",
-          "weight": 0.08936235035967467
+          "weight": 0.0921709490885967
         },
         {
           "symbol": "ZTS",
@@ -572108,7 +572148,7 @@ window.MARKET_SNAPSHOT = {
           "price": 81.4,
           "ma20": 78.87,
           "status": "MA20上方",
-          "weight": 0.05516749138650587
+          "weight": 0.05429205004055143
         },
         {
           "symbol": "EXC",
@@ -572117,7 +572157,7 @@ window.MARKET_SNAPSHOT = {
           "price": 45.51,
           "ma20": 45.13,
           "status": "MA20上方",
-          "weight": 0.07517019231901907
+          "weight": 0.07371545132225268
         },
         {
           "symbol": "NXPI",
@@ -572126,7 +572166,7 @@ window.MARKET_SNAPSHOT = {
           "price": 302.55,
           "ma20": 308.64,
           "status": "MA20下方",
-          "weight": 0.11579474215522428
+          "weight": 0.1205748466420703
         },
         {
           "symbol": "XEL",
@@ -572135,7 +572175,7 @@ window.MARKET_SNAPSHOT = {
           "price": 78.27,
           "ma20": 78.89,
           "status": "MA20下方",
-          "weight": 0.07462642762355204
+          "weight": 0.07350237183600582
         },
         {
           "symbol": "CAH",
@@ -572144,7 +572184,7 @@ window.MARKET_SNAPSHOT = {
           "price": 221.16,
           "ma20": 201.75,
           "status": "MA20上方",
-          "weight": 0.08183909944364726
+          "weight": 0.08223963586404355
         },
         {
           "symbol": "AME",
@@ -572153,7 +572193,7 @@ window.MARKET_SNAPSHOT = {
           "price": 226.21,
           "ma20": 226.24,
           "status": "MA20下方",
-          "weight": 0.08199288132609911
+          "weight": 0.08219239654397938
         },
         {
           "symbol": "FIX",
@@ -572162,7 +572202,7 @@ window.MARKET_SNAPSHOT = {
           "price": 1843.42,
           "ma20": 1858.72,
           "status": "MA20下方",
-          "weight": 0.0975841529639638
+          "weight": 0.10281989794135867
         },
         {
           "symbol": "NDAQ",
@@ -572171,7 +572211,7 @@ window.MARKET_SNAPSHOT = {
           "price": 86.74,
           "ma20": 89.7,
           "status": "MA20下方",
-          "weight": 0.0625721392820802
+          "weight": 0.06129050505346143
         },
         {
           "symbol": "TER",
@@ -572180,7 +572220,7 @@ window.MARKET_SNAPSHOT = {
           "price": 381.4,
           "ma20": 366.23,
           "status": "MA20上方",
-          "weight": 0.08746068159105425
+          "weight": 0.09431782542172551
         },
         {
           "symbol": "PSA",
@@ -572189,7 +572229,7 @@ window.MARKET_SNAPSHOT = {
           "price": 324.71,
           "ma20": 306.11,
           "status": "MA20上方",
-          "weight": 0.08264117749721972
+          "weight": 0.08143053687145521
         },
         {
           "symbol": "CARR",
@@ -572198,7 +572238,7 @@ window.MARKET_SNAPSHOT = {
           "price": 69.74,
           "ma20": 65.72,
           "status": "MA20上方",
-          "weight": 0.08584747949082391
+          "weight": 0.08656856674737018
         },
         {
           "symbol": "COIN",
@@ -572207,7 +572247,7 @@ window.MARKET_SNAPSHOT = {
           "price": 160.43,
           "ma20": 177.68,
           "status": "MA20下方",
-          "weight": 0.05521071113124724
+          "weight": 0.056537425381473584
         },
         {
           "symbol": "EW",
@@ -572216,7 +572256,7 @@ window.MARKET_SNAPSHOT = {
           "price": 85.76,
           "ma20": 85.3,
           "status": "MA20上方",
-          "weight": 0.0801173454263921
+          "weight": 0.0785378823364624
         },
         {
           "symbol": "F",
@@ -572225,7 +572265,7 @@ window.MARKET_SNAPSHOT = {
           "price": 14.71,
           "ma20": 14.94,
           "status": "MA20下方",
-          "weight": 0.09033429206118415
+          "weight": 0.09132566678702307
         },
         {
           "symbol": "IDXX",
@@ -572234,7 +572274,7 @@ window.MARKET_SNAPSHOT = {
           "price": 557.91,
           "ma20": 555.99,
           "status": "MA20上方",
-          "weight": 0.07159199949857051
+          "weight": 0.07048408081148065
         },
         {
           "symbol": "URI",
@@ -572243,7 +572283,7 @@ window.MARKET_SNAPSHOT = {
           "price": 1068.49,
           "ma20": 1002.66,
           "status": "MA20上方",
-          "weight": 0.10704023106923913
+          "weight": 0.10640807608240258
         },
         {
           "symbol": "MET",
@@ -572252,7 +572292,7 @@ window.MARKET_SNAPSHOT = {
           "price": 87.58,
           "ma20": 83.03,
           "status": "MA20上方",
-          "weight": 0.07617228733081326
+          "weight": 0.0761226464616925
         },
         {
           "symbol": "COHR",
@@ -572261,7 +572301,7 @@ window.MARKET_SNAPSHOT = {
           "price": 363.58,
           "ma20": 380.01,
           "status": "MA20下方",
-          "weight": 0.10716586986209196
+          "weight": 0.10793883107086472
         },
         {
           "symbol": "CVNA",
@@ -572270,7 +572310,7 @@ window.MARKET_SNAPSHOT = {
           "price": 67.82,
           "ma20": 68.02,
           "status": "MA20下方",
-          "weight": 0.07684973170187571
+          "weight": 0.07616787559792415
         },
         {
           "symbol": "GRMN",
@@ -572279,7 +572319,7 @@ window.MARKET_SNAPSHOT = {
           "price": 238.58,
           "ma20": 235.91,
           "status": "MA20上方",
-          "weight": 0.0607870633132272
+          "weight": 0.06151062018312212
         },
         {
           "symbol": "BDX",
@@ -572288,7 +572328,7 @@ window.MARKET_SNAPSHOT = {
           "price": 147.35,
           "ma20": 147.09,
           "status": "MA20上方",
-          "weight": 0.0676479465133345
+          "weight": 0.06628681696918391
         },
         {
           "symbol": "KR",
@@ -572297,7 +572337,7 @@ window.MARKET_SNAPSHOT = {
           "price": 64.12,
           "ma20": 64.72,
           "status": "MA20下方",
-          "weight": 0.06031968700381468
+          "weight": 0.05896974781881987
         },
         {
           "symbol": "DAL",
@@ -572306,7 +572346,7 @@ window.MARKET_SNAPSHOT = {
           "price": 81.83,
           "ma20": 77.44,
           "status": "MA20上方",
-          "weight": 0.08014347829530548
+          "weight": 0.08428600300554645
         },
         {
           "symbol": "YUM",
@@ -572315,7 +572355,7 @@ window.MARKET_SNAPSHOT = {
           "price": 153.27,
           "ma20": 150.81,
           "status": "MA20上方",
-          "weight": 0.06772835534076031
+          "weight": 0.06752810548576353
         },
         {
           "symbol": "WAB",
@@ -572324,7 +572364,7 @@ window.MARKET_SNAPSHOT = {
           "price": 262.09,
           "ma20": 260.72,
           "status": "MA20上方",
-          "weight": 0.07065925710043111
+          "weight": 0.07095245364445726
         },
         {
           "symbol": "DDOG",
@@ -572333,7 +572373,7 @@ window.MARKET_SNAPSHOT = {
           "price": 234.24,
           "ma20": 230.05,
           "status": "MA20上方",
-          "weight": 0.12019411012575894
+          "weight": 0.12155682144425516
         },
         {
           "symbol": "FITB",
@@ -572342,7 +572382,7 @@ window.MARKET_SNAPSHOT = {
           "price": 53.42,
           "ma20": 50.03,
           "status": "MA20上方",
-          "weight": 0.07643060068891867
+          "weight": 0.07621511491798831
         },
         {
           "symbol": "HSY",
@@ -572351,7 +572391,7 @@ window.MARKET_SNAPSHOT = {
           "price": 180.84,
           "ma20": 187.4,
           "status": "MA20下方",
-          "weight": 0.042114123364268334
+          "weight": 0.042381710832884695
         },
         {
           "symbol": "CMG",
@@ -572360,7 +572400,7 @@ window.MARKET_SNAPSHOT = {
           "price": 31.25,
           "ma20": 31.32,
           "status": "MA20下方",
-          "weight": 0.0636777606591851
+          "weight": 0.06429070442349394
         },
         {
           "symbol": "PYPL",
@@ -572369,7 +572409,7 @@ window.MARKET_SNAPSHOT = {
           "price": 41.24,
           "ma20": 43.44,
           "status": "MA20下方",
-          "weight": 0.06021415041781831
+          "weight": 0.059963783723999825
         },
         {
           "symbol": "ODFL",
@@ -572378,7 +572418,7 @@ window.MARKET_SNAPSHOT = {
           "price": 247.76,
           "ma20": 224.09,
           "status": "MA20上方",
-          "weight": 0.06990140390194284
+          "weight": 0.07213846210564263
         },
         {
           "symbol": "EBAY",
@@ -572387,7 +572427,7 @@ window.MARKET_SNAPSHOT = {
           "price": 109.61,
           "ma20": 111.83,
           "status": "MA20下方",
-          "weight": 0.07723066852180549
+          "weight": 0.07818509507385556
         },
         {
           "symbol": "ED",
@@ -572396,7 +572436,7 @@ window.MARKET_SNAPSHOT = {
           "price": 106.84,
           "ma20": 106.17,
           "status": "MA20上方",
-          "weight": 0.06269777807493303
+          "weight": 0.061183965310338005
         },
         {
           "symbol": "PEG",
@@ -572405,7 +572445,7 @@ window.MARKET_SNAPSHOT = {
           "price": 78.78,
           "ma20": 78.3,
           "status": "MA20上方",
-          "weight": 0.063247573432457
+          "weight": 0.06230966825654786
         },
         {
           "symbol": "AIG",
@@ -572414,7 +572454,7 @@ window.MARKET_SNAPSHOT = {
           "price": 75.32,
           "ma20": 75.48,
           "status": "MA20下方",
-          "weight": 0.06461351838835297
+          "weight": 0.06382434177434987
         },
         {
           "symbol": "ROK",
@@ -572423,7 +572463,7 @@ window.MARKET_SNAPSHOT = {
           "price": 457.59,
           "ma20": 450.58,
           "status": "MA20上方",
-          "weight": 0.07939969664161672
+          "weight": 0.08114107039957266
         },
         {
           "symbol": "AMP",
@@ -572432,7 +572472,7 @@ window.MARKET_SNAPSHOT = {
           "price": 450.38,
           "ma20": 453.23,
           "status": "MA20下方",
-          "weight": 0.06610409702675893
+          "weight": 0.06493295815798332
         },
         {
           "symbol": "CBRE",
@@ -572441,7 +572481,7 @@ window.MARKET_SNAPSHOT = {
           "price": 131.91,
           "ma20": 129.99,
           "status": "MA20上方",
-          "weight": 0.06259023126825101
+          "weight": 0.06052764028902101
         },
         {
           "symbol": "DHI",
@@ -572450,7 +572490,7 @@ window.MARKET_SNAPSHOT = {
           "price": 154.43,
           "ma20": 144.59,
           "status": "MA20上方",
-          "weight": 0.063513927673305
+          "weight": 0.06570587384158634
         },
         {
           "symbol": "MSCI",
@@ -572459,7 +572499,7 @@ window.MARKET_SNAPSHOT = {
           "price": 594.31,
           "ma20": 601.57,
           "status": "MA20下方",
-          "weight": 0.07188147127730343
+          "weight": 0.06899553968350138
         },
         {
           "symbol": "NUE",
@@ -572468,7 +572508,7 @@ window.MARKET_SNAPSHOT = {
           "price": 260.9,
           "ma20": 244.09,
           "status": "MA20上方",
-          "weight": 0.09230732366414499
+          "weight": 0.09448969613940575
         },
         {
           "symbol": "EQT",
@@ -572477,7 +572517,7 @@ window.MARKET_SNAPSHOT = {
           "price": 51.2,
           "ma20": 55.4,
           "status": "MA20下方",
-          "weight": 0.05301856547355108
+          "weight": 0.05070990245100508
         },
         {
           "symbol": "VTR",
@@ -572486,7 +572526,7 @@ window.MARKET_SNAPSHOT = {
           "price": 83.89,
           "ma20": 84.88,
           "status": "MA20下方",
-          "weight": 0.0645481862160695
+          "weight": 0.06309263485931346
         },
         {
           "symbol": "PCG",
@@ -572495,7 +572535,7 @@ window.MARKET_SNAPSHOT = {
           "price": 16.79,
           "ma20": 16.5,
           "status": "MA20上方",
-          "weight": 0.05935076063333366
+          "weight": 0.058574746695730165
         },
         {
           "symbol": "WEC",
@@ -572504,7 +572544,7 @@ window.MARKET_SNAPSHOT = {
           "price": 113.07,
           "ma20": 111.57,
           "status": "MA20上方",
-          "weight": 0.05992668885977104
+          "weight": 0.05841091671337998
         },
         {
           "symbol": "HIG",
@@ -572513,7 +572553,7 @@ window.MARKET_SNAPSHOT = {
           "price": 128.4,
           "ma20": 131.25,
           "status": "MA20下方",
-          "weight": 0.0582109655045728
+          "weight": 0.0568299071291049
         },
         {
           "symbol": "TTWO",
@@ -572522,7 +572562,7 @@ window.MARKET_SNAPSHOT = {
           "price": 212.08,
           "ma20": 224.59,
           "status": "MA20下方",
-          "weight": 0.058965803372032596
+          "weight": 0.058397850518468616
         },
         {
           "symbol": "ROP",
@@ -572531,7 +572571,7 @@ window.MARKET_SNAPSHOT = {
           "price": 332.71,
           "ma20": 328.37,
           "status": "MA20上方",
-          "weight": 0.057222942037578155
+          "weight": 0.056004726665856416
         },
         {
           "symbol": "XYZ",
@@ -572540,7 +572580,7 @@ window.MARKET_SNAPSHOT = {
           "price": 69.09,
           "ma20": 70.65,
           "status": "MA20下方",
-          "weight": 0.0586150198623875
+          "weight": 0.059733617675176556
         },
         {
           "symbol": "CCL",
@@ -572549,7 +572589,7 @@ window.MARKET_SNAPSHOT = {
           "price": 28.12,
           "ma20": 26.7,
           "status": "MA20上方",
-          "weight": 0.05381461286506659
+          "weight": 0.05722289806836208
         },
         {
           "symbol": "LYV",
@@ -572558,7 +572598,7 @@ window.MARKET_SNAPSHOT = {
           "price": 172.33,
           "ma20": 165.96,
           "status": "MA20上方",
-          "weight": 0.04282473637664393
+          "weight": 0.04330136993626149
         },
         {
           "symbol": "LVS",
@@ -572567,7 +572607,7 @@ window.MARKET_SNAPSHOT = {
           "price": 50.61,
           "ma20": 50.65,
           "status": "MA20下方",
-          "weight": 0.024973976688113967
+          "weight": 0.024447855771078972
         },
         {
           "symbol": "VMC",
@@ -572576,7 +572616,7 @@ window.MARKET_SNAPSHOT = {
           "price": 280.19,
           "ma20": 273.7,
           "status": "MA20上方",
-          "weight": 0.05809537781514819
+          "weight": 0.05867023042777476
         },
         {
           "symbol": "KDP",
@@ -572585,7 +572625,7 @@ window.MARKET_SNAPSHOT = {
           "price": 31.23,
           "ma20": 29.97,
           "status": "MA20上方",
-          "weight": 0.069418950937388
+          "weight": 0.06721451680789078
         },
         {
           "symbol": "CCI",
@@ -572594,7 +572634,7 @@ window.MARKET_SNAPSHOT = {
           "price": 92.04,
           "ma20": 91.2,
           "status": "MA20上方",
-          "weight": 0.06556133744163471
+          "weight": 0.06350874291264459
         },
         {
           "symbol": "STT",
@@ -572603,7 +572643,7 @@ window.MARKET_SNAPSHOT = {
           "price": 164.85,
           "ma20": 157.81,
           "status": "MA20上方",
-          "weight": 0.07248252726231137
+          "weight": 0.07257869236496398
         },
         {
           "symbol": "MLM",
@@ -572612,7 +572652,7 @@ window.MARKET_SNAPSHOT = {
           "price": 565.54,
           "ma20": 563.16,
           "status": "MA20上方",
-          "weight": 0.053848786616722565
+          "weight": 0.05413525570161506
         },
         {
           "symbol": "MCHP",
@@ -572621,7 +572661,7 @@ window.MARKET_SNAPSHOT = {
           "price": 92.94,
           "ma20": 93.65,
           "status": "MA20下方",
-          "weight": 0.07639542182691988
+          "weight": 0.07937713408653849
         },
         {
           "symbol": "ADM",
@@ -572630,7 +572670,7 @@ window.MARKET_SNAPSHOT = {
           "price": 78.9,
           "ma20": 80.28,
           "status": "MA20下方",
-          "weight": 0.0629008103641832
+          "weight": 0.06000901286023147
         },
         {
           "symbol": "AXON",
@@ -572639,7 +572679,7 @@ window.MARKET_SNAPSHOT = {
           "price": 446.2,
           "ma20": 433.79,
           "status": "MA20上方",
-          "weight": 0.05681587234873498
+          "weight": 0.05566601069007721
         },
         {
           "symbol": "SATS",
@@ -572648,7 +572688,7 @@ window.MARKET_SNAPSHOT = {
           "price": 128.13,
           "ma20": 126.76,
           "status": "MA20上方",
-          "weight": 0.024989053343256306
+          "weight": 0.027307342272835253
         },
         {
           "symbol": "ACGL",
@@ -572657,7 +572697,7 @@ window.MARKET_SNAPSHOT = {
           "price": 91.13,
           "ma20": 92.1,
           "status": "MA20下方",
-          "weight": 0.05242354015060008
+          "weight": 0.05142050243580004
         },
         {
           "symbol": "SYY",
@@ -572666,7 +572706,7 @@ window.MARKET_SNAPSHOT = {
           "price": 79.64,
           "ma20": 75.56,
           "status": "MA20上方",
-          "weight": 0.06059408212740526
+          "weight": 0.06038592232882852
         },
         {
           "symbol": "PRU",
@@ -572675,7 +572715,7 @@ window.MARKET_SNAPSHOT = {
           "price": 106.51,
           "ma20": 102.86,
           "status": "MA20上方",
-          "weight": 0.05876779663449654
+          "weight": 0.0584933342505132
         },
         {
           "symbol": "WDAY",
@@ -572684,7 +572724,7 @@ window.MARKET_SNAPSHOT = {
           "price": 130.53,
           "ma20": 135.02,
           "status": "MA20下方",
-          "weight": 0.04700599540278609
+          "weight": 0.043865226501282675
         },
         {
           "symbol": "EME",
@@ -572693,7 +572733,7 @@ window.MARKET_SNAPSHOT = {
           "price": 811.53,
           "ma20": 845.92,
           "status": "MA20下方",
-          "weight": 0.05613541264664405
+          "weight": 0.057642021397442
         },
         {
           "symbol": "RMD",
@@ -572702,7 +572742,7 @@ window.MARKET_SNAPSHOT = {
           "price": 192.39,
           "ma20": 198.67,
           "status": "MA20下方",
-          "weight": 0.045481243012724146
+          "weight": 0.04442707288247134
         },
         {
           "symbol": "PAYX",
@@ -572711,7 +572751,7 @@ window.MARKET_SNAPSHOT = {
           "price": 99.27,
           "ma20": 96.92,
           "status": "MA20上方",
-          "weight": 0.05237328463345895
+          "weight": 0.050540041917157344
         },
         {
           "symbol": "KVUE",
@@ -572720,7 +572760,7 @@ window.MARKET_SNAPSHOT = {
           "price": 18.07,
           "ma20": 17.44,
           "status": "MA20上方",
-          "weight": 0.055818802888654935
+          "weight": 0.05491922739629693
         },
         {
           "symbol": "GEHC",
@@ -572729,7 +572769,7 @@ window.MARKET_SNAPSHOT = {
           "price": 64.51,
           "ma20": 63.34,
           "status": "MA20上方",
-          "weight": 0.047020066947585606
+          "weight": 0.04675486576052671
         },
         {
           "symbol": "TPL",
@@ -572738,7 +572778,7 @@ window.MARKET_SNAPSHOT = {
           "price": 369.55,
           "ma20": 391.11,
           "status": "MA20下方",
-          "weight": 0.03503312099908288
+          "weight": 0.03391381143840433
         },
         {
           "symbol": "A",
@@ -572747,7 +572787,7 @@ window.MARKET_SNAPSHOT = {
           "price": 129.55,
           "ma20": 125.23,
           "status": "MA20上方",
-          "weight": 0.05973571789463473
+          "weight": 0.05778474444955075
         },
         {
           "symbol": "CPRT",
@@ -572756,7 +572796,7 @@ window.MARKET_SNAPSHOT = {
           "price": 31.06,
           "ma20": 32.24,
           "status": "MA20下方",
-          "weight": 0.04497466739994154
+          "weight": 0.043778788596484416
         },
         {
           "symbol": "HBAN",
@@ -572765,7 +572805,7 @@ window.MARKET_SNAPSHOT = {
           "price": 17.21,
           "ma20": 16.07,
           "status": "MA20上方",
-          "weight": 0.05526297686907402
+          "weight": 0.05550620107539206
         },
         {
           "symbol": "KMB",
@@ -572774,7 +572814,7 @@ window.MARKET_SNAPSHOT = {
           "price": 101.54,
           "ma20": 98.14,
           "status": "MA20上方",
-          "weight": 0.05445687837413026
+          "weight": 0.05349903251862324
         },
         {
           "symbol": "HAL",
@@ -572783,7 +572823,7 @@ window.MARKET_SNAPSHOT = {
           "price": 39.76,
           "ma20": 40.7,
           "status": "MA20下方",
-          "weight": 0.05344071181753658
+          "weight": 0.05256128176075378
         },
         {
           "symbol": "HPE",
@@ -572792,7 +572832,7 @@ window.MARKET_SNAPSHOT = {
           "price": 46.8,
           "ma20": 42.32,
           "status": "MA20上方",
-          "weight": 0.09703938315815394
+          "weight": 0.09811707286518376
         },
         {
           "symbol": "IR",
@@ -572801,7 +572841,7 @@ window.MARKET_SNAPSHOT = {
           "price": 73.2,
           "ma20": 71.26,
           "status": "MA20上方",
-          "weight": 0.04027175610587444
+          "weight": 0.04110725428306853
         },
         {
           "symbol": "MTB",
@@ -572810,7 +572850,7 @@ window.MARKET_SNAPSHOT = {
           "price": 227.82,
           "ma20": 215.35,
           "status": "MA20上方",
-          "weight": 0.05457749161526898
+          "weight": 0.054570460501355125
         },
         {
           "symbol": "NRG",
@@ -572819,7 +572859,7 @@ window.MARKET_SNAPSHOT = {
           "price": 123.7,
           "ma20": 131.58,
           "status": "MA20下方",
-          "weight": 0.04136129571749418
+          "weight": 0.04167814649150353
         },
         {
           "symbol": "IRM",
@@ -572828,7 +572868,7 @@ window.MARKET_SNAPSHOT = {
           "price": 125.17,
           "ma20": 126.31,
           "status": "MA20下方",
-          "weight": 0.05866125493815733
+          "weight": 0.0584983597100945
         },
         {
           "symbol": "ATO",
@@ -572837,7 +572877,7 @@ window.MARKET_SNAPSHOT = {
           "price": 168.23,
           "ma20": 172.82,
           "status": "MA20下方",
-          "weight": 0.045114377737593886
+          "weight": 0.044066244884534436
         },
         {
           "symbol": "DVN",
@@ -572846,7 +572886,7 @@ window.MARKET_SNAPSHOT = {
           "price": 44.61,
           "ma20": 46.31,
           "status": "MA20下方",
-          "weight": 0.08640933617246177
+          "weight": 0.08129685964659278
         },
         {
           "symbol": "AEE",
@@ -572855,7 +572895,7 @@ window.MARKET_SNAPSHOT = {
           "price": 108.25,
           "ma20": 108.39,
           "status": "MA20下方",
-          "weight": 0.04844531341370809
+          "weight": 0.04738405330010472
         },
         {
           "symbol": "DTE",
@@ -572864,7 +572904,7 @@ window.MARKET_SNAPSHOT = {
           "price": 145.79,
           "ma20": 143.49,
           "status": "MA20上方",
-          "weight": 0.048800117364724484
+          "weight": 0.047868507603741464
         },
         {
           "symbol": "IBKR",
@@ -572873,7 +572913,7 @@ window.MARKET_SNAPSHOT = {
           "price": 88.83,
           "ma20": 85.58,
           "status": "MA20上方",
-          "weight": 0.06141023172577724
+          "weight": 0.06276396980269683
         },
         {
           "symbol": "UAL",
@@ -572882,7 +572922,7 @@ window.MARKET_SNAPSHOT = {
           "price": 112.61,
           "ma20": 104.16,
           "status": "MA20上方",
-          "weight": 0.05373520914798361
+          "weight": 0.05786213652710268
         },
         {
           "symbol": "OTIS",
@@ -572891,7 +572931,7 @@ window.MARKET_SNAPSHOT = {
           "price": 70.13,
           "ma20": 70.94,
           "status": "MA20下方",
-          "weight": 0.04386502558146536
+          "weight": 0.04340187912788737
         },
         {
           "symbol": "FISV",
@@ -572900,7 +572940,7 @@ window.MARKET_SNAPSHOT = {
           "price": 53.06,
           "ma20": 55.44,
           "status": "MA20下方",
-          "weight": 0.04631246926623847
+          "weight": 0.04532763523943922
         },
         {
           "symbol": "CTSH",
@@ -572909,7 +572949,7 @@ window.MARKET_SNAPSHOT = {
           "price": 51.18,
           "ma20": 52.39,
           "status": "MA20下方",
-          "weight": 0.03977824692754853
+          "weight": 0.03861864669841175
         },
         {
           "symbol": "XYL",
@@ -572918,7 +572958,7 @@ window.MARKET_SNAPSHOT = {
           "price": 109.05,
           "ma20": 109.22,
           "status": "MA20下方",
-          "weight": 0.04201361232998606
+          "weight": 0.04203193884602663
         },
         {
           "symbol": "VICI",
@@ -572927,7 +572967,7 @@ window.MARKET_SNAPSHOT = {
           "price": 28.09,
           "ma20": 28.07,
           "status": "MA20上方",
-          "weight": 0.04981125836960405
+          "weight": 0.04840321650319114
         },
         {
           "symbol": "CBOE",
@@ -572936,7 +572976,7 @@ window.MARKET_SNAPSHOT = {
           "price": 295.9,
           "ma20": 324.93,
           "status": "MA20下方",
-          "weight": 0.05069877080231644
+          "weight": 0.0489700883439611
         },
         {
           "symbol": "FE",
@@ -572945,7 +572985,7 @@ window.MARKET_SNAPSHOT = {
           "price": 46.67,
           "ma20": 45.7,
           "status": "MA20上方",
-          "weight": 0.0388133409984388
+          "weight": 0.038343251513356845
         },
         {
           "symbol": "WAT",
@@ -572954,7 +572994,7 @@ window.MARKET_SNAPSHOT = {
           "price": 359.74,
           "ma20": 355.64,
           "status": "MA20上方",
-          "weight": 0.057189773396265
+          "weight": 0.05567304633349102
         },
         {
           "symbol": "DOW",
@@ -572963,7 +573003,7 @@ window.MARKET_SNAPSHOT = {
           "price": 33.63,
           "ma20": 35.46,
           "status": "MA20下方",
-          "weight": 0.03948676492812996
+          "weight": 0.038117105832198614
         },
         {
           "symbol": "TPR",
@@ -572972,7 +573012,7 @@ window.MARKET_SNAPSHOT = {
           "price": 145.39,
           "ma20": 138.83,
           "status": "MA20上方",
-          "weight": 0.04580689876379869
+          "weight": 0.04644730763415153
         },
         {
           "symbol": "PPL",
@@ -572981,7 +573021,7 @@ window.MARKET_SNAPSHOT = {
           "price": 35.46,
           "ma20": 35.44,
           "status": "MA20上方",
-          "weight": 0.0423392680810606
+          "weight": 0.04147109755675422
         },
         {
           "symbol": "JBL",
@@ -572990,7 +573030,7 @@ window.MARKET_SNAPSHOT = {
           "price": 376.89,
           "ma20": 360.32,
           "status": "MA20上方",
-          "weight": 0.059696518591264645
+          "weight": 0.06275391888353424
         },
         {
           "symbol": "IQV",
@@ -572999,7 +573039,7 @@ window.MARKET_SNAPSHOT = {
           "price": 181.06,
           "ma20": 176.86,
           "status": "MA20上方",
-          "weight": 0.05001831110022552
+          "weight": 0.048858523141256376
         },
         {
           "symbol": "EXPE",
@@ -573008,7 +573048,7 @@ window.MARKET_SNAPSHOT = {
           "price": 224.66,
           "ma20": 222.74,
           "status": "MA20上方",
-          "weight": 0.041402505241549904
+          "weight": 0.04175352838522294
         },
         {
           "symbol": "RJF",
@@ -573017,7 +573057,7 @@ window.MARKET_SNAPSHOT = {
           "price": 150.42,
           "ma20": 149.79,
           "status": "MA20上方",
-          "weight": 0.042360375398259875
+          "weight": 0.04158467294329147
         },
         {
           "symbol": "EIX",
@@ -573026,7 +573066,7 @@ window.MARKET_SNAPSHOT = {
           "price": 72.34,
           "ma20": 70.77,
           "status": "MA20上方",
-          "weight": 0.0445283984077283
+          "weight": 0.04427731418694878
         },
         {
           "symbol": "CNP",
@@ -573035,7 +573075,7 @@ window.MARKET_SNAPSHOT = {
           "price": 42.55,
           "ma20": 42.25,
           "status": "MA20上方",
-          "weight": 0.04488119213805904
+          "weight": 0.0439134709132631
         },
         {
           "symbol": "TDY",
@@ -573044,7 +573084,7 @@ window.MARKET_SNAPSHOT = {
           "price": 623.73,
           "ma20": 616.96,
           "status": "MA20上方",
-          "weight": 0.04536263999227108
+          "weight": 0.046242268883234725
         },
         {
           "symbol": "DOV",
@@ -573053,7 +573093,7 @@ window.MARKET_SNAPSHOT = {
           "price": 218.53,
           "ma20": 212.77,
           "status": "MA20上方",
-          "weight": 0.04626120863875451
+          "weight": 0.04648047566738806
         },
         {
           "symbol": "EXR",
@@ -573062,7 +573102,7 @@ window.MARKET_SNAPSHOT = {
           "price": 150.26,
           "ma20": 143.83,
           "status": "MA20上方",
-          "weight": 0.051297816566638725
+          "weight": 0.0506385409249507
         },
         {
           "symbol": "WTW",
@@ -573071,7 +573111,7 @@ window.MARKET_SNAPSHOT = {
           "price": 260.79,
           "ma20": 255.97,
           "status": "MA20上方",
-          "weight": 0.04025868967141775
+          "weight": 0.03909908063438346
         },
         {
           "symbol": "BIIB",
@@ -573080,7 +573120,7 @@ window.MARKET_SNAPSHOT = {
           "price": 199.96,
           "ma20": 193.75,
           "status": "MA20上方",
-          "weight": 0.0460963705425316
+          "weight": 0.04663827509824069
         },
         {
           "symbol": "CHTR",
@@ -573089,7 +573129,7 @@ window.MARKET_SNAPSHOT = {
           "price": 139.14,
           "ma20": 140.54,
           "status": "MA20下方",
-          "weight": 0.019004626362090347
+          "weight": 0.018860549808596323
         },
         {
           "symbol": "STLD",
@@ -573098,7 +573138,7 @@ window.MARKET_SNAPSHOT = {
           "price": 279.55,
           "ma20": 254.21,
           "status": "MA20上方",
-          "weight": 0.059537711157098674
+          "weight": 0.06095882472109604
         },
         {
           "symbol": "AWK",
@@ -573107,7 +573147,7 @@ window.MARKET_SNAPSHOT = {
           "price": 124.45,
           "ma20": 123.91,
           "status": "MA20上方",
-          "weight": 0.0398747375204595
+          "weight": 0.03856537682685004
         },
         {
           "symbol": "KHC",
@@ -573116,7 +573156,7 @@ window.MARKET_SNAPSHOT = {
           "price": 24.22,
           "ma20": 23.51,
           "status": "MA20上方",
-          "weight": 0.03307617116160721
+          "weight": 0.03273684880446528
         },
         {
           "symbol": "ROL",
@@ -573125,7 +573165,7 @@ window.MARKET_SNAPSHOT = {
           "price": 47.05,
           "ma20": 49.76,
           "status": "MA20下方",
-          "weight": 0.02253658410676908
+          "weight": 0.02181451495048093
         },
         {
           "symbol": "VRSK",
@@ -573134,7 +573174,7 @@ window.MARKET_SNAPSHOT = {
           "price": 182,
           "ma20": 174.78,
           "status": "MA20上方",
-          "weight": 0.04133214751755232
+          "weight": 0.040370521908450835
         },
         {
           "symbol": "DG",
@@ -573143,7 +573183,7 @@ window.MARKET_SNAPSHOT = {
           "price": 114.34,
           "ma20": 106.5,
           "status": "MA20上方",
-          "weight": 0.03893495934992034
+          "weight": 0.03978957878085325
         },
         {
           "symbol": "HUBB",
@@ -573152,7 +573192,7 @@ window.MARKET_SNAPSHOT = {
           "price": 469.32,
           "ma20": 475.12,
           "status": "MA20下方",
-          "weight": 0.03997926899611305
+          "weight": 0.03943679151824642
         },
         {
           "symbol": "EL",
@@ -573161,7 +573201,7 @@ window.MARKET_SNAPSHOT = {
           "price": 88.02,
           "ma20": 84.12,
           "status": "MA20上方",
-          "weight": 0.03381191193255338
+          "weight": 0.0342535325060998
         },
         {
           "symbol": "ES",
@@ -573170,7 +573210,7 @@ window.MARKET_SNAPSHOT = {
           "price": 68.43,
           "ma20": 68.86,
           "status": "MA20下方",
-          "weight": 0.04172012010988186
+          "weight": 0.040557469004874974
         },
         {
           "symbol": "STZ",
@@ -573179,7 +573219,7 @@ window.MARKET_SNAPSHOT = {
           "price": 143.12,
           "ma20": 142.71,
           "status": "MA20上方",
-          "weight": 0.03241480855602992
+          "weight": 0.032047355749911736
         },
         {
           "symbol": "EXE",
@@ -573188,7 +573228,7 @@ window.MARKET_SNAPSHOT = {
           "price": 87.08,
           "ma20": 93.79,
           "status": "MA20下方",
-          "weight": 0.03404007198037412
+          "weight": 0.03289565332723416
         },
         {
           "symbol": "CTRA",
@@ -573206,7 +573246,7 @@ window.MARKET_SNAPSHOT = {
           "price": 170.75,
           "ma20": 167.88,
           "status": "MA20上方",
-          "weight": 0.049658481597495016
+          "weight": 0.05016212735664404
         },
         {
           "symbol": "CFG",
@@ -573215,7 +573255,7 @@ window.MARKET_SNAPSHOT = {
           "price": 66.51,
           "ma20": 62.92,
           "status": "MA20上方",
-          "weight": 0.04428516170476522
+          "weight": 0.04456175519925002
         },
         {
           "symbol": "MTD",
@@ -573224,7 +573264,7 @@ window.MARKET_SNAPSHOT = {
           "price": 1141.25,
           "ma20": 1122.41,
           "status": "MA20上方",
-          "weight": 0.03693579487804613
+          "weight": 0.036564238821578776
         },
         {
           "symbol": "FICO",
@@ -573233,7 +573273,7 @@ window.MARKET_SNAPSHOT = {
           "price": 1185.37,
           "ma20": 1209.01,
           "status": "MA20下方",
-          "weight": 0.046775825134279705
+          "weight": 0.044661259298959644
         },
         {
           "symbol": "LYB",
@@ -573242,7 +573282,7 @@ window.MARKET_SNAPSHOT = {
           "price": 63.47,
           "ma20": 68.37,
           "status": "MA20下方",
-          "weight": 0.027113856607983353
+          "weight": 0.025960519105048468
         },
         {
           "symbol": "ARES",
@@ -573251,7 +573291,7 @@ window.MARKET_SNAPSHOT = {
           "price": 132.82,
           "ma20": 126.42,
           "status": "MA20上方",
-          "weight": 0.042601601880537306
+          "weight": 0.04334056852099558
         },
         {
           "symbol": "BG",
@@ -573260,7 +573300,7 @@ window.MARKET_SNAPSHOT = {
           "price": 125.28,
           "ma20": 124.7,
           "status": "MA20上方",
-          "weight": 0.028049614337151224
+          "weight": 0.026936463355735758
         },
         {
           "symbol": "WRB",
@@ -573269,7 +573309,7 @@ window.MARKET_SNAPSHOT = {
           "price": 67.54,
           "ma20": 66.64,
           "status": "MA20上方",
-          "weight": 0.03253743201785428
+          "weight": 0.031691553211556124
         },
         {
           "symbol": "Q",
@@ -573278,7 +573318,7 @@ window.MARKET_SNAPSHOT = {
           "price": 149.12,
           "ma20": 152.73,
           "status": "MA20下方",
-          "weight": 0.046959760327016244
+          "weight": 0.04924950389668105
         },
         {
           "symbol": "ON",
@@ -573287,7 +573327,7 @@ window.MARKET_SNAPSHOT = {
           "price": 115.96,
           "ma20": 118.79,
           "status": "MA20下方",
-          "weight": 0.07010946174290712
+          "weight": 0.072524417401486
         },
         {
           "symbol": "CINF",
@@ -573296,7 +573336,7 @@ window.MARKET_SNAPSHOT = {
           "price": 168.3,
           "ma20": 163.96,
           "status": "MA20上方",
-          "weight": 0.041970392585244695
+          "weight": 0.041712319616656335
         },
         {
           "symbol": "FIS",
@@ -573305,7 +573345,7 @@ window.MARKET_SNAPSHOT = {
           "price": 38.35,
           "ma20": 41.8,
           "status": "MA20下方",
-          "weight": 0.03224293468740726
+          "weight": 0.0315407894241173
         },
         {
           "symbol": "DXCM",
@@ -573314,7 +573354,7 @@ window.MARKET_SNAPSHOT = {
           "price": 75.25,
           "ma20": 71.33,
           "status": "MA20上方",
-          "weight": 0.04617778448030023
+          "weight": 0.04567539704246477
         },
         {
           "symbol": "TSCO",
@@ -573323,7 +573363,7 @@ window.MARKET_SNAPSHOT = {
           "price": 31.26,
           "ma20": 30.72,
           "status": "MA20上方",
-          "weight": 0.026329870540581703
+          "weight": 0.02628918416166509
         },
         {
           "symbol": "CMS",
@@ -573332,7 +573372,7 @@ window.MARKET_SNAPSHOT = {
           "price": 72.85,
           "ma20": 72.53,
           "status": "MA20上方",
-          "weight": 0.03626639138972625
+          "weight": 0.035346067419073104
         },
         {
           "symbol": "PPG",
@@ -573341,7 +573381,7 @@ window.MARKET_SNAPSHOT = {
           "price": 118.24,
           "ma20": 110.21,
           "status": "MA20上方",
-          "weight": 0.040766270394543176
+          "weight": 0.04193444493014953
         },
         {
           "symbol": "SYF",
@@ -573350,7 +573390,7 @@ window.MARKET_SNAPSHOT = {
           "price": 72.33,
           "ma20": 71.14,
           "status": "MA20上方",
-          "weight": 0.03877514680541154
+          "weight": 0.03962574879850307
         },
         {
           "symbol": "AVB",
@@ -573359,7 +573399,7 @@ window.MARKET_SNAPSHOT = {
           "price": 184.36,
           "ma20": 185.18,
           "status": "MA20下方",
-          "weight": 0.04264180629425021
+          "weight": 0.04140777676602991
         },
         {
           "symbol": "ULTA",
@@ -573368,7 +573408,7 @@ window.MARKET_SNAPSHOT = {
           "price": 476.42,
           "ma20": 490.14,
           "status": "MA20下方",
-          "weight": 0.03351339416073506
+          "weight": 0.033333873402723
         },
         {
           "symbol": "VRSN",
@@ -573377,7 +573417,7 @@ window.MARKET_SNAPSHOT = {
           "price": 279.57,
           "ma20": 295.81,
           "status": "MA20下方",
-          "weight": 0.03810373309640602
+          "weight": 0.03634110841616932
         },
         {
           "symbol": "DRI",
@@ -573386,7 +573426,7 @@ window.MARKET_SNAPSHOT = {
           "price": 210.84,
           "ma20": 199.77,
           "status": "MA20上方",
-          "weight": 0.03761022391808011
+          "weight": 0.03826987980346995
         },
         {
           "symbol": "PHM",
@@ -573395,7 +573435,7 @@ window.MARKET_SNAPSHOT = {
           "price": 124,
           "ma20": 117.06,
           "status": "MA20上方",
-          "weight": 0.03651666386508908
+          "weight": 0.03755726963484246
         },
         {
           "symbol": "RF",
@@ -573404,7 +573444,7 @@ window.MARKET_SNAPSHOT = {
           "price": 28.89,
           "ma20": 27.84,
           "status": "MA20上方",
-          "weight": 0.039777241817205704
+          "weight": 0.039517198871547116
         },
         {
           "symbol": "NI",
@@ -573413,7 +573453,7 @@ window.MARKET_SNAPSHOT = {
           "price": 46.62,
           "ma20": 46.65,
           "status": "MA20下方",
-          "weight": 0.03580002019065654
+          "weight": 0.03517721197714163
         },
         {
           "symbol": "TSN",
@@ -573422,7 +573462,7 @@ window.MARKET_SNAPSHOT = {
           "price": 55.64,
           "ma20": 61.75,
           "status": "MA20下方",
-          "weight": 0.025668507935004404
+          "weight": 0.025006686876518865
         },
         {
           "symbol": "LH",
@@ -573431,7 +573471,7 @@ window.MARKET_SNAPSHOT = {
           "price": 265.27,
           "ma20": 259.65,
           "status": "MA20上方",
-          "weight": 0.0360512977763622
+          "weight": 0.034988254696884984
         },
         {
           "symbol": "BRO",
@@ -573440,7 +573480,7 @@ window.MARKET_SNAPSHOT = {
           "price": 59.95,
           "ma20": 57.58,
           "status": "MA20上方",
-          "weight": 0.028462714688051324
+          "weight": 0.027866173378275145
         },
         {
           "symbol": "EQR",
@@ -573449,7 +573489,7 @@ window.MARKET_SNAPSHOT = {
           "price": 66.65,
           "ma20": 66.32,
           "status": "MA20上方",
-          "weight": 0.03725843529809218
+          "weight": 0.03609787617243469
         },
         {
           "symbol": "CHD",
@@ -573458,7 +573498,7 @@ window.MARKET_SNAPSHOT = {
           "price": 97.08,
           "ma20": 96,
           "status": "MA20上方",
-          "weight": 0.03727552217392017
+          "weight": 0.036219492294302005
         },
         {
           "symbol": "EFX",
@@ -573467,7 +573507,7 @@ window.MARKET_SNAPSHOT = {
           "price": 159.58,
           "ma20": 165.71,
           "status": "MA20下方",
-          "weight": 0.032056989273985065
+          "weight": 0.030276383793463743
         },
         {
           "symbol": "DGX",
@@ -573476,7 +573516,7 @@ window.MARKET_SNAPSHOT = {
           "price": 203.83,
           "ma20": 195.02,
           "status": "MA20上方",
-          "weight": 0.03593973052830889
+          "weight": 0.03533099104032923
         },
         {
           "symbol": "DLTR",
@@ -573485,7 +573525,7 @@ window.MARKET_SNAPSHOT = {
           "price": 114.89,
           "ma20": 103.05,
           "status": "MA20上方",
-          "weight": 0.03269623945202026
+          "weight": 0.0334655404437529
         },
         {
           "symbol": "LEN",
@@ -573494,7 +573534,7 @@ window.MARKET_SNAPSHOT = {
           "price": 94.95,
           "ma20": 89,
           "status": "MA20上方",
-          "weight": 0.03132325872372454
+          "weight": 0.03253181005354848
         },
         {
           "symbol": "VLTO",
@@ -573503,7 +573543,7 @@ window.MARKET_SNAPSHOT = {
           "price": 82.64,
           "ma20": 84.81,
           "status": "MA20下方",
-          "weight": 0.033266137016400694
+          "weight": 0.032701670587396224
         },
         {
           "symbol": "STE",
@@ -573512,7 +573552,7 @@ window.MARKET_SNAPSHOT = {
           "price": 207.22,
           "ma20": 212.77,
           "status": "MA20下方",
-          "weight": 0.0330088287686381
+          "weight": 0.03230465928047399
         },
         {
           "symbol": "KEY",
@@ -573521,7 +573561,7 @@ window.MARKET_SNAPSHOT = {
           "price": 22.33,
           "ma20": 21.46,
           "status": "MA20上方",
-          "weight": 0.03305606895475076
+          "weight": 0.033005208346106374
         },
         {
           "symbol": "L",
@@ -573530,7 +573570,7 @@ window.MARKET_SNAPSHOT = {
           "price": 107.37,
           "ma20": 106.61,
           "status": "MA20上方",
-          "weight": 0.029616581361611705
+          "weight": 0.02892453516609566
         },
         {
           "symbol": "ALB",
@@ -573539,7 +573579,7 @@ window.MARKET_SNAPSHOT = {
           "price": 159.06,
           "ma20": 168.7,
           "status": "MA20下方",
-          "weight": 0.027842561606529762
+          "weight": 0.029488391731116843
         },
         {
           "symbol": "OMC",
@@ -573548,7 +573588,7 @@ window.MARKET_SNAPSHOT = {
           "price": 75.59,
           "ma20": 74.01,
           "status": "MA20上方",
-          "weight": 0.0373348236841467
+          "weight": 0.03749093356836938
         },
         {
           "symbol": "FSLR",
@@ -573557,7 +573597,7 @@ window.MARKET_SNAPSHOT = {
           "price": 271.17,
           "ma20": 270.15,
           "status": "MA20上方",
-          "weight": 0.04297349270738168
+          "weight": 0.04594476167602213
         },
         {
           "symbol": "WSM",
@@ -573566,7 +573606,7 @@ window.MARKET_SNAPSHOT = {
           "price": 218.74,
           "ma20": 196.31,
           "status": "MA20上方",
-          "weight": 0.039595316845154806
+          "weight": 0.041133386672891264
         },
         {
           "symbol": "RL",
@@ -573575,7 +573615,7 @@ window.MARKET_SNAPSHOT = {
           "price": 393.3,
           "ma20": 361.91,
           "status": "MA20上方",
-          "weight": 0.023424096539481465
+          "weight": 0.024053859739905526
         },
         {
           "symbol": "HUM",
@@ -573584,7 +573624,7 @@ window.MARKET_SNAPSHOT = {
           "price": 368.69,
           "ma20": 324.49,
           "status": "MA20上方",
-          "weight": 0.07079293677602652
+          "weight": 0.07038357161985478
         },
         {
           "symbol": "SW",
@@ -573593,7 +573633,7 @@ window.MARKET_SNAPSHOT = {
           "price": 42.69,
           "ma20": 39.87,
           "status": "MA20上方",
-          "weight": 0.0328269037965872
+          "weight": 0.035360138705900726
         },
         {
           "symbol": "NTAP",
@@ -573602,7 +573642,7 @@ window.MARKET_SNAPSHOT = {
           "price": 160.47,
           "ma20": 150.02,
           "status": "MA20上方",
-          "weight": 0.05099728857413476
+          "weight": 0.05006161816501815
         },
         {
           "symbol": "MRNA",
@@ -573611,7 +573651,7 @@ window.MARKET_SNAPSHOT = {
           "price": 49.64,
           "ma20": 47.77,
           "status": "MA20上方",
-          "weight": 0.025767008748601022
+          "weight": 0.02733347466265798
         },
         {
           "symbol": "JBHT",
@@ -573620,7 +573660,7 @@ window.MARKET_SNAPSHOT = {
           "price": 289.14,
           "ma20": 272.59,
           "status": "MA20上方",
-          "weight": 0.03356767011924748
+          "weight": 0.033976127137212375
         },
         {
           "symbol": "CHRW",
@@ -573629,7 +573669,7 @@ window.MARKET_SNAPSHOT = {
           "price": 191.11,
           "ma20": 178.57,
           "status": "MA20上方",
-          "weight": 0.0354381804672404
+          "weight": 0.03598028041823241
         },
         {
           "symbol": "GIS",
@@ -573638,7 +573678,7 @@ window.MARKET_SNAPSHOT = {
           "price": 33.82,
           "ma20": 33.37,
           "status": "MA20上方",
-          "weight": 0.02919041457625491
+          "weight": 0.02868833856577484
         },
         {
           "symbol": "TROW",
@@ -573647,7 +573687,7 @@ window.MARKET_SNAPSHOT = {
           "price": 108.27,
           "ma20": 104.17,
           "status": "MA20上方",
-          "weight": 0.03773586271093294
+          "weight": 0.03772813526060646
         },
         {
           "symbol": "CPAY",
@@ -573656,7 +573696,7 @@ window.MARKET_SNAPSHOT = {
           "price": 350.85,
           "ma20": 349.94,
           "status": "MA20上方",
-          "weight": 0.039467667831616336
+          "weight": 0.0389955561670088
         },
         {
           "symbol": "CF",
@@ -573665,7 +573705,7 @@ window.MARKET_SNAPSHOT = {
           "price": 106.56,
           "ma20": 117.03,
           "status": "MA20下方",
-          "weight": 0.02754504894505426
+          "weight": 0.026402759548202336
         },
         {
           "symbol": "LDOS",
@@ -573674,7 +573714,7 @@ window.MARKET_SNAPSHOT = {
           "price": 122.08,
           "ma20": 125.48,
           "status": "MA20下方",
-          "weight": 0.025184044749763896
+          "weight": 0.02482979069925732
         },
         {
           "symbol": "PFG",
@@ -573683,7 +573723,7 @@ window.MARKET_SNAPSHOT = {
           "price": 109.69,
           "ma20": 103.92,
           "status": "MA20上方",
-          "weight": 0.034604943993040434
+          "weight": 0.03415905386597147
         },
         {
           "symbol": "IP",
@@ -573692,7 +573732,7 @@ window.MARKET_SNAPSHOT = {
           "price": 34.95,
           "ma20": 32.43,
           "status": "MA20上方",
-          "weight": 0.02702440178747214
+          "weight": 0.029144650295756334
         },
         {
           "symbol": "DD",
@@ -573701,7 +573741,7 @@ window.MARKET_SNAPSHOT = {
           "price": 46.84,
           "ma20": 47.78,
           "status": "MA20下方",
-          "weight": 0.02953215209281461
+          "weight": 0.030170849142256564
         },
         {
           "symbol": "EVRG",
@@ -573710,7 +573750,7 @@ window.MARKET_SNAPSHOT = {
           "price": 82.81,
           "ma20": 82.48,
           "status": "MA20上方",
-          "weight": 0.030901112379739033
+          "weight": 0.030361816606345737
         },
         {
           "symbol": "BR",
@@ -573719,7 +573759,7 @@ window.MARKET_SNAPSHOT = {
           "price": 144.86,
           "ma20": 149.97,
           "status": "MA20下方",
-          "weight": 0.027690789944763546
+          "weight": 0.02673946534014903
         },
         {
           "symbol": "SNA",
@@ -573728,7 +573768,7 @@ window.MARKET_SNAPSHOT = {
           "price": 384.67,
           "ma20": 371.88,
           "status": "MA20上方",
-          "weight": 0.03171324153673972
+          "weight": 0.03168049720047728
         },
         {
           "symbol": "PKG",
@@ -573737,7 +573777,7 @@ window.MARKET_SNAPSHOT = {
           "price": 224.4,
           "ma20": 218.43,
           "status": "MA20上方",
-          "weight": 0.03109409356556098
+          "weight": 0.03165335971873829
         },
         {
           "symbol": "EXPD",
@@ -573746,7 +573786,7 @@ window.MARKET_SNAPSHOT = {
           "price": 166.44,
           "ma20": 159.74,
           "status": "MA20上方",
-          "weight": 0.03567739672883219
+          "weight": 0.03543250532387137
         },
         {
           "symbol": "INCY",
@@ -573755,7 +573795,7 @@ window.MARKET_SNAPSHOT = {
           "price": 107.83,
           "ma20": 98.53,
           "status": "MA20上方",
-          "weight": 0.028202391109260264
+          "weight": 0.028359673509158217
         },
         {
           "symbol": "LUV",
@@ -573764,7 +573804,7 @@ window.MARKET_SNAPSHOT = {
           "price": 44.29,
           "ma20": 41.29,
           "status": "MA20上方",
-          "weight": 0.03245903341111412
+          "weight": 0.03427664962017375
         },
         {
           "symbol": "GPN",
@@ -573773,7 +573813,7 @@ window.MARKET_SNAPSHOT = {
           "price": 65.44,
           "ma20": 69.6,
           "status": "MA20下方",
-          "weight": 0.023903534173007862
+          "weight": 0.024515196929468314
         },
         {
           "symbol": "IFF",
@@ -573782,7 +573822,7 @@ window.MARKET_SNAPSHOT = {
           "price": 77.51,
           "ma20": 74.71,
           "status": "MA20上方",
-          "weight": 0.030512134677066677
+          "weight": 0.03131263355912656
         },
         {
           "symbol": "LNT",
@@ -573791,7 +573831,7 @@ window.MARKET_SNAPSHOT = {
           "price": 72.62,
           "ma20": 72.23,
           "status": "MA20上方",
-          "weight": 0.030100039436509397
+          "weight": 0.029428086216141312
         },
         {
           "symbol": "AMCR",
@@ -573800,7 +573840,7 @@ window.MARKET_SNAPSHOT = {
           "price": 39.92,
           "ma20": 38.28,
           "status": "MA20上方",
-          "weight": 0.028467740239765442
+          "weight": 0.029261240958042355
         },
         {
           "symbol": "NVR",
@@ -573809,7 +573849,7 @@ window.MARKET_SNAPSHOT = {
           "price": 6479.7,
           "ma20": 6068.5,
           "status": "MA20上方",
-          "weight": 0.028545133736162784
+          "weight": 0.028829051434051074
         },
         {
           "symbol": "SBAC",
@@ -573818,7 +573858,7 @@ window.MARKET_SNAPSHOT = {
           "price": 203.65,
           "ma20": 203.57,
           "status": "MA20上方",
-          "weight": 0.03570151937705993
+          "weight": 0.03446460180851414
         },
         {
           "symbol": "WST",
@@ -573827,7 +573867,7 @@ window.MARKET_SNAPSHOT = {
           "price": 330.34,
           "ma20": 315.76,
           "status": "MA20上方",
-          "weight": 0.03848064947496451
+          "weight": 0.03775225746659667
         },
         {
           "symbol": "ZBH",
@@ -573836,7 +573876,7 @@ window.MARKET_SNAPSHOT = {
           "price": 87.14,
           "ma20": 85.19,
           "status": "MA20上方",
-          "weight": 0.02823555975057341
+          "weight": 0.027425943118953792
         },
         {
           "symbol": "WY",
@@ -573845,7 +573885,7 @@ window.MARKET_SNAPSHOT = {
           "price": 24.33,
           "ma20": 23.93,
           "status": "MA20上方",
-          "weight": 0.028112936288749047
+          "weight": 0.027823959517792273
         },
         {
           "symbol": "HPQ",
@@ -573854,7 +573894,7 @@ window.MARKET_SNAPSHOT = {
           "price": 24.68,
           "ma20": 24.39,
           "status": "MA20上方",
-          "weight": 0.03629051403795399
+          "weight": 0.035651615361615784
         },
         {
           "symbol": "LULU",
@@ -573863,7 +573903,7 @@ window.MARKET_SNAPSHOT = {
           "price": 121.84,
           "ma20": 124.16,
           "status": "MA20下方",
-          "weight": 0.02024392741479065
+          "weight": 0.020383264061728402
         },
         {
           "symbol": "FTV",
@@ -573872,7 +573912,7 @@ window.MARKET_SNAPSHOT = {
           "price": 59.84,
           "ma20": 59.79,
           "status": "MA20上方",
-          "weight": 0.030141248960565126
+          "weight": 0.029513519029023313
         },
         {
           "symbol": "PTC",
@@ -573881,7 +573921,7 @@ window.MARKET_SNAPSHOT = {
           "price": 118.39,
           "ma20": 140.36,
           "status": "MA20下方",
-          "weight": 0.026103720713446608
+          "weight": 0.022484911258625544
         },
         {
           "symbol": "CSGP",
@@ -573890,7 +573930,7 @@ window.MARKET_SNAPSHOT = {
           "price": 32.65,
           "ma20": 33.27,
           "status": "MA20下方",
-          "weight": 0.02347837249799389
+          "weight": 0.022009502782235138
         },
         {
           "symbol": "HOLX",
@@ -573908,7 +573948,7 @@ window.MARKET_SNAPSHOT = {
           "price": 132.46,
           "ma20": 147.3,
           "status": "MA20下方",
-          "weight": 0.03001460505736947
+          "weight": 0.030063304307216872
         },
         {
           "symbol": "FFIV",
@@ -573917,7 +573957,7 @@ window.MARKET_SNAPSHOT = {
           "price": 393.84,
           "ma20": 389.53,
           "status": "MA20上方",
-          "weight": 0.03536380230187152
+          "weight": 0.03502845837353533
         },
         {
           "symbol": "CNC",
@@ -573926,7 +573966,7 @@ window.MARKET_SNAPSHOT = {
           "price": 63.54,
           "ma20": 60.54,
           "status": "MA20上方",
-          "weight": 0.04914587532265548
+          "weight": 0.04697096052252235
         },
         {
           "symbol": "LII",
@@ -573935,7 +573975,7 @@ window.MARKET_SNAPSHOT = {
           "price": 517.03,
           "ma20": 504.06,
           "status": "MA20上方",
-          "weight": 0.025902698644882077
+          "weight": 0.026074094491585705
         },
         {
           "symbol": "BALL",
@@ -573944,7 +573984,7 @@ window.MARKET_SNAPSHOT = {
           "price": 56.34,
           "ma20": 55.01,
           "status": "MA20上方",
-          "weight": 0.02370050188375769
+          "weight": 0.023982498213851153
         },
         {
           "symbol": "TKO",
@@ -573953,7 +573993,7 @@ window.MARKET_SNAPSHOT = {
           "price": 213.7,
           "ma20": 198.67,
           "status": "MA20上方",
-          "weight": 0.0221244888662118
+          "weight": 0.022510038556532014
         },
         {
           "symbol": "VTRS",
@@ -573962,7 +574002,7 @@ window.MARKET_SNAPSHOT = {
           "price": 16.31,
           "ma20": 16.2,
           "status": "MA20上方",
-          "weight": 0.02944973304470315
+          "weight": 0.029934652541935745
         },
         {
           "symbol": "CDW",
@@ -573971,7 +574011,7 @@ window.MARKET_SNAPSHOT = {
           "price": 129.13,
           "ma20": 120.9,
           "status": "MA20上方",
-          "weight": 0.027351062648889493
+          "weight": 0.026846005083272468
         },
         {
           "symbol": "ESS",
@@ -573980,7 +574020,7 @@ window.MARKET_SNAPSHOT = {
           "price": 280.59,
           "ma20": 277.17,
           "status": "MA20上方",
-          "weight": 0.02936128333453476
+          "weight": 0.028446111413956473
         },
         {
           "symbol": "TRMB",
@@ -573989,7 +574029,7 @@ window.MARKET_SNAPSHOT = {
           "price": 50,
           "ma20": 54.99,
           "status": "MA20下方",
-          "weight": 0.019352394540706978
+          "weight": 0.018794213742123242
         },
         {
           "symbol": "TXT",
@@ -573998,7 +574038,7 @@ window.MARKET_SNAPSHOT = {
           "price": 93.75,
           "ma20": 91.18,
           "status": "MA20上方",
-          "weight": 0.025448388769926254
+          "weight": 0.025668037357417156
         },
         {
           "symbol": "INVH",
@@ -574007,7 +574047,7 @@ window.MARKET_SNAPSHOT = {
           "price": 29.45,
           "ma20": 29.18,
           "status": "MA20上方",
-          "weight": 0.027017366015072382
+          "weight": 0.026320342011069114
         },
         {
           "symbol": "KIM",
@@ -574016,7 +574056,7 @@ window.MARKET_SNAPSHOT = {
           "price": 25.75,
           "ma20": 24.1,
           "status": "MA20上方",
-          "weight": 0.027750091454990078
+          "weight": 0.027671185546520937
         },
         {
           "symbol": "NDSN",
@@ -574025,7 +574065,7 @@ window.MARKET_SNAPSHOT = {
           "price": 285.63,
           "ma20": 283.63,
           "status": "MA20上方",
-          "weight": 0.02396786123494851
+          "weight": 0.02415235874769889
         },
         {
           "symbol": "J",
@@ -574034,7 +574074,7 @@ window.MARKET_SNAPSHOT = {
           "price": 126.31,
           "ma20": 118.44,
           "status": "MA20上方",
-          "weight": 0.022813994561388124
+          "weight": 0.02325883203414482
         },
         {
           "symbol": "HII",
@@ -574043,7 +574083,7 @@ window.MARKET_SNAPSHOT = {
           "price": 300.95,
           "ma20": 309.49,
           "status": "MA20下方",
-          "weight": 0.018210589191260465
+          "weight": 0.01862837357594054
         },
         {
           "symbol": "PODD",
@@ -574052,7 +574092,7 @@ window.MARKET_SNAPSHOT = {
           "price": 149.19,
           "ma20": 150.18,
           "status": "MA20下方",
-          "weight": 0.017073809393528067
+          "weight": 0.016611154100009136
         },
         {
           "symbol": "GPC",
@@ -574061,7 +574101,7 @@ window.MARKET_SNAPSHOT = {
           "price": 102.26,
           "ma20": 97.42,
           "status": "MA20上方",
-          "weight": 0.02199080919061639
+          "weight": 0.02245375340922152
         },
         {
           "symbol": "TYL",
@@ -574070,7 +574110,7 @@ window.MARKET_SNAPSHOT = {
           "price": 295.48,
           "ma20": 310.06,
           "status": "MA20下方",
-          "weight": 0.02105605657179134
+          "weight": 0.02019330168955549
         },
         {
           "symbol": "APA",
@@ -574079,7 +574119,7 @@ window.MARKET_SNAPSHOT = {
           "price": 36.78,
           "ma20": 37.92,
           "status": "MA20下方",
-          "weight": 0.02177772579793799
+          "weight": 0.020715949486010066
         },
         {
           "symbol": "MAA",
@@ -574088,7 +574128,7 @@ window.MARKET_SNAPSHOT = {
           "price": 138.1,
           "ma20": 132,
           "status": "MA20上方",
-          "weight": 0.026512800622975417
+          "weight": 0.025744424343052824
         },
         {
           "symbol": "DECK",
@@ -574097,7 +574137,7 @@ window.MARKET_SNAPSHOT = {
           "price": 114.37,
           "ma20": 106.64,
           "status": "MA20上方",
-          "weight": 0.025252392253075837
+          "weight": 0.0255303397648897
         },
         {
           "symbol": "PNR",
@@ -574106,7 +574146,7 @@ window.MARKET_SNAPSHOT = {
           "price": 72.57,
           "ma20": 72.77,
           "status": "MA20下方",
-          "weight": 0.01888099778992316
+          "weight": 0.018860549808596323
         },
         {
           "symbol": "IEX",
@@ -574115,7 +574155,7 @@ window.MARKET_SNAPSHOT = {
           "price": 216.9,
           "ma20": 211.9,
           "status": "MA20上方",
-          "weight": 0.025948933720651917
+          "weight": 0.02578764329545195
         },
         {
           "symbol": "REG",
@@ -574124,7 +574164,7 @@ window.MARKET_SNAPSHOT = {
           "price": 80.69,
           "ma20": 77.86,
           "status": "MA20上方",
-          "weight": 0.021356584564295306
+          "weight": 0.020946115534833328
         },
         {
           "symbol": "SMCI",
@@ -574133,7 +574173,7 @@ window.MARKET_SNAPSHOT = {
           "price": 31.97,
           "ma20": 38.48,
           "status": "MA20下方",
-          "weight": 0.023690450780329463
+          "weight": 0.025429830573263822
         },
         {
           "symbol": "COO",
@@ -574142,7 +574182,7 @@ window.MARKET_SNAPSHOT = {
           "price": 67.51,
           "ma20": 62.73,
           "status": "MA20上方",
-          "weight": 0.021210843564586027
+          "weight": 0.020790326287813212
         },
         {
           "symbol": "BBY",
@@ -574151,7 +574191,7 @@ window.MARKET_SNAPSHOT = {
           "price": 77.1,
           "ma20": 67.92,
           "status": "MA20上方",
-          "weight": 0.02387539108340883
+          "weight": 0.023918172331210588
         },
         {
           "symbol": "MKC",
@@ -574160,7 +574200,7 @@ window.MARKET_SNAPSHOT = {
           "price": 49.23,
           "ma20": 47.24,
           "status": "MA20上方",
-          "weight": 0.020328356683587755
+          "weight": 0.019794280198800748
         },
         {
           "symbol": "AVY",
@@ -574169,7 +574209,7 @@ window.MARKET_SNAPSHOT = {
           "price": 158.75,
           "ma20": 157.39,
           "status": "MA20上方",
-          "weight": 0.019497130430073437
+          "weight": 0.019490742440090587
         },
         {
           "symbol": "HST",
@@ -574178,7 +574218,7 @@ window.MARKET_SNAPSHOT = {
           "price": 24.34,
           "ma20": 23.17,
           "status": "MA20上方",
-          "weight": 0.02465636181978201
+          "weight": 0.024626762132173043
         },
         {
           "symbol": "EG",
@@ -574187,7 +574227,7 @@ window.MARKET_SNAPSHOT = {
           "price": 336.25,
           "ma20": 339.31,
           "status": "MA20下方",
-          "weight": 0.021906379921819288
+          "weight": 0.021382325426489646
         },
         {
           "symbol": "ERIE",
@@ -574196,7 +574236,7 @@ window.MARKET_SNAPSHOT = {
           "price": 226.01,
           "ma20": 220.03,
           "status": "MA20上方",
-          "weight": 0.009459093436303799
+          "weight": 0.009056883257408018
         },
         {
           "symbol": "HAS",
@@ -574205,7 +574245,7 @@ window.MARKET_SNAPSHOT = {
           "price": 83.77,
           "ma20": 87.64,
           "status": "MA20下方",
-          "weight": 0.017618579199337937
+          "weight": 0.017627302027346782
         },
         {
           "symbol": "ALLE",
@@ -574214,7 +574254,7 @@ window.MARKET_SNAPSHOT = {
           "price": 133.71,
           "ma20": 129.92,
           "status": "MA20上方",
-          "weight": 0.01797840870206844
+          "weight": 0.01826553539417112
         },
         {
           "symbol": "APTV",
@@ -574223,7 +574263,7 @@ window.MARKET_SNAPSHOT = {
           "price": 67.96,
           "ma20": 63.46,
           "status": "MA20上方",
-          "weight": 0.02219183125918092
+          "weight": 0.02273316896194147
         },
         {
           "symbol": "CLX",
@@ -574232,7 +574272,7 @@ window.MARKET_SNAPSHOT = {
           "price": 98.3,
           "ma20": 93.67,
           "status": "MA20上方",
-          "weight": 0.019389583623391413
+          "weight": 0.018860549808596323
         },
         {
           "symbol": "HRL",
@@ -574241,7 +574281,7 @@ window.MARKET_SNAPSHOT = {
           "price": 24.44,
           "ma20": 22.27,
           "status": "MA20上方",
-          "weight": 0.011521579859775843
+          "weight": 0.011393721962709722
         },
         {
           "symbol": "BEN",
@@ -574250,7 +574290,7 @@ window.MARKET_SNAPSHOT = {
           "price": 31.81,
           "ma20": 31.37,
           "status": "MA20上方",
-          "weight": 0.01567871623769025
+          "weight": 0.01574074450052902
         },
         {
           "symbol": "MAS",
@@ -574259,7 +574299,7 @@ window.MARKET_SNAPSHOT = {
           "price": 73.75,
           "ma20": 68.85,
           "status": "MA20上方",
-          "weight": 0.023041149498866043
+          "weight": 0.023565385068603752
         },
         {
           "symbol": "ALGN",
@@ -574268,7 +574308,7 @@ window.MARKET_SNAPSHOT = {
           "price": 176.51,
           "ma20": 166.39,
           "status": "MA20上方",
-          "weight": 0.018374422177140557
+          "weight": 0.018694709642413623
         },
         {
           "symbol": "BF.B",
@@ -574277,7 +574317,7 @@ window.MARKET_SNAPSHOT = {
           "price": 26.68,
           "ma20": 25.92,
           "status": "MA20上方",
-          "weight": 0.007371479254261192
+          "weight": 0.0072849062090437604
         },
         {
           "symbol": "DPZ",
@@ -574286,7 +574326,7 @@ window.MARKET_SNAPSHOT = {
           "price": 312.26,
           "ma20": 311.34,
           "status": "MA20上方",
-          "weight": 0.015831493009799295
+          "weight": 0.015435196557986346
         },
         {
           "symbol": "PNW",
@@ -574295,7 +574335,7 @@ window.MARKET_SNAPSHOT = {
           "price": 102.4,
           "ma20": 101.05,
           "status": "MA20上方",
-          "weight": 0.020075068877196452
+          "weight": 0.019596277091297767
         },
         {
           "symbol": "FOX",
@@ -574304,7 +574344,7 @@ window.MARKET_SNAPSHOT = {
           "price": 61.36,
           "ma20": 58.86,
           "status": "MA20上方",
-          "weight": 0.013716740848500475
+          "weight": 0.013553664490749878
         },
         {
           "symbol": "FOXA",
@@ -574313,7 +574353,7 @@ window.MARKET_SNAPSHOT = {
           "price": 68.3,
           "ma20": 65.72,
           "status": "MA20上方",
-          "weight": 0.02179079223239469
+          "weight": 0.021509972099854512
         },
         {
           "symbol": "GNRC",
@@ -574322,7 +574362,7 @@ window.MARKET_SNAPSHOT = {
           "price": 257.33,
           "ma20": 265.76,
           "status": "MA20下方",
-          "weight": 0.02239385843808827
+          "weight": 0.023685996098554808
         },
         {
           "symbol": "DOC",
@@ -574331,7 +574371,7 @@ window.MARKET_SNAPSHOT = {
           "price": 20.5,
           "ma20": 19.67,
           "status": "MA20上方",
-          "weight": 0.022759718602875706
+          "weight": 0.022401488629576062
         },
         {
           "symbol": "GEN",
@@ -574340,7 +574380,7 @@ window.MARKET_SNAPSHOT = {
           "price": 23.94,
           "ma20": 25.18,
           "status": "MA20下方",
-          "weight": 0.02167319432228444
+          "weight": 0.02071192911834503
         },
         {
           "symbol": "JKHY",
@@ -574349,7 +574389,7 @@ window.MARKET_SNAPSHOT = {
           "price": 125.96,
           "ma20": 134.69,
           "status": "MA20下方",
-          "weight": 0.014922873259887634
+          "weight": 0.014478349053707968
         },
         {
           "symbol": "SOLV",
@@ -574358,7 +574398,7 @@ window.MARKET_SNAPSHOT = {
           "price": 79.22,
           "ma20": 77.39,
           "status": "MA20上方",
-          "weight": 0.019370486526877787
+          "weight": 0.018633399035521837
         },
         {
           "symbol": "IT",
@@ -574367,7 +574407,7 @@ window.MARKET_SNAPSHOT = {
           "price": 148.81,
           "ma20": 158.94,
           "status": "MA20下方",
-          "weight": 0.017418562241116233
+          "weight": 0.016445313933826436
         },
         {
           "symbol": "SWK",
@@ -574376,7 +574416,7 @@ window.MARKET_SNAPSHOT = {
           "price": 83.13,
           "ma20": 77.94,
           "status": "MA20上方",
-          "weight": 0.019467982230131582
+          "weight": 0.020531012573418446
         },
         {
           "symbol": "UDR",
@@ -574385,7 +574425,7 @@ window.MARKET_SNAPSHOT = {
           "price": 39.11,
           "ma20": 37.94,
           "status": "MA20上方",
-          "weight": 0.019262939720195764
+          "weight": 0.018830397051108564
         },
         {
           "symbol": "GDDY",
@@ -574394,7 +574434,7 @@ window.MARKET_SNAPSHOT = {
           "price": 75.17,
           "ma20": 86.44,
           "status": "MA20下方",
-          "weight": 0.017537165261569305
+          "weight": 0.016137755807451245
         },
         {
           "symbol": "UHS",
@@ -574403,7 +574443,7 @@ window.MARKET_SNAPSHOT = {
           "price": 146.05,
           "ma20": 153.41,
           "status": "MA20下方",
-          "weight": 0.012788018891732363
+          "weight": 0.012675214155939687
         },
         {
           "symbol": "IVZ",
@@ -574412,7 +574452,7 @@ window.MARKET_SNAPSHOT = {
           "price": 28.29,
           "ma20": 27.52,
           "status": "MA20上方",
-          "weight": 0.01959362102298441
+          "weight": 0.01983850424311613
         },
         {
           "symbol": "GL",
@@ -574421,7 +574461,7 @@ window.MARKET_SNAPSHOT = {
           "price": 165.1,
           "ma20": 155.71,
           "status": "MA20上方",
-          "weight": 0.020682155524261326
+          "weight": 0.020649613419536986
         },
         {
           "symbol": "TTD",
@@ -574430,7 +574470,7 @@ window.MARKET_SNAPSHOT = {
           "price": 18.9,
           "ma20": 21.01,
           "status": "MA20下方",
-          "weight": 0.01372578684158588
+          "weight": 0.01321695869880318
         },
         {
           "symbol": "AIZ",
@@ -574439,7 +574479,7 @@ window.MARKET_SNAPSHOT = {
           "price": 258.5,
           "ma20": 253.33,
           "status": "MA20上方",
-          "weight": 0.020987709068479403
+          "weight": 0.0207199698536751
         },
         {
           "symbol": "WYNN",
@@ -574448,7 +574488,7 @@ window.MARKET_SNAPSHOT = {
           "price": 107.75,
           "ma20": 101.31,
           "status": "MA20上方",
-          "weight": 0.014303725288708892
+          "weight": 0.014389900965077194
         },
         {
           "symbol": "DVA",
@@ -574457,7 +574497,7 @@ window.MARKET_SNAPSHOT = {
           "price": 203.83,
           "ma20": 195.61,
           "status": "MA20上方",
-          "weight": 0.010442091351584337
+          "weight": 0.010536378558140966
         },
         {
           "symbol": "SJM",
@@ -574466,7 +574506,7 @@ window.MARKET_SNAPSHOT = {
           "price": 116.83,
           "ma20": 104.05,
           "status": "MA20上方",
-          "weight": 0.020331372014616225
+          "weight": 0.019944038894323307
         },
         {
           "symbol": "ZBRA",
@@ -574475,7 +574515,7 @@ window.MARKET_SNAPSHOT = {
           "price": 222.44,
           "ma20": 245.01,
           "status": "MA20下方",
-          "weight": 0.01701752321433
+          "weight": 0.0171609393782027
         },
         {
           "symbol": "CPT",
@@ -574484,7 +574524,7 @@ window.MARKET_SNAPSHOT = {
           "price": 114.44,
           "ma20": 108.52,
           "status": "MA20上方",
-          "weight": 0.019208663761683342
+          "weight": 0.018735918410980233
         },
         {
           "symbol": "PSKY",
@@ -574493,7 +574533,7 @@ window.MARKET_SNAPSHOT = {
           "price": 10.49,
           "ma20": 10.38,
           "status": "MA20上方",
-          "weight": 0.0052004409137643036
+          "weight": 0.005200345574723015
         },
         {
           "symbol": "AES",
@@ -574502,7 +574542,7 @@ window.MARKET_SNAPSHOT = {
           "price": 14.67,
           "ma20": 14.65,
           "status": "MA20上方",
-          "weight": 0.01697631369027427
+          "weight": 0.016730760038043933
         },
         {
           "symbol": "RVTY",
@@ -574511,7 +574551,7 @@ window.MARKET_SNAPSHOT = {
           "price": 101.52,
           "ma20": 98.91,
           "status": "MA20上方",
-          "weight": 0.018381457949540315
+          "weight": 0.018105725779485965
         },
         {
           "symbol": "MGM",
@@ -574520,7 +574560,7 @@ window.MARKET_SNAPSHOT = {
           "price": 47.22,
           "ma20": 42.89,
           "status": "MA20上方",
-          "weight": 0.014287643523223731
+          "weight": 0.01413561271026372
         },
         {
           "symbol": "NWSA",
@@ -574529,7 +574569,7 @@ window.MARKET_SNAPSHOT = {
           "price": 26.3,
           "ma20": 26.45,
           "status": "MA20下方",
-          "weight": 0.016308920422640046
+          "weight": 0.015628174205908035
         },
         {
           "symbol": "BLDR",
@@ -574538,7 +574578,7 @@ window.MARKET_SNAPSHOT = {
           "price": 78.57,
           "ma20": 74.12,
           "status": "MA20上方",
-          "weight": 0.013445361055938363
+          "weight": 0.013913487396770525
         },
         {
           "symbol": "FRT",
@@ -574547,7 +574587,7 @@ window.MARKET_SNAPSHOT = {
           "price": 124.72,
           "ma20": 119.44,
           "status": "MA20上方",
-          "weight": 0.015658614030833802
+          "weight": 0.015526659922365894
         },
         {
           "symbol": "AOS",
@@ -574556,7 +574596,7 @@ window.MARKET_SNAPSHOT = {
           "price": 58.66,
           "ma20": 57.22,
           "status": "MA20上方",
-          "weight": 0.010401886937871432
+          "weight": 0.010481098502746734
         },
         {
           "symbol": "BAX",
@@ -574565,7 +574605,7 @@ window.MARKET_SNAPSHOT = {
           "price": 20.49,
           "ma20": 18.97,
           "status": "MA20上方",
-          "weight": 0.01692203773176185
+          "weight": 0.016777999358108097
         },
         {
           "symbol": "NCLH",
@@ -574574,7 +574614,7 @@ window.MARKET_SNAPSHOT = {
           "price": 19.06,
           "ma20": 17.45,
           "status": "MA20上方",
-          "weight": 0.013300625166571906
+          "weight": 0.013903436477607936
         },
         {
           "symbol": "CRL",
@@ -574583,7 +574623,7 @@ window.MARKET_SNAPSHOT = {
           "price": 188.06,
           "ma20": 171.26,
           "status": "MA20上方",
-          "weight": 0.0149258885909161
+          "weight": 0.014809024294157112
         },
         {
           "symbol": "HSIC",
@@ -574592,7 +574632,7 @@ window.MARKET_SNAPSHOT = {
           "price": 80.22,
           "ma20": 75.67,
           "status": "MA20上方",
-          "weight": 0.012750829809047924
+          "weight": 0.012749590957742838
         },
         {
           "symbol": "BXP",
@@ -574601,7 +574641,7 @@ window.MARKET_SNAPSHOT = {
           "price": 66.23,
           "ma20": 61.34,
           "status": "MA20上方",
-          "weight": 0.015540011010380732
+          "weight": 0.015448262752897709
         },
         {
           "symbol": "TECH",
@@ -574610,7 +574650,7 @@ window.MARKET_SNAPSHOT = {
           "price": 54.02,
           "ma20": 49.45,
           "status": "MA20上方",
-          "weight": 0.013222226559831738
+          "weight": 0.013370737761990775
         },
         {
           "symbol": "TAP",
@@ -574619,7 +574659,7 @@ window.MARKET_SNAPSHOT = {
           "price": 40.93,
           "ma20": 40.62,
           "status": "MA20上方",
-          "weight": 0.011025055350421463
+          "weight": 0.010842931592599902
         },
         {
           "symbol": "FDS",
@@ -574628,7 +574668,7 @@ window.MARKET_SNAPSHOT = {
           "price": 236.64,
           "ma20": 237.97,
           "status": "MA20下方",
-          "weight": 0.015082685804396433
+          "weight": 0.014082342838702001
         },
         {
           "symbol": "SWKS",
@@ -574637,7 +574677,7 @@ window.MARKET_SNAPSHOT = {
           "price": 72.73,
           "ma20": 75.43,
           "status": "MA20下方",
-          "weight": 0.017246688372493563
+          "weight": 0.017538853938716004
         },
         {
           "symbol": "ARE",
@@ -574646,7 +574686,7 @@ window.MARKET_SNAPSHOT = {
           "price": 52.77,
           "ma20": 49.56,
           "status": "MA20上方",
-          "weight": 0.013126741077263589
+          "weight": 0.013013930131718901
         },
         {
           "symbol": "MOS",
@@ -574655,7 +574695,7 @@ window.MARKET_SNAPSHOT = {
           "price": 21.09,
           "ma20": 22.32,
           "status": "MA20下方",
-          "weight": 0.010189808655535855
+          "weight": 0.010655984496175764
         },
         {
           "symbol": "POOL",
@@ -574664,7 +574704,7 @@ window.MARKET_SNAPSHOT = {
           "price": 192.34,
           "ma20": 182.91,
           "status": "MA20上方",
-          "weight": 0.010034016552398347
+          "weight": 0.009988603463779925
         },
         {
           "symbol": "CAG",
@@ -574673,7 +574713,7 @@ window.MARKET_SNAPSHOT = {
           "price": 13.45,
           "ma20": 13.3,
           "status": "MA20上方",
-          "weight": 0.010368718296558284
+          "weight": 0.010274049567997422
         },
         {
           "symbol": "EPAM",
@@ -574691,7 +574731,7 @@ window.MARKET_SNAPSHOT = {
           "price": 22.73,
           "ma20": 20.97,
           "status": "MA20上方",
-          "weight": 0.007317203295748769
+          "weight": 0.007144193340767529
         },
         {
           "symbol": "NWS",
@@ -574700,7 +574740,7 @@ window.MARKET_SNAPSHOT = {
           "price": 30.13,
           "ma20": 30.3,
           "status": "MA20下方",
-          "weight": 0.006054784705163542
+          "weight": 0.005802395632562035
         }
       ],
       "missingSamples": [
@@ -574712,11 +574752,11 @@ window.MARKET_SNAPSHOT = {
       "method": "equal_weight_above_ma20",
       "sourceUrl": "https://yfiua.github.io/index-constituents/constituents-csi300.csv",
       "benchmarkCode": "CSI300",
-      "generatedAt": "2026-06-12T04:27:09.633Z",
+      "generatedAt": "2026-06-12T11:47:54.829Z",
       "coverage": {
         "total": 300,
         "effective": 300,
-        "aboveMa20": 104,
+        "aboveMa20": 106,
         "missing": 0
       },
       "series": [
@@ -574911,8 +574951,8 @@ window.MARKET_SNAPSHOT = {
           "effective": 298
         },
         {
-          "value": 56.7,
-          "above": 169,
+          "value": 56.4,
+          "above": 168,
           "effective": 298
         },
         {
@@ -574936,8 +574976,8 @@ window.MARKET_SNAPSHOT = {
           "effective": 298
         },
         {
-          "value": 58.1,
-          "above": 173,
+          "value": 58.4,
+          "above": 174,
           "effective": 298
         },
         {
@@ -574996,8 +575036,8 @@ window.MARKET_SNAPSHOT = {
           "effective": 299
         },
         {
-          "value": 61.5,
-          "above": 184,
+          "value": 61.2,
+          "above": 183,
           "effective": 299
         },
         {
@@ -575121,8 +575161,8 @@ window.MARKET_SNAPSHOT = {
           "effective": 299
         },
         {
-          "value": 54.8,
-          "above": 164,
+          "value": 55.2,
+          "above": 165,
           "effective": 299
         },
         {
@@ -575131,8 +575171,8 @@ window.MARKET_SNAPSHOT = {
           "effective": 299
         },
         {
-          "value": 40.8,
-          "above": 122,
+          "value": 40.5,
+          "above": 121,
           "effective": 299
         },
         {
@@ -575156,8 +575196,8 @@ window.MARKET_SNAPSHOT = {
           "effective": 299
         },
         {
-          "value": 58.5,
-          "above": 175,
+          "value": 58.9,
+          "above": 176,
           "effective": 299
         },
         {
@@ -575236,13 +575276,13 @@ window.MARKET_SNAPSHOT = {
           "effective": 300
         },
         {
-          "value": 35.3,
-          "above": 106,
+          "value": 35,
+          "above": 105,
           "effective": 300
         },
         {
-          "value": 32,
-          "above": 96,
+          "value": 32.3,
+          "above": 97,
           "effective": 300
         },
         {
@@ -575256,8 +575296,8 @@ window.MARKET_SNAPSHOT = {
           "effective": 300
         },
         {
-          "value": 16.3,
-          "above": 49,
+          "value": 16,
+          "above": 48,
           "effective": 300
         },
         {
@@ -575286,8 +575326,8 @@ window.MARKET_SNAPSHOT = {
           "effective": 300
         },
         {
-          "value": 30,
-          "above": 90,
+          "value": 30.3,
+          "above": 91,
           "effective": 300
         },
         {
@@ -575296,8 +575336,8 @@ window.MARKET_SNAPSHOT = {
           "effective": 300
         },
         {
-          "value": 30.3,
-          "above": 91,
+          "value": 30,
+          "above": 90,
           "effective": 300
         },
         {
@@ -575306,8 +575346,8 @@ window.MARKET_SNAPSHOT = {
           "effective": 300
         },
         {
-          "value": 41.3,
-          "above": 124,
+          "value": 41.7,
+          "above": 125,
           "effective": 300
         },
         {
@@ -575436,8 +575476,8 @@ window.MARKET_SNAPSHOT = {
           "effective": 300
         },
         {
-          "value": 60,
-          "above": 180,
+          "value": 59.7,
+          "above": 179,
           "effective": 300
         },
         {
@@ -575516,18 +575556,18 @@ window.MARKET_SNAPSHOT = {
           "effective": 300
         },
         {
-          "value": 37,
-          "above": 111,
+          "value": 37.3,
+          "above": 112,
           "effective": 300
         },
         {
-          "value": 42,
-          "above": 126,
+          "value": 41.7,
+          "above": 125,
           "effective": 300
         },
         {
-          "value": 44.7,
-          "above": 134,
+          "value": 45,
+          "above": 135,
           "effective": 300
         },
         {
@@ -575541,8 +575581,8 @@ window.MARKET_SNAPSHOT = {
           "effective": 300
         },
         {
-          "value": 35,
-          "above": 105,
+          "value": 34.7,
+          "above": 104,
           "effective": 300
         },
         {
@@ -575711,8 +575751,8 @@ window.MARKET_SNAPSHOT = {
           "effective": 300
         },
         {
-          "value": 45,
-          "above": 135,
+          "value": 45.3,
+          "above": 136,
           "effective": 300
         },
         {
@@ -575746,8 +575786,8 @@ window.MARKET_SNAPSHOT = {
           "effective": 300
         },
         {
-          "value": 57.7,
-          "above": 173,
+          "value": 57.3,
+          "above": 172,
           "effective": 300
         },
         {
@@ -575871,8 +575911,8 @@ window.MARKET_SNAPSHOT = {
           "effective": 300
         },
         {
-          "value": 27.7,
-          "above": 83,
+          "value": 28,
+          "above": 84,
           "effective": 300
         },
         {
@@ -575916,8 +575956,8 @@ window.MARKET_SNAPSHOT = {
           "effective": 300
         },
         {
-          "value": 34.7,
-          "above": 104,
+          "value": 35.3,
+          "above": 106,
           "effective": 300
         }
       ],
@@ -576161,15 +576201,15 @@ window.MARKET_SNAPSHOT = {
         83,
         78.4,
         76.1,
-        82.4
+        80.9
       ],
       "samples": [
         {
           "symbol": "000001.SZ",
           "name": "平安银行",
           "sourceSymbol": "000001.SZ",
-          "price": 11.16,
-          "ma20": 10.92,
+          "price": 11.24,
+          "ma20": 10.93,
           "status": "MA20上方",
           "weight": 0.4358402594769918
         },
@@ -576186,26 +576226,26 @@ window.MARKET_SNAPSHOT = {
           "symbol": "000063.SZ",
           "name": "中兴通讯",
           "sourceSymbol": "000063.SZ",
-          "price": 36.97,
-          "ma20": 36.92,
-          "status": "MA20上方",
+          "price": 36.35,
+          "ma20": 36.88,
+          "status": "MA20下方",
           "weight": 0.48651935941617686
         },
         {
           "symbol": "000100.SZ",
           "name": "TCL科技",
           "sourceSymbol": "000100.SZ",
-          "price": 4.53,
+          "price": 4.55,
           "ma20": 4.54,
-          "status": "MA20下方",
+          "status": "MA20上方",
           "weight": 0.3750253395499697
         },
         {
           "symbol": "000157.SZ",
           "name": "中联重科",
           "sourceSymbol": "000157.SZ",
-          "price": 7.46,
-          "ma20": 7.35,
+          "price": 7.35,
+          "ma20": 7.34,
           "status": "MA20上方",
           "weight": 0.17230893979322934
         },
@@ -576213,7 +576253,7 @@ window.MARKET_SNAPSHOT = {
           "symbol": "000166.SZ",
           "name": "申万宏源",
           "sourceSymbol": "000166.SZ",
-          "price": 4.49,
+          "price": 4.53,
           "ma20": 4.42,
           "status": "MA20上方",
           "weight": 0.19258057976890336
@@ -576222,7 +576262,7 @@ window.MARKET_SNAPSHOT = {
           "symbol": "000301.SZ",
           "name": "东方盛虹",
           "sourceSymbol": "000301.SZ",
-          "price": 12.01,
+          "price": 11.88,
           "ma20": 12.11,
           "status": "MA20下方",
           "weight": 0.1114940198662072
@@ -576231,8 +576271,8 @@ window.MARKET_SNAPSHOT = {
           "symbol": "000333.SZ",
           "name": "美的集团",
           "sourceSymbol": "000333.SZ",
-          "price": 83,
-          "ma20": 81.74,
+          "price": 83.23,
+          "ma20": 81.75,
           "status": "MA20上方",
           "weight": 1.520372998175553
         },
@@ -576240,8 +576280,8 @@ window.MARKET_SNAPSHOT = {
           "symbol": "000338.SZ",
           "name": "潍柴动力",
           "sourceSymbol": "000338.SZ",
-          "price": 28.42,
-          "ma20": 32.4,
+          "price": 28,
+          "ma20": 32.38,
           "status": "MA20下方",
           "weight": 0.36488951956213267
         },
@@ -576249,8 +576289,8 @@ window.MARKET_SNAPSHOT = {
           "symbol": "000408.SZ",
           "name": "藏格矿业",
           "sourceSymbol": "000408.SZ",
-          "price": 80.94,
-          "ma20": 78.36,
+          "price": 79.47,
+          "ma20": 78.29,
           "status": "MA20上方",
           "weight": 0.2635313196837625
         },
@@ -576258,8 +576298,8 @@ window.MARKET_SNAPSHOT = {
           "symbol": "000425.SZ",
           "name": "徐工机械",
           "sourceSymbol": "000425.SZ",
-          "price": 9.26,
-          "ma20": 9.52,
+          "price": 9.12,
+          "ma20": 9.51,
           "status": "MA20下方",
           "weight": 0.4257044394891548
         },
@@ -576276,8 +576316,8 @@ window.MARKET_SNAPSHOT = {
           "symbol": "000568.SZ",
           "name": "泸州老窖",
           "sourceSymbol": "000568.SZ",
-          "price": 85.81,
-          "ma20": 88.71,
+          "price": 85,
+          "ma20": 88.67,
           "status": "MA20下方",
           "weight": 0.3446178795864587
         },
@@ -576285,8 +576325,8 @@ window.MARKET_SNAPSHOT = {
           "symbol": "000596.SZ",
           "name": "古井贡酒",
           "sourceSymbol": "000596.SZ",
-          "price": 88.3,
-          "ma20": 91.54,
+          "price": 87.55,
+          "ma20": 91.51,
           "status": "MA20下方",
           "weight": 0.09122237989053317
         },
@@ -576294,7 +576334,7 @@ window.MARKET_SNAPSHOT = {
           "symbol": "000617.SZ",
           "name": "中油资本",
           "sourceSymbol": "000617.SZ",
-          "price": 7.3,
+          "price": 7.25,
           "ma20": 7.85,
           "status": "MA20下方",
           "weight": 0.10135819987837019
@@ -576303,7 +576343,7 @@ window.MARKET_SNAPSHOT = {
           "symbol": "000625.SZ",
           "name": "长安汽车",
           "sourceSymbol": "000625.SZ",
-          "price": 7.59,
+          "price": 7.54,
           "ma20": 8.09,
           "status": "MA20下方",
           "weight": 0.23312385972025146
@@ -576321,7 +576361,7 @@ window.MARKET_SNAPSHOT = {
           "symbol": "000651.SZ",
           "name": "格力电器",
           "sourceSymbol": "000651.SZ",
-          "price": 38.46,
+          "price": 38.53,
           "ma20": 38.81,
           "status": "MA20下方",
           "weight": 0.7095073991485913
@@ -576330,8 +576370,8 @@ window.MARKET_SNAPSHOT = {
           "symbol": "000661.SZ",
           "name": "长春高新",
           "sourceSymbol": "000661.SZ",
-          "price": 65.63,
-          "ma20": 73.3,
+          "price": 66.5,
+          "ma20": 73.34,
           "status": "MA20下方",
           "weight": 0.12162983985404421
         },
@@ -576339,7 +576379,7 @@ window.MARKET_SNAPSHOT = {
           "symbol": "000708.SZ",
           "name": "中信特钢",
           "sourceSymbol": "000708.SZ",
-          "price": 14.11,
+          "price": 14.07,
           "ma20": 14.02,
           "status": "MA20上方",
           "weight": 0.06081491992702211
@@ -576348,8 +576388,8 @@ window.MARKET_SNAPSHOT = {
           "symbol": "000725.SZ",
           "name": "京东方A",
           "sourceSymbol": "000725.SZ",
-          "price": 5.76,
-          "ma20": 5.48,
+          "price": 5.57,
+          "ma20": 5.47,
           "status": "MA20上方",
           "weight": 0.6081491992702212
         },
@@ -576366,8 +576406,8 @@ window.MARKET_SNAPSHOT = {
           "symbol": "000776.SZ",
           "name": "广发证券",
           "sourceSymbol": "000776.SZ",
-          "price": 20.15,
-          "ma20": 19.12,
+          "price": 20.08,
+          "ma20": 19.11,
           "status": "MA20上方",
           "weight": 0.2533954996959255
         },
@@ -576375,8 +576415,8 @@ window.MARKET_SNAPSHOT = {
           "symbol": "000786.SZ",
           "name": "北新建材",
           "sourceSymbol": "000786.SZ",
-          "price": 20.6,
-          "ma20": 22.75,
+          "price": 21.09,
+          "ma20": 22.77,
           "status": "MA20下方",
           "weight": 0.10135819987837019
         },
@@ -576384,8 +576424,8 @@ window.MARKET_SNAPSHOT = {
           "symbol": "000792.SZ",
           "name": "盐湖股份",
           "sourceSymbol": "000792.SZ",
-          "price": 32.04,
-          "ma20": 31.02,
+          "price": 31.7,
+          "ma20": 31.01,
           "status": "MA20上方",
           "weight": 0.35475369957429564
         },
@@ -576393,8 +576433,8 @@ window.MARKET_SNAPSHOT = {
           "symbol": "000807.SZ",
           "name": "云铝股份",
           "sourceSymbol": "000807.SZ",
-          "price": 28.67,
-          "ma20": 29.02,
+          "price": 28.1,
+          "ma20": 29,
           "status": "MA20下方",
           "weight": 0.27366713967159956
         },
@@ -576402,8 +576442,8 @@ window.MARKET_SNAPSHOT = {
           "symbol": "000858.SZ",
           "name": "五 粮 液",
           "sourceSymbol": "000858.SZ",
-          "price": 80.33,
-          "ma20": 82.65,
+          "price": 79.92,
+          "ma20": 82.63,
           "status": "MA20下方",
           "weight": 0.8108655990269615
         },
@@ -576411,7 +576451,7 @@ window.MARKET_SNAPSHOT = {
           "symbol": "000876.SZ",
           "name": "新 希 望",
           "sourceSymbol": "000876.SZ",
-          "price": 6.59,
+          "price": 6.54,
           "ma20": 7.64,
           "status": "MA20下方",
           "weight": 0.08108655990269616
@@ -576420,7 +576460,7 @@ window.MARKET_SNAPSHOT = {
           "symbol": "000895.SZ",
           "name": "双汇发展",
           "sourceSymbol": "000895.SZ",
-          "price": 24.24,
+          "price": 24.17,
           "ma20": 24.99,
           "status": "MA20下方",
           "weight": 0.1114940198662072
@@ -576429,8 +576469,8 @@ window.MARKET_SNAPSHOT = {
           "symbol": "000938.SZ",
           "name": "紫光股份",
           "sourceSymbol": "000938.SZ",
-          "price": 25.58,
-          "ma20": 28.51,
+          "price": 25.15,
+          "ma20": 28.49,
           "status": "MA20下方",
           "weight": 0.19258057976890336
         },
@@ -576438,8 +576478,8 @@ window.MARKET_SNAPSHOT = {
           "symbol": "000963.SZ",
           "name": "华东医药",
           "sourceSymbol": "000963.SZ",
-          "price": 29.39,
-          "ma20": 28.98,
+          "price": 29.11,
+          "ma20": 28.96,
           "status": "MA20上方",
           "weight": 0.1419014798297183
         },
@@ -576447,8 +576487,8 @@ window.MARKET_SNAPSHOT = {
           "symbol": "000975.SZ",
           "name": "山金国际",
           "sourceSymbol": "000975.SZ",
-          "price": 21.73,
-          "ma20": 22.72,
+          "price": 21.11,
+          "ma20": 22.69,
           "status": "MA20下方",
           "weight": 0.1621731198053923
         },
@@ -576456,8 +576496,8 @@ window.MARKET_SNAPSHOT = {
           "symbol": "000977.SZ",
           "name": "浪潮信息",
           "sourceSymbol": "000977.SZ",
-          "price": 58.66,
-          "ma20": 64.64,
+          "price": 57.86,
+          "ma20": 64.6,
           "status": "MA20下方",
           "weight": 0.27366713967159956
         },
@@ -576465,7 +576505,7 @@ window.MARKET_SNAPSHOT = {
           "symbol": "000983.SZ",
           "name": "山西焦煤",
           "sourceSymbol": "000983.SZ",
-          "price": 7.45,
+          "price": 7.46,
           "ma20": 7.03,
           "status": "MA20上方",
           "weight": 0.07095073991485915
@@ -576474,8 +576514,8 @@ window.MARKET_SNAPSHOT = {
           "symbol": "000999.SZ",
           "name": "华润三九",
           "sourceSymbol": "000999.SZ",
-          "price": 24.77,
-          "ma20": 24.44,
+          "price": 24.85,
+          "ma20": 24.45,
           "status": "MA20上方",
           "weight": 0.07095073991485915
         },
@@ -576492,7 +576532,7 @@ window.MARKET_SNAPSHOT = {
           "symbol": "001965.SZ",
           "name": "招商公路",
           "sourceSymbol": "001965.SZ",
-          "price": 9.7,
+          "price": 9.74,
           "ma20": 9.87,
           "status": "MA20下方",
           "weight": 0.08108655990269616
@@ -576501,7 +576541,7 @@ window.MARKET_SNAPSHOT = {
           "symbol": "001979.SZ",
           "name": "招商蛇口",
           "sourceSymbol": "001979.SZ",
-          "price": 8.19,
+          "price": 8.16,
           "ma20": 8.58,
           "status": "MA20下方",
           "weight": 0.12162983985404421
@@ -576510,8 +576550,8 @@ window.MARKET_SNAPSHOT = {
           "symbol": "002001.SZ",
           "name": "新和成",
           "sourceSymbol": "002001.SZ",
-          "price": 30.65,
-          "ma20": 30.68,
+          "price": 30.09,
+          "ma20": 30.65,
           "status": "MA20下方",
           "weight": 0.1520372998175553
         },
@@ -576519,7 +576559,7 @@ window.MARKET_SNAPSHOT = {
           "symbol": "002027.SZ",
           "name": "分众传媒",
           "sourceSymbol": "002027.SZ",
-          "price": 5.43,
+          "price": 5.45,
           "ma20": 5.51,
           "status": "MA20下方",
           "weight": 0.29393877964727355
@@ -576528,8 +576568,8 @@ window.MARKET_SNAPSHOT = {
           "symbol": "002028.SZ",
           "name": "思源电气",
           "sourceSymbol": "002028.SZ",
-          "price": 175.26,
-          "ma20": 193.05,
+          "price": 173.3,
+          "ma20": 192.95,
           "status": "MA20下方",
           "weight": 0.3851611595378067
         },
@@ -576537,8 +576577,8 @@ window.MARKET_SNAPSHOT = {
           "symbol": "002049.SZ",
           "name": "紫光国微",
           "sourceSymbol": "002049.SZ",
-          "price": 72.46,
-          "ma20": 77.98,
+          "price": 71.51,
+          "ma20": 77.93,
           "status": "MA20下方",
           "weight": 0.2128522197445774
         },
@@ -576546,8 +576586,8 @@ window.MARKET_SNAPSHOT = {
           "symbol": "002050.SZ",
           "name": "三花智控",
           "sourceSymbol": "002050.SZ",
-          "price": 46.3,
-          "ma20": 48.93,
+          "price": 44.81,
+          "ma20": 48.85,
           "status": "MA20下方",
           "weight": 0.48651935941617686
         },
@@ -576555,8 +576595,8 @@ window.MARKET_SNAPSHOT = {
           "symbol": "002074.SZ",
           "name": "国轩高科",
           "sourceSymbol": "002074.SZ",
-          "price": 29.38,
-          "ma20": 32.53,
+          "price": 29.04,
+          "ma20": 32.52,
           "status": "MA20下方",
           "weight": 0.17230893979322934
         },
@@ -576564,8 +576604,8 @@ window.MARKET_SNAPSHOT = {
           "symbol": "002142.SZ",
           "name": "宁波银行",
           "sourceSymbol": "002142.SZ",
-          "price": 32.47,
-          "ma20": 31.36,
+          "price": 32.7,
+          "ma20": 31.37,
           "status": "MA20上方",
           "weight": 0.36488951956213267
         },
@@ -576573,8 +576613,8 @@ window.MARKET_SNAPSHOT = {
           "symbol": "002179.SZ",
           "name": "中航光电",
           "sourceSymbol": "002179.SZ",
-          "price": 36.73,
-          "ma20": 38.28,
+          "price": 36.01,
+          "ma20": 38.24,
           "status": "MA20下方",
           "weight": 0.18244475978106633
         },
@@ -576582,8 +576622,8 @@ window.MARKET_SNAPSHOT = {
           "symbol": "002230.SZ",
           "name": "科大讯飞",
           "sourceSymbol": "002230.SZ",
-          "price": 40.98,
-          "ma20": 46.75,
+          "price": 40.39,
+          "ma20": 46.72,
           "status": "MA20下方",
           "weight": 0.45611189945266584
         },
@@ -576591,8 +576631,8 @@ window.MARKET_SNAPSHOT = {
           "symbol": "002236.SZ",
           "name": "大华股份",
           "sourceSymbol": "002236.SZ",
-          "price": 16.04,
-          "ma20": 17.13,
+          "price": 15.95,
+          "ma20": 17.12,
           "status": "MA20下方",
           "weight": 0.1520372998175553
         },
@@ -576600,8 +576640,8 @@ window.MARKET_SNAPSHOT = {
           "symbol": "002241.SZ",
           "name": "歌尔股份",
           "sourceSymbol": "002241.SZ",
-          "price": 23.55,
-          "ma20": 25.46,
+          "price": 23.01,
+          "ma20": 25.43,
           "status": "MA20下方",
           "weight": 0.2838029596594366
         },
@@ -576609,7 +576649,7 @@ window.MARKET_SNAPSHOT = {
           "symbol": "002252.SZ",
           "name": "上海莱士",
           "sourceSymbol": "002252.SZ",
-          "price": 4.85,
+          "price": 5.01,
           "ma20": 5.2,
           "status": "MA20下方",
           "weight": 0.13176565984188124
@@ -576618,8 +576658,8 @@ window.MARKET_SNAPSHOT = {
           "symbol": "002304.SZ",
           "name": "洋河股份",
           "sourceSymbol": "002304.SZ",
-          "price": 43.89,
-          "ma20": 44.09,
+          "price": 43,
+          "ma20": 44.04,
           "status": "MA20下方",
           "weight": 0.1419014798297183
         },
@@ -576627,17 +576667,17 @@ window.MARKET_SNAPSHOT = {
           "symbol": "002311.SZ",
           "name": "海大集团",
           "sourceSymbol": "002311.SZ",
-          "price": 46.03,
-          "ma20": 45.68,
-          "status": "MA20上方",
+          "price": 45.65,
+          "ma20": 45.66,
+          "status": "MA20下方",
           "weight": 0.18244475978106633
         },
         {
           "symbol": "002352.SZ",
           "name": "顺丰控股",
           "sourceSymbol": "002352.SZ",
-          "price": 34.46,
-          "ma20": 35.04,
+          "price": 34.36,
+          "ma20": 35.03,
           "status": "MA20下方",
           "weight": 0.36488951956213267
         },
@@ -576645,8 +576685,8 @@ window.MARKET_SNAPSHOT = {
           "symbol": "002371.SZ",
           "name": "北方华创",
           "sourceSymbol": "002371.SZ",
-          "price": 656.16,
-          "ma20": 633.57,
+          "price": 667.19,
+          "ma20": 634.12,
           "status": "MA20上方",
           "weight": 0.7804581390634505
         },
@@ -576654,8 +576694,8 @@ window.MARKET_SNAPSHOT = {
           "symbol": "002384.SZ",
           "name": "东山精密",
           "sourceSymbol": "002384.SZ",
-          "price": 218.69,
-          "ma20": 217.6,
+          "price": 217.55,
+          "ma20": 217.54,
           "status": "MA20上方",
           "weight": 0.4155686195013178
         },
@@ -576663,8 +576703,8 @@ window.MARKET_SNAPSHOT = {
           "symbol": "002415.SZ",
           "name": "海康威视",
           "sourceSymbol": "002415.SZ",
-          "price": 30.64,
-          "ma20": 31.25,
+          "price": 30.24,
+          "ma20": 31.23,
           "status": "MA20下方",
           "weight": 0.4358402594769918
         },
@@ -576672,8 +576712,8 @@ window.MARKET_SNAPSHOT = {
           "symbol": "002422.SZ",
           "name": "科伦药业",
           "sourceSymbol": "002422.SZ",
-          "price": 37.53,
-          "ma20": 34.69,
+          "price": 37.31,
+          "ma20": 34.68,
           "status": "MA20上方",
           "weight": 0.13176565984188124
         },
@@ -576681,8 +576721,8 @@ window.MARKET_SNAPSHOT = {
           "symbol": "002459.SZ",
           "name": "晶澳科技",
           "sourceSymbol": "002459.SZ",
-          "price": 9.04,
-          "ma20": 9.2,
+          "price": 8.85,
+          "ma20": 9.19,
           "status": "MA20下方",
           "weight": 0.09122237989053317
         },
@@ -576690,17 +576730,17 @@ window.MARKET_SNAPSHOT = {
           "symbol": "002460.SZ",
           "name": "赣锋锂业",
           "sourceSymbol": "002460.SZ",
-          "price": 72.02,
-          "ma20": 71.59,
-          "status": "MA20上方",
+          "price": 71.16,
+          "ma20": 71.55,
+          "status": "MA20下方",
           "weight": 0.2838029596594366
         },
         {
           "symbol": "002463.SZ",
           "name": "沪电股份",
           "sourceSymbol": "002463.SZ",
-          "price": 127.25,
-          "ma20": 124.88,
+          "price": 125.2,
+          "ma20": 124.78,
           "status": "MA20上方",
           "weight": 0.3851611595378067
         },
@@ -576708,8 +576748,8 @@ window.MARKET_SNAPSHOT = {
           "symbol": "002466.SZ",
           "name": "天齐锂业",
           "sourceSymbol": "002466.SZ",
-          "price": 63.16,
-          "ma20": 63.2,
+          "price": 62.5,
+          "ma20": 63.17,
           "status": "MA20下方",
           "weight": 0.2229880397324144
         },
@@ -576717,8 +576757,8 @@ window.MARKET_SNAPSHOT = {
           "symbol": "002475.SZ",
           "name": "立讯精密",
           "sourceSymbol": "002475.SZ",
-          "price": 65.18,
-          "ma20": 70.7,
+          "price": 63.76,
+          "ma20": 70.63,
           "status": "MA20下方",
           "weight": 1.145347658625583
         },
@@ -576726,7 +576766,7 @@ window.MARKET_SNAPSHOT = {
           "symbol": "002493.SZ",
           "name": "荣盛石化",
           "sourceSymbol": "002493.SZ",
-          "price": 11.38,
+          "price": 11.34,
           "ma20": 11.47,
           "status": "MA20下方",
           "weight": 0.1419014798297183
@@ -576735,8 +576775,8 @@ window.MARKET_SNAPSHOT = {
           "symbol": "002594.SZ",
           "name": "比亚迪",
           "sourceSymbol": "002594.SZ",
-          "price": 90.88,
-          "ma20": 93.83,
+          "price": 91.6,
+          "ma20": 93.87,
           "status": "MA20下方",
           "weight": 1.05412527873505
         },
@@ -576744,8 +576784,8 @@ window.MARKET_SNAPSHOT = {
           "symbol": "002600.SZ",
           "name": "领益智造",
           "sourceSymbol": "002600.SZ",
-          "price": 14.29,
-          "ma20": 15.28,
+          "price": 14.01,
+          "ma20": 15.26,
           "status": "MA20下方",
           "weight": 0.2229880397324144
         },
@@ -576753,17 +576793,17 @@ window.MARKET_SNAPSHOT = {
           "symbol": "002601.SZ",
           "name": "龙佰集团",
           "sourceSymbol": "002601.SZ",
-          "price": 14.95,
-          "ma20": 15.05,
-          "status": "MA20下方",
+          "price": 15.34,
+          "ma20": 15.07,
+          "status": "MA20上方",
           "weight": 0.13176565984188124
         },
         {
           "symbol": "002625.SZ",
           "name": "光启技术",
           "sourceSymbol": "002625.SZ",
-          "price": 38.92,
-          "ma20": 38.68,
+          "price": 38.69,
+          "ma20": 38.66,
           "status": "MA20上方",
           "weight": 0.27366713967159956
         },
@@ -576771,8 +576811,8 @@ window.MARKET_SNAPSHOT = {
           "symbol": "002648.SZ",
           "name": "卫星化学",
           "sourceSymbol": "002648.SZ",
-          "price": 24.35,
-          "ma20": 24.36,
+          "price": 24.16,
+          "ma20": 24.35,
           "status": "MA20下方",
           "weight": 0.12162983985404421
         },
@@ -576780,8 +576820,8 @@ window.MARKET_SNAPSHOT = {
           "symbol": "002709.SZ",
           "name": "天赐材料",
           "sourceSymbol": "002709.SZ",
-          "price": 50.18,
-          "ma20": 52.01,
+          "price": 49.64,
+          "ma20": 51.98,
           "status": "MA20下方",
           "weight": 0.2635313196837625
         },
@@ -576789,8 +576829,8 @@ window.MARKET_SNAPSHOT = {
           "symbol": "002714.SZ",
           "name": "牧原股份",
           "sourceSymbol": "002714.SZ",
-          "price": 35.01,
-          "ma20": 37.08,
+          "price": 34.86,
+          "ma20": 37.07,
           "status": "MA20下方",
           "weight": 0.5473342793431991
         },
@@ -576798,7 +576838,7 @@ window.MARKET_SNAPSHOT = {
           "symbol": "002736.SZ",
           "name": "国信证券",
           "sourceSymbol": "002736.SZ",
-          "price": 10.25,
+          "price": 10.27,
           "ma20": 10.11,
           "status": "MA20上方",
           "weight": 0.1621731198053923
@@ -576807,8 +576847,8 @@ window.MARKET_SNAPSHOT = {
           "symbol": "002916.SZ",
           "name": "深南电路",
           "sourceSymbol": "002916.SZ",
-          "price": 383.9,
-          "ma20": 379.27,
+          "price": 379.5,
+          "ma20": 379.05,
           "status": "MA20上方",
           "weight": 0.24325967970808843
         },
@@ -576816,8 +576856,8 @@ window.MARKET_SNAPSHOT = {
           "symbol": "002920.SZ",
           "name": "德赛西威",
           "sourceSymbol": "002920.SZ",
-          "price": 87.19,
-          "ma20": 100.1,
+          "price": 86.95,
+          "ma20": 100.09,
           "status": "MA20下方",
           "weight": 0.1419014798297183
         },
@@ -576825,8 +576865,8 @@ window.MARKET_SNAPSHOT = {
           "symbol": "002938.SZ",
           "name": "鹏鼎控股",
           "sourceSymbol": "002938.SZ",
-          "price": 103.87,
-          "ma20": 105.45,
+          "price": 101.52,
+          "ma20": 105.33,
           "status": "MA20下方",
           "weight": 0.1419014798297183
         },
@@ -576834,7 +576874,7 @@ window.MARKET_SNAPSHOT = {
           "symbol": "003816.SZ",
           "name": "中国广核",
           "sourceSymbol": "003816.SZ",
-          "price": 4.4,
+          "price": 4.37,
           "ma20": 4.53,
           "status": "MA20下方",
           "weight": 0.12162983985404421
@@ -576843,8 +576883,8 @@ window.MARKET_SNAPSHOT = {
           "symbol": "300014.SZ",
           "name": "亿纬锂能",
           "sourceSymbol": "300014.SZ",
-          "price": 58.1,
-          "ma20": 61.87,
+          "price": 57.67,
+          "ma20": 61.85,
           "status": "MA20下方",
           "weight": 0.3243462396107846
         },
@@ -576852,8 +576892,8 @@ window.MARKET_SNAPSHOT = {
           "symbol": "300015.SZ",
           "name": "爱尔眼科",
           "sourceSymbol": "300015.SZ",
-          "price": 8.54,
-          "ma20": 9,
+          "price": 8.46,
+          "ma20": 8.99,
           "status": "MA20下方",
           "weight": 0.20271639975674038
         },
@@ -576861,8 +576901,8 @@ window.MARKET_SNAPSHOT = {
           "symbol": "300033.SZ",
           "name": "同花顺",
           "sourceSymbol": "300033.SZ",
-          "price": 207.8,
-          "ma20": 222.5,
+          "price": 207.46,
+          "ma20": 222.49,
           "status": "MA20下方",
           "weight": 0.27366713967159956
         },
@@ -576870,8 +576910,8 @@ window.MARKET_SNAPSHOT = {
           "symbol": "300059.SZ",
           "name": "东方财富",
           "sourceSymbol": "300059.SZ",
-          "price": 18.11,
-          "ma20": 18.98,
+          "price": 18,
+          "ma20": 18.97,
           "status": "MA20下方",
           "weight": 1.15548347861342
         },
@@ -576879,7 +576919,7 @@ window.MARKET_SNAPSHOT = {
           "symbol": "300122.SZ",
           "name": "智飞生物",
           "sourceSymbol": "300122.SZ",
-          "price": 12.45,
+          "price": 12.36,
           "ma20": 13.37,
           "status": "MA20下方",
           "weight": 0.09122237989053317
@@ -576888,8 +576928,8 @@ window.MARKET_SNAPSHOT = {
           "symbol": "300124.SZ",
           "name": "汇川技术",
           "sourceSymbol": "300124.SZ",
-          "price": 68.69,
-          "ma20": 75.53,
+          "price": 67.16,
+          "ma20": 75.45,
           "status": "MA20下方",
           "weight": 0.5676059193188732
         },
@@ -576897,7 +576937,7 @@ window.MARKET_SNAPSHOT = {
           "symbol": "300251.SZ",
           "name": "光线传媒",
           "sourceSymbol": "300251.SZ",
-          "price": 11.39,
+          "price": 11.31,
           "ma20": 12.54,
           "status": "MA20下方",
           "weight": 0.09122237989053317
@@ -576906,8 +576946,8 @@ window.MARKET_SNAPSHOT = {
           "symbol": "300274.SZ",
           "name": "阳光电源",
           "sourceSymbol": "300274.SZ",
-          "price": 153.95,
-          "ma20": 164.21,
+          "price": 148.76,
+          "ma20": 163.95,
           "status": "MA20下方",
           "weight": 0.9831745388201909
         },
@@ -576915,17 +576955,17 @@ window.MARKET_SNAPSHOT = {
           "symbol": "300308.SZ",
           "name": "中际旭创",
           "sourceSymbol": "300308.SZ",
-          "price": 1129,
-          "ma20": 1130.08,
-          "status": "MA20下方",
+          "price": 1149,
+          "ma20": 1131.08,
+          "status": "MA20上方",
           "weight": 2.645449016825462
         },
         {
           "symbol": "300316.SZ",
           "name": "晶盛机电",
           "sourceSymbol": "300316.SZ",
-          "price": 48.03,
-          "ma20": 51.15,
+          "price": 47.08,
+          "ma20": 51.1,
           "status": "MA20下方",
           "weight": 0.09122237989053317
         },
@@ -576933,8 +576973,8 @@ window.MARKET_SNAPSHOT = {
           "symbol": "300347.SZ",
           "name": "泰格医药",
           "sourceSymbol": "300347.SZ",
-          "price": 40.1,
-          "ma20": 40.71,
+          "price": 39.82,
+          "ma20": 40.7,
           "status": "MA20下方",
           "weight": 0.1114940198662072
         },
@@ -576942,8 +576982,8 @@ window.MARKET_SNAPSHOT = {
           "symbol": "300394.SZ",
           "name": "天孚通信",
           "sourceSymbol": "300394.SZ",
-          "price": 290.01,
-          "ma20": 298.95,
+          "price": 280.95,
+          "ma20": 298.5,
           "status": "MA20下方",
           "weight": 0.3750253395499697
         },
@@ -576951,8 +576991,8 @@ window.MARKET_SNAPSHOT = {
           "symbol": "300408.SZ",
           "name": "三环集团",
           "sourceSymbol": "300408.SZ",
-          "price": 127.36,
-          "ma20": 121.69,
+          "price": 126.5,
+          "ma20": 121.65,
           "status": "MA20上方",
           "weight": 0.24325967970808843
         },
@@ -576960,7 +577000,7 @@ window.MARKET_SNAPSHOT = {
           "symbol": "300413.SZ",
           "name": "芒果超媒",
           "sourceSymbol": "300413.SZ",
-          "price": 15.94,
+          "price": 15.95,
           "ma20": 17.38,
           "status": "MA20下方",
           "weight": 0.07095073991485915
@@ -576969,8 +577009,8 @@ window.MARKET_SNAPSHOT = {
           "symbol": "300418.SZ",
           "name": "昆仑万维",
           "sourceSymbol": "300418.SZ",
-          "price": 37.98,
-          "ma20": 43.46,
+          "price": 37.22,
+          "ma20": 43.42,
           "status": "MA20下方",
           "weight": 0.1419014798297183
         },
@@ -576978,8 +577018,8 @@ window.MARKET_SNAPSHOT = {
           "symbol": "300433.SZ",
           "name": "蓝思科技",
           "sourceSymbol": "300433.SZ",
-          "price": 44.01,
-          "ma20": 40.99,
+          "price": 41.14,
+          "ma20": 40.85,
           "status": "MA20上方",
           "weight": 0.24325967970808843
         },
@@ -576987,8 +577027,8 @@ window.MARKET_SNAPSHOT = {
           "symbol": "300442.SZ",
           "name": "润泽科技",
           "sourceSymbol": "300442.SZ",
-          "price": 75.32,
-          "ma20": 84.85,
+          "price": 73.53,
+          "ma20": 84.76,
           "status": "MA20下方",
           "weight": 0.17230893979322934
         },
@@ -576996,8 +577036,8 @@ window.MARKET_SNAPSHOT = {
           "symbol": "300476.SZ",
           "name": "胜宏科技",
           "sourceSymbol": "300476.SZ",
-          "price": 333.66,
-          "ma20": 351.05,
+          "price": 327.21,
+          "ma20": 350.73,
           "status": "MA20下方",
           "weight": 0.6689641191972433
         },
@@ -577005,8 +577045,8 @@ window.MARKET_SNAPSHOT = {
           "symbol": "300498.SZ",
           "name": "温氏股份",
           "sourceSymbol": "300498.SZ",
-          "price": 13.02,
-          "ma20": 13.5,
+          "price": 12.93,
+          "ma20": 13.49,
           "status": "MA20下方",
           "weight": 0.35475369957429564
         },
@@ -577014,8 +577054,8 @@ window.MARKET_SNAPSHOT = {
           "symbol": "300502.SZ",
           "name": "新易盛",
           "sourceSymbol": "300502.SZ",
-          "price": 505.26,
-          "ma20": 495.43,
+          "price": 506.46,
+          "ma20": 495.49,
           "status": "MA20上方",
           "weight": 1.6926819379687823
         },
@@ -577023,8 +577063,8 @@ window.MARKET_SNAPSHOT = {
           "symbol": "300628.SZ",
           "name": "亿联网络",
           "sourceSymbol": "300628.SZ",
-          "price": 34.34,
-          "ma20": 37.42,
+          "price": 34.1,
+          "ma20": 37.4,
           "status": "MA20下方",
           "weight": 0.07095073991485915
         },
@@ -577032,17 +577072,17 @@ window.MARKET_SNAPSHOT = {
           "symbol": "300661.SZ",
           "name": "圣邦股份",
           "sourceSymbol": "300661.SZ",
-          "price": 105.54,
-          "ma20": 111.07,
-          "status": "MA20下方",
+          "price": 111.44,
+          "ma20": 111.36,
+          "status": "MA20上方",
           "weight": 0.12162983985404421
         },
         {
           "symbol": "300750.SZ",
           "name": "宁德时代",
           "sourceSymbol": "300750.SZ",
-          "price": 395.32,
-          "ma20": 409.13,
+          "price": 394.85,
+          "ma20": 409.11,
           "status": "MA20下方",
           "weight": 3.851611595378067
         },
@@ -577050,8 +577090,8 @@ window.MARKET_SNAPSHOT = {
           "symbol": "300759.SZ",
           "name": "康龙化成",
           "sourceSymbol": "300759.SZ",
-          "price": 22.15,
-          "ma20": 24.36,
+          "price": 22.38,
+          "ma20": 24.37,
           "status": "MA20下方",
           "weight": 0.1114940198662072
         },
@@ -577059,8 +577099,8 @@ window.MARKET_SNAPSHOT = {
           "symbol": "300760.SZ",
           "name": "迈瑞医疗",
           "sourceSymbol": "300760.SZ",
-          "price": 149.98,
-          "ma20": 149.87,
+          "price": 151.04,
+          "ma20": 149.92,
           "status": "MA20上方",
           "weight": 0.45611189945266584
         },
@@ -577068,7 +577108,7 @@ window.MARKET_SNAPSHOT = {
           "symbol": "300782.SZ",
           "name": "卓胜微",
           "sourceSymbol": "300782.SZ",
-          "price": 89.77,
+          "price": 89.76,
           "ma20": 110.24,
           "status": "MA20下方",
           "weight": 0.12162983985404421
@@ -577077,8 +577117,8 @@ window.MARKET_SNAPSHOT = {
           "symbol": "300803.SZ",
           "name": "指南针",
           "sourceSymbol": "300803.SZ",
-          "price": 85.66,
-          "ma20": 91.8,
+          "price": 86.2,
+          "ma20": 91.83,
           "status": "MA20下方",
           "weight": 0.18244475978106633
         },
@@ -577086,8 +577126,8 @@ window.MARKET_SNAPSHOT = {
           "symbol": "300832.SZ",
           "name": "新产业",
           "sourceSymbol": "300832.SZ",
-          "price": 43.88,
-          "ma20": 46.26,
+          "price": 43.58,
+          "ma20": 46.25,
           "status": "MA20下方",
           "weight": 0.09122237989053317
         },
@@ -577095,8 +577135,8 @@ window.MARKET_SNAPSHOT = {
           "symbol": "300866.SZ",
           "name": "安克创新",
           "sourceSymbol": "300866.SZ",
-          "price": 117.29,
-          "ma20": 120.67,
+          "price": 115.05,
+          "ma20": 120.56,
           "status": "MA20下方",
           "weight": 0.10135819987837019
         },
@@ -577104,8 +577144,8 @@ window.MARKET_SNAPSHOT = {
           "symbol": "300896.SZ",
           "name": "爱美客",
           "sourceSymbol": "300896.SZ",
-          "price": 94.22,
-          "ma20": 100.44,
+          "price": 94.27,
+          "ma20": 100.45,
           "status": "MA20下方",
           "weight": 0.08108655990269616
         },
@@ -577113,7 +577153,7 @@ window.MARKET_SNAPSHOT = {
           "symbol": "300979.SZ",
           "name": "华利集团",
           "sourceSymbol": "300979.SZ",
-          "price": 33.54,
+          "price": 33.62,
           "ma20": 34.76,
           "status": "MA20下方",
           "weight": 0.030407459963511053
@@ -577122,7 +577162,7 @@ window.MARKET_SNAPSHOT = {
           "symbol": "300999.SZ",
           "name": "金龙鱼",
           "sourceSymbol": "300999.SZ",
-          "price": 25.67,
+          "price": 25.7,
           "ma20": 26.35,
           "status": "MA20下方",
           "weight": 0.07095073991485915
@@ -577131,17 +577171,17 @@ window.MARKET_SNAPSHOT = {
           "symbol": "301236.SZ",
           "name": "软通动力",
           "sourceSymbol": "301236.SZ",
-          "price": 40.55,
-          "ma20": 40.17,
-          "status": "MA20上方",
+          "price": 39.75,
+          "ma20": 40.13,
+          "status": "MA20下方",
           "weight": 0.12162983985404421
         },
         {
           "symbol": "301269.SZ",
           "name": "华大九天",
           "sourceSymbol": "301269.SZ",
-          "price": 96.01,
-          "ma20": 106.63,
+          "price": 94.57,
+          "ma20": 106.56,
           "status": "MA20下方",
           "weight": 0.09122237989053317
         },
@@ -577149,8 +577189,8 @@ window.MARKET_SNAPSHOT = {
           "symbol": "302132.SZ",
           "name": "中航成飞",
           "sourceSymbol": "302132.SZ",
-          "price": 63.99,
-          "ma20": 69.22,
+          "price": 63.81,
+          "ma20": 69.21,
           "status": "MA20下方",
           "weight": 0.09122237989053317
         },
@@ -577158,8 +577198,8 @@ window.MARKET_SNAPSHOT = {
           "symbol": "600000.SS",
           "name": "浦发银行",
           "sourceSymbol": "600000.SS",
-          "price": 9.55,
-          "ma20": 9.24,
+          "price": 9.67,
+          "ma20": 9.25,
           "status": "MA20上方",
           "weight": 0.6588282992094063
         },
@@ -577167,7 +577207,7 @@ window.MARKET_SNAPSHOT = {
           "symbol": "600009.SS",
           "name": "上海机场",
           "sourceSymbol": "600009.SS",
-          "price": 24.16,
+          "price": 24.28,
           "ma20": 24.63,
           "status": "MA20下方",
           "weight": 0.1621731198053923
@@ -577176,7 +577216,7 @@ window.MARKET_SNAPSHOT = {
           "symbol": "600010.SS",
           "name": "包钢股份",
           "sourceSymbol": "600010.SS",
-          "price": 2.41,
+          "price": 2.39,
           "ma20": 2.44,
           "status": "MA20下方",
           "weight": 0.2128522197445774
@@ -577185,16 +577225,16 @@ window.MARKET_SNAPSHOT = {
           "symbol": "600011.SS",
           "name": "华能国际",
           "sourceSymbol": "600011.SS",
-          "price": 8.2,
-          "ma20": 8.18,
-          "status": "MA20上方",
+          "price": 8.05,
+          "ma20": 8.17,
+          "status": "MA20下方",
           "weight": 0.13176565984188124
         },
         {
           "symbol": "600015.SS",
           "name": "华夏银行",
           "sourceSymbol": "600015.SS",
-          "price": 6.93,
+          "price": 6.99,
           "ma20": 6.77,
           "status": "MA20上方",
           "weight": 0.17230893979322934
@@ -577203,7 +577243,7 @@ window.MARKET_SNAPSHOT = {
           "symbol": "600016.SS",
           "name": "民生银行",
           "sourceSymbol": "600016.SS",
-          "price": 3.6,
+          "price": 3.63,
           "ma20": 3.55,
           "status": "MA20上方",
           "weight": 0.3750253395499697
@@ -577212,7 +577252,7 @@ window.MARKET_SNAPSHOT = {
           "symbol": "600018.SS",
           "name": "上港集团",
           "sourceSymbol": "600018.SS",
-          "price": 5.03,
+          "price": 5.04,
           "ma20": 5.06,
           "status": "MA20下方",
           "weight": 0.06081491992702211
@@ -577230,7 +577270,7 @@ window.MARKET_SNAPSHOT = {
           "symbol": "600023.SS",
           "name": "浙能电力",
           "sourceSymbol": "600023.SS",
-          "price": 6.25,
+          "price": 6.26,
           "ma20": 6.15,
           "status": "MA20上方",
           "weight": 0.08108655990269616
@@ -577239,7 +577279,7 @@ window.MARKET_SNAPSHOT = {
           "symbol": "600025.SS",
           "name": "华能水电",
           "sourceSymbol": "600025.SS",
-          "price": 9.79,
+          "price": 9.86,
           "ma20": 9.7,
           "status": "MA20上方",
           "weight": 0.07095073991485915
@@ -577248,8 +577288,8 @@ window.MARKET_SNAPSHOT = {
           "symbol": "600026.SS",
           "name": "中远海能",
           "sourceSymbol": "600026.SS",
-          "price": 17.6,
-          "ma20": 19.45,
+          "price": 17.5,
+          "ma20": 19.44,
           "status": "MA20下方",
           "weight": 0.08108655990269616
         },
@@ -577257,7 +577297,7 @@ window.MARKET_SNAPSHOT = {
           "symbol": "600027.SS",
           "name": "华电国际",
           "sourceSymbol": "600027.SS",
-          "price": 5.14,
+          "price": 5.12,
           "ma20": 5.31,
           "status": "MA20下方",
           "weight": 0.08108655990269616
@@ -577266,8 +577306,8 @@ window.MARKET_SNAPSHOT = {
           "symbol": "600028.SS",
           "name": "中国石化",
           "sourceSymbol": "600028.SS",
-          "price": 4.93,
-          "ma20": 4.9,
+          "price": 4.94,
+          "ma20": 4.91,
           "status": "MA20上方",
           "weight": 0.35475369957429564
         },
@@ -577275,7 +577315,7 @@ window.MARKET_SNAPSHOT = {
           "symbol": "600029.SS",
           "name": "南方航空",
           "sourceSymbol": "600029.SS",
-          "price": 5.28,
+          "price": 5.27,
           "ma20": 5.3,
           "status": "MA20下方",
           "weight": 0.17230893979322934
@@ -577284,7 +577324,7 @@ window.MARKET_SNAPSHOT = {
           "symbol": "600030.SS",
           "name": "中信证券",
           "sourceSymbol": "600030.SS",
-          "price": 26.18,
+          "price": 26.29,
           "ma20": 25.83,
           "status": "MA20上方",
           "weight": 1.1048043786742352
@@ -577293,8 +577333,8 @@ window.MARKET_SNAPSHOT = {
           "symbol": "600031.SS",
           "name": "三一重工",
           "sourceSymbol": "600031.SS",
-          "price": 19.07,
-          "ma20": 18.73,
+          "price": 18.91,
+          "ma20": 18.72,
           "status": "MA20上方",
           "weight": 0.496655179404014
         },
@@ -577302,8 +577342,8 @@ window.MARKET_SNAPSHOT = {
           "symbol": "600036.SS",
           "name": "招商银行",
           "sourceSymbol": "600036.SS",
-          "price": 39.07,
-          "ma20": 37.91,
+          "price": 39.34,
+          "ma20": 37.92,
           "status": "MA20上方",
           "weight": 2.0575714575309147
         },
@@ -577311,7 +577351,7 @@ window.MARKET_SNAPSHOT = {
           "symbol": "600039.SS",
           "name": "四川路桥",
           "sourceSymbol": "600039.SS",
-          "price": 8.29,
+          "price": 8.25,
           "ma20": 8.35,
           "status": "MA20下方",
           "weight": 0.10135819987837019
@@ -577329,7 +577369,7 @@ window.MARKET_SNAPSHOT = {
           "symbol": "600050.SS",
           "name": "中国联通",
           "sourceSymbol": "600050.SS",
-          "price": 4.41,
+          "price": 4.37,
           "ma20": 4.46,
           "status": "MA20下方",
           "weight": 0.3142104196229476
@@ -577338,8 +577378,8 @@ window.MARKET_SNAPSHOT = {
           "symbol": "600061.SS",
           "name": "国投资本",
           "sourceSymbol": "600061.SS",
-          "price": 6.42,
-          "ma20": 6.38,
+          "price": 6.46,
+          "ma20": 6.39,
           "status": "MA20上方",
           "weight": 0.08108655990269616
         },
@@ -577347,8 +577387,8 @@ window.MARKET_SNAPSHOT = {
           "symbol": "600066.SS",
           "name": "宇通客车",
           "sourceSymbol": "600066.SS",
-          "price": 29.32,
-          "ma20": 31.49,
+          "price": 28.85,
+          "ma20": 31.47,
           "status": "MA20下方",
           "weight": 0.17230893979322934
         },
@@ -577356,7 +577396,7 @@ window.MARKET_SNAPSHOT = {
           "symbol": "600085.SS",
           "name": "同仁堂",
           "sourceSymbol": "600085.SS",
-          "price": 24.82,
+          "price": 24.95,
           "ma20": 25.25,
           "status": "MA20下方",
           "weight": 0.09122237989053317
@@ -577365,8 +577405,8 @@ window.MARKET_SNAPSHOT = {
           "symbol": "600089.SS",
           "name": "特变电工",
           "sourceSymbol": "600089.SS",
-          "price": 23.31,
-          "ma20": 25.44,
+          "price": 23.03,
+          "ma20": 25.43,
           "status": "MA20下方",
           "weight": 0.4459760794648288
         },
@@ -577374,8 +577414,8 @@ window.MARKET_SNAPSHOT = {
           "symbol": "600104.SS",
           "name": "上汽集团",
           "sourceSymbol": "600104.SS",
-          "price": 10.99,
-          "ma20": 11.98,
+          "price": 10.92,
+          "ma20": 11.97,
           "status": "MA20下方",
           "weight": 0.27366713967159956
         },
@@ -577383,9 +577423,9 @@ window.MARKET_SNAPSHOT = {
           "symbol": "600111.SS",
           "name": "北方稀土",
           "sourceSymbol": "600111.SS",
-          "price": 50.2,
-          "ma20": 49.58,
-          "status": "MA20上方",
+          "price": 49.43,
+          "ma20": 49.54,
+          "status": "MA20下方",
           "weight": 0.4662477194405029
         },
         {
@@ -577401,8 +577441,8 @@ window.MARKET_SNAPSHOT = {
           "symbol": "600150.SS",
           "name": "中国船舶",
           "sourceSymbol": "600150.SS",
-          "price": 35.42,
-          "ma20": 36.91,
+          "price": 34.89,
+          "ma20": 36.88,
           "status": "MA20下方",
           "weight": 0.5980133792823841
         },
@@ -577410,8 +577450,8 @@ window.MARKET_SNAPSHOT = {
           "symbol": "600160.SS",
           "name": "巨化股份",
           "sourceSymbol": "600160.SS",
-          "price": 42.69,
-          "ma20": 36.63,
+          "price": 42.39,
+          "ma20": 36.62,
           "status": "MA20上方",
           "weight": 0.20271639975674038
         },
@@ -577419,8 +577459,8 @@ window.MARKET_SNAPSHOT = {
           "symbol": "600161.SS",
           "name": "天坛生物",
           "sourceSymbol": "600161.SS",
-          "price": 12.42,
-          "ma20": 13.12,
+          "price": 12.87,
+          "ma20": 13.14,
           "status": "MA20下方",
           "weight": 0.06081491992702211
         },
@@ -577428,8 +577468,8 @@ window.MARKET_SNAPSHOT = {
           "symbol": "600176.SS",
           "name": "中国巨石",
           "sourceSymbol": "600176.SS",
-          "price": 42.23,
-          "ma20": 38.58,
+          "price": 41.61,
+          "ma20": 38.55,
           "status": "MA20上方",
           "weight": 0.1621731198053923
         },
@@ -577437,8 +577477,8 @@ window.MARKET_SNAPSHOT = {
           "symbol": "600183.SS",
           "name": "生益科技",
           "sourceSymbol": "600183.SS",
-          "price": 152.09,
-          "ma20": 129.43,
+          "price": 151.28,
+          "ma20": 129.39,
           "status": "MA20上方",
           "weight": 0.3446178795864587
         },
@@ -577446,8 +577486,8 @@ window.MARKET_SNAPSHOT = {
           "symbol": "600188.SS",
           "name": "兖矿能源",
           "sourceSymbol": "600188.SS",
-          "price": 23.33,
-          "ma20": 22.87,
+          "price": 22.95,
+          "ma20": 22.85,
           "status": "MA20上方",
           "weight": 0.09122237989053317
         },
@@ -577464,7 +577504,7 @@ window.MARKET_SNAPSHOT = {
           "symbol": "600219.SS",
           "name": "南山铝业",
           "sourceSymbol": "600219.SS",
-          "price": 4.83,
+          "price": 4.73,
           "ma20": 5.09,
           "status": "MA20下方",
           "weight": 0.1520372998175553
@@ -577473,8 +577513,8 @@ window.MARKET_SNAPSHOT = {
           "symbol": "600233.SS",
           "name": "圆通速递",
           "sourceSymbol": "600233.SS",
-          "price": 17.33,
-          "ma20": 18.16,
+          "price": 17.17,
+          "ma20": 18.15,
           "status": "MA20下方",
           "weight": 0.1114940198662072
         },
@@ -577482,7 +577522,7 @@ window.MARKET_SNAPSHOT = {
           "symbol": "600276.SS",
           "name": "恒瑞医药",
           "sourceSymbol": "600276.SS",
-          "price": 48.6,
+          "price": 48.49,
           "ma20": 48.87,
           "status": "MA20下方",
           "weight": 1.05412527873505
@@ -577491,8 +577531,8 @@ window.MARKET_SNAPSHOT = {
           "symbol": "600309.SS",
           "name": "万华化学",
           "sourceSymbol": "600309.SS",
-          "price": 72.57,
-          "ma20": 74.35,
+          "price": 71.67,
+          "ma20": 74.31,
           "status": "MA20下方",
           "weight": 0.5676059193188732
         },
@@ -577500,8 +577540,8 @@ window.MARKET_SNAPSHOT = {
           "symbol": "600346.SS",
           "name": "恒力石化",
           "sourceSymbol": "600346.SS",
-          "price": 17.82,
-          "ma20": 17.86,
+          "price": 17.46,
+          "ma20": 17.85,
           "status": "MA20下方",
           "weight": 0.19258057976890336
         },
@@ -577509,17 +577549,17 @@ window.MARKET_SNAPSHOT = {
           "symbol": "600362.SS",
           "name": "江西铜业",
           "sourceSymbol": "600362.SS",
-          "price": 44.15,
-          "ma20": 44.1,
-          "status": "MA20上方",
+          "price": 43.05,
+          "ma20": 44.05,
+          "status": "MA20下方",
           "weight": 0.2229880397324144
         },
         {
           "symbol": "600372.SS",
           "name": "中航机载",
           "sourceSymbol": "600372.SS",
-          "price": 11.24,
-          "ma20": 11.39,
+          "price": 11.14,
+          "ma20": 11.38,
           "status": "MA20下方",
           "weight": 0.13176565984188124
         },
@@ -577527,8 +577567,8 @@ window.MARKET_SNAPSHOT = {
           "symbol": "600377.SS",
           "name": "宁沪高速",
           "sourceSymbol": "600377.SS",
-          "price": 12.18,
-          "ma20": 12.55,
+          "price": 12.54,
+          "ma20": 12.57,
           "status": "MA20下方",
           "weight": 0.02027163997567404
         },
@@ -577536,8 +577576,8 @@ window.MARKET_SNAPSHOT = {
           "symbol": "600406.SS",
           "name": "国电南瑞",
           "sourceSymbol": "600406.SS",
-          "price": 23.33,
-          "ma20": 24.75,
+          "price": 23.24,
+          "ma20": 24.74,
           "status": "MA20下方",
           "weight": 0.35475369957429564
         },
@@ -577545,7 +577585,7 @@ window.MARKET_SNAPSHOT = {
           "symbol": "600415.SS",
           "name": "小商品城",
           "sourceSymbol": "600415.SS",
-          "price": 11.29,
+          "price": 11.3,
           "ma20": 12.6,
           "status": "MA20下方",
           "weight": 0.17230893979322934
@@ -577554,8 +577594,8 @@ window.MARKET_SNAPSHOT = {
           "symbol": "600426.SS",
           "name": "华鲁恒升",
           "sourceSymbol": "600426.SS",
-          "price": 28.99,
-          "ma20": 29.56,
+          "price": 28.33,
+          "ma20": 29.53,
           "status": "MA20下方",
           "weight": 0.18244475978106633
         },
@@ -577563,8 +577603,8 @@ window.MARKET_SNAPSHOT = {
           "symbol": "600436.SS",
           "name": "片仔癀",
           "sourceSymbol": "600436.SS",
-          "price": 120.1,
-          "ma20": 123.48,
+          "price": 119.56,
+          "ma20": 123.45,
           "status": "MA20下方",
           "weight": 0.20271639975674038
         },
@@ -577572,8 +577612,8 @@ window.MARKET_SNAPSHOT = {
           "symbol": "600438.SS",
           "name": "通威股份",
           "sourceSymbol": "600438.SS",
-          "price": 14.2,
-          "ma20": 14.73,
+          "price": 13.7,
+          "ma20": 14.71,
           "status": "MA20下方",
           "weight": 0.2229880397324144
         },
@@ -577581,8 +577621,8 @@ window.MARKET_SNAPSHOT = {
           "symbol": "600460.SS",
           "name": "士兰微",
           "sourceSymbol": "600460.SS",
-          "price": 32.82,
-          "ma20": 33.6,
+          "price": 32.15,
+          "ma20": 33.57,
           "status": "MA20下方",
           "weight": 0.13176565984188124
         },
@@ -577590,8 +577630,8 @@ window.MARKET_SNAPSHOT = {
           "symbol": "600482.SS",
           "name": "中国动力",
           "sourceSymbol": "600482.SS",
-          "price": 32.46,
-          "ma20": 36.08,
+          "price": 31.22,
+          "ma20": 36.02,
           "status": "MA20下方",
           "weight": 0.09122237989053317
         },
@@ -577599,8 +577639,8 @@ window.MARKET_SNAPSHOT = {
           "symbol": "600489.SS",
           "name": "中金黄金",
           "sourceSymbol": "600489.SS",
-          "price": 22.1,
-          "ma20": 22.61,
+          "price": 21.51,
+          "ma20": 22.58,
           "status": "MA20下方",
           "weight": 0.27366713967159956
         },
@@ -577608,7 +577648,7 @@ window.MARKET_SNAPSHOT = {
           "symbol": "600515.SS",
           "name": "海南机场",
           "sourceSymbol": "600515.SS",
-          "price": 2.95,
+          "price": 2.98,
           "ma20": 3.15,
           "status": "MA20下方",
           "weight": 0.12162983985404421
@@ -577617,17 +577657,17 @@ window.MARKET_SNAPSHOT = {
           "symbol": "600519.SS",
           "name": "贵州茅台",
           "sourceSymbol": "600519.SS",
-          "price": 1281.55,
-          "ma20": 1291.14,
-          "status": "MA20下方",
+          "price": 1291.91,
+          "ma20": 1291.66,
+          "status": "MA20上方",
           "weight": 3.4157713359010757
         },
         {
           "symbol": "600522.SS",
           "name": "中天科技",
           "sourceSymbol": "600522.SS",
-          "price": 50.09,
-          "ma20": 44.89,
+          "price": 48.6,
+          "ma20": 44.81,
           "status": "MA20上方",
           "weight": 0.19258057976890336
         },
@@ -577635,8 +577675,8 @@ window.MARKET_SNAPSHOT = {
           "symbol": "600547.SS",
           "name": "山东黄金",
           "sourceSymbol": "600547.SS",
-          "price": 28.65,
-          "ma20": 29.15,
+          "price": 27.79,
+          "ma20": 29.1,
           "status": "MA20下方",
           "weight": 0.27366713967159956
         },
@@ -577644,8 +577684,8 @@ window.MARKET_SNAPSHOT = {
           "symbol": "600570.SS",
           "name": "恒生电子",
           "sourceSymbol": "600570.SS",
-          "price": 21.98,
-          "ma20": 24.39,
+          "price": 21.71,
+          "ma20": 24.38,
           "status": "MA20下方",
           "weight": 0.18244475978106633
         },
@@ -577653,8 +577693,8 @@ window.MARKET_SNAPSHOT = {
           "symbol": "600584.SS",
           "name": "长电科技",
           "sourceSymbol": "600584.SS",
-          "price": 70.31,
-          "ma20": 74.76,
+          "price": 68.92,
+          "ma20": 74.69,
           "status": "MA20下方",
           "weight": 0.2128522197445774
         },
@@ -577662,8 +577702,8 @@ window.MARKET_SNAPSHOT = {
           "symbol": "600585.SS",
           "name": "海螺水泥",
           "sourceSymbol": "600585.SS",
-          "price": 18.83,
-          "ma20": 19.54,
+          "price": 18.71,
+          "ma20": 19.53,
           "status": "MA20下方",
           "weight": 0.2128522197445774
         },
@@ -577671,7 +577711,7 @@ window.MARKET_SNAPSHOT = {
           "symbol": "600588.SS",
           "name": "用友网络",
           "sourceSymbol": "600588.SS",
-          "price": 10.13,
+          "price": 10,
           "ma20": 10.8,
           "status": "MA20下方",
           "weight": 0.1114940198662072
@@ -577680,8 +577720,8 @@ window.MARKET_SNAPSHOT = {
           "symbol": "600600.SS",
           "name": "青岛啤酒",
           "sourceSymbol": "600600.SS",
-          "price": 60.38,
-          "ma20": 60.64,
+          "price": 60.56,
+          "ma20": 60.65,
           "status": "MA20下方",
           "weight": 0.08108655990269616
         },
@@ -577689,8 +577729,8 @@ window.MARKET_SNAPSHOT = {
           "symbol": "600660.SS",
           "name": "福耀玻璃",
           "sourceSymbol": "600660.SS",
-          "price": 52.81,
-          "ma20": 53.58,
+          "price": 52.35,
+          "ma20": 53.56,
           "status": "MA20下方",
           "weight": 0.4155686195013178
         },
@@ -577698,7 +577738,7 @@ window.MARKET_SNAPSHOT = {
           "symbol": "600674.SS",
           "name": "川投能源",
           "sourceSymbol": "600674.SS",
-          "price": 15.65,
+          "price": 15.6,
           "ma20": 15.23,
           "status": "MA20上方",
           "weight": 0.1114940198662072
@@ -577707,7 +577747,7 @@ window.MARKET_SNAPSHOT = {
           "symbol": "600690.SS",
           "name": "海尔智家",
           "sourceSymbol": "600690.SS",
-          "price": 21.18,
+          "price": 21.13,
           "ma20": 20.6,
           "status": "MA20上方",
           "weight": 0.3851611595378067
@@ -577716,8 +577756,8 @@ window.MARKET_SNAPSHOT = {
           "symbol": "600741.SS",
           "name": "华域汽车",
           "sourceSymbol": "600741.SS",
-          "price": 16.87,
-          "ma20": 16.93,
+          "price": 16.65,
+          "ma20": 16.92,
           "status": "MA20下方",
           "weight": 0.12162983985404421
         },
@@ -577725,7 +577765,7 @@ window.MARKET_SNAPSHOT = {
           "symbol": "600760.SS",
           "name": "中航沈飞",
           "sourceSymbol": "600760.SS",
-          "price": 44.59,
+          "price": 44.61,
           "ma20": 43.38,
           "status": "MA20上方",
           "weight": 0.19258057976890336
@@ -577734,7 +577774,7 @@ window.MARKET_SNAPSHOT = {
           "symbol": "600795.SS",
           "name": "国电电力",
           "sourceSymbol": "600795.SS",
-          "price": 5.04,
+          "price": 5.01,
           "ma20": 5.04,
           "status": "MA20下方",
           "weight": 0.18244475978106633
@@ -577743,7 +577783,7 @@ window.MARKET_SNAPSHOT = {
           "symbol": "600803.SS",
           "name": "新奥股份",
           "sourceSymbol": "600803.SS",
-          "price": 18.37,
+          "price": 18.33,
           "ma20": 19.45,
           "status": "MA20下方",
           "weight": 0.08108655990269616
@@ -577752,8 +577792,8 @@ window.MARKET_SNAPSHOT = {
           "symbol": "600809.SS",
           "name": "山西汾酒",
           "sourceSymbol": "600809.SS",
-          "price": 120.65,
-          "ma20": 125.22,
+          "price": 118.54,
+          "ma20": 125.11,
           "status": "MA20下方",
           "weight": 0.33448205959862165
         },
@@ -577761,8 +577801,8 @@ window.MARKET_SNAPSHOT = {
           "symbol": "600845.SS",
           "name": "宝信软件",
           "sourceSymbol": "600845.SS",
-          "price": 18.09,
-          "ma20": 20.77,
+          "price": 17.93,
+          "ma20": 20.76,
           "status": "MA20下方",
           "weight": 0.07095073991485915
         },
@@ -577770,8 +577810,8 @@ window.MARKET_SNAPSHOT = {
           "symbol": "600875.SS",
           "name": "东方电气",
           "sourceSymbol": "600875.SS",
-          "price": 30.97,
-          "ma20": 34.56,
+          "price": 30.3,
+          "ma20": 34.52,
           "status": "MA20下方",
           "weight": 0.12162983985404421
         },
@@ -577779,7 +577819,7 @@ window.MARKET_SNAPSHOT = {
           "symbol": "600886.SS",
           "name": "国投电力",
           "sourceSymbol": "600886.SS",
-          "price": 14.06,
+          "price": 14.03,
           "ma20": 13.79,
           "status": "MA20上方",
           "weight": 0.12162983985404421
@@ -577788,8 +577828,8 @@ window.MARKET_SNAPSHOT = {
           "symbol": "600887.SS",
           "name": "伊利股份",
           "sourceSymbol": "600887.SS",
-          "price": 25.6,
-          "ma20": 26.35,
+          "price": 25.71,
+          "ma20": 26.36,
           "status": "MA20下方",
           "weight": 0.7196432191364283
         },
@@ -577797,8 +577837,8 @@ window.MARKET_SNAPSHOT = {
           "symbol": "600893.SS",
           "name": "航发动力",
           "sourceSymbol": "600893.SS",
-          "price": 39.57,
-          "ma20": 42.79,
+          "price": 38.82,
+          "ma20": 42.75,
           "status": "MA20下方",
           "weight": 0.2128522197445774
         },
@@ -577806,8 +577846,8 @@ window.MARKET_SNAPSHOT = {
           "symbol": "600900.SS",
           "name": "长江电力",
           "sourceSymbol": "600900.SS",
-          "price": 28.01,
-          "ma20": 27.4,
+          "price": 28.28,
+          "ma20": 27.41,
           "status": "MA20上方",
           "weight": 1.3176565984188127
         },
@@ -577815,8 +577855,8 @@ window.MARKET_SNAPSHOT = {
           "symbol": "600905.SS",
           "name": "三峡能源",
           "sourceSymbol": "600905.SS",
-          "price": 4.22,
-          "ma20": 4.18,
+          "price": 4.18,
+          "ma20": 4.17,
           "status": "MA20上方",
           "weight": 0.23312385972025146
         },
@@ -577824,7 +577864,7 @@ window.MARKET_SNAPSHOT = {
           "symbol": "600918.SS",
           "name": "中泰证券",
           "sourceSymbol": "600918.SS",
-          "price": 5.3,
+          "price": 5.34,
           "ma20": 5.48,
           "status": "MA20下方",
           "weight": 0.08108655990269616
@@ -577833,8 +577873,8 @@ window.MARKET_SNAPSHOT = {
           "symbol": "600919.SS",
           "name": "江苏银行",
           "sourceSymbol": "600919.SS",
-          "price": 11.81,
-          "ma20": 11.34,
+          "price": 11.89,
+          "ma20": 11.35,
           "status": "MA20上方",
           "weight": 0.6081491992702212
         },
@@ -577842,7 +577882,7 @@ window.MARKET_SNAPSHOT = {
           "symbol": "600926.SS",
           "name": "杭州银行",
           "sourceSymbol": "600926.SS",
-          "price": 16.62,
+          "price": 16.74,
           "ma20": 16.17,
           "status": "MA20上方",
           "weight": 0.3040745996351106
@@ -577851,7 +577891,7 @@ window.MARKET_SNAPSHOT = {
           "symbol": "600930.SS",
           "name": "华电新能",
           "sourceSymbol": "600930.SS",
-          "price": 5.87,
+          "price": 5.81,
           "ma20": 6.12,
           "status": "MA20下方",
           "weight": 0.07095073991485915
@@ -577860,8 +577900,8 @@ window.MARKET_SNAPSHOT = {
           "symbol": "600938.SS",
           "name": "中国海油",
           "sourceSymbol": "600938.SS",
-          "price": 33.73,
-          "ma20": 35.32,
+          "price": 33.36,
+          "ma20": 35.3,
           "status": "MA20下方",
           "weight": 0.2838029596594366
         },
@@ -577869,8 +577909,8 @@ window.MARKET_SNAPSHOT = {
           "symbol": "600941.SS",
           "name": "中国移动",
           "sourceSymbol": "600941.SS",
-          "price": 95.58,
-          "ma20": 98.01,
+          "price": 95.12,
+          "ma20": 97.98,
           "status": "MA20下方",
           "weight": 0.36488951956213267
         },
@@ -577878,7 +577918,7 @@ window.MARKET_SNAPSHOT = {
           "symbol": "600958.SS",
           "name": "东方证券",
           "sourceSymbol": "600958.SS",
-          "price": 9.2,
+          "price": 9.24,
           "ma20": 9.29,
           "status": "MA20下方",
           "weight": 0.2229880397324144
@@ -577887,8 +577927,8 @@ window.MARKET_SNAPSHOT = {
           "symbol": "600989.SS",
           "name": "宝丰能源",
           "sourceSymbol": "600989.SS",
-          "price": 23.52,
-          "ma20": 24.92,
+          "price": 23.1,
+          "ma20": 24.9,
           "status": "MA20下方",
           "weight": 0.17230893979322934
         },
@@ -577896,8 +577936,8 @@ window.MARKET_SNAPSHOT = {
           "symbol": "600999.SS",
           "name": "招商证券",
           "sourceSymbol": "600999.SS",
-          "price": 17.56,
-          "ma20": 17.17,
+          "price": 17.69,
+          "ma20": 17.18,
           "status": "MA20上方",
           "weight": 0.24325967970808843
         },
@@ -577905,7 +577945,7 @@ window.MARKET_SNAPSHOT = {
           "symbol": "601006.SS",
           "name": "大秦铁路",
           "sourceSymbol": "601006.SS",
-          "price": 5.05,
+          "price": 5.06,
           "ma20": 5.23,
           "status": "MA20下方",
           "weight": 0.24325967970808843
@@ -577914,8 +577954,8 @@ window.MARKET_SNAPSHOT = {
           "symbol": "601009.SS",
           "name": "南京银行",
           "sourceSymbol": "601009.SS",
-          "price": 11.68,
-          "ma20": 11.11,
+          "price": 11.83,
+          "ma20": 11.12,
           "status": "MA20上方",
           "weight": 0.2838029596594366
         },
@@ -577923,8 +577963,8 @@ window.MARKET_SNAPSHOT = {
           "symbol": "601012.SS",
           "name": "隆基绿能",
           "sourceSymbol": "601012.SS",
-          "price": 13.84,
-          "ma20": 14.08,
+          "price": 13.46,
+          "ma20": 14.06,
           "status": "MA20下方",
           "weight": 0.4358402594769918
         },
@@ -577932,7 +577972,7 @@ window.MARKET_SNAPSHOT = {
           "symbol": "601018.SS",
           "name": "宁波港",
           "sourceSymbol": "601018.SS",
-          "price": 3.37,
+          "price": 3.38,
           "ma20": 3.47,
           "status": "MA20下方",
           "weight": 0.050679099939185096
@@ -577941,8 +577981,8 @@ window.MARKET_SNAPSHOT = {
           "symbol": "601021.SS",
           "name": "春秋航空",
           "sourceSymbol": "601021.SS",
-          "price": 45.49,
-          "ma20": 46.38,
+          "price": 45.55,
+          "ma20": 46.39,
           "status": "MA20下方",
           "weight": 0.1114940198662072
         },
@@ -577950,8 +577990,8 @@ window.MARKET_SNAPSHOT = {
           "symbol": "601058.SS",
           "name": "赛轮轮胎",
           "sourceSymbol": "601058.SS",
-          "price": 12.55,
-          "ma20": 12.66,
+          "price": 12.41,
+          "ma20": 12.65,
           "status": "MA20下方",
           "weight": 0.17230893979322934
         },
@@ -577959,8 +577999,8 @@ window.MARKET_SNAPSHOT = {
           "symbol": "601059.SS",
           "name": "信达证券",
           "sourceSymbol": "601059.SS",
-          "price": 15,
-          "ma20": 16.58,
+          "price": 15.14,
+          "ma20": 16.59,
           "status": "MA20下方",
           "weight": 0.07095073991485915
         },
@@ -577968,8 +578008,8 @@ window.MARKET_SNAPSHOT = {
           "symbol": "601066.SS",
           "name": "中信建投",
           "sourceSymbol": "601066.SS",
-          "price": 25.28,
-          "ma20": 23.91,
+          "price": 25.46,
+          "ma20": 23.92,
           "status": "MA20上方",
           "weight": 0.1419014798297183
         },
@@ -577977,7 +578017,7 @@ window.MARKET_SNAPSHOT = {
           "symbol": "601077.SS",
           "name": "渝农商行",
           "sourceSymbol": "601077.SS",
-          "price": 6.94,
+          "price": 7,
           "ma20": 6.79,
           "status": "MA20上方",
           "weight": 0.13176565984188124
@@ -577986,8 +578026,8 @@ window.MARKET_SNAPSHOT = {
           "symbol": "601088.SS",
           "name": "中国神华",
           "sourceSymbol": "601088.SS",
-          "price": 46.54,
-          "ma20": 47.08,
+          "price": 46.14,
+          "ma20": 47.06,
           "status": "MA20下方",
           "weight": 0.527062639367525
         },
@@ -577995,8 +578035,8 @@ window.MARKET_SNAPSHOT = {
           "symbol": "601100.SS",
           "name": "恒立液压",
           "sourceSymbol": "601100.SS",
-          "price": 118.79,
-          "ma20": 114.71,
+          "price": 114.54,
+          "ma20": 114.5,
           "status": "MA20上方",
           "weight": 0.23312385972025146
         },
@@ -578004,7 +578044,7 @@ window.MARKET_SNAPSHOT = {
           "symbol": "601111.SS",
           "name": "中国国航",
           "sourceSymbol": "601111.SS",
-          "price": 6.29,
+          "price": 6.27,
           "ma20": 6.58,
           "status": "MA20下方",
           "weight": 0.1419014798297183
@@ -578013,8 +578053,8 @@ window.MARKET_SNAPSHOT = {
           "symbol": "601117.SS",
           "name": "中国化学",
           "sourceSymbol": "601117.SS",
-          "price": 7.61,
-          "ma20": 7.7,
+          "price": 7.51,
+          "ma20": 7.69,
           "status": "MA20下方",
           "weight": 0.1114940198662072
         },
@@ -578022,8 +578062,8 @@ window.MARKET_SNAPSHOT = {
           "symbol": "601127.SS",
           "name": "赛力斯",
           "sourceSymbol": "601127.SS",
-          "price": 68.94,
-          "ma20": 78.31,
+          "price": 68.67,
+          "ma20": 78.29,
           "status": "MA20下方",
           "weight": 0.3952969795256438
         },
@@ -578031,8 +578071,8 @@ window.MARKET_SNAPSHOT = {
           "symbol": "601136.SS",
           "name": "首创证券",
           "sourceSymbol": "601136.SS",
-          "price": 13.95,
-          "ma20": 14.63,
+          "price": 14.08,
+          "ma20": 14.64,
           "status": "MA20下方",
           "weight": 0.04054327995134808
         },
@@ -578040,8 +578080,8 @@ window.MARKET_SNAPSHOT = {
           "symbol": "601138.SS",
           "name": "工业富联",
           "sourceSymbol": "601138.SS",
-          "price": 71.02,
-          "ma20": 72.07,
+          "price": 70.13,
+          "ma20": 72.03,
           "status": "MA20下方",
           "weight": 0.9730387188323537
         },
@@ -578049,8 +578089,8 @@ window.MARKET_SNAPSHOT = {
           "symbol": "601166.SS",
           "name": "兴业银行",
           "sourceSymbol": "601166.SS",
-          "price": 18.43,
-          "ma20": 18.13,
+          "price": 18.61,
+          "ma20": 18.14,
           "status": "MA20上方",
           "weight": 1.4088789783093456
         },
@@ -578058,7 +578098,7 @@ window.MARKET_SNAPSHOT = {
           "symbol": "601169.SS",
           "name": "北京银行",
           "sourceSymbol": "601169.SS",
-          "price": 5.22,
+          "price": 5.27,
           "ma20": 5.14,
           "status": "MA20上方",
           "weight": 0.3243462396107846
@@ -578067,8 +578107,8 @@ window.MARKET_SNAPSHOT = {
           "symbol": "601186.SS",
           "name": "中国铁建",
           "sourceSymbol": "601186.SS",
-          "price": 6.4,
-          "ma20": 6.37,
+          "price": 6.41,
+          "ma20": 6.38,
           "status": "MA20上方",
           "weight": 0.1419014798297183
         },
@@ -578076,8 +578116,8 @@ window.MARKET_SNAPSHOT = {
           "symbol": "601211.SS",
           "name": "国泰海通",
           "sourceSymbol": "601211.SS",
-          "price": 17.39,
-          "ma20": 15.81,
+          "price": 17.68,
+          "ma20": 15.91,
           "status": "MA20上方",
           "weight": 0.9223596188931689
         },
@@ -578085,7 +578125,7 @@ window.MARKET_SNAPSHOT = {
           "symbol": "601225.SS",
           "name": "陕西煤业",
           "sourceSymbol": "601225.SS",
-          "price": 26.99,
+          "price": 27,
           "ma20": 25.64,
           "status": "MA20上方",
           "weight": 0.3243462396107846
@@ -578094,7 +578134,7 @@ window.MARKET_SNAPSHOT = {
           "symbol": "601229.SS",
           "name": "上海银行",
           "sourceSymbol": "601229.SS",
-          "price": 9.21,
+          "price": 9.36,
           "ma20": 9.15,
           "status": "MA20上方",
           "weight": 0.3952969795256438
@@ -578103,8 +578143,8 @@ window.MARKET_SNAPSHOT = {
           "symbol": "601236.SS",
           "name": "红塔证券",
           "sourceSymbol": "601236.SS",
-          "price": 6.64,
-          "ma20": 6.9,
+          "price": 6.8,
+          "ma20": 6.91,
           "status": "MA20下方",
           "weight": 0.050679099939185096
         },
@@ -578112,7 +578152,7 @@ window.MARKET_SNAPSHOT = {
           "symbol": "601238.SS",
           "name": "广汽集团",
           "sourceSymbol": "601238.SS",
-          "price": 5.92,
+          "price": 5.88,
           "ma20": 6.15,
           "status": "MA20下方",
           "weight": 0.07095073991485915
@@ -578121,7 +578161,7 @@ window.MARKET_SNAPSHOT = {
           "symbol": "601288.SS",
           "name": "农业银行",
           "sourceSymbol": "601288.SS",
-          "price": 6.69,
+          "price": 6.8,
           "ma20": 6.48,
           "status": "MA20上方",
           "weight": 0.8716805189539836
@@ -578130,17 +578170,17 @@ window.MARKET_SNAPSHOT = {
           "symbol": "601298.SS",
           "name": "青岛港",
           "sourceSymbol": "601298.SS",
-          "price": 8.99,
-          "ma20": 9.09,
-          "status": "MA20下方",
+          "price": 9.24,
+          "ma20": 9.11,
+          "status": "MA20上方",
           "weight": 0.02027163997567404
         },
         {
           "symbol": "601318.SS",
           "name": "中国平安",
           "sourceSymbol": "601318.SS",
-          "price": 54.15,
-          "ma20": 53.72,
+          "price": 54.01,
+          "ma20": 53.71,
           "status": "MA20上方",
           "weight": 2.8887086965335507
         },
@@ -578148,7 +578188,7 @@ window.MARKET_SNAPSHOT = {
           "symbol": "601319.SS",
           "name": "中国人保",
           "sourceSymbol": "601319.SS",
-          "price": 6.99,
+          "price": 7.02,
           "ma20": 6.82,
           "status": "MA20上方",
           "weight": 0.1114940198662072
@@ -578157,8 +578197,8 @@ window.MARKET_SNAPSHOT = {
           "symbol": "601328.SS",
           "name": "交通银行",
           "sourceSymbol": "601328.SS",
-          "price": 7.03,
-          "ma20": 6.74,
+          "price": 7.14,
+          "ma20": 6.75,
           "status": "MA20上方",
           "weight": 0.7601864990877765
         },
@@ -578166,7 +578206,7 @@ window.MARKET_SNAPSHOT = {
           "symbol": "601336.SS",
           "name": "新华保险",
           "sourceSymbol": "601336.SS",
-          "price": 61.52,
+          "price": 61.46,
           "ma20": 58.54,
           "status": "MA20上方",
           "weight": 0.23312385972025146
@@ -578175,7 +578215,7 @@ window.MARKET_SNAPSHOT = {
           "symbol": "601360.SS",
           "name": "三六零",
           "sourceSymbol": "601360.SS",
-          "price": 9.26,
+          "price": 9.16,
           "ma20": 10.21,
           "status": "MA20下方",
           "weight": 0.1520372998175553
@@ -578193,7 +578233,7 @@ window.MARKET_SNAPSHOT = {
           "symbol": "601390.SS",
           "name": "中国中铁",
           "sourceSymbol": "601390.SS",
-          "price": 4.58,
+          "price": 4.57,
           "ma20": 4.71,
           "status": "MA20下方",
           "weight": 0.2229880397324144
@@ -578202,8 +578242,8 @@ window.MARKET_SNAPSHOT = {
           "symbol": "601398.SS",
           "name": "工商银行",
           "sourceSymbol": "601398.SS",
-          "price": 7.66,
-          "ma20": 7.31,
+          "price": 7.78,
+          "ma20": 7.32,
           "status": "MA20上方",
           "weight": 1.013581998783702
         },
@@ -578211,8 +578251,8 @@ window.MARKET_SNAPSHOT = {
           "symbol": "601456.SS",
           "name": "国联民生",
           "sourceSymbol": "601456.SS",
-          "price": 9.67,
-          "ma20": 8.97,
+          "price": 9.41,
+          "ma20": 8.96,
           "status": "MA20上方",
           "weight": 0.06081491992702211
         },
@@ -578220,8 +578260,8 @@ window.MARKET_SNAPSHOT = {
           "symbol": "601600.SS",
           "name": "中国铝业",
           "sourceSymbol": "601600.SS",
-          "price": 11,
-          "ma20": 11.01,
+          "price": 10.8,
+          "ma20": 11,
           "status": "MA20下方",
           "weight": 0.3851611595378067
         },
@@ -578229,8 +578269,8 @@ window.MARKET_SNAPSHOT = {
           "symbol": "601601.SS",
           "name": "中国太保",
           "sourceSymbol": "601601.SS",
-          "price": 32.98,
-          "ma20": 32.38,
+          "price": 32.86,
+          "ma20": 32.37,
           "status": "MA20上方",
           "weight": 0.5676059193188732
         },
@@ -578238,7 +578278,7 @@ window.MARKET_SNAPSHOT = {
           "symbol": "601607.SS",
           "name": "上海医药",
           "sourceSymbol": "601607.SS",
-          "price": 16.3,
+          "price": 16.34,
           "ma20": 16.36,
           "status": "MA20下方",
           "weight": 0.08108655990269616
@@ -578247,7 +578287,7 @@ window.MARKET_SNAPSHOT = {
           "symbol": "601618.SS",
           "name": "中国中冶",
           "sourceSymbol": "601618.SS",
-          "price": 2.7,
+          "price": 2.68,
           "ma20": 2.77,
           "status": "MA20下方",
           "weight": 0.08108655990269616
@@ -578256,8 +578296,8 @@ window.MARKET_SNAPSHOT = {
           "symbol": "601628.SS",
           "name": "中国人寿",
           "sourceSymbol": "601628.SS",
-          "price": 35.82,
-          "ma20": 33.81,
+          "price": 35.81,
+          "ma20": 33.8,
           "status": "MA20上方",
           "weight": 0.3040745996351106
         },
@@ -578265,8 +578305,8 @@ window.MARKET_SNAPSHOT = {
           "symbol": "601633.SS",
           "name": "长城汽车",
           "sourceSymbol": "601633.SS",
-          "price": 18.17,
-          "ma20": 17.34,
+          "price": 17.6,
+          "ma20": 17.31,
           "status": "MA20上方",
           "weight": 0.1114940198662072
         },
@@ -578274,7 +578314,7 @@ window.MARKET_SNAPSHOT = {
           "symbol": "601658.SS",
           "name": "邮储银行",
           "sourceSymbol": "601658.SS",
-          "price": 5.14,
+          "price": 5.2,
           "ma20": 4.99,
           "status": "MA20上方",
           "weight": 0.23312385972025146
@@ -578283,7 +578323,7 @@ window.MARKET_SNAPSHOT = {
           "symbol": "601668.SS",
           "name": "中国建筑",
           "sourceSymbol": "601668.SS",
-          "price": 4.75,
+          "price": 4.77,
           "ma20": 4.78,
           "status": "MA20下方",
           "weight": 0.4155686195013178
@@ -578292,7 +578332,7 @@ window.MARKET_SNAPSHOT = {
           "symbol": "601669.SS",
           "name": "中国电建",
           "sourceSymbol": "601669.SS",
-          "price": 4.86,
+          "price": 4.82,
           "ma20": 5.29,
           "status": "MA20下方",
           "weight": 0.18244475978106633
@@ -578301,8 +578341,8 @@ window.MARKET_SNAPSHOT = {
           "symbol": "601688.SS",
           "name": "华泰证券",
           "sourceSymbol": "601688.SS",
-          "price": 19.75,
-          "ma20": 18.72,
+          "price": 19.97,
+          "ma20": 18.73,
           "status": "MA20上方",
           "weight": 0.537198459355362
         },
@@ -578310,8 +578350,8 @@ window.MARKET_SNAPSHOT = {
           "symbol": "601689.SS",
           "name": "拓普集团",
           "sourceSymbol": "601689.SS",
-          "price": 61.51,
-          "ma20": 67.02,
+          "price": 60.62,
+          "ma20": 66.98,
           "status": "MA20下方",
           "weight": 0.2635313196837625
         },
@@ -578319,7 +578359,7 @@ window.MARKET_SNAPSHOT = {
           "symbol": "601698.SS",
           "name": "中国卫通",
           "sourceSymbol": "601698.SS",
-          "price": 33.93,
+          "price": 33.84,
           "ma20": 32.08,
           "status": "MA20上方",
           "weight": 0.12162983985404421
@@ -578328,7 +578368,7 @@ window.MARKET_SNAPSHOT = {
           "symbol": "601728.SS",
           "name": "中国电信",
           "sourceSymbol": "601728.SS",
-          "price": 6.2,
+          "price": 6.05,
           "ma20": 6.24,
           "status": "MA20下方",
           "weight": 0.3851611595378067
@@ -578337,7 +578377,7 @@ window.MARKET_SNAPSHOT = {
           "symbol": "601766.SS",
           "name": "中国中车",
           "sourceSymbol": "601766.SS",
-          "price": 5.8,
+          "price": 5.76,
           "ma20": 5.75,
           "status": "MA20上方",
           "weight": 0.3243462396107846
@@ -578346,25 +578386,25 @@ window.MARKET_SNAPSHOT = {
           "symbol": "601788.SS",
           "name": "光大证券",
           "sourceSymbol": "601788.SS",
-          "price": 14.24,
+          "price": 14.29,
           "ma20": 14.28,
-          "status": "MA20下方",
+          "status": "MA20上方",
           "weight": 0.13176565984188124
         },
         {
           "symbol": "601800.SS",
           "name": "中国交建",
           "sourceSymbol": "601800.SS",
-          "price": 6.42,
-          "ma20": 6.35,
-          "status": "MA20上方",
+          "price": 6.31,
+          "ma20": 6.34,
+          "status": "MA20下方",
           "weight": 0.12162983985404421
         },
         {
           "symbol": "601808.SS",
           "name": "中海油服",
           "sourceSymbol": "601808.SS",
-          "price": 12.48,
+          "price": 12.51,
           "ma20": 13.19,
           "status": "MA20下方",
           "weight": 0.030407459963511053
@@ -578373,16 +578413,16 @@ window.MARKET_SNAPSHOT = {
           "symbol": "601816.SS",
           "name": "京沪高铁",
           "sourceSymbol": "601816.SS",
-          "price": 4.94,
+          "price": 5,
           "ma20": 4.96,
-          "status": "MA20下方",
+          "status": "MA20上方",
           "weight": 0.5980133792823841
         },
         {
           "symbol": "601818.SS",
           "name": "光大银行",
           "sourceSymbol": "601818.SS",
-          "price": 3.2,
+          "price": 3.23,
           "ma20": 3.12,
           "status": "MA20上方",
           "weight": 0.2533954996959255
@@ -578391,7 +578431,7 @@ window.MARKET_SNAPSHOT = {
           "symbol": "601825.SS",
           "name": "沪农商行",
           "sourceSymbol": "601825.SS",
-          "price": 8.82,
+          "price": 8.88,
           "ma20": 8.66,
           "status": "MA20上方",
           "weight": 0.2128522197445774
@@ -578400,8 +578440,8 @@ window.MARKET_SNAPSHOT = {
           "symbol": "601838.SS",
           "name": "成都银行",
           "sourceSymbol": "601838.SS",
-          "price": 19.91,
-          "ma20": 18.92,
+          "price": 20.07,
+          "ma20": 18.93,
           "status": "MA20上方",
           "weight": 0.1621731198053923
         },
@@ -578409,7 +578449,7 @@ window.MARKET_SNAPSHOT = {
           "symbol": "601857.SS",
           "name": "中国石油",
           "sourceSymbol": "601857.SS",
-          "price": 10.48,
+          "price": 10.38,
           "ma20": 10.86,
           "status": "MA20下方",
           "weight": 0.4662477194405029
@@ -578418,8 +578458,8 @@ window.MARKET_SNAPSHOT = {
           "symbol": "601868.SS",
           "name": "中国能建",
           "sourceSymbol": "601868.SS",
-          "price": 2.67,
-          "ma20": 2.9,
+          "price": 2.65,
+          "ma20": 2.89,
           "status": "MA20下方",
           "weight": 0.12162983985404421
         },
@@ -578427,8 +578467,8 @@ window.MARKET_SNAPSHOT = {
           "symbol": "601872.SS",
           "name": "招商轮船",
           "sourceSymbol": "601872.SS",
-          "price": 15.7,
-          "ma20": 16.03,
+          "price": 15.6,
+          "ma20": 16.02,
           "status": "MA20下方",
           "weight": 0.1114940198662072
         },
@@ -578436,8 +578476,8 @@ window.MARKET_SNAPSHOT = {
           "symbol": "601877.SS",
           "name": "正泰电器",
           "sourceSymbol": "601877.SS",
-          "price": 27.58,
-          "ma20": 29.17,
+          "price": 27.19,
+          "ma20": 29.15,
           "status": "MA20下方",
           "weight": 0.12162983985404421
         },
@@ -578445,7 +578485,7 @@ window.MARKET_SNAPSHOT = {
           "symbol": "601878.SS",
           "name": "浙商证券",
           "sourceSymbol": "601878.SS",
-          "price": 9.23,
+          "price": 9.3,
           "ma20": 9.34,
           "status": "MA20下方",
           "weight": 0.12162983985404421
@@ -578454,7 +578494,7 @@ window.MARKET_SNAPSHOT = {
           "symbol": "601881.SS",
           "name": "中国银河",
           "sourceSymbol": "601881.SS",
-          "price": 12.36,
+          "price": 12.4,
           "ma20": 12.25,
           "status": "MA20上方",
           "weight": 0.13176565984188124
@@ -578463,7 +578503,7 @@ window.MARKET_SNAPSHOT = {
           "symbol": "601888.SS",
           "name": "中国中免",
           "sourceSymbol": "601888.SS",
-          "price": 58.55,
+          "price": 58.49,
           "ma20": 57.29,
           "status": "MA20上方",
           "weight": 0.36488951956213267
@@ -578472,17 +578512,17 @@ window.MARKET_SNAPSHOT = {
           "symbol": "601898.SS",
           "name": "中煤能源",
           "sourceSymbol": "601898.SS",
-          "price": 16.69,
-          "ma20": 16.37,
-          "status": "MA20上方",
+          "price": 16.18,
+          "ma20": 16.34,
+          "status": "MA20下方",
           "weight": 0.09122237989053317
         },
         {
           "symbol": "601899.SS",
           "name": "紫金矿业",
           "sourceSymbol": "601899.SS",
-          "price": 29.55,
-          "ma20": 30.25,
+          "price": 29.09,
+          "ma20": 30.22,
           "status": "MA20下方",
           "weight": 2.2501520372998183
         },
@@ -578490,7 +578530,7 @@ window.MARKET_SNAPSHOT = {
           "symbol": "601901.SS",
           "name": "方正证券",
           "sourceSymbol": "601901.SS",
-          "price": 6.66,
+          "price": 6.68,
           "ma20": 6.78,
           "status": "MA20下方",
           "weight": 0.13176565984188124
@@ -578499,7 +578539,7 @@ window.MARKET_SNAPSHOT = {
           "symbol": "601916.SS",
           "name": "浙商银行",
           "sourceSymbol": "601916.SS",
-          "price": 3.06,
+          "price": 3.08,
           "ma20": 3.03,
           "status": "MA20上方",
           "weight": 0.18244475978106633
@@ -578508,16 +578548,16 @@ window.MARKET_SNAPSHOT = {
           "symbol": "601919.SS",
           "name": "中远海控",
           "sourceSymbol": "601919.SS",
-          "price": 14.49,
-          "ma20": 14.52,
-          "status": "MA20下方",
+          "price": 14.57,
+          "ma20": 14.53,
+          "status": "MA20上方",
           "weight": 0.3750253395499697
         },
         {
           "symbol": "601939.SS",
           "name": "建设银行",
           "sourceSymbol": "601939.SS",
-          "price": 10.61,
+          "price": 10.7,
           "ma20": 10.16,
           "status": "MA20上方",
           "weight": 0.3142104196229476
@@ -578526,7 +578566,7 @@ window.MARKET_SNAPSHOT = {
           "symbol": "601985.SS",
           "name": "中国核电",
           "sourceSymbol": "601985.SS",
-          "price": 9.19,
+          "price": 9.24,
           "ma20": 9.01,
           "status": "MA20上方",
           "weight": 0.2838029596594366
@@ -578535,7 +578575,7 @@ window.MARKET_SNAPSHOT = {
           "symbol": "601988.SS",
           "name": "中国银行",
           "sourceSymbol": "601988.SS",
-          "price": 6.19,
+          "price": 6.29,
           "ma20": 5.95,
           "status": "MA20上方",
           "weight": 0.3243462396107846
@@ -578544,8 +578584,8 @@ window.MARKET_SNAPSHOT = {
           "symbol": "601995.SS",
           "name": "中金公司",
           "sourceSymbol": "601995.SS",
-          "price": 32.57,
-          "ma20": 33.45,
+          "price": 32.82,
+          "ma20": 33.46,
           "status": "MA20下方",
           "weight": 0.1621731198053923
         },
@@ -578553,17 +578593,17 @@ window.MARKET_SNAPSHOT = {
           "symbol": "601998.SS",
           "name": "中信银行",
           "sourceSymbol": "601998.SS",
-          "price": 7.6,
+          "price": 7.68,
           "ma20": 7.61,
-          "status": "MA20下方",
+          "status": "MA20上方",
           "weight": 0.1621731198053923
         },
         {
           "symbol": "603019.SS",
           "name": "中科曙光",
           "sourceSymbol": "603019.SS",
-          "price": 82.95,
-          "ma20": 88.75,
+          "price": 82.15,
+          "ma20": 88.71,
           "status": "MA20下方",
           "weight": 0.496655179404014
         },
@@ -578571,7 +578611,7 @@ window.MARKET_SNAPSHOT = {
           "symbol": "603195.SS",
           "name": "公牛集团",
           "sourceSymbol": "603195.SS",
-          "price": 39.97,
+          "price": 39.98,
           "ma20": 41.75,
           "status": "MA20下方",
           "weight": 0.04054327995134808
@@ -578580,8 +578620,8 @@ window.MARKET_SNAPSHOT = {
           "symbol": "603259.SS",
           "name": "药明康德",
           "sourceSymbol": "603259.SS",
-          "price": 98.95,
-          "ma20": 100.06,
+          "price": 99.71,
+          "ma20": 100.1,
           "status": "MA20下方",
           "weight": 0.8919521589296576
         },
@@ -578589,8 +578629,8 @@ window.MARKET_SNAPSHOT = {
           "symbol": "603260.SS",
           "name": "合盛硅业",
           "sourceSymbol": "603260.SS",
-          "price": 43.69,
-          "ma20": 39.52,
+          "price": 43.36,
+          "ma20": 39.5,
           "status": "MA20上方",
           "weight": 0.07095073991485915
         },
@@ -578598,8 +578638,8 @@ window.MARKET_SNAPSHOT = {
           "symbol": "603288.SS",
           "name": "海天味业",
           "sourceSymbol": "603288.SS",
-          "price": 35.29,
-          "ma20": 35.23,
+          "price": 35.53,
+          "ma20": 35.24,
           "status": "MA20上方",
           "weight": 0.24325967970808843
         },
@@ -578607,8 +578647,8 @@ window.MARKET_SNAPSHOT = {
           "symbol": "603296.SS",
           "name": "华勤技术",
           "sourceSymbol": "603296.SS",
-          "price": 106.3,
-          "ma20": 109.15,
+          "price": 102.77,
+          "ma20": 108.97,
           "status": "MA20下方",
           "weight": 0.1419014798297183
         },
@@ -578616,8 +578656,8 @@ window.MARKET_SNAPSHOT = {
           "symbol": "603369.SS",
           "name": "今世缘",
           "sourceSymbol": "603369.SS",
-          "price": 25.32,
-          "ma20": 27.53,
+          "price": 25.06,
+          "ma20": 27.52,
           "status": "MA20下方",
           "weight": 0.10135819987837019
         },
@@ -578625,8 +578665,8 @@ window.MARKET_SNAPSHOT = {
           "symbol": "603392.SS",
           "name": "万泰生物",
           "sourceSymbol": "603392.SS",
-          "price": 29.11,
-          "ma20": 34.45,
+          "price": 29.52,
+          "ma20": 34.47,
           "status": "MA20下方",
           "weight": 0.07095073991485915
         },
@@ -578634,8 +578674,8 @@ window.MARKET_SNAPSHOT = {
           "symbol": "603501.SS",
           "name": "豪威集团",
           "sourceSymbol": "603501.SS",
-          "price": 86.39,
-          "ma20": 97.73,
+          "price": 86.01,
+          "ma20": 97.71,
           "status": "MA20下方",
           "weight": 0.4257044394891548
         },
@@ -578643,8 +578683,8 @@ window.MARKET_SNAPSHOT = {
           "symbol": "603799.SS",
           "name": "华友钴业",
           "sourceSymbol": "603799.SS",
-          "price": 51.7,
-          "ma20": 53.69,
+          "price": 50.22,
+          "ma20": 53.62,
           "status": "MA20下方",
           "weight": 0.40543279951348077
         },
@@ -578652,8 +578692,8 @@ window.MARKET_SNAPSHOT = {
           "symbol": "603893.SS",
           "name": "瑞芯微",
           "sourceSymbol": "603893.SS",
-          "price": 162.85,
-          "ma20": 180.5,
+          "price": 160.51,
+          "ma20": 180.38,
           "status": "MA20下方",
           "weight": 0.1520372998175553
         },
@@ -578661,8 +578701,8 @@ window.MARKET_SNAPSHOT = {
           "symbol": "603986.SS",
           "name": "兆易创新",
           "sourceSymbol": "603986.SS",
-          "price": 490.3,
-          "ma20": 476.88,
+          "price": 481.47,
+          "ma20": 476.44,
           "status": "MA20上方",
           "weight": 0.5676059193188732
         },
@@ -578679,8 +578719,8 @@ window.MARKET_SNAPSHOT = {
           "symbol": "605117.SS",
           "name": "德业股份",
           "sourceSymbol": "605117.SS",
-          "price": 105.7,
-          "ma20": 112.86,
+          "price": 103.79,
+          "ma20": 112.77,
           "status": "MA20下方",
           "weight": 0.12162983985404421
         },
@@ -578688,8 +578728,8 @@ window.MARKET_SNAPSHOT = {
           "symbol": "605499.SS",
           "name": "东鹏饮料",
           "sourceSymbol": "605499.SS",
-          "price": 133.31,
-          "ma20": 141.26,
+          "price": 131.84,
+          "ma20": 141.19,
           "status": "MA20下方",
           "weight": 0.2229880397324144
         },
@@ -578697,8 +578737,8 @@ window.MARKET_SNAPSHOT = {
           "symbol": "688008.SS",
           "name": "澜起科技",
           "sourceSymbol": "688008.SS",
-          "price": 230.2,
-          "ma20": 249.76,
+          "price": 224.88,
+          "ma20": 249.49,
           "status": "MA20下方",
           "weight": 0.537198459355362
         },
@@ -578706,17 +578746,17 @@ window.MARKET_SNAPSHOT = {
           "symbol": "688009.SS",
           "name": "中国通号",
           "sourceSymbol": "688009.SS",
-          "price": 4.91,
+          "price": 4.92,
           "ma20": 4.91,
-          "status": "MA20下方",
+          "status": "MA20上方",
           "weight": 0.06081491992702211
         },
         {
           "symbol": "688012.SS",
           "name": "中微公司",
           "sourceSymbol": "688012.SS",
-          "price": 308.44,
-          "ma20": 299.11,
+          "price": 303.92,
+          "ma20": 298.88,
           "status": "MA20上方",
           "weight": 0.4763835394283399
         },
@@ -578724,8 +578764,8 @@ window.MARKET_SNAPSHOT = {
           "symbol": "688036.SS",
           "name": "传音控股",
           "sourceSymbol": "688036.SS",
-          "price": 54.06,
-          "ma20": 60.45,
+          "price": 53.67,
+          "ma20": 60.43,
           "status": "MA20下方",
           "weight": 0.1520372998175553
         },
@@ -578733,8 +578773,8 @@ window.MARKET_SNAPSHOT = {
           "symbol": "688041.SS",
           "name": "海光信息",
           "sourceSymbol": "688041.SS",
-          "price": 288.13,
-          "ma20": 297.15,
+          "price": 280,
+          "ma20": 296.74,
           "status": "MA20下方",
           "weight": 0.8210014190147986
         },
@@ -578742,8 +578782,8 @@ window.MARKET_SNAPSHOT = {
           "symbol": "688047.SS",
           "name": "龙芯中科",
           "sourceSymbol": "688047.SS",
-          "price": 146.19,
-          "ma20": 148.34,
+          "price": 140.56,
+          "ma20": 148.05,
           "status": "MA20下方",
           "weight": 0.10135819987837019
         },
@@ -578751,8 +578791,8 @@ window.MARKET_SNAPSHOT = {
           "symbol": "688082.SS",
           "name": "盛美上海",
           "sourceSymbol": "688082.SS",
-          "price": 305.1,
-          "ma20": 240.93,
+          "price": 304.66,
+          "ma20": 240.91,
           "status": "MA20上方",
           "weight": 0.07095073991485915
         },
@@ -578760,8 +578800,8 @@ window.MARKET_SNAPSHOT = {
           "symbol": "688111.SS",
           "name": "金山办公",
           "sourceSymbol": "688111.SS",
-          "price": 217.36,
-          "ma20": 238.71,
+          "price": 215,
+          "ma20": 238.59,
           "status": "MA20下方",
           "weight": 0.2838029596594366
         },
@@ -578769,8 +578809,8 @@ window.MARKET_SNAPSHOT = {
           "symbol": "688126.SS",
           "name": "沪硅产业",
           "sourceSymbol": "688126.SS",
-          "price": 30.03,
-          "ma20": 28.39,
+          "price": 29.59,
+          "ma20": 28.37,
           "status": "MA20上方",
           "weight": 0.1621731198053923
         },
@@ -578778,8 +578818,8 @@ window.MARKET_SNAPSHOT = {
           "symbol": "688169.SS",
           "name": "石头科技",
           "sourceSymbol": "688169.SS",
-          "price": 100.8,
-          "ma20": 114.1,
+          "price": 101.99,
+          "ma20": 114.16,
           "status": "MA20下方",
           "weight": 0.12162983985404421
         },
@@ -578787,8 +578827,8 @@ window.MARKET_SNAPSHOT = {
           "symbol": "688187.SS",
           "name": "时代电气",
           "sourceSymbol": "688187.SS",
-          "price": 53.22,
-          "ma20": 56.8,
+          "price": 53.07,
+          "ma20": 56.79,
           "status": "MA20下方",
           "weight": 0.050679099939185096
         },
@@ -578796,8 +578836,8 @@ window.MARKET_SNAPSHOT = {
           "symbol": "688223.SS",
           "name": "晶科能源",
           "sourceSymbol": "688223.SS",
-          "price": 5.28,
-          "ma20": 5.89,
+          "price": 5.16,
+          "ma20": 5.88,
           "status": "MA20下方",
           "weight": 0.09122237989053317
         },
@@ -578805,8 +578845,8 @@ window.MARKET_SNAPSHOT = {
           "symbol": "688256.SS",
           "name": "寒武纪",
           "sourceSymbol": "688256.SS",
-          "price": 1203.05,
-          "ma20": 1304.13,
+          "price": 1240,
+          "ma20": 1305.98,
           "status": "MA20下方",
           "weight": 1.145347658625583
         },
@@ -578814,8 +578854,8 @@ window.MARKET_SNAPSHOT = {
           "symbol": "688271.SS",
           "name": "联影医疗",
           "sourceSymbol": "688271.SS",
-          "price": 113.18,
-          "ma20": 115.55,
+          "price": 114.02,
+          "ma20": 115.59,
           "status": "MA20下方",
           "weight": 0.2533954996959255
         },
@@ -578823,8 +578863,8 @@ window.MARKET_SNAPSHOT = {
           "symbol": "688303.SS",
           "name": "大全能源",
           "sourceSymbol": "688303.SS",
-          "price": 21.78,
-          "ma20": 20.4,
+          "price": 20.95,
+          "ma20": 20.35,
           "status": "MA20上方",
           "weight": 0.07095073991485915
         },
@@ -578832,8 +578872,8 @@ window.MARKET_SNAPSHOT = {
           "symbol": "688396.SS",
           "name": "华润微",
           "sourceSymbol": "688396.SS",
-          "price": 62.81,
-          "ma20": 65.42,
+          "price": 60.8,
+          "ma20": 65.32,
           "status": "MA20下方",
           "weight": 0.1114940198662072
         },
@@ -578841,8 +578881,8 @@ window.MARKET_SNAPSHOT = {
           "symbol": "688472.SS",
           "name": "阿特斯",
           "sourceSymbol": "688472.SS",
-          "price": 11.44,
-          "ma20": 13.04,
+          "price": 11.2,
+          "ma20": 13.03,
           "status": "MA20下方",
           "weight": 0.09122237989053317
         },
@@ -578850,8 +578890,8 @@ window.MARKET_SNAPSHOT = {
           "symbol": "688506.SS",
           "name": "百利天恒",
           "sourceSymbol": "688506.SS",
-          "price": 231.81,
-          "ma20": 227.36,
+          "price": 232,
+          "ma20": 227.37,
           "status": "MA20上方",
           "weight": 0.1114940198662072
         },
@@ -578859,8 +578899,8 @@ window.MARKET_SNAPSHOT = {
           "symbol": "688981.SS",
           "name": "中芯国际",
           "sourceSymbol": "688981.SS",
-          "price": 127.2,
-          "ma20": 133.21,
+          "price": 124.88,
+          "ma20": 133.09,
           "status": "MA20下方",
           "weight": 0.9730387188323537
         }
@@ -578877,7 +578917,7 @@ window.MARKET_SNAPSHOT = {
           "https://www.ishares.com/us/products/239726/ishares-core-sp-500-etf/1467271812596.ajax?fileType=csv&fileName=IVV_holdings&dataType=fund"
         ],
         "benchmarkCode": "SPY",
-        "generatedAt": "2026-06-12T04:27:05.641Z",
+        "generatedAt": "2026-06-12T11:47:51.944Z",
         "coverage": {
           "total": 503,
           "effective": 502,
@@ -578886,687 +578926,547 @@ window.MARKET_SNAPSHOT = {
           "weightCovered": 499,
           "weightMissing": 3,
           "effectiveWeight": 100,
-          "aboveWeight": 42.3647
+          "aboveWeight": 42.9004
         },
         "series": [
           {
-            "value": 79.5,
-            "aboveWeight": 79.4174,
-            "effectiveWeight": 99.953
+            "value": 79.8,
+            "aboveWeight": 79.7137,
+            "effectiveWeight": 99.9508
           },
           {
-            "value": 86.7,
-            "aboveWeight": 86.6689,
-            "effectiveWeight": 99.953
+            "value": 86.9,
+            "aboveWeight": 86.8079,
+            "effectiveWeight": 99.9508
           },
           {
-            "value": 84.4,
-            "aboveWeight": 84.3403,
-            "effectiveWeight": 99.953
+            "value": 84.5,
+            "aboveWeight": 84.4995,
+            "effectiveWeight": 99.9508
           },
           {
-            "value": 87.5,
-            "aboveWeight": 87.5054,
-            "effectiveWeight": 99.953
+            "value": 87.7,
+            "aboveWeight": 87.6409,
+            "effectiveWeight": 99.9508
           },
           {
             "value": 83.6,
-            "aboveWeight": 83.594,
-            "effectiveWeight": 99.953
-          },
-          {
-            "value": 76.3,
-            "aboveWeight": 76.2961,
-            "effectiveWeight": 99.953
-          },
-          {
-            "value": 84.3,
-            "aboveWeight": 84.2379,
-            "effectiveWeight": 99.953
-          },
-          {
-            "value": 83.3,
-            "aboveWeight": 83.2762,
-            "effectiveWeight": 99.953
-          },
-          {
-            "value": 79,
-            "aboveWeight": 78.9237,
-            "effectiveWeight": 99.953
-          },
-          {
-            "value": 77.3,
-            "aboveWeight": 77.2771,
-            "effectiveWeight": 99.953
-          },
-          {
-            "value": 65.5,
-            "aboveWeight": 65.5169,
-            "effectiveWeight": 99.953
-          },
-          {
-            "value": 69.9,
-            "aboveWeight": 69.82,
-            "effectiveWeight": 99.953
-          },
-          {
-            "value": 70.3,
-            "aboveWeight": 70.2292,
-            "effectiveWeight": 99.953
-          },
-          {
-            "value": 68.3,
-            "aboveWeight": 68.2246,
-            "effectiveWeight": 99.953
-          },
-          {
-            "value": 66.7,
-            "aboveWeight": 66.6261,
-            "effectiveWeight": 99.953
-          },
-          {
-            "value": 70.6,
-            "aboveWeight": 70.5642,
-            "effectiveWeight": 99.953
-          },
-          {
-            "value": 78.6,
-            "aboveWeight": 78.601,
-            "effectiveWeight": 99.953
-          },
-          {
-            "value": 74.1,
-            "aboveWeight": 74.0534,
-            "effectiveWeight": 99.953
-          },
-          {
-            "value": 77.9,
-            "aboveWeight": 77.8886,
-            "effectiveWeight": 99.953
+            "aboveWeight": 83.6035,
+            "effectiveWeight": 99.9508
           },
           {
             "value": 76.6,
-            "aboveWeight": 76.561,
-            "effectiveWeight": 99.953
+            "aboveWeight": 76.5937,
+            "effectiveWeight": 99.9508
           },
           {
-            "value": 63.3,
-            "aboveWeight": 63.31,
-            "effectiveWeight": 99.953
+            "value": 84.5,
+            "aboveWeight": 84.4318,
+            "effectiveWeight": 99.9508
           },
           {
-            "value": 58.8,
-            "aboveWeight": 58.7741,
-            "effectiveWeight": 99.953
+            "value": 83.5,
+            "aboveWeight": 83.4945,
+            "effectiveWeight": 99.9508
           },
           {
-            "value": 53,
-            "aboveWeight": 52.9919,
-            "effectiveWeight": 99.953
+            "value": 79.3,
+            "aboveWeight": 79.2275,
+            "effectiveWeight": 99.9508
           },
           {
-            "value": 45.3,
-            "aboveWeight": 45.29,
-            "effectiveWeight": 99.953
-          },
-          {
-            "value": 52.5,
-            "aboveWeight": 52.4768,
-            "effectiveWeight": 99.953
-          },
-          {
-            "value": 48.7,
-            "aboveWeight": 48.6431,
-            "effectiveWeight": 99.953
-          },
-          {
-            "value": 59.5,
-            "aboveWeight": 59.4581,
-            "effectiveWeight": 99.953
-          },
-          {
-            "value": 60,
-            "aboveWeight": 59.957,
-            "effectiveWeight": 99.953
+            "value": 77.4,
+            "aboveWeight": 77.3309,
+            "effectiveWeight": 99.9508
           },
           {
             "value": 65.7,
-            "aboveWeight": 65.6202,
-            "effectiveWeight": 99.953
+            "aboveWeight": 65.6612,
+            "effectiveWeight": 99.9508
           },
           {
-            "value": 65.1,
-            "aboveWeight": 65.0754,
-            "effectiveWeight": 99.953
+            "value": 70,
+            "aboveWeight": 69.9744,
+            "effectiveWeight": 99.9508
           },
           {
-            "value": 72.2,
-            "aboveWeight": 72.1852,
-            "effectiveWeight": 99.953
-          },
-          {
-            "value": 75.4,
-            "aboveWeight": 75.3306,
-            "effectiveWeight": 99.953
-          },
-          {
-            "value": 77.8,
-            "aboveWeight": 77.8095,
-            "effectiveWeight": 99.953
-          },
-          {
-            "value": 71.4,
-            "aboveWeight": 71.3461,
-            "effectiveWeight": 99.953
-          },
-          {
-            "value": 68,
-            "aboveWeight": 67.9579,
-            "effectiveWeight": 99.953
-          },
-          {
-            "value": 62.5,
-            "aboveWeight": 62.4588,
-            "effectiveWeight": 99.953
-          },
-          {
-            "value": 54.2,
-            "aboveWeight": 54.215,
-            "effectiveWeight": 99.953
-          },
-          {
-            "value": 50.5,
-            "aboveWeight": 50.498,
-            "effectiveWeight": 99.953
-          },
-          {
-            "value": 66.3,
-            "aboveWeight": 66.2209,
-            "effectiveWeight": 99.953
-          },
-          {
-            "value": 59.9,
-            "aboveWeight": 59.9063,
-            "effectiveWeight": 99.953
-          },
-          {
-            "value": 69.5,
-            "aboveWeight": 69.4381,
-            "effectiveWeight": 99.953
-          },
-          {
-            "value": 75.1,
-            "aboveWeight": 75.0993,
-            "effectiveWeight": 99.953
-          },
-          {
-            "value": 76.5,
-            "aboveWeight": 76.4954,
-            "effectiveWeight": 99.953
-          },
-          {
-            "value": 70.1,
-            "aboveWeight": 70.076,
-            "effectiveWeight": 99.953
-          },
-          {
-            "value": 49.4,
-            "aboveWeight": 49.3934,
-            "effectiveWeight": 99.953
-          },
-          {
-            "value": 51.4,
-            "aboveWeight": 51.3763,
-            "effectiveWeight": 99.953
-          },
-          {
-            "value": 62.5,
-            "aboveWeight": 62.4495,
-            "effectiveWeight": 99.953
-          },
-          {
-            "value": 56.5,
-            "aboveWeight": 56.4723,
-            "effectiveWeight": 99.953
-          },
-          {
-            "value": 57.9,
-            "aboveWeight": 57.8279,
-            "effectiveWeight": 99.953
-          },
-          {
-            "value": 59,
-            "aboveWeight": 58.9312,
-            "effectiveWeight": 99.953
-          },
-          {
-            "value": 48.6,
-            "aboveWeight": 48.6043,
-            "effectiveWeight": 99.953
-          },
-          {
-            "value": 66.9,
-            "aboveWeight": 66.9119,
-            "effectiveWeight": 99.953
-          },
-          {
-            "value": 71.7,
-            "aboveWeight": 71.6712,
-            "effectiveWeight": 99.953
-          },
-          {
-            "value": 70.5,
-            "aboveWeight": 70.448,
-            "effectiveWeight": 99.953
+            "value": 70.4,
+            "aboveWeight": 70.4107,
+            "effectiveWeight": 99.9508
           },
           {
             "value": 68.5,
-            "aboveWeight": 68.4602,
-            "effectiveWeight": 99.953
+            "aboveWeight": 68.4339,
+            "effectiveWeight": 99.9508
           },
           {
-            "value": 65.2,
-            "aboveWeight": 65.2011,
-            "effectiveWeight": 99.953
+            "value": 66.9,
+            "aboveWeight": 66.8603,
+            "effectiveWeight": 99.9508
           },
           {
-            "value": 64.1,
-            "aboveWeight": 64.0885,
-            "effectiveWeight": 99.953
+            "value": 70.5,
+            "aboveWeight": 70.4857,
+            "effectiveWeight": 99.9508
           },
           {
-            "value": 72.1,
-            "aboveWeight": 72.0461,
-            "effectiveWeight": 99.953
+            "value": 78.5,
+            "aboveWeight": 78.4913,
+            "effectiveWeight": 99.9508
           },
           {
-            "value": 66.3,
-            "aboveWeight": 66.275,
-            "effectiveWeight": 99.953
+            "value": 73.8,
+            "aboveWeight": 73.7886,
+            "effectiveWeight": 99.9508
           },
           {
-            "value": 67.5,
-            "aboveWeight": 67.4236,
-            "effectiveWeight": 99.953
+            "value": 77.7,
+            "aboveWeight": 77.6637,
+            "effectiveWeight": 99.9508
           },
           {
-            "value": 68.1,
-            "aboveWeight": 68.1125,
-            "effectiveWeight": 99.953
+            "value": 76.4,
+            "aboveWeight": 76.3452,
+            "effectiveWeight": 99.9508
           },
           {
-            "value": 61.7,
-            "aboveWeight": 61.6599,
-            "effectiveWeight": 99.953
-          },
-          {
-            "value": 66.2,
-            "aboveWeight": 66.214,
-            "effectiveWeight": 99.953
-          },
-          {
-            "value": 67.2,
-            "aboveWeight": 67.1251,
-            "effectiveWeight": 99.953
-          },
-          {
-            "value": 62.8,
-            "aboveWeight": 62.728,
-            "effectiveWeight": 99.953
-          },
-          {
-            "value": 68,
-            "aboveWeight": 67.9983,
-            "effectiveWeight": 99.953
-          },
-          {
-            "value": 64.7,
-            "aboveWeight": 64.6825,
-            "effectiveWeight": 99.953
-          },
-          {
-            "value": 62.8,
-            "aboveWeight": 62.7835,
-            "effectiveWeight": 99.953
-          },
-          {
-            "value": 67.3,
-            "aboveWeight": 67.2282,
-            "effectiveWeight": 99.953
-          },
-          {
-            "value": 60.1,
-            "aboveWeight": 60.0762,
-            "effectiveWeight": 99.953
-          },
-          {
-            "value": 65.7,
-            "aboveWeight": 65.6498,
-            "effectiveWeight": 99.953
-          },
-          {
-            "value": 62.5,
-            "aboveWeight": 62.487,
-            "effectiveWeight": 99.953
-          },
-          {
-            "value": 31.8,
-            "aboveWeight": 31.8137,
-            "effectiveWeight": 99.953
-          },
-          {
-            "value": 39,
-            "aboveWeight": 38.9767,
-            "effectiveWeight": 99.953
-          },
-          {
-            "value": 42.7,
-            "aboveWeight": 42.7273,
-            "effectiveWeight": 99.953
-          },
-          {
-            "value": 43.5,
-            "aboveWeight": 43.5064,
-            "effectiveWeight": 99.953
-          },
-          {
-            "value": 35.8,
-            "aboveWeight": 35.7392,
-            "effectiveWeight": 99.953
-          },
-          {
-            "value": 42.3,
-            "aboveWeight": 42.2777,
-            "effectiveWeight": 99.953
-          },
-          {
-            "value": 63.7,
-            "aboveWeight": 63.6386,
-            "effectiveWeight": 99.953
-          },
-          {
-            "value": 68.3,
-            "aboveWeight": 68.2641,
-            "effectiveWeight": 99.953
-          },
-          {
-            "value": 58.9,
-            "aboveWeight": 58.9166,
-            "effectiveWeight": 99.953
-          },
-          {
-            "value": 69.1,
-            "aboveWeight": 69.0282,
-            "effectiveWeight": 99.953
-          },
-          {
-            "value": 69.3,
-            "aboveWeight": 69.2192,
-            "effectiveWeight": 99.953
-          },
-          {
-            "value": 80.2,
-            "aboveWeight": 80.2012,
-            "effectiveWeight": 99.953
-          },
-          {
-            "value": 73.1,
-            "aboveWeight": 73.0668,
-            "effectiveWeight": 99.953
-          },
-          {
-            "value": 66.8,
-            "aboveWeight": 66.7909,
-            "effectiveWeight": 99.953
-          },
-          {
-            "value": 64.8,
-            "aboveWeight": 64.7288,
-            "effectiveWeight": 99.953
-          },
-          {
-            "value": 62,
-            "aboveWeight": 61.9854,
-            "effectiveWeight": 99.953
-          },
-          {
-            "value": 60.6,
-            "aboveWeight": 60.5352,
-            "effectiveWeight": 99.953
-          },
-          {
-            "value": 56.3,
-            "aboveWeight": 56.2654,
-            "effectiveWeight": 99.953
-          },
-          {
-            "value": 61.8,
-            "aboveWeight": 61.7468,
-            "effectiveWeight": 99.953
-          },
-          {
-            "value": 58.8,
-            "aboveWeight": 58.8049,
-            "effectiveWeight": 99.953
-          },
-          {
-            "value": 49.5,
-            "aboveWeight": 49.5079,
-            "effectiveWeight": 99.953
-          },
-          {
-            "value": 56,
-            "aboveWeight": 55.9972,
-            "effectiveWeight": 99.953
-          },
-          {
-            "value": 63.6,
-            "aboveWeight": 63.6107,
-            "effectiveWeight": 99.953
-          },
-          {
-            "value": 66.5,
-            "aboveWeight": 66.4467,
-            "effectiveWeight": 99.953
-          },
-          {
-            "value": 60.1,
-            "aboveWeight": 60.1048,
-            "effectiveWeight": 99.953
-          },
-          {
-            "value": 43.3,
-            "aboveWeight": 43.2352,
-            "effectiveWeight": 99.953
-          },
-          {
-            "value": 30.2,
-            "aboveWeight": 30.2111,
-            "effectiveWeight": 99.953
-          },
-          {
-            "value": 28,
-            "aboveWeight": 28.0018,
-            "effectiveWeight": 99.953
-          },
-          {
-            "value": 28,
-            "aboveWeight": 27.9737,
-            "effectiveWeight": 99.953
-          },
-          {
-            "value": 25.7,
-            "aboveWeight": 25.6518,
-            "effectiveWeight": 99.953
-          },
-          {
-            "value": 38,
-            "aboveWeight": 37.9734,
-            "effectiveWeight": 100
-          },
-          {
-            "value": 41.5,
-            "aboveWeight": 41.5144,
-            "effectiveWeight": 100
-          },
-          {
-            "value": 53,
-            "aboveWeight": 52.9587,
-            "effectiveWeight": 100
-          },
-          {
-            "value": 58.8,
-            "aboveWeight": 58.8485,
-            "effectiveWeight": 100
-          },
-          {
-            "value": 67.4,
-            "aboveWeight": 67.4214,
-            "effectiveWeight": 100
-          },
-          {
-            "value": 60.1,
-            "aboveWeight": 60.1305,
-            "effectiveWeight": 100
-          },
-          {
-            "value": 61.8,
-            "aboveWeight": 61.8248,
-            "effectiveWeight": 100
-          },
-          {
-            "value": 63.2,
-            "aboveWeight": 63.2083,
-            "effectiveWeight": 100
+            "value": 63.1,
+            "aboveWeight": 63.0716,
+            "effectiveWeight": 99.9508
           },
           {
             "value": 58.6,
-            "aboveWeight": 58.594,
-            "effectiveWeight": 100
+            "aboveWeight": 58.6072,
+            "effectiveWeight": 99.9508
           },
           {
-            "value": 58.8,
-            "aboveWeight": 58.753,
-            "effectiveWeight": 100
+            "value": 52.8,
+            "aboveWeight": 52.7601,
+            "effectiveWeight": 99.9508
           },
           {
-            "value": 60,
-            "aboveWeight": 59.9957,
-            "effectiveWeight": 100
+            "value": 45.1,
+            "aboveWeight": 45.0812,
+            "effectiveWeight": 99.9508
           },
           {
-            "value": 64.7,
-            "aboveWeight": 64.6666,
-            "effectiveWeight": 100
+            "value": 52.3,
+            "aboveWeight": 52.2474,
+            "effectiveWeight": 99.9508
           },
           {
-            "value": 68.8,
-            "aboveWeight": 68.8304,
-            "effectiveWeight": 100
+            "value": 48.4,
+            "aboveWeight": 48.3841,
+            "effectiveWeight": 99.9508
           },
           {
-            "value": 75.7,
-            "aboveWeight": 75.6843,
-            "effectiveWeight": 100
+            "value": 59.2,
+            "aboveWeight": 59.1626,
+            "effectiveWeight": 99.9508
           },
           {
-            "value": 58.5,
-            "aboveWeight": 58.4642,
-            "effectiveWeight": 100
+            "value": 59.7,
+            "aboveWeight": 59.7159,
+            "effectiveWeight": 99.9508
           },
           {
-            "value": 48.3,
-            "aboveWeight": 48.3135,
-            "effectiveWeight": 100
+            "value": 65.6,
+            "aboveWeight": 65.6067,
+            "effectiveWeight": 99.9508
           },
           {
-            "value": 42.4,
-            "aboveWeight": 42.3836,
-            "effectiveWeight": 100
+            "value": 65,
+            "aboveWeight": 65.0136,
+            "effectiveWeight": 99.9508
           },
           {
-            "value": 38.9,
-            "aboveWeight": 38.8935,
-            "effectiveWeight": 100
+            "value": 72.4,
+            "aboveWeight": 72.3599,
+            "effectiveWeight": 99.9508
           },
           {
-            "value": 46.6,
-            "aboveWeight": 46.5585,
-            "effectiveWeight": 100
+            "value": 75.6,
+            "aboveWeight": 75.5353,
+            "effectiveWeight": 99.9508
           },
           {
-            "value": 44.3,
-            "aboveWeight": 44.3201,
-            "effectiveWeight": 100
+            "value": 78,
+            "aboveWeight": 77.9658,
+            "effectiveWeight": 99.9508
           },
           {
-            "value": 57.6,
-            "aboveWeight": 57.6341,
-            "effectiveWeight": 100
+            "value": 71.3,
+            "aboveWeight": 71.3118,
+            "effectiveWeight": 99.9508
           },
           {
-            "value": 66.1,
-            "aboveWeight": 66.1345,
-            "effectiveWeight": 100
+            "value": 68.1,
+            "aboveWeight": 68.0751,
+            "effectiveWeight": 99.9508
           },
           {
-            "value": 69.1,
-            "aboveWeight": 69.1485,
-            "effectiveWeight": 100
+            "value": 62.6,
+            "aboveWeight": 62.582,
+            "effectiveWeight": 99.9508
           },
           {
-            "value": 68.2,
-            "aboveWeight": 68.2221,
-            "effectiveWeight": 100
+            "value": 54.1,
+            "aboveWeight": 54.117,
+            "effectiveWeight": 99.9508
           },
           {
-            "value": 67.4,
-            "aboveWeight": 67.3651,
-            "effectiveWeight": 100
+            "value": 50.2,
+            "aboveWeight": 50.1875,
+            "effectiveWeight": 99.9508
           },
           {
             "value": 66.3,
-            "aboveWeight": 66.2766,
-            "effectiveWeight": 100
+            "aboveWeight": 66.2394,
+            "effectiveWeight": 99.9508
+          },
+          {
+            "value": 59.8,
+            "aboveWeight": 59.8083,
+            "effectiveWeight": 99.9508
+          },
+          {
+            "value": 69.5,
+            "aboveWeight": 69.4489,
+            "effectiveWeight": 99.9508
+          },
+          {
+            "value": 75.3,
+            "aboveWeight": 75.2994,
+            "effectiveWeight": 99.9508
+          },
+          {
+            "value": 76.8,
+            "aboveWeight": 76.718,
+            "effectiveWeight": 99.9508
+          },
+          {
+            "value": 70.1,
+            "aboveWeight": 70.1135,
+            "effectiveWeight": 99.9508
+          },
+          {
+            "value": 49.2,
+            "aboveWeight": 49.2038,
+            "effectiveWeight": 99.9508
+          },
+          {
+            "value": 51.3,
+            "aboveWeight": 51.2551,
+            "effectiveWeight": 99.9508
+          },
+          {
+            "value": 62.5,
+            "aboveWeight": 62.5082,
+            "effectiveWeight": 99.9508
+          },
+          {
+            "value": 56.8,
+            "aboveWeight": 56.8158,
+            "effectiveWeight": 99.9508
+          },
+          {
+            "value": 58.1,
+            "aboveWeight": 58.113,
+            "effectiveWeight": 99.9508
+          },
+          {
+            "value": 59.1,
+            "aboveWeight": 59.1037,
+            "effectiveWeight": 99.9508
+          },
+          {
+            "value": 49,
+            "aboveWeight": 48.9833,
+            "effectiveWeight": 99.9508
+          },
+          {
+            "value": 67.3,
+            "aboveWeight": 67.2716,
+            "effectiveWeight": 99.9508
+          },
+          {
+            "value": 71.8,
+            "aboveWeight": 71.7474,
+            "effectiveWeight": 99.9508
+          },
+          {
+            "value": 70.7,
+            "aboveWeight": 70.6823,
+            "effectiveWeight": 99.9508
+          },
+          {
+            "value": 68.7,
+            "aboveWeight": 68.6949,
+            "effectiveWeight": 99.9508
+          },
+          {
+            "value": 65.3,
+            "aboveWeight": 65.3093,
+            "effectiveWeight": 99.9508
+          },
+          {
+            "value": 64.3,
+            "aboveWeight": 64.29,
+            "effectiveWeight": 99.9508
+          },
+          {
+            "value": 72.4,
+            "aboveWeight": 72.3158,
+            "effectiveWeight": 99.9508
+          },
+          {
+            "value": 66.6,
+            "aboveWeight": 66.5734,
+            "effectiveWeight": 99.9508
+          },
+          {
+            "value": 67.8,
+            "aboveWeight": 67.7623,
+            "effectiveWeight": 99.9508
+          },
+          {
+            "value": 68.4,
+            "aboveWeight": 68.3485,
+            "effectiveWeight": 99.9508
+          },
+          {
+            "value": 61.9,
+            "aboveWeight": 61.8972,
+            "effectiveWeight": 99.9508
+          },
+          {
+            "value": 66.4,
+            "aboveWeight": 66.3768,
+            "effectiveWeight": 99.9508
+          },
+          {
+            "value": 67.3,
+            "aboveWeight": 67.3133,
+            "effectiveWeight": 99.9508
+          },
+          {
+            "value": 63.1,
+            "aboveWeight": 63.0976,
+            "effectiveWeight": 99.9508
+          },
+          {
+            "value": 68.3,
+            "aboveWeight": 68.2325,
+            "effectiveWeight": 99.9508
+          },
+          {
+            "value": 65.1,
+            "aboveWeight": 65.0316,
+            "effectiveWeight": 99.9508
+          },
+          {
+            "value": 63.1,
+            "aboveWeight": 63.114,
+            "effectiveWeight": 99.9508
+          },
+          {
+            "value": 67.6,
+            "aboveWeight": 67.5308,
+            "effectiveWeight": 99.9508
+          },
+          {
+            "value": 60.4,
+            "aboveWeight": 60.3472,
+            "effectiveWeight": 99.9508
+          },
+          {
+            "value": 66.1,
+            "aboveWeight": 66.1003,
+            "effectiveWeight": 99.9508
+          },
+          {
+            "value": 62.8,
+            "aboveWeight": 62.8041,
+            "effectiveWeight": 99.9508
+          },
+          {
+            "value": 32.2,
+            "aboveWeight": 32.156,
+            "effectiveWeight": 99.9508
+          },
+          {
+            "value": 39.6,
+            "aboveWeight": 39.533,
+            "effectiveWeight": 99.9508
+          },
+          {
+            "value": 43.2,
+            "aboveWeight": 43.1612,
+            "effectiveWeight": 99.9508
+          },
+          {
+            "value": 44,
+            "aboveWeight": 43.9472,
+            "effectiveWeight": 99.9508
+          },
+          {
+            "value": 36.2,
+            "aboveWeight": 36.2214,
+            "effectiveWeight": 99.9508
+          },
+          {
+            "value": 42.8,
+            "aboveWeight": 42.7633,
+            "effectiveWeight": 99.9508
+          },
+          {
+            "value": 63.9,
+            "aboveWeight": 63.9086,
+            "effectiveWeight": 99.9508
+          },
+          {
+            "value": 68.5,
+            "aboveWeight": 68.5134,
+            "effectiveWeight": 99.9508
+          },
+          {
+            "value": 59,
+            "aboveWeight": 58.9717,
+            "effectiveWeight": 99.9508
+          },
+          {
+            "value": 69.2,
+            "aboveWeight": 69.1929,
+            "effectiveWeight": 99.9508
+          },
+          {
+            "value": 69.4,
+            "aboveWeight": 69.3545,
+            "effectiveWeight": 99.9508
+          },
+          {
+            "value": 80.5,
+            "aboveWeight": 80.4569,
+            "effectiveWeight": 99.9508
+          },
+          {
+            "value": 73.4,
+            "aboveWeight": 73.3466,
+            "effectiveWeight": 99.9508
+          },
+          {
+            "value": 67.3,
+            "aboveWeight": 67.219,
+            "effectiveWeight": 99.9508
+          },
+          {
+            "value": 65.2,
+            "aboveWeight": 65.1979,
+            "effectiveWeight": 99.9508
+          },
+          {
+            "value": 62.6,
+            "aboveWeight": 62.6173,
+            "effectiveWeight": 99.9508
+          },
+          {
+            "value": 61.2,
+            "aboveWeight": 61.161,
+            "effectiveWeight": 99.9508
+          },
+          {
+            "value": 56.8,
+            "aboveWeight": 56.7288,
+            "effectiveWeight": 99.9508
+          },
+          {
+            "value": 62.3,
+            "aboveWeight": 62.3176,
+            "effectiveWeight": 99.9508
+          },
+          {
+            "value": 59.2,
+            "aboveWeight": 59.2128,
+            "effectiveWeight": 99.9508
+          },
+          {
+            "value": 49.7,
+            "aboveWeight": 49.6901,
+            "effectiveWeight": 99.9508
           },
           {
             "value": 56.3,
-            "aboveWeight": 56.3077,
+            "aboveWeight": 56.2956,
+            "effectiveWeight": 99.9508
+          },
+          {
+            "value": 63.8,
+            "aboveWeight": 63.7313,
+            "effectiveWeight": 99.9508
+          },
+          {
+            "value": 66.7,
+            "aboveWeight": 66.6984,
+            "effectiveWeight": 99.9508
+          },
+          {
+            "value": 60.1,
+            "aboveWeight": 60.089,
+            "effectiveWeight": 99.9508
+          },
+          {
+            "value": 43.2,
+            "aboveWeight": 43.1511,
+            "effectiveWeight": 99.9508
+          },
+          {
+            "value": 30.1,
+            "aboveWeight": 30.1293,
+            "effectiveWeight": 99.9508
+          },
+          {
+            "value": 27.7,
+            "aboveWeight": 27.7059,
+            "effectiveWeight": 99.9508
+          },
+          {
+            "value": 27.8,
+            "aboveWeight": 27.8036,
+            "effectiveWeight": 99.9508
+          },
+          {
+            "value": 25.3,
+            "aboveWeight": 25.3199,
+            "effectiveWeight": 99.9508
+          },
+          {
+            "value": 37.6,
+            "aboveWeight": 37.5722,
             "effectiveWeight": 100
           },
           {
-            "value": 52.7,
-            "aboveWeight": 52.6897,
+            "value": 41.4,
+            "aboveWeight": 41.3636,
+            "effectiveWeight": 100
+          },
+          {
+            "value": 52.8,
+            "aboveWeight": 52.7647,
             "effectiveWeight": 100
           },
           {
             "value": 58.7,
-            "aboveWeight": 58.722,
+            "aboveWeight": 58.6885,
             "effectiveWeight": 100
           },
           {
-            "value": 63.2,
-            "aboveWeight": 63.1577,
-            "effectiveWeight": 100
-          },
-          {
-            "value": 60.6,
-            "aboveWeight": 60.6099,
-            "effectiveWeight": 100
-          },
-          {
-            "value": 60.9,
-            "aboveWeight": 60.9492,
+            "value": 67.5,
+            "aboveWeight": 67.5027,
             "effectiveWeight": 100
           },
           {
             "value": 60.3,
-            "aboveWeight": 60.2716,
-            "effectiveWeight": 100
-          },
-          {
-            "value": 64,
-            "aboveWeight": 63.9935,
+            "aboveWeight": 60.3109,
             "effectiveWeight": 100
           },
           {
@@ -579575,518 +579475,658 @@ window.MARKET_SNAPSHOT = {
             "effectiveWeight": 100
           },
           {
-            "value": 59.6,
-            "aboveWeight": 59.5967,
+            "value": 63.4,
+            "aboveWeight": 63.4199,
             "effectiveWeight": 100
           },
           {
-            "value": 52.4,
-            "aboveWeight": 52.4166,
+            "value": 58.7,
+            "aboveWeight": 58.6741,
             "effectiveWeight": 100
           },
           {
-            "value": 61.5,
-            "aboveWeight": 61.5016,
+            "value": 59,
+            "aboveWeight": 58.9982,
             "effectiveWeight": 100
           },
           {
-            "value": 50.2,
-            "aboveWeight": 50.1683,
+            "value": 60.2,
+            "aboveWeight": 60.1641,
             "effectiveWeight": 100
           },
           {
-            "value": 45.9,
-            "aboveWeight": 45.9428,
+            "value": 64.9,
+            "aboveWeight": 64.8961,
             "effectiveWeight": 100
           },
           {
-            "value": 49.8,
-            "aboveWeight": 49.8243,
+            "value": 69.2,
+            "aboveWeight": 69.2334,
             "effectiveWeight": 100
           },
           {
-            "value": 49.3,
-            "aboveWeight": 49.2607,
+            "value": 76.2,
+            "aboveWeight": 76.1507,
             "effectiveWeight": 100
           },
           {
-            "value": 57.2,
-            "aboveWeight": 57.1708,
+            "value": 58.6,
+            "aboveWeight": 58.608,
             "effectiveWeight": 100
           },
           {
-            "value": 61.7,
-            "aboveWeight": 61.6644,
+            "value": 48.5,
+            "aboveWeight": 48.5479,
             "effectiveWeight": 100
           },
           {
-            "value": 60.1,
-            "aboveWeight": 60.0837,
+            "value": 42.6,
+            "aboveWeight": 42.5795,
             "effectiveWeight": 100
           },
           {
-            "value": 63.5,
-            "aboveWeight": 63.4609,
+            "value": 38.7,
+            "aboveWeight": 38.7018,
             "effectiveWeight": 100
           },
           {
-            "value": 63.1,
-            "aboveWeight": 63.1306,
+            "value": 46.7,
+            "aboveWeight": 46.6512,
             "effectiveWeight": 100
           },
           {
-            "value": 66.8,
-            "aboveWeight": 66.825,
+            "value": 44.5,
+            "aboveWeight": 44.4892,
             "effectiveWeight": 100
           },
           {
-            "value": 57,
-            "aboveWeight": 56.981,
+            "value": 57.9,
+            "aboveWeight": 57.9188,
             "effectiveWeight": 100
           },
           {
-            "value": 54.8,
-            "aboveWeight": 54.8446,
+            "value": 66.3,
+            "aboveWeight": 66.2627,
             "effectiveWeight": 100
           },
           {
-            "value": 47.1,
-            "aboveWeight": 47.1021,
-            "effectiveWeight": 100
-          },
-          {
-            "value": 58,
-            "aboveWeight": 58.0218,
-            "effectiveWeight": 100
-          },
-          {
-            "value": 61.5,
-            "aboveWeight": 61.4534,
-            "effectiveWeight": 100
-          },
-          {
-            "value": 62.3,
-            "aboveWeight": 62.3402,
-            "effectiveWeight": 100
-          },
-          {
-            "value": 64.5,
-            "aboveWeight": 64.4707,
-            "effectiveWeight": 100
-          },
-          {
-            "value": 48.4,
-            "aboveWeight": 48.4298,
-            "effectiveWeight": 100
-          },
-          {
-            "value": 46.4,
-            "aboveWeight": 46.4483,
-            "effectiveWeight": 100
-          },
-          {
-            "value": 47.1,
-            "aboveWeight": 47.0551,
-            "effectiveWeight": 100
-          },
-          {
-            "value": 51.8,
-            "aboveWeight": 51.7747,
-            "effectiveWeight": 100
-          },
-          {
-            "value": 48.3,
-            "aboveWeight": 48.2948,
-            "effectiveWeight": 100
-          },
-          {
-            "value": 50,
-            "aboveWeight": 50.0226,
-            "effectiveWeight": 100
-          },
-          {
-            "value": 55.1,
-            "aboveWeight": 55.1169,
-            "effectiveWeight": 100
-          },
-          {
-            "value": 53,
-            "aboveWeight": 52.9534,
-            "effectiveWeight": 100
-          },
-          {
-            "value": 54.9,
-            "aboveWeight": 54.8974,
-            "effectiveWeight": 100
-          },
-          {
-            "value": 54.1,
-            "aboveWeight": 54.136,
-            "effectiveWeight": 100
-          },
-          {
-            "value": 40.5,
-            "aboveWeight": 40.4787,
-            "effectiveWeight": 100
-          },
-          {
-            "value": 35.9,
-            "aboveWeight": 35.9093,
-            "effectiveWeight": 100
-          },
-          {
-            "value": 33.3,
-            "aboveWeight": 33.2641,
-            "effectiveWeight": 100
-          },
-          {
-            "value": 40.9,
-            "aboveWeight": 40.8835,
-            "effectiveWeight": 100
-          },
-          {
-            "value": 36.3,
-            "aboveWeight": 36.3488,
-            "effectiveWeight": 100
-          },
-          {
-            "value": 32.4,
-            "aboveWeight": 32.4056,
-            "effectiveWeight": 100
-          },
-          {
-            "value": 29.8,
-            "aboveWeight": 29.7517,
-            "effectiveWeight": 100
-          },
-          {
-            "value": 29.8,
-            "aboveWeight": 29.8177,
-            "effectiveWeight": 100
-          },
-          {
-            "value": 39.8,
-            "aboveWeight": 39.8302,
-            "effectiveWeight": 100
-          },
-          {
-            "value": 31.4,
-            "aboveWeight": 31.356,
-            "effectiveWeight": 100
-          },
-          {
-            "value": 16.6,
-            "aboveWeight": 16.561,
-            "effectiveWeight": 100
-          },
-          {
-            "value": 23.1,
-            "aboveWeight": 23.1287,
-            "effectiveWeight": 100
-          },
-          {
-            "value": 27.6,
-            "aboveWeight": 27.612,
-            "effectiveWeight": 100
-          },
-          {
-            "value": 18,
-            "aboveWeight": 18.0067,
-            "effectiveWeight": 100
-          },
-          {
-            "value": 20.7,
-            "aboveWeight": 20.6545,
-            "effectiveWeight": 100
-          },
-          {
-            "value": 13,
-            "aboveWeight": 13.0406,
-            "effectiveWeight": 100
-          },
-          {
-            "value": 15.6,
-            "aboveWeight": 15.6051,
-            "effectiveWeight": 100
-          },
-          {
-            "value": 17.2,
-            "aboveWeight": 17.191,
-            "effectiveWeight": 100
-          },
-          {
-            "value": 24.6,
-            "aboveWeight": 24.622,
-            "effectiveWeight": 100
-          },
-          {
-            "value": 13.4,
-            "aboveWeight": 13.4187,
-            "effectiveWeight": 100
-          },
-          {
-            "value": 9.5,
-            "aboveWeight": 9.4968,
-            "effectiveWeight": 100
-          },
-          {
-            "value": 10.7,
-            "aboveWeight": 10.7385,
-            "effectiveWeight": 100
-          },
-          {
-            "value": 24.6,
-            "aboveWeight": 24.6085,
-            "effectiveWeight": 100
-          },
-          {
-            "value": 42.4,
-            "aboveWeight": 42.3588,
-            "effectiveWeight": 100
-          },
-          {
-            "value": 46,
-            "aboveWeight": 46.0186,
-            "effectiveWeight": 100
-          },
-          {
-            "value": 62.8,
-            "aboveWeight": 62.7835,
-            "effectiveWeight": 100
-          },
-          {
-            "value": 62.2,
-            "aboveWeight": 62.1592,
-            "effectiveWeight": 100
-          },
-          {
-            "value": 77.5,
-            "aboveWeight": 77.5077,
-            "effectiveWeight": 100
-          },
-          {
-            "value": 79.8,
-            "aboveWeight": 79.8152,
-            "effectiveWeight": 100
-          },
-          {
-            "value": 72.8,
-            "aboveWeight": 72.7778,
-            "effectiveWeight": 100
-          },
-          {
-            "value": 81.3,
-            "aboveWeight": 81.2958,
-            "effectiveWeight": 100
-          },
-          {
-            "value": 81.3,
-            "aboveWeight": 81.2667,
-            "effectiveWeight": 100
-          },
-          {
-            "value": 79.8,
-            "aboveWeight": 79.7588,
-            "effectiveWeight": 100
-          },
-          {
-            "value": 80,
-            "aboveWeight": 79.9727,
-            "effectiveWeight": 100
-          },
-          {
-            "value": 84.4,
-            "aboveWeight": 84.4359,
-            "effectiveWeight": 100
-          },
-          {
-            "value": 82.9,
-            "aboveWeight": 82.9329,
-            "effectiveWeight": 100
-          },
-          {
-            "value": 78.1,
-            "aboveWeight": 78.0538,
-            "effectiveWeight": 100
-          },
-          {
-            "value": 77.7,
-            "aboveWeight": 77.7362,
-            "effectiveWeight": 100
-          },
-          {
-            "value": 76.8,
-            "aboveWeight": 76.7505,
-            "effectiveWeight": 100
-          },
-          {
-            "value": 75.3,
-            "aboveWeight": 75.2913,
-            "effectiveWeight": 100
-          },
-          {
-            "value": 72.6,
-            "aboveWeight": 72.6494,
-            "effectiveWeight": 100
-          },
-          {
-            "value": 74.2,
-            "aboveWeight": 74.1903,
-            "effectiveWeight": 100
-          },
-          {
-            "value": 70.5,
-            "aboveWeight": 70.4645,
-            "effectiveWeight": 100
-          },
-          {
-            "value": 75.9,
-            "aboveWeight": 75.8513,
-            "effectiveWeight": 100
-          },
-          {
-            "value": 73.7,
-            "aboveWeight": 73.7199,
-            "effectiveWeight": 100
-          },
-          {
-            "value": 66.1,
-            "aboveWeight": 66.0851,
-            "effectiveWeight": 100
-          },
-          {
-            "value": 60.4,
-            "aboveWeight": 60.4462,
-            "effectiveWeight": 100
-          },
-          {
-            "value": 70.3,
-            "aboveWeight": 70.2978,
-            "effectiveWeight": 100
-          },
-          {
-            "value": 67.1,
-            "aboveWeight": 67.1034,
-            "effectiveWeight": 100
-          },
-          {
-            "value": 61.3,
-            "aboveWeight": 61.2743,
-            "effectiveWeight": 100
-          },
-          {
-            "value": 60.8,
-            "aboveWeight": 60.7849,
-            "effectiveWeight": 100
-          },
-          {
-            "value": 64.4,
-            "aboveWeight": 64.3824,
-            "effectiveWeight": 100
-          },
-          {
-            "value": 64.5,
-            "aboveWeight": 64.5227,
-            "effectiveWeight": 100
-          },
-          {
-            "value": 64.3,
-            "aboveWeight": 64.2687,
-            "effectiveWeight": 100
-          },
-          {
-            "value": 62.3,
-            "aboveWeight": 62.2949,
-            "effectiveWeight": 100
-          },
-          {
-            "value": 65.8,
-            "aboveWeight": 65.8261,
-            "effectiveWeight": 100
-          },
-          {
-            "value": 58.9,
-            "aboveWeight": 58.9195,
-            "effectiveWeight": 100
-          },
-          {
-            "value": 64,
-            "aboveWeight": 63.953,
+            "value": 69.2,
+            "aboveWeight": 69.2491,
             "effectiveWeight": 100
           },
           {
             "value": 68.3,
-            "aboveWeight": 68.2874,
+            "aboveWeight": 68.2785,
             "effectiveWeight": 100
           },
           {
-            "value": 63.5,
-            "aboveWeight": 63.4927,
+            "value": 67.4,
+            "aboveWeight": 67.3623,
             "effectiveWeight": 100
           },
           {
-            "value": 67.3,
-            "aboveWeight": 67.3336,
+            "value": 66.2,
+            "aboveWeight": 66.1728,
             "effectiveWeight": 100
           },
           {
             "value": 56.1,
-            "aboveWeight": 56.1337,
+            "aboveWeight": 56.1383,
             "effectiveWeight": 100
           },
           {
-            "value": 56.6,
-            "aboveWeight": 56.5952,
+            "value": 53.1,
+            "aboveWeight": 53.1186,
             "effectiveWeight": 100
           },
           {
-            "value": 54.8,
-            "aboveWeight": 54.8168,
+            "value": 59.1,
+            "aboveWeight": 59.0845,
+            "effectiveWeight": 100
+          },
+          {
+            "value": 63.5,
+            "aboveWeight": 63.4838,
+            "effectiveWeight": 100
+          },
+          {
+            "value": 60.9,
+            "aboveWeight": 60.9,
+            "effectiveWeight": 100
+          },
+          {
+            "value": 61.2,
+            "aboveWeight": 61.2424,
+            "effectiveWeight": 100
+          },
+          {
+            "value": 60.5,
+            "aboveWeight": 60.522,
+            "effectiveWeight": 100
+          },
+          {
+            "value": 64.3,
+            "aboveWeight": 64.3214,
+            "effectiveWeight": 100
+          },
+          {
+            "value": 62.5,
+            "aboveWeight": 62.5084,
+            "effectiveWeight": 100
+          },
+          {
+            "value": 60,
+            "aboveWeight": 59.9671,
+            "effectiveWeight": 100
+          },
+          {
+            "value": 52.7,
+            "aboveWeight": 52.7252,
+            "effectiveWeight": 100
+          },
+          {
+            "value": 61.9,
+            "aboveWeight": 61.9266,
             "effectiveWeight": 100
           },
           {
             "value": 50.5,
-            "aboveWeight": 50.4535,
+            "aboveWeight": 50.5388,
             "effectiveWeight": 100
           },
           {
-            "value": 54.8,
-            "aboveWeight": 54.809,
+            "value": 46.3,
+            "aboveWeight": 46.2802,
             "effectiveWeight": 100
           },
           {
-            "value": 49.9,
-            "aboveWeight": 49.926,
+            "value": 50.1,
+            "aboveWeight": 50.1477,
             "effectiveWeight": 100
           },
           {
-            "value": 54.2,
-            "aboveWeight": 54.2379,
+            "value": 49.6,
+            "aboveWeight": 49.5887,
             "effectiveWeight": 100
           },
           {
-            "value": 45.5,
-            "aboveWeight": 45.4711,
+            "value": 57.4,
+            "aboveWeight": 57.4209,
             "effectiveWeight": 100
           },
           {
-            "value": 37,
-            "aboveWeight": 37.0419,
+            "value": 61.8,
+            "aboveWeight": 61.7812,
             "effectiveWeight": 100
           },
           {
-            "value": 40.9,
-            "aboveWeight": 40.9046,
+            "value": 60.3,
+            "aboveWeight": 60.287,
             "effectiveWeight": 100
           },
           {
-            "value": 35.6,
-            "aboveWeight": 35.6336,
+            "value": 63.8,
+            "aboveWeight": 63.7605,
             "effectiveWeight": 100
           },
           {
-            "value": 42.1,
-            "aboveWeight": 42.1097,
+            "value": 63.3,
+            "aboveWeight": 63.3424,
+            "effectiveWeight": 100
+          },
+          {
+            "value": 67,
+            "aboveWeight": 67.0415,
+            "effectiveWeight": 100
+          },
+          {
+            "value": 57.2,
+            "aboveWeight": 57.1583,
+            "effectiveWeight": 100
+          },
+          {
+            "value": 54.7,
+            "aboveWeight": 54.6646,
+            "effectiveWeight": 100
+          },
+          {
+            "value": 47.1,
+            "aboveWeight": 47.0917,
+            "effectiveWeight": 100
+          },
+          {
+            "value": 58.2,
+            "aboveWeight": 58.2485,
+            "effectiveWeight": 100
+          },
+          {
+            "value": 61.6,
+            "aboveWeight": 61.6092,
+            "effectiveWeight": 100
+          },
+          {
+            "value": 62.4,
+            "aboveWeight": 62.3745,
+            "effectiveWeight": 100
+          },
+          {
+            "value": 64.7,
+            "aboveWeight": 64.7395,
+            "effectiveWeight": 100
+          },
+          {
+            "value": 48.7,
+            "aboveWeight": 48.7059,
+            "effectiveWeight": 100
+          },
+          {
+            "value": 46.7,
+            "aboveWeight": 46.6973,
+            "effectiveWeight": 100
+          },
+          {
+            "value": 47.1,
+            "aboveWeight": 47.1252,
+            "effectiveWeight": 100
+          },
+          {
+            "value": 52.1,
+            "aboveWeight": 52.0537,
+            "effectiveWeight": 100
+          },
+          {
+            "value": 48.6,
+            "aboveWeight": 48.5577,
+            "effectiveWeight": 100
+          },
+          {
+            "value": 50.3,
+            "aboveWeight": 50.3421,
+            "effectiveWeight": 100
+          },
+          {
+            "value": 55.4,
+            "aboveWeight": 55.3961,
+            "effectiveWeight": 100
+          },
+          {
+            "value": 53.2,
+            "aboveWeight": 53.1674,
+            "effectiveWeight": 100
+          },
+          {
+            "value": 55.2,
+            "aboveWeight": 55.2186,
+            "effectiveWeight": 100
+          },
+          {
+            "value": 54.3,
+            "aboveWeight": 54.326,
+            "effectiveWeight": 100
+          },
+          {
+            "value": 40.5,
+            "aboveWeight": 40.4806,
+            "effectiveWeight": 100
+          },
+          {
+            "value": 35.9,
+            "aboveWeight": 35.8657,
+            "effectiveWeight": 100
+          },
+          {
+            "value": 32.8,
+            "aboveWeight": 32.7966,
+            "effectiveWeight": 100
+          },
+          {
+            "value": 40.5,
+            "aboveWeight": 40.4715,
+            "effectiveWeight": 100
+          },
+          {
+            "value": 35.8,
+            "aboveWeight": 35.7932,
+            "effectiveWeight": 100
+          },
+          {
+            "value": 31.9,
+            "aboveWeight": 31.8762,
+            "effectiveWeight": 100
+          },
+          {
+            "value": 29.4,
+            "aboveWeight": 29.3976,
+            "effectiveWeight": 100
+          },
+          {
+            "value": 29.7,
+            "aboveWeight": 29.6838,
+            "effectiveWeight": 100
+          },
+          {
+            "value": 39.8,
+            "aboveWeight": 39.7788,
+            "effectiveWeight": 100
+          },
+          {
+            "value": 31.1,
+            "aboveWeight": 31.0649,
+            "effectiveWeight": 100
+          },
+          {
+            "value": 16.6,
+            "aboveWeight": 16.5627,
+            "effectiveWeight": 100
+          },
+          {
+            "value": 23.1,
+            "aboveWeight": 23.1496,
+            "effectiveWeight": 100
+          },
+          {
+            "value": 27.6,
+            "aboveWeight": 27.5853,
+            "effectiveWeight": 100
+          },
+          {
+            "value": 18.1,
+            "aboveWeight": 18.0649,
+            "effectiveWeight": 100
+          },
+          {
+            "value": 21,
+            "aboveWeight": 21.0212,
+            "effectiveWeight": 100
+          },
+          {
+            "value": 13.4,
+            "aboveWeight": 13.4082,
+            "effectiveWeight": 100
+          },
+          {
+            "value": 15.8,
+            "aboveWeight": 15.7892,
+            "effectiveWeight": 100
+          },
+          {
+            "value": 17.5,
+            "aboveWeight": 17.4611,
+            "effectiveWeight": 100
+          },
+          {
+            "value": 25,
+            "aboveWeight": 24.9637,
+            "effectiveWeight": 100
+          },
+          {
+            "value": 13.4,
+            "aboveWeight": 13.3616,
+            "effectiveWeight": 100
+          },
+          {
+            "value": 9.5,
+            "aboveWeight": 9.4539,
+            "effectiveWeight": 100
+          },
+          {
+            "value": 10.5,
+            "aboveWeight": 10.5212,
+            "effectiveWeight": 100
+          },
+          {
+            "value": 24.6,
+            "aboveWeight": 24.6046,
+            "effectiveWeight": 100
+          },
+          {
+            "value": 42.7,
+            "aboveWeight": 42.6573,
+            "effectiveWeight": 100
+          },
+          {
+            "value": 46.2,
+            "aboveWeight": 46.1514,
+            "effectiveWeight": 100
+          },
+          {
+            "value": 62.9,
+            "aboveWeight": 62.9391,
+            "effectiveWeight": 100
+          },
+          {
+            "value": 62.4,
+            "aboveWeight": 62.4325,
+            "effectiveWeight": 100
+          },
+          {
+            "value": 78,
+            "aboveWeight": 77.9976,
+            "effectiveWeight": 100
+          },
+          {
+            "value": 80.2,
+            "aboveWeight": 80.2338,
+            "effectiveWeight": 100
+          },
+          {
+            "value": 73.3,
+            "aboveWeight": 73.2755,
+            "effectiveWeight": 100
+          },
+          {
+            "value": 81.6,
+            "aboveWeight": 81.5688,
+            "effectiveWeight": 100
+          },
+          {
+            "value": 81.6,
+            "aboveWeight": 81.5661,
+            "effectiveWeight": 100
+          },
+          {
+            "value": 80.1,
+            "aboveWeight": 80.1271,
+            "effectiveWeight": 100
+          },
+          {
+            "value": 80.3,
+            "aboveWeight": 80.3153,
+            "effectiveWeight": 100
+          },
+          {
+            "value": 84.8,
+            "aboveWeight": 84.7505,
+            "effectiveWeight": 100
+          },
+          {
+            "value": 83.2,
+            "aboveWeight": 83.2333,
+            "effectiveWeight": 100
+          },
+          {
+            "value": 78.4,
+            "aboveWeight": 78.3586,
+            "effectiveWeight": 100
+          },
+          {
+            "value": 78,
+            "aboveWeight": 78.0242,
+            "effectiveWeight": 100
+          },
+          {
+            "value": 77.1,
+            "aboveWeight": 77.051,
+            "effectiveWeight": 100
+          },
+          {
+            "value": 75.6,
+            "aboveWeight": 75.5914,
+            "effectiveWeight": 100
+          },
+          {
+            "value": 73,
+            "aboveWeight": 73.0044,
+            "effectiveWeight": 100
+          },
+          {
+            "value": 74.3,
+            "aboveWeight": 74.2583,
+            "effectiveWeight": 100
+          },
+          {
+            "value": 70.5,
+            "aboveWeight": 70.4681,
+            "effectiveWeight": 100
+          },
+          {
+            "value": 76,
+            "aboveWeight": 76.0047,
+            "effectiveWeight": 100
+          },
+          {
+            "value": 73.7,
+            "aboveWeight": 73.6811,
+            "effectiveWeight": 100
+          },
+          {
+            "value": 66.1,
+            "aboveWeight": 66.0546,
+            "effectiveWeight": 100
+          },
+          {
+            "value": 60.5,
+            "aboveWeight": 60.5329,
+            "effectiveWeight": 100
+          },
+          {
+            "value": 70.7,
+            "aboveWeight": 70.6698,
+            "effectiveWeight": 100
+          },
+          {
+            "value": 67.3,
+            "aboveWeight": 67.3455,
+            "effectiveWeight": 100
+          },
+          {
+            "value": 61.8,
+            "aboveWeight": 61.7669,
+            "effectiveWeight": 100
+          },
+          {
+            "value": 61.4,
+            "aboveWeight": 61.3642,
+            "effectiveWeight": 100
+          },
+          {
+            "value": 64.9,
+            "aboveWeight": 64.8572,
+            "effectiveWeight": 100
+          },
+          {
+            "value": 65,
+            "aboveWeight": 64.9807,
+            "effectiveWeight": 100
+          },
+          {
+            "value": 64.7,
+            "aboveWeight": 64.7293,
+            "effectiveWeight": 100
+          },
+          {
+            "value": 62.4,
+            "aboveWeight": 62.4207,
+            "effectiveWeight": 100
+          },
+          {
+            "value": 65.8,
+            "aboveWeight": 65.8431,
+            "effectiveWeight": 100
+          },
+          {
+            "value": 58.8,
+            "aboveWeight": 58.7604,
+            "effectiveWeight": 100
+          },
+          {
+            "value": 64,
+            "aboveWeight": 63.9949,
+            "effectiveWeight": 100
+          },
+          {
+            "value": 68.4,
+            "aboveWeight": 68.3938,
+            "effectiveWeight": 100
+          },
+          {
+            "value": 63.6,
+            "aboveWeight": 63.6487,
+            "effectiveWeight": 100
+          },
+          {
+            "value": 67.9,
+            "aboveWeight": 67.8525,
+            "effectiveWeight": 100
+          },
+          {
+            "value": 56.7,
+            "aboveWeight": 56.656,
+            "effectiveWeight": 100
+          },
+          {
+            "value": 57,
+            "aboveWeight": 57.0041,
+            "effectiveWeight": 100
+          },
+          {
+            "value": 55.2,
+            "aboveWeight": 55.1765,
+            "effectiveWeight": 100
+          },
+          {
+            "value": 50.8,
+            "aboveWeight": 50.781,
+            "effectiveWeight": 100
+          },
+          {
+            "value": 55.2,
+            "aboveWeight": 55.1793,
+            "effectiveWeight": 100
+          },
+          {
+            "value": 50.2,
+            "aboveWeight": 50.1741,
+            "effectiveWeight": 100
+          },
+          {
+            "value": 54.4,
+            "aboveWeight": 54.3787,
+            "effectiveWeight": 100
+          },
+          {
+            "value": 45.6,
+            "aboveWeight": 45.5711,
+            "effectiveWeight": 100
+          },
+          {
+            "value": 37.4,
+            "aboveWeight": 37.3595,
+            "effectiveWeight": 100
+          },
+          {
+            "value": 41.1,
+            "aboveWeight": 41.1226,
+            "effectiveWeight": 100
+          },
+          {
+            "value": 35.7,
+            "aboveWeight": 35.7088,
+            "effectiveWeight": 100
+          },
+          {
+            "value": 42.6,
+            "aboveWeight": 42.6486,
             "effectiveWeight": 100
           }
         ],
@@ -580340,7 +580380,7 @@ window.MARKET_SNAPSHOT = {
             "price": 204.87,
             "ma20": 216.15,
             "status": "MA20下方",
-            "weight": 7.840288851022581
+            "weight": 7.876543514630338
           },
           {
             "symbol": "AAPL",
@@ -580349,7 +580389,7 @@ window.MARKET_SNAPSHOT = {
             "price": 295.63,
             "ma20": 304.24,
             "status": "MA20下方",
-            "weight": 6.891295828860422
+            "weight": 6.866856318130406
           },
           {
             "symbol": "MSFT",
@@ -580358,7 +580398,7 @@ window.MARKET_SNAPSHOT = {
             "price": 390.34,
             "ma20": 420.68,
             "status": "MA20下方",
-            "weight": 4.75001478517314
+            "weight": 4.585853484052628
           },
           {
             "symbol": "AMZN",
@@ -580367,7 +580407,7 @@ window.MARKET_SNAPSHOT = {
             "price": 241.51,
             "ma20": 258.68,
             "status": "MA20下方",
-            "weight": 3.7427444602237814
+            "weight": 3.7326269359728705
           },
           {
             "symbol": "GOOGL",
@@ -580376,7 +580416,7 @@ window.MARKET_SNAPSHOT = {
             "price": 357.77,
             "ma20": 378.49,
             "status": "MA20下方",
-            "weight": 3.364177690482379
+            "weight": 3.3192185595288
           },
           {
             "symbol": "GOOG",
@@ -580385,7 +580425,7 @@ window.MARKET_SNAPSHOT = {
             "price": 356.56,
             "ma20": 375.17,
             "status": "MA20下方",
-            "weight": 2.688405823030381
+            "weight": 2.6664023140914646
           },
           {
             "symbol": "AVGO",
@@ -580394,7 +580434,7 @@ window.MARKET_SNAPSHOT = {
             "price": 385.57,
             "ma20": 421.61,
             "status": "MA20下方",
-            "weight": 2.840051846003746
+            "weight": 2.8922514931343977
           },
           {
             "symbol": "META",
@@ -580403,7 +580443,7 @@ window.MARKET_SNAPSHOT = {
             "price": 568.43,
             "ma20": 606.78,
             "status": "MA20下方",
-            "weight": 2.0102980791416636
+            "weight": 1.9669025644196574
           },
           {
             "symbol": "TSLA",
@@ -580412,7 +580452,7 @@ window.MARKET_SNAPSHOT = {
             "price": 399.15,
             "ma20": 417.59,
             "status": "MA20下方",
-            "weight": 1.727542447719486
+            "weight": 1.7759642479960578
           },
           {
             "symbol": "BRK.B",
@@ -580421,7 +580461,7 @@ window.MARKET_SNAPSHOT = {
             "price": 485.79,
             "ma20": 481.32,
             "status": "MA20上方",
-            "weight": 1.4276587309452682
+            "weight": 1.409227314683464
           },
           {
             "symbol": "WMT",
@@ -580430,7 +580470,7 @@ window.MARKET_SNAPSHOT = {
             "price": 120.5,
             "ma20": 121.83,
             "status": "MA20下方",
-            "weight": 0.8512068420192889
+            "weight": 0.8359439925796878
           },
           {
             "symbol": "LLY",
@@ -580439,7 +580479,7 @@ window.MARKET_SNAPSHOT = {
             "price": 1160.95,
             "ma20": 1079.95,
             "status": "MA20上方",
-            "weight": 1.449442487405263
+            "weight": 1.4553288706984226
           },
           {
             "symbol": "JPM",
@@ -580448,7 +580488,7 @@ window.MARKET_SNAPSHOT = {
             "price": 313.49,
             "ma20": 303.78,
             "status": "MA20上方",
-            "weight": 1.341631336703079
+            "weight": 1.3371119696918954
           },
           {
             "symbol": "XOM",
@@ -580457,7 +580497,7 @@ window.MARKET_SNAPSHOT = {
             "price": 146.6,
             "ma20": 152.07,
             "status": "MA20下方",
-            "weight": 1.0135814127919422
+            "weight": 0.969563927202881
           },
           {
             "symbol": "JNJ",
@@ -580466,7 +580506,7 @@ window.MARKET_SNAPSHOT = {
             "price": 238.33,
             "ma20": 230.3,
             "status": "MA20上方",
-            "weight": 0.9254613788159964
+            "weight": 0.9089357777222341
           },
           {
             "symbol": "V",
@@ -580475,7 +580515,7 @@ window.MARKET_SNAPSHOT = {
             "price": 319.05,
             "ma20": 324.5,
             "status": "MA20下方",
-            "weight": 0.8742379404147266
+            "weight": 0.8488011283724702
           },
           {
             "symbol": "MA",
@@ -580484,7 +580524,7 @@ window.MARKET_SNAPSHOT = {
             "price": 486.51,
             "ma20": 491.77,
             "status": "MA20下方",
-            "weight": 0.6413066337966098
+            "weight": 0.6269662864430748
           },
           {
             "symbol": "COST",
@@ -580493,7 +580533,7 @@ window.MARKET_SNAPSHOT = {
             "price": 975.69,
             "ma20": 1004.03,
             "status": "MA20下方",
-            "weight": 0.7024897105849092
+            "weight": 0.6850173802504342
           },
           {
             "symbol": "ORCL",
@@ -580502,7 +580542,7 @@ window.MARKET_SNAPSHOT = {
             "price": 184.1,
             "ma20": 205.81,
             "status": "MA20下方",
-            "weight": 0.5492395315043994
+            "weight": 0.4937694955166267
           },
           {
             "symbol": "NFLX",
@@ -580511,7 +580551,7 @@ window.MARKET_SNAPSHOT = {
             "price": 81.27,
             "ma20": 85.41,
             "status": "MA20下方",
-            "weight": 0.5574321859087467
+            "weight": 0.5429687448174948
           },
           {
             "symbol": "CVX",
@@ -580520,7 +580560,7 @@ window.MARKET_SNAPSHOT = {
             "price": 185.82,
             "ma20": 188.39,
             "status": "MA20下方",
-            "weight": 0.572832486581475
+            "weight": 0.5511753203137477
           },
           {
             "symbol": "MU",
@@ -580529,7 +580569,7 @@ window.MARKET_SNAPSHOT = {
             "price": 995.87,
             "ma20": 882.85,
             "status": "MA20上方",
-            "weight": 1.6158676528594917
+            "weight": 1.7732434641787451
           },
           {
             "symbol": "ABBV",
@@ -580538,7 +580578,7 @@ window.MARKET_SNAPSHOT = {
             "price": 224.77,
             "ma20": 217.38,
             "status": "MA20上方",
-            "weight": 0.6401125627093366
+            "weight": 0.6286005658989117
           },
           {
             "symbol": "PLTR",
@@ -580547,7 +580587,7 @@ window.MARKET_SNAPSHOT = {
             "price": 131.08,
             "ma20": 139.03,
             "status": "MA20下方",
-            "weight": 0.4790989113408648
+            "weight": 0.47400637316722993
           },
           {
             "symbol": "BAC",
@@ -580556,7 +580596,7 @@ window.MARKET_SNAPSHOT = {
             "price": 55.16,
             "ma20": 52.17,
             "status": "MA20上方",
-            "weight": 0.5826695015066802
+            "weight": 0.5791590894462253
           },
           {
             "symbol": "AMD",
@@ -580565,7 +580605,7 @@ window.MARKET_SNAPSHOT = {
             "price": 488.45,
             "ma20": 478.88,
             "status": "MA20上方",
-            "weight": 1.1872715158040932
+            "weight": 1.2598354777103378
           },
           {
             "symbol": "PG",
@@ -580574,7 +580614,7 @@ window.MARKET_SNAPSHOT = {
             "price": 148.34,
             "ma20": 143.9,
             "status": "MA20上方",
-            "weight": 0.5579327308594724
+            "weight": 0.5457267170357089
           },
           {
             "symbol": "CAT",
@@ -580583,7 +580623,7 @@ window.MARKET_SNAPSHOT = {
             "price": 897.63,
             "ma20": 893.16,
             "status": "MA20上方",
-            "weight": 0.6413860375136928
+            "weight": 0.6608891437087256
           },
           {
             "symbol": "HD",
@@ -580592,7 +580632,7 @@ window.MARKET_SNAPSHOT = {
             "price": 326.01,
             "ma20": 312.01,
             "status": "MA20上方",
-            "weight": 0.5113730044488995
+            "weight": 0.513752732995684
           },
           {
             "symbol": "KO",
@@ -580601,7 +580641,7 @@ window.MARKET_SNAPSHOT = {
             "price": 82.53,
             "ma20": 80.46,
             "status": "MA20上方",
-            "weight": 0.5212180602568472
+            "weight": 0.5057582318937616
           },
           {
             "symbol": "CSCO",
@@ -580610,7 +580650,7 @@ window.MARKET_SNAPSHOT = {
             "price": 121.83,
             "ma20": 120.53,
             "status": "MA20上方",
-            "weight": 0.7557535229821088
+            "weight": 0.7617008680013992
           },
           {
             "symbol": "GE",
@@ -580619,7 +580659,7 @@ window.MARKET_SNAPSHOT = {
             "price": 332.76,
             "ma20": 312.1,
             "status": "MA20上方",
-            "weight": 0.5383883602432862
+            "weight": 0.5524558074150615
           },
           {
             "symbol": "MRK",
@@ -580628,7 +580668,7 @@ window.MARKET_SNAPSHOT = {
             "price": 120.76,
             "ma20": 117.35,
             "status": "MA20上方",
-            "weight": 0.4758604458162902
+            "weight": 0.4742345290322207
           },
           {
             "symbol": "AMAT",
@@ -580637,7 +580677,7 @@ window.MARKET_SNAPSHOT = {
             "price": 552.64,
             "ma20": 461.58,
             "status": "MA20上方",
-            "weight": 0.6348729224922021
+            "weight": 0.6937928377712897
           },
           {
             "symbol": "LRCX",
@@ -580646,7 +580686,7 @@ window.MARKET_SNAPSHOT = {
             "price": 362.52,
             "ma20": 314.18,
             "status": "MA20上方",
-            "weight": 0.6467533267443656
+            "weight": 0.7160616542679198
           },
           {
             "symbol": "MS",
@@ -580655,7 +580695,7 @@ window.MARKET_SNAPSHOT = {
             "price": 212.66,
             "ma20": 204.6,
             "status": "MA20上方",
-            "weight": 0.4003726386289392
+            "weight": 0.4049113293840189
           },
           {
             "symbol": "RTX",
@@ -580664,7 +580704,7 @@ window.MARKET_SNAPSHOT = {
             "price": 184.21,
             "ma20": 177.14,
             "status": "MA20上方",
-            "weight": 0.3835390506073458
+            "weight": 0.3913908329265056
           },
           {
             "symbol": "PM",
@@ -580673,7 +580713,7 @@ window.MARKET_SNAPSHOT = {
             "price": 180.77,
             "ma20": 182.2,
             "status": "MA20下方",
-            "weight": 0.45866300785059494
+            "weight": 0.4454044725062533
           },
           {
             "symbol": "GS",
@@ -580682,7 +580722,7 @@ window.MARKET_SNAPSHOT = {
             "price": 1035.64,
             "ma20": 1009.19,
             "status": "MA20上方",
-            "weight": 0.4835937647939676
+            "weight": 0.49158241550684756
           },
           {
             "symbol": "WFC",
@@ -580691,7 +580731,7 @@ window.MARKET_SNAPSHOT = {
             "price": 82.4,
             "ma20": 77.91,
             "status": "MA20上方",
-            "weight": 0.4082587343787256
+            "weight": 0.403342380902739
           },
           {
             "symbol": "UNH",
@@ -580700,7 +580740,7 @@ window.MARKET_SNAPSHOT = {
             "price": 405.55,
             "ma20": 390.73,
             "status": "MA20上方",
-            "weight": 0.5944483896142186
+            "weight": 0.5814868823242806
           },
           {
             "symbol": "GEV",
@@ -580709,7 +580749,7 @@ window.MARKET_SNAPSHOT = {
             "price": 906.79,
             "ma20": 987.1,
             "status": "MA20下方",
-            "weight": 0.37642387449050435
+            "weight": 0.3868880211416662
           },
           {
             "symbol": "TMUS",
@@ -580718,7 +580758,7 @@ window.MARKET_SNAPSHOT = {
             "price": 185.82,
             "ma20": 186.49,
             "status": "MA20下方",
-            "weight": 0.14149742384188463
+            "weight": 0.13926654100873515
           },
           {
             "symbol": "LIN",
@@ -580727,7 +580767,7 @@ window.MARKET_SNAPSHOT = {
             "price": 515.44,
             "ma20": 507.71,
             "status": "MA20上方",
-            "weight": 0.3828957799879392
+            "weight": 0.380952953376158
           },
           {
             "symbol": "IBM",
@@ -580736,7 +580776,7 @@ window.MARKET_SNAPSHOT = {
             "price": 274.85,
             "ma20": 266.49,
             "status": "MA20上方",
-            "weight": 0.410007626375237
+            "weight": 0.40664109257190034
           },
           {
             "symbol": "INTC",
@@ -580745,7 +580785,7 @@ window.MARKET_SNAPSHOT = {
             "price": 116.96,
             "ma20": 113.25,
             "status": "MA20上方",
-            "weight": 0.8089097885726266
+            "weight": 0.8686758159245717
           },
           {
             "symbol": "MCD",
@@ -580754,7 +580794,7 @@ window.MARKET_SNAPSHOT = {
             "price": 284.77,
             "ma20": 279.22,
             "status": "MA20上方",
-            "weight": 0.32401340077436097
+            "weight": 0.32097710854916306
           },
           {
             "symbol": "PEP",
@@ -580763,7 +580803,7 @@ window.MARKET_SNAPSHOT = {
             "price": 143.73,
             "ma20": 145.57,
             "status": "MA20下方",
-            "weight": 0.31762391432503745
+            "weight": 0.3108859857099247
           },
           {
             "symbol": "VZ",
@@ -580772,7 +580812,7 @@ window.MARKET_SNAPSHOT = {
             "price": 46.94,
             "ma20": 47.13,
             "status": "MA20下方",
-            "weight": 0.3188370825088244
+            "weight": 0.31328715029786697
           },
           {
             "symbol": "AXP",
@@ -580781,7 +580821,7 @@ window.MARKET_SNAPSHOT = {
             "price": 318.49,
             "ma20": 312.24,
             "status": "MA20上方",
-            "weight": 0.2701957725782659
+            "weight": 0.2699144188355511
           },
           {
             "symbol": "T",
@@ -580790,7 +580830,7 @@ window.MARKET_SNAPSHOT = {
             "price": 23,
             "ma20": 24.14,
             "status": "MA20下方",
-            "weight": 0.2616513295539307
+            "weight": 0.2548249738967578
           },
           {
             "symbol": "C",
@@ -580799,7 +580839,7 @@ window.MARKET_SNAPSHOT = {
             "price": 138.07,
             "ma20": 128.3,
             "status": "MA20上方",
-            "weight": 0.3753303144375133
+            "weight": 0.3818454749977958
           },
           {
             "symbol": "KLAC",
@@ -580808,7 +580848,7 @@ window.MARKET_SNAPSHOT = {
             "price": 241.16,
             "ma20": 197.69,
             "status": "MA20上方",
-            "weight": 0.4507105748181824
+            "weight": 0.500206104148348
           },
           {
             "symbol": "NEE",
@@ -580817,7 +580857,7 @@ window.MARKET_SNAPSHOT = {
             "price": 84.84,
             "ma20": 87.42,
             "status": "MA20下方",
-            "weight": 0.28546339868574166
+            "weight": 0.27963064239002494
           },
           {
             "symbol": "AMGN",
@@ -580826,7 +580866,7 @@ window.MARKET_SNAPSHOT = {
             "price": 354.06,
             "ma20": 337.21,
             "status": "MA20上方",
-            "weight": 0.2928459341537739
+            "weight": 0.30172658307705835
           },
           {
             "symbol": "TMO",
@@ -580835,7 +580875,7 @@ window.MARKET_SNAPSHOT = {
             "price": 475.66,
             "ma20": 466.81,
             "status": "MA20上方",
-            "weight": 0.29161366887347334
+            "weight": 0.28280572775348645
           },
           {
             "symbol": "ABT",
@@ -580844,7 +580884,7 @@ window.MARKET_SNAPSHOT = {
             "price": 89.65,
             "ma20": 87.9,
             "status": "MA20上方",
-            "weight": 0.24968147048125594
+            "weight": 0.24670885667296807
           },
           {
             "symbol": "TJX",
@@ -580853,7 +580893,7 @@ window.MARKET_SNAPSHOT = {
             "price": 168.34,
             "ma20": 157.03,
             "status": "MA20上方",
-            "weight": 0.29979325684336394
+            "weight": 0.2958327240801167
           },
           {
             "symbol": "TXN",
@@ -580862,7 +580902,7 @@ window.MARKET_SNAPSHOT = {
             "price": 297.1,
             "ma20": 302.46,
             "status": "MA20下方",
-            "weight": 0.41212137342619304
+            "weight": 0.42670674758809096
           },
           {
             "symbol": "CRM",
@@ -580871,7 +580911,7 @@ window.MARKET_SNAPSHOT = {
             "price": 166.45,
             "ma20": 181.55,
             "status": "MA20下方",
-            "weight": 0.2572268338248254
+            "weight": 0.24682645242717027
           },
           {
             "symbol": "DIS",
@@ -580880,7 +580920,7 @@ window.MARKET_SNAPSHOT = {
             "price": 100.34,
             "ma20": 101.89,
             "status": "MA20下方",
-            "weight": 0.2812881703216564
+            "weight": 0.2813011051548471
           },
           {
             "symbol": "GILD",
@@ -580889,7 +580929,7 @@ window.MARKET_SNAPSHOT = {
             "price": 125.87,
             "ma20": 130.12,
             "status": "MA20下方",
-            "weight": 0.24268992293658173
+            "weight": 0.247136020737378
           },
           {
             "symbol": "SCHW",
@@ -580898,7 +580938,7 @@ window.MARKET_SNAPSHOT = {
             "price": 88.7,
             "ma20": 88.87,
             "status": "MA20下方",
-            "weight": 0.23996506879718957
+            "weight": 0.23433215481615718
           },
           {
             "symbol": "ISRG",
@@ -580907,7 +580947,7 @@ window.MARKET_SNAPSHOT = {
             "price": 412.9,
             "ma20": 424.7,
             "status": "MA20下方",
-            "weight": 0.23565314542648044
+            "weight": 0.23209582530248138
           },
           {
             "symbol": "PFE",
@@ -580916,7 +580956,7 @@ window.MARKET_SNAPSHOT = {
             "price": 26.17,
             "ma20": 25.78,
             "status": "MA20上方",
-            "weight": 0.23423895517412902
+            "weight": 0.23533724673241602
           },
           {
             "symbol": "BA",
@@ -580925,7 +580965,7 @@ window.MARKET_SNAPSHOT = {
             "price": 221.63,
             "ma20": 219.79,
             "status": "MA20上方",
-            "weight": 0.2640374615077916
+            "weight": 0.27517808520099846
           },
           {
             "symbol": "ANET",
@@ -580934,7 +580974,7 @@ window.MARKET_SNAPSHOT = {
             "price": 156.4,
             "ma20": 155.03,
             "status": "MA20上方",
-            "weight": 0.2522997829243089
+            "weight": 0.25554160443305035
           },
           {
             "symbol": "APH",
@@ -580943,7 +580983,7 @@ window.MARKET_SNAPSHOT = {
             "price": 152.46,
             "ma20": 138.93,
             "status": "MA20上方",
-            "weight": 0.2955305838794532
+            "weight": 0.2967553984592423
           },
           {
             "symbol": "COP",
@@ -580952,7 +580992,7 @@ window.MARKET_SNAPSHOT = {
             "price": 115.36,
             "ma20": 118.7,
             "status": "MA20下方",
-            "weight": 0.2365597549557065
+            "weight": 0.22365104302207497
           },
           {
             "symbol": "ADI",
@@ -580961,7 +581001,7 @@ window.MARKET_SNAPSHOT = {
             "price": 412.13,
             "ma20": 411.66,
             "status": "MA20上方",
-            "weight": 0.30892066386653627
+            "weight": 0.31865434113068897
           },
           {
             "symbol": "DE",
@@ -580970,7 +581010,7 @@ window.MARKET_SNAPSHOT = {
             "price": 568.64,
             "ma20": 559.23,
             "status": "MA20上方",
-            "weight": 0.22709262063666008
+            "weight": 0.22661003362354085
           },
           {
             "symbol": "BLK",
@@ -580979,7 +581019,7 @@ window.MARKET_SNAPSHOT = {
             "price": 1016.58,
             "ma20": 1041.01,
             "status": "MA20下方",
-            "weight": 0.23480583740748096
+            "weight": 0.23211492204889028
           },
           {
             "symbol": "UBER",
@@ -580988,7 +581028,7 @@ window.MARKET_SNAPSHOT = {
             "price": 69.55,
             "ma20": 71.99,
             "status": "MA20下方",
-            "weight": 0.22735897487750809
+            "weight": 0.226509524431915
           },
           {
             "symbol": "UNP",
@@ -580997,7 +581037,7 @@ window.MARKET_SNAPSHOT = {
             "price": 268.28,
             "ma20": 268.28,
             "status": "MA20下方",
-            "weight": 0.25500956040855877
+            "weight": 0.25179663195307006
           },
           {
             "symbol": "HON",
@@ -581006,7 +581046,7 @@ window.MARKET_SNAPSHOT = {
             "price": 219.12,
             "ma20": 222.39,
             "status": "MA20下方",
-            "weight": 0.21044296780780317
+            "weight": 0.2201251805798391
           },
           {
             "symbol": "ETN",
@@ -581015,7 +581055,7 @@ window.MARKET_SNAPSHOT = {
             "price": 393.64,
             "ma20": 397.67,
             "status": "MA20下方",
-            "weight": 0.23469929571114176
+            "weight": 0.24183215069528033
           },
           {
             "symbol": "LMT",
@@ -581024,7 +581064,7 @@ window.MARKET_SNAPSHOT = {
             "price": 548.68,
             "ma20": 525.52,
             "status": "MA20上方",
-            "weight": 0.17115823005858055
+            "weight": 0.17579459652132862
           },
           {
             "symbol": "QCOM",
@@ -581033,7 +581073,7 @@ window.MARKET_SNAPSHOT = {
             "price": 202.96,
             "ma20": 221.36,
             "status": "MA20下方",
-            "weight": 0.32845096293792286
+            "weight": 0.34265694118286527
           },
           {
             "symbol": "WELL",
@@ -581042,7 +581082,7 @@ window.MARKET_SNAPSHOT = {
             "price": 210.67,
             "ma20": 209.48,
             "status": "MA20上方",
-            "weight": 0.23762215658806998
+            "weight": 0.23277325725403983
           },
           {
             "symbol": "APP",
@@ -581051,7 +581091,7 @@ window.MARKET_SNAPSHOT = {
             "price": 478.57,
             "ma20": 533.13,
             "status": "MA20下方",
-            "weight": 0.21489359640582176
+            "weight": 0.20502467962996693
           },
           {
             "symbol": "DHR",
@@ -581060,7 +581100,7 @@ window.MARKET_SNAPSHOT = {
             "price": 180.79,
             "ma20": 176.22,
             "status": "MA20上方",
-            "weight": 0.1862228238768062
+            "weight": 0.1801898634711283
           },
           {
             "symbol": "BKNG",
@@ -581069,7 +581109,7 @@ window.MARKET_SNAPSHOT = {
             "price": 163.59,
             "ma20": 162.5,
             "status": "MA20上方",
-            "weight": 0.20820056663296585
+            "weight": 0.2083776662626063
           },
           {
             "symbol": "LOW",
@@ -581078,7 +581118,7 @@ window.MARKET_SNAPSHOT = {
             "price": 221.05,
             "ma20": 214.8,
             "status": "MA20上方",
-            "weight": 0.19502055470753268
+            "weight": 0.1959748320159727
           },
           {
             "symbol": "PANW",
@@ -581087,7 +581127,7 @@ window.MARKET_SNAPSHOT = {
             "price": 279.53,
             "ma20": 263.63,
             "status": "MA20上方",
-            "weight": 0.34222901551733553
+            "weight": 0.35718453974046993
           },
           {
             "symbol": "SPGI",
@@ -581096,7 +581136,7 @@ window.MARKET_SNAPSHOT = {
             "price": 413.34,
             "ma20": 416.98,
             "status": "MA20下方",
-            "weight": 0.2100539901051308
+            "weight": 0.20012787181395408
           },
           {
             "symbol": "CB",
@@ -581105,7 +581145,7 @@ window.MARKET_SNAPSHOT = {
             "price": 327.93,
             "ma20": 322.32,
             "status": "MA20上方",
-            "weight": 0.19356314471043987
+            "weight": 0.18812204887424278
           },
           {
             "symbol": "SYK",
@@ -581114,7 +581154,7 @@ window.MARKET_SNAPSHOT = {
             "price": 305.64,
             "ma20": 307.55,
             "status": "MA20下方",
-            "weight": 0.17142257407874292
+            "weight": 0.16672967252859053
           },
           {
             "symbol": "PLD",
@@ -581123,7 +581163,7 @@ window.MARKET_SNAPSHOT = {
             "price": 147.19,
             "ma20": 143.93,
             "status": "MA20上方",
-            "weight": 0.21813507726142475
+            "weight": 0.2164716714642384
           },
           {
             "symbol": "BMY",
@@ -581132,7 +581172,7 @@ window.MARKET_SNAPSHOT = {
             "price": 56.9,
             "ma20": 56.96,
             "status": "MA20下方",
-            "weight": 0.18255718645653204
+            "weight": 0.18361220144598955
           },
           {
             "symbol": "ACN",
@@ -581141,7 +581181,7 @@ window.MARKET_SNAPSHOT = {
             "price": 167.52,
             "ma20": 177.28,
             "status": "MA20下方",
-            "weight": 0.1688896960148299
+            "weight": 0.16308420414831987
           },
           {
             "symbol": "INTU",
@@ -581150,7 +581190,7 @@ window.MARKET_SNAPSHOT = {
             "price": 276.91,
             "ma20": 329.41,
             "status": "MA20下方",
-            "weight": 0.12733541911151375
+            "weight": 0.1219266952694384
           },
           {
             "symbol": "NEM",
@@ -581159,7 +581199,7 @@ window.MARKET_SNAPSHOT = {
             "price": 97.59,
             "ma20": 106.08,
             "status": "MA20下方",
-            "weight": 0.16280073755801036
+            "weight": 0.16831369738861438
           },
           {
             "symbol": "GLW",
@@ -581168,7 +581208,7 @@ window.MARKET_SNAPSHOT = {
             "price": 176.55,
             "ma20": 186.58,
             "status": "MA20下方",
-            "weight": 0.2112651480682321
+            "weight": 0.21797830424671033
           },
           {
             "symbol": "PGR",
@@ -581177,7 +581217,7 @@ window.MARKET_SNAPSHOT = {
             "price": 202.26,
             "ma20": 198.72,
             "status": "MA20上方",
-            "weight": 0.19246053866436344
+            "weight": 0.18735315355830476
           },
           {
             "symbol": "PH",
@@ -581186,7 +581226,7 @@ window.MARKET_SNAPSHOT = {
             "price": 902.37,
             "ma20": 864.95,
             "status": "MA20上方",
-            "weight": 0.1778391985073226
+            "weight": 0.1801255375884878
           },
           {
             "symbol": "COF",
@@ -581195,7 +581235,7 @@ window.MARKET_SNAPSHOT = {
             "price": 182.04,
             "ma20": 184.37,
             "status": "MA20下方",
-            "weight": 0.17873475182277757
+            "weight": 0.1800220131211131
           },
           {
             "symbol": "VRTX",
@@ -581204,7 +581244,7 @@ window.MARKET_SNAPSHOT = {
             "price": 445.04,
             "ma20": 438.76,
             "status": "MA20上方",
-            "weight": 0.1780573074517151
+            "weight": 0.17874253111171565
           },
           {
             "symbol": "MDT",
@@ -581213,7 +581253,7 @@ window.MARKET_SNAPSHOT = {
             "price": 80.33,
             "ma20": 77.97,
             "status": "MA20上方",
-            "weight": 0.16560801074551398
+            "weight": 0.1629223843498022
           },
           {
             "symbol": "NOW",
@@ -581222,7 +581262,7 @@ window.MARKET_SNAPSHOT = {
             "price": 103.08,
             "ma20": 108.73,
             "status": "MA20下方",
-            "weight": 0.17874279270552013
+            "weight": 0.1707329536310493
           },
           {
             "symbol": "MO",
@@ -581231,7 +581271,7 @@ window.MARKET_SNAPSHOT = {
             "price": 71.41,
             "ma20": 71.93,
             "status": "MA20下方",
-            "weight": 0.1975222743508182
+            "weight": 0.18955933031449282
           },
           {
             "symbol": "CME",
@@ -581240,7 +581280,7 @@ window.MARKET_SNAPSHOT = {
             "price": 262.18,
             "ma20": 274.78,
             "status": "MA20下方",
-            "weight": 0.15313660161177073
+            "weight": 0.1495787840695504
           },
           {
             "symbol": "SO",
@@ -581249,7 +581289,7 @@ window.MARKET_SNAPSHOT = {
             "price": 93.27,
             "ma20": 92.73,
             "status": "MA20上方",
-            "weight": 0.1666312130745074
+            "weight": 0.16246004206832315
           },
           {
             "symbol": "HCA",
@@ -581258,7 +581298,7 @@ window.MARKET_SNAPSHOT = {
             "price": 378.51,
             "ma20": 386.88,
             "status": "MA20下方",
-            "weight": 0.09403209301242862
+            "weight": 0.09369466843364505
           },
           {
             "symbol": "DELL",
@@ -581267,7 +581307,7 @@ window.MARKET_SNAPSHOT = {
             "price": 391.45,
             "ma20": 339.25,
             "status": "MA20上方",
-            "weight": 0.17676373044050236
+            "weight": 0.1838795558957144
           },
           {
             "symbol": "MCK",
@@ -581276,7 +581316,7 @@ window.MARKET_SNAPSHOT = {
             "price": 787.19,
             "ma20": 760.77,
             "status": "MA20上方",
-            "weight": 0.15581421556505023
+            "weight": 0.15250460663777976
           },
           {
             "symbol": "SBUX",
@@ -581285,7 +581325,7 @@ window.MARKET_SNAPSHOT = {
             "price": 102.28,
             "ma20": 100.7,
             "status": "MA20上方",
-            "weight": 0.1810987713490964
+            "weight": 0.1843278268903658
           },
           {
             "symbol": "DUK",
@@ -581294,7 +581334,7 @@ window.MARKET_SNAPSHOT = {
             "price": 124.19,
             "ma20": 123.34,
             "status": "MA20上方",
-            "weight": 0.15678716237690254
+            "weight": 0.15304333590489447
           },
           {
             "symbol": "CMCSA",
@@ -581303,7 +581343,7 @@ window.MARKET_SNAPSHOT = {
             "price": 23.97,
             "ma20": 24.57,
             "status": "MA20下方",
-            "weight": 0.13844490373073232
+            "weight": 0.13606431816353462
           },
           {
             "symbol": "CEG",
@@ -581312,7 +581352,7 @@ window.MARKET_SNAPSHOT = {
             "price": 246.71,
             "ma20": 270.35,
             "status": "MA20下方",
-            "weight": 0.12475630597183085
+            "weight": 0.12484246691850517
           },
           {
             "symbol": "CRWD",
@@ -581321,7 +581361,7 @@ window.MARKET_SNAPSHOT = {
             "price": 691.53,
             "ma20": 671.11,
             "status": "MA20上方",
-            "weight": 0.26284138019983266
+            "weight": 0.2757851607184188
           },
           {
             "symbol": "ADBE",
@@ -581330,7 +581370,7 @@ window.MARKET_SNAPSHOT = {
             "price": 218.8,
             "ma20": 247.71,
             "status": "MA20下方",
-            "weight": 0.1542090543475625
+            "weight": 0.14208883910958986
           },
           {
             "symbol": "VRT",
@@ -581339,7 +581379,7 @@ window.MARKET_SNAPSHOT = {
             "price": 297.88,
             "ma20": 321.62,
             "status": "MA20下方",
-            "weight": 0.173184532509711
+            "weight": 0.1804441517259418
           },
           {
             "symbol": "NOC",
@@ -581348,7 +581388,7 @@ window.MARKET_SNAPSHOT = {
             "price": 552.52,
             "ma20": 548.09,
             "status": "MA20上方",
-            "weight": 0.1164410281056592
+            "weight": 0.11662986087075454
           },
           {
             "symbol": "EQIX",
@@ -581357,7 +581397,7 @@ window.MARKET_SNAPSHOT = {
             "price": 1043.18,
             "ma20": 1066.63,
             "status": "MA20下方",
-            "weight": 0.16428428042401658
+            "weight": 0.1622127894569235
           },
           {
             "symbol": "SNDK",
@@ -581366,7 +581406,7 @@ window.MARKET_SNAPSHOT = {
             "price": 1881.51,
             "ma20": 1593.89,
             "status": "MA20上方",
-            "weight": 0.3905637667933331
+            "weight": 0.43950759823356295
           },
           {
             "symbol": "WDC",
@@ -581375,7 +581415,7 @@ window.MARKET_SNAPSHOT = {
             "price": 529.29,
             "ma20": 514.42,
             "status": "MA20上方",
-            "weight": 0.26744076512858905
+            "weight": 0.2838650946332232
           },
           {
             "symbol": "GD",
@@ -581384,7 +581424,7 @@ window.MARKET_SNAPSHOT = {
             "price": 358.86,
             "ma20": 342.55,
             "status": "MA20上方",
-            "weight": 0.1392218540257342
+            "weight": 0.14396434062532878
           },
           {
             "symbol": "BSX",
@@ -581393,7 +581433,7 @@ window.MARKET_SNAPSHOT = {
             "price": 47.17,
             "ma20": 51.5,
             "status": "MA20下方",
-            "weight": 0.11556658210740353
+            "weight": 0.11083048051394129
           },
           {
             "symbol": "HWM",
@@ -581402,7 +581442,7 @@ window.MARKET_SNAPSHOT = {
             "price": 264.6,
             "ma20": 256.62,
             "status": "MA20上方",
-            "weight": 0.1609824929478442
+            "weight": 0.16779607505174113
           },
           {
             "symbol": "WM",
@@ -581411,7 +581451,7 @@ window.MARKET_SNAPSHOT = {
             "price": 218.79,
             "ma20": 217.91,
             "status": "MA20上方",
-            "weight": 0.13377114063660706
+            "weight": 0.12825274379037124
           },
           {
             "symbol": "TT",
@@ -581420,7 +581460,7 @@ window.MARKET_SNAPSHOT = {
             "price": 460.14,
             "ma20": 458.12,
             "status": "MA20上方",
-            "weight": 0.16000552569462062
+            "weight": 0.16111221380862012
           },
           {
             "symbol": "CVS",
@@ -581429,7 +581469,7 @@ window.MARKET_SNAPSHOT = {
             "price": 100.48,
             "ma20": 94.23,
             "status": "MA20上方",
-            "weight": 0.20083612315110444
+            "weight": 0.20233605875397465
           },
           {
             "symbol": "BX",
@@ -581438,7 +581478,7 @@ window.MARKET_SNAPSHOT = {
             "price": 120.88,
             "ma20": 117.23,
             "status": "MA20上方",
-            "weight": 0.1429156345356074
+            "weight": 0.1433029901444305
           },
           {
             "symbol": "ICE",
@@ -581447,7 +581487,7 @@ window.MARKET_SNAPSHOT = {
             "price": 138.98,
             "ma20": 147.11,
             "status": "MA20下方",
-            "weight": 0.12825509507519645
+            "weight": 0.12482839563167754
           },
           {
             "symbol": "STX",
@@ -581456,7 +581496,7 @@ window.MARKET_SNAPSHOT = {
             "price": 868.09,
             "ma20": 844.73,
             "status": "MA20上方",
-            "weight": 0.28651373899399135
+            "weight": 0.29956463036518566
           },
           {
             "symbol": "WMB",
@@ -581465,7 +581505,7 @@ window.MARKET_SNAPSHOT = {
             "price": 71.62,
             "ma20": 74.3,
             "status": "MA20下方",
-            "weight": 0.1420150556684383
+            "weight": 0.1373216881507744
           },
           {
             "symbol": "MAR",
@@ -581474,7 +581514,7 @@ window.MARKET_SNAPSHOT = {
             "price": 396.89,
             "ma20": 376.42,
             "status": "MA20上方",
-            "weight": 0.136672894196336
+            "weight": 0.13802927285982058
           },
           {
             "symbol": "FCX",
@@ -581483,7 +581523,7 @@ window.MARKET_SNAPSHOT = {
             "price": 66.34,
             "ma20": 64.61,
             "status": "MA20上方",
-            "weight": 0.14345537878970313
+            "weight": 0.15066327824719367
           },
           {
             "symbol": "FDX",
@@ -581492,7 +581532,7 @@ window.MARKET_SNAPSHOT = {
             "price": 338,
             "ma20": 321.97,
             "status": "MA20上方",
-            "weight": 0.11112399439212751
+            "weight": 0.11562778423024453
           },
           {
             "symbol": "PNC",
@@ -581501,7 +581541,7 @@ window.MARKET_SNAPSHOT = {
             "price": 233.94,
             "ma20": 221.35,
             "status": "MA20上方",
-            "weight": 0.15140178116005887
+            "weight": 0.14963004375727962
           },
           {
             "symbol": "UPS",
@@ -581510,7 +581550,7 @@ window.MARKET_SNAPSHOT = {
             "price": 108.65,
             "ma20": 104.03,
             "status": "MA20上方",
-            "weight": 0.12265059980361745
+            "weight": 0.12683355400461385
           },
           {
             "symbol": "MRSH",
@@ -581519,7 +581559,7 @@ window.MARKET_SNAPSHOT = {
             "price": 168.15,
             "ma20": 162.95,
             "status": "MA20上方",
-            "weight": 0.13021707046438624
+            "weight": 0.12874322864550558
           },
           {
             "symbol": "PWR",
@@ -581528,7 +581568,7 @@ window.MARKET_SNAPSHOT = {
             "price": 683.29,
             "ma20": 714.93,
             "status": "MA20下方",
-            "weight": 0.15617907061949485
+            "weight": 0.16112628509544774
           },
           {
             "symbol": "KKR",
@@ -581537,7 +581577,7 @@ window.MARKET_SNAPSHOT = {
             "price": 95.3,
             "ma20": 94.84,
             "status": "MA20上方",
-            "weight": 0.10486818761839942
+            "weight": 0.10336767303571971
           },
           {
             "symbol": "BK",
@@ -581555,7 +581595,7 @@ window.MARKET_SNAPSHOT = {
             "price": 225.77,
             "ma20": 224.15,
             "status": "MA20上方",
-            "weight": 0.14973229288063047
+            "weight": 0.14268083824826627
           },
           {
             "symbol": "REGN",
@@ -581564,7 +581604,7 @@ window.MARKET_SNAPSHOT = {
             "price": 611.48,
             "ma20": 631.42,
             "status": "MA20下方",
-            "weight": 0.09753188722613704
+            "weight": 0.0974205441672164
           },
           {
             "symbol": "USB",
@@ -581573,7 +581613,7 @@ window.MARKET_SNAPSHOT = {
             "price": 57.63,
             "ma20": 54.73,
             "status": "MA20上方",
-            "weight": 0.1419446979444407
+            "weight": 0.14151694180923863
           },
           {
             "symbol": "JCI",
@@ -581582,7 +581622,7 @@ window.MARKET_SNAPSHOT = {
             "price": 144.01,
             "ma20": 140.51,
             "status": "MA20上方",
-            "weight": 0.13712619896094902
+            "weight": 0.1392655359168189
           },
           {
             "symbol": "AMT",
@@ -581591,7 +581631,7 @@ window.MARKET_SNAPSHOT = {
             "price": 189.31,
             "ma20": 185.08,
             "status": "MA20上方",
-            "weight": 0.1452706080688408
+            "weight": 0.13907858882039476
           },
           {
             "symbol": "SHW",
@@ -581600,7 +581640,7 @@ window.MARKET_SNAPSHOT = {
             "price": 316.89,
             "ma20": 304.4,
             "status": "MA20上方",
-            "weight": 0.11265477744424636
+            "weight": 0.11544586259340167
           },
           {
             "symbol": "MCO",
@@ -581609,7 +581649,7 @@ window.MARKET_SNAPSHOT = {
             "price": 441.82,
             "ma20": 446.88,
             "status": "MA20下方",
-            "weight": 0.1111682192472117
+            "weight": 0.10710560987228618
           },
           {
             "symbol": "CDNS",
@@ -581618,7 +581658,7 @@ window.MARKET_SNAPSHOT = {
             "price": 383.74,
             "ma20": 377.61,
             "status": "MA20上方",
-            "weight": 0.1685720811464979
+            "weight": 0.16507529123442855
           },
           {
             "symbol": "SNPS",
@@ -581627,7 +581667,7 @@ window.MARKET_SNAPSHOT = {
             "price": 456.29,
             "ma20": 493.14,
             "status": "MA20下方",
-            "weight": 0.14194369283409788
+            "weight": 0.13821521486432845
           },
           {
             "symbol": "CSX",
@@ -581636,7 +581676,7 @@ window.MARKET_SNAPSHOT = {
             "price": 47.37,
             "ma20": 46.29,
             "status": "MA20上方",
-            "weight": 0.13872934995775113
+            "weight": 0.13914995034644914
           },
           {
             "symbol": "ORLY",
@@ -581645,7 +581685,7 @@ window.MARKET_SNAPSHOT = {
             "price": 90.1,
             "ma20": 89.56,
             "status": "MA20上方",
-            "weight": 0.12253300189350722
+            "weight": 0.11994666419440857
           },
           {
             "symbol": "ABNB",
@@ -581654,7 +581694,7 @@ window.MARKET_SNAPSHOT = {
             "price": 130.87,
             "ma20": 133.28,
             "status": "MA20下方",
-            "weight": 0.08793107323149524
+            "weight": 0.08760381142111674
           },
           {
             "symbol": "MMM",
@@ -581663,7 +581703,7 @@ window.MARKET_SNAPSHOT = {
             "price": 157.91,
             "ma20": 152.46,
             "status": "MA20上方",
-            "weight": 0.1329117712934937
+            "weight": 0.13150924159904975
           },
           {
             "symbol": "CMI",
@@ -581672,7 +581712,7 @@ window.MARKET_SNAPSHOT = {
             "price": 655.69,
             "ma20": 665.32,
             "status": "MA20下方",
-            "weight": 0.14025410234781305
+            "weight": 0.1433441989129971
           },
           {
             "symbol": "ECL",
@@ -581681,7 +581721,7 @@ window.MARKET_SNAPSHOT = {
             "price": 263.63,
             "ma20": 254.69,
             "status": "MA20上方",
-            "weight": 0.1056039283893456
+            "weight": 0.10646938668929436
           },
           {
             "symbol": "SLB",
@@ -581690,7 +581730,7 @@ window.MARKET_SNAPSHOT = {
             "price": 56,
             "ma20": 56.3,
             "status": "MA20下方",
-            "weight": 0.13385054435369007
+            "weight": 0.13270932134706276
           },
           {
             "symbol": "RCL",
@@ -581699,7 +581739,7 @@ window.MARKET_SNAPSHOT = {
             "price": 287.96,
             "ma20": 272.75,
             "status": "MA20上方",
-            "weight": 0.1087519339830661
+            "weight": 0.1145302238576899
           },
           {
             "symbol": "ITW",
@@ -581708,7 +581748,7 @@ window.MARKET_SNAPSHOT = {
             "price": 254.45,
             "ma20": 250.39,
             "status": "MA20上方",
-            "weight": 0.1055516626515188
+            "weight": 0.10551153409309973
           },
           {
             "symbol": "EOG",
@@ -581717,7 +581757,7 @@ window.MARKET_SNAPSHOT = {
             "price": 136.53,
             "ma20": 138.72,
             "status": "MA20下方",
-            "weight": 0.1224787259349948
+            "weight": 0.11715451885104163
           },
           {
             "symbol": "EMR",
@@ -581726,7 +581766,7 @@ window.MARKET_SNAPSHOT = {
             "price": 142.09,
             "ma20": 138.49,
             "status": "MA20上方",
-            "weight": 0.12428792455207553
+            "weight": 0.12658630139321417
           },
           {
             "symbol": "MDLZ",
@@ -581735,7 +581775,7 @@ window.MARKET_SNAPSHOT = {
             "price": 63.36,
             "ma20": 61.75,
             "status": "MA20上方",
-            "weight": 0.13235795549459844
+            "weight": 0.12841958904847023
           },
           {
             "symbol": "KMI",
@@ -581744,7 +581784,7 @@ window.MARKET_SNAPSHOT = {
             "price": 31.36,
             "ma20": 32.35,
             "status": "MA20下方",
-            "weight": 0.10062461175100226
+            "weight": 0.09740345760464
           },
           {
             "symbol": "MSI",
@@ -581753,7 +581793,7 @@ window.MARKET_SNAPSHOT = {
             "price": 410.35,
             "ma20": 406.76,
             "status": "MA20上方",
-            "weight": 0.10969472748463371
+            "weight": 0.10747045823788812
           },
           {
             "symbol": "VLO",
@@ -581762,7 +581802,7 @@ window.MARKET_SNAPSHOT = {
             "price": 255.6,
             "ma20": 252.13,
             "status": "MA20上方",
-            "weight": 0.1266057090026245
+            "weight": 0.1232755286210577
           },
           {
             "symbol": "CI",
@@ -581771,7 +581811,7 @@ window.MARKET_SNAPSHOT = {
             "price": 294.84,
             "ma20": 285.04,
             "status": "MA20上方",
-            "weight": 0.12536942328095269
+            "weight": 0.12280916597191363
           },
           {
             "symbol": "MNST",
@@ -581780,7 +581820,7 @@ window.MARKET_SNAPSHOT = {
             "price": 92.03,
             "ma20": 88.34,
             "status": "MA20上方",
-            "weight": 0.1045163989984115
+            "weight": 0.10364206312885836
           },
           {
             "symbol": "CRH",
@@ -581789,7 +581829,7 @@ window.MARKET_SNAPSHOT = {
             "price": 104.83,
             "ma20": 104.02,
             "status": "MA20上方",
-            "weight": 0.10775888496435732
+            "weight": 0.11104255490827188
           },
           {
             "symbol": "AEP",
@@ -581798,7 +581838,7 @@ window.MARKET_SNAPSHOT = {
             "price": 128.48,
             "ma20": 128.05,
             "status": "MA20上方",
-            "weight": 0.11200849149381141
+            "weight": 0.11003947317584559
           },
           {
             "symbol": "PSX",
@@ -581807,7 +581847,7 @@ window.MARKET_SNAPSHOT = {
             "price": 178.1,
             "ma20": 178.95,
             "status": "MA20下方",
-            "weight": 0.11804417910246134
+            "weight": 0.11370303321060891
           },
           {
             "symbol": "MPC",
@@ -581816,7 +581856,7 @@ window.MARKET_SNAPSHOT = {
             "price": 260.81,
             "ma20": 257.47,
             "status": "MA20上方",
-            "weight": 0.12495129737833846
+            "weight": 0.12165029499246723
           },
           {
             "symbol": "HLT",
@@ -581825,7 +581865,7 @@ window.MARKET_SNAPSHOT = {
             "price": 341.86,
             "ma20": 330.05,
             "status": "MA20上方",
-            "weight": 0.12473921909600287
+            "weight": 0.12391376198788204
           },
           {
             "symbol": "ROST",
@@ -581834,7 +581874,7 @@ window.MARKET_SNAPSHOT = {
             "price": 239.11,
             "ma20": 225.92,
             "status": "MA20上方",
-            "weight": 0.12067153753859969
+            "weight": 0.12227345198054768
           },
           {
             "symbol": "AON",
@@ -581843,7 +581883,7 @@ window.MARKET_SNAPSHOT = {
             "price": 335.17,
             "ma20": 322.94,
             "status": "MA20上方",
-            "weight": 0.11607315772018616
+            "weight": 0.11368293137228375
           },
           {
             "symbol": "NKE",
@@ -581852,7 +581892,7 @@ window.MARKET_SNAPSHOT = {
             "price": 45.96,
             "ma20": 44.23,
             "status": "MA20上方",
-            "weight": 0.08430765044561965
+            "weight": 0.08662686207851318
           },
           {
             "symbol": "WBD",
@@ -581861,7 +581901,7 @@ window.MARKET_SNAPSHOT = {
             "price": 26.86,
             "ma20": 26.94,
             "status": "MA20下方",
-            "weight": 0.10493754023205419
+            "weight": 0.10561003310089309
           },
           {
             "symbol": "CL",
@@ -581870,7 +581910,7 @@ window.MARKET_SNAPSHOT = {
             "price": 89.39,
             "ma20": 88.98,
             "status": "MA20上方",
-            "weight": 0.11657470778125463
+            "weight": 0.11385681227379651
           },
           {
             "symbol": "CTAS",
@@ -581879,7 +581919,7 @@ window.MARKET_SNAPSHOT = {
             "price": 181.88,
             "ma20": 173.97,
             "status": "MA20上方",
-            "weight": 0.09863348816187063
+            "weight": 0.09773212266125664
           },
           {
             "symbol": "GM",
@@ -581888,7 +581928,7 @@ window.MARKET_SNAPSHOT = {
             "price": 80.85,
             "ma20": 80.06,
             "status": "MA20上方",
-            "weight": 0.11546104552140717
+            "weight": 0.1155473768769438
           },
           {
             "symbol": "RSG",
@@ -581897,7 +581937,7 @@ window.MARKET_SNAPSHOT = {
             "price": 208.05,
             "ma20": 207.64,
             "status": "MA20上方",
-            "weight": 0.06913349960002635
+            "weight": 0.06649386590393322
           },
           {
             "symbol": "TDG",
@@ -581906,7 +581946,7 @@ window.MARKET_SNAPSHOT = {
             "price": 1257.59,
             "ma20": 1219.88,
             "status": "MA20上方",
-            "weight": 0.11028673747655625
+            "weight": 0.11243360212037407
           },
           {
             "symbol": "DASH",
@@ -581915,7 +581955,7 @@ window.MARKET_SNAPSHOT = {
             "price": 154.59,
             "ma20": 157.25,
             "status": "MA20下方",
-            "weight": 0.09067200913637256
+            "weight": 0.09123118814689474
           },
           {
             "symbol": "APO",
@@ -581924,7 +581964,7 @@ window.MARKET_SNAPSHOT = {
             "price": 133.91,
             "ma20": 130.36,
             "status": "MA20上方",
-            "weight": 0.09781532834281302
+            "weight": 0.09816330709333167
           },
           {
             "symbol": "APD",
@@ -581933,7 +581973,7 @@ window.MARKET_SNAPSHOT = {
             "price": 278.12,
             "ma20": 285.34,
             "status": "MA20下方",
-            "weight": 0.09890989350614685
+            "weight": 0.09777534161365578
           },
           {
             "symbol": "LHX",
@@ -581942,7 +581982,7 @@ window.MARKET_SNAPSHOT = {
             "price": 312.17,
             "ma20": 308.72,
             "status": "MA20上方",
-            "weight": 0.09090720495659305
+            "weight": 0.09204732278289687
           },
           {
             "symbol": "NSC",
@@ -581951,7 +581991,7 @@ window.MARKET_SNAPSHOT = {
             "price": 310.53,
             "ma20": 312.43,
             "status": "MA20下方",
-            "weight": 0.11147578301211541
+            "weight": 0.11012591108064385
           },
           {
             "symbol": "ELV",
@@ -581960,7 +582000,7 @@ window.MARKET_SNAPSHOT = {
             "price": 399.18,
             "ma20": 399.3,
             "status": "MA20下方",
-            "weight": 0.14360212489975524
+            "weight": 0.1392554849976563
           },
           {
             "symbol": "HOOD",
@@ -581969,7 +582009,7 @@ window.MARKET_SNAPSHOT = {
             "price": 92.23,
             "ma20": 82.19,
             "status": "MA20上方",
-            "weight": 0.10978116697411647
+            "weight": 0.11522675255565724
           },
           {
             "symbol": "SRE",
@@ -581978,7 +582018,7 @@ window.MARKET_SNAPSHOT = {
             "price": 91.54,
             "ma20": 90.65,
             "status": "MA20上方",
-            "weight": 0.09586943471910839
+            "weight": 0.09474900985380053
           },
           {
             "symbol": "TRV",
@@ -581987,7 +582027,7 @@ window.MARKET_SNAPSHOT = {
             "price": 303.9,
             "ma20": 299.64,
             "status": "MA20上方",
-            "weight": 0.10553156044466236
+            "weight": 0.10390037175133687
           },
           {
             "symbol": "OXY",
@@ -581996,7 +582036,7 @@ window.MARKET_SNAPSHOT = {
             "price": 55.47,
             "ma20": 58.08,
             "status": "MA20下方",
-            "weight": 0.0661111327991587
+            "weight": 0.06311977234105244
           },
           {
             "symbol": "DLR",
@@ -582005,7 +582045,7 @@ window.MARKET_SNAPSHOT = {
             "price": 182.84,
             "ma20": 188.09,
             "status": "MA20下方",
-            "weight": 0.09378684608877991
+            "weight": 0.09322428541683593
           },
           {
             "symbol": "TEL",
@@ -582014,7 +582054,7 @@ window.MARKET_SNAPSHOT = {
             "price": 207.74,
             "ma20": 208,
             "status": "MA20下方",
-            "weight": 0.09533471601672676
+            "weight": 0.09635816201173085
           },
           {
             "symbol": "COR",
@@ -582023,7 +582063,7 @@ window.MARKET_SNAPSHOT = {
             "price": 281.48,
             "ma20": 269.09,
             "status": "MA20上方",
-            "weight": 0.08813109018971695
+            "weight": 0.08668917777732123
           },
           {
             "symbol": "PCAR",
@@ -582032,7 +582072,7 @@ window.MARKET_SNAPSHOT = {
             "price": 117.58,
             "ma20": 113.12,
             "status": "MA20上方",
-            "weight": 0.0965981397176548
+            "weight": 0.09792711049301085
           },
           {
             "symbol": "SPG",
@@ -582041,7 +582081,7 @@ window.MARKET_SNAPSHOT = {
             "price": 214.86,
             "ma20": 205.81,
             "status": "MA20上方",
-            "weight": 0.11132300624000638
+            "weight": 0.11045759141300926
           },
           {
             "symbol": "FTNT",
@@ -582050,7 +582090,7 @@ window.MARKET_SNAPSHOT = {
             "price": 145.06,
             "ma20": 136.2,
             "status": "MA20上方",
-            "weight": 0.14119991118040914
+            "weight": 0.14494631542751363
           },
           {
             "symbol": "BKR",
@@ -582059,7 +582099,7 @@ window.MARKET_SNAPSHOT = {
             "price": 63.48,
             "ma20": 64.65,
             "status": "MA20下方",
-            "weight": 0.10040750791695259
+            "weight": 0.09940057524224623
           },
           {
             "symbol": "TFC",
@@ -582068,7 +582108,7 @@ window.MARKET_SNAPSHOT = {
             "price": 50.68,
             "ma20": 48.24,
             "status": "MA20上方",
-            "weight": 0.10102263544676003
+            "weight": 0.10112129260288129
           },
           {
             "symbol": "O",
@@ -582077,7 +582117,7 @@ window.MARKET_SNAPSHOT = {
             "price": 61.91,
             "ma20": 61.3,
             "status": "MA20上方",
-            "weight": 0.09176556918936359
+            "weight": 0.08989743117401931
           },
           {
             "symbol": "AFL",
@@ -582086,7 +582126,7 @@ window.MARKET_SNAPSHOT = {
             "price": 116.45,
             "ma20": 115.9,
             "status": "MA20上方",
-            "weight": 0.08789589436949644
+            "weight": 0.08589716534730929
           },
           {
             "symbol": "CIEN",
@@ -582095,7 +582135,7 @@ window.MARKET_SNAPSHOT = {
             "price": 445.22,
             "ma20": 544.99,
             "status": "MA20下方",
-            "weight": 0.09847066028633338
+            "weight": 0.09913121060868887
           },
           {
             "symbol": "CTVA",
@@ -582104,7 +582144,7 @@ window.MARKET_SNAPSHOT = {
             "price": 74.86,
             "ma20": 78.43,
             "status": "MA20下方",
-            "weight": 0.08051938956352114
+            "weight": 0.0795600608152976
           },
           {
             "symbol": "OKE",
@@ -582113,7 +582153,7 @@ window.MARKET_SNAPSHOT = {
             "price": 89.2,
             "ma20": 89.6,
             "status": "MA20下方",
-            "weight": 0.09179873783067673
+            "weight": 0.08885515085685894
           },
           {
             "symbol": "AJG",
@@ -582122,7 +582162,7 @@ window.MARKET_SNAPSHOT = {
             "price": 220.9,
             "ma20": 207.33,
             "status": "MA20上方",
-            "weight": 0.091224819824925
+            "weight": 0.08996577742432492
           },
           {
             "symbol": "AZO",
@@ -582131,7 +582171,7 @@ window.MARKET_SNAPSHOT = {
             "price": 3081.62,
             "ma20": 3173.07,
             "status": "MA20下方",
-            "weight": 0.08305930339983393
+            "weight": 0.08088376686901043
           },
           {
             "symbol": "TGT",
@@ -582140,7 +582180,7 @@ window.MARKET_SNAPSHOT = {
             "price": 132.64,
             "ma20": 125.41,
             "status": "MA20上方",
-            "weight": 0.09317171855897244
+            "weight": 0.09490379400890439
           },
           {
             "symbol": "MPWR",
@@ -582149,7 +582189,7 @@ window.MARKET_SNAPSHOT = {
             "price": 1589.55,
             "ma20": 1572.5,
             "status": "MA20上方",
-            "weight": 0.11552637769369062
+            "weight": 0.12251969950003108
           },
           {
             "symbol": "D",
@@ -582158,7 +582198,7 @@ window.MARKET_SNAPSHOT = {
             "price": 66.69,
             "ma20": 66.4,
             "status": "MA20上方",
-            "weight": 0.09190829485804439
+            "weight": 0.09021906058722212
           },
           {
             "symbol": "FANG",
@@ -582167,7 +582207,7 @@ window.MARKET_SNAPSHOT = {
             "price": 191.59,
             "ma20": 199.25,
             "status": "MA20下方",
-            "weight": 0.06148058944977483
+            "weight": 0.058898386292765496
           },
           {
             "symbol": "TRGP",
@@ -582176,7 +582216,7 @@ window.MARKET_SNAPSHOT = {
             "price": 269.37,
             "ma20": 267.28,
             "status": "MA20上方",
-            "weight": 0.09422306397756491
+            "weight": 0.09152568007835857
           },
           {
             "symbol": "ALL",
@@ -582185,7 +582225,7 @@ window.MARKET_SNAPSHOT = {
             "price": 219.57,
             "ma20": 215.08,
             "status": "MA20上方",
-            "weight": 0.09336570485513722
+            "weight": 0.09021101985189206
           },
           {
             "symbol": "FAST",
@@ -582194,7 +582234,7 @@ window.MARKET_SNAPSHOT = {
             "price": 46.39,
             "ma20": 44.92,
             "status": "MA20上方",
-            "weight": 0.08537407251935446
+            "weight": 0.08456240328251761
           },
           {
             "symbol": "LITE",
@@ -582203,7 +582243,7 @@ window.MARKET_SNAPSHOT = {
             "price": 889.59,
             "ma20": 909.83,
             "status": "MA20下方",
-            "weight": 0.09820832648685666
+            "weight": 0.10062879756391448
           },
           {
             "symbol": "VST",
@@ -582212,7 +582252,7 @@ window.MARKET_SNAPSHOT = {
             "price": 146.38,
             "ma20": 149.73,
             "status": "MA20下方",
-            "weight": 0.07084922295522458
+            "weight": 0.07357172317822767
           },
           {
             "symbol": "ETR",
@@ -582221,7 +582261,7 @@ window.MARKET_SNAPSHOT = {
             "price": 109.89,
             "ma20": 110.01,
             "status": "MA20下方",
-            "weight": 0.08051938956352114
+            "weight": 0.07871176323797516
           },
           {
             "symbol": "GWW",
@@ -582230,7 +582270,7 @@ window.MARKET_SNAPSHOT = {
             "price": 1313.96,
             "ma20": 1271.25,
             "status": "MA20上方",
-            "weight": 0.09256463191190757
+            "weight": 0.09071959636151902
           },
           {
             "symbol": "EA",
@@ -582239,7 +582279,7 @@ window.MARKET_SNAPSHOT = {
             "price": 203.05,
             "ma20": 201.91,
             "status": "MA20上方",
-            "weight": 0.07391480950083361
+            "weight": 0.07258974837604283
           },
           {
             "symbol": "ADSK",
@@ -582248,7 +582288,7 @@ window.MARKET_SNAPSHOT = {
             "price": 205.57,
             "ma20": 234.22,
             "status": "MA20下方",
-            "weight": 0.07542146990472474
+            "weight": 0.06886186245863896
           },
           {
             "symbol": "KEYS",
@@ -582257,7 +582297,7 @@ window.MARKET_SNAPSHOT = {
             "price": 340.03,
             "ma20": 341.46,
             "status": "MA20下方",
-            "weight": 0.08936235035967467
+            "weight": 0.0921709490885967
           },
           {
             "symbol": "ZTS",
@@ -582266,7 +582306,7 @@ window.MARKET_SNAPSHOT = {
             "price": 81.4,
             "ma20": 78.87,
             "status": "MA20上方",
-            "weight": 0.05516749138650587
+            "weight": 0.05429205004055143
           },
           {
             "symbol": "EXC",
@@ -582275,7 +582315,7 @@ window.MARKET_SNAPSHOT = {
             "price": 45.51,
             "ma20": 45.13,
             "status": "MA20上方",
-            "weight": 0.07517019231901907
+            "weight": 0.07371545132225268
           },
           {
             "symbol": "NXPI",
@@ -582284,7 +582324,7 @@ window.MARKET_SNAPSHOT = {
             "price": 302.55,
             "ma20": 308.64,
             "status": "MA20下方",
-            "weight": 0.11579474215522428
+            "weight": 0.1205748466420703
           },
           {
             "symbol": "XEL",
@@ -582293,7 +582333,7 @@ window.MARKET_SNAPSHOT = {
             "price": 78.27,
             "ma20": 78.89,
             "status": "MA20下方",
-            "weight": 0.07462642762355204
+            "weight": 0.07350237183600582
           },
           {
             "symbol": "CAH",
@@ -582302,7 +582342,7 @@ window.MARKET_SNAPSHOT = {
             "price": 221.16,
             "ma20": 201.75,
             "status": "MA20上方",
-            "weight": 0.08183909944364726
+            "weight": 0.08223963586404355
           },
           {
             "symbol": "AME",
@@ -582311,7 +582351,7 @@ window.MARKET_SNAPSHOT = {
             "price": 226.21,
             "ma20": 226.24,
             "status": "MA20下方",
-            "weight": 0.08199288132609911
+            "weight": 0.08219239654397938
           },
           {
             "symbol": "FIX",
@@ -582320,7 +582360,7 @@ window.MARKET_SNAPSHOT = {
             "price": 1843.42,
             "ma20": 1858.72,
             "status": "MA20下方",
-            "weight": 0.0975841529639638
+            "weight": 0.10281989794135867
           },
           {
             "symbol": "NDAQ",
@@ -582329,7 +582369,7 @@ window.MARKET_SNAPSHOT = {
             "price": 86.74,
             "ma20": 89.7,
             "status": "MA20下方",
-            "weight": 0.0625721392820802
+            "weight": 0.06129050505346143
           },
           {
             "symbol": "TER",
@@ -582338,7 +582378,7 @@ window.MARKET_SNAPSHOT = {
             "price": 381.4,
             "ma20": 366.23,
             "status": "MA20上方",
-            "weight": 0.08746068159105425
+            "weight": 0.09431782542172551
           },
           {
             "symbol": "PSA",
@@ -582347,7 +582387,7 @@ window.MARKET_SNAPSHOT = {
             "price": 324.71,
             "ma20": 306.11,
             "status": "MA20上方",
-            "weight": 0.08264117749721972
+            "weight": 0.08143053687145521
           },
           {
             "symbol": "CARR",
@@ -582356,7 +582396,7 @@ window.MARKET_SNAPSHOT = {
             "price": 69.74,
             "ma20": 65.72,
             "status": "MA20上方",
-            "weight": 0.08584747949082391
+            "weight": 0.08656856674737018
           },
           {
             "symbol": "COIN",
@@ -582365,7 +582405,7 @@ window.MARKET_SNAPSHOT = {
             "price": 160.43,
             "ma20": 177.68,
             "status": "MA20下方",
-            "weight": 0.05521071113124724
+            "weight": 0.056537425381473584
           },
           {
             "symbol": "EW",
@@ -582374,7 +582414,7 @@ window.MARKET_SNAPSHOT = {
             "price": 85.76,
             "ma20": 85.3,
             "status": "MA20上方",
-            "weight": 0.0801173454263921
+            "weight": 0.0785378823364624
           },
           {
             "symbol": "F",
@@ -582383,7 +582423,7 @@ window.MARKET_SNAPSHOT = {
             "price": 14.71,
             "ma20": 14.94,
             "status": "MA20下方",
-            "weight": 0.09033429206118415
+            "weight": 0.09132566678702307
           },
           {
             "symbol": "IDXX",
@@ -582392,7 +582432,7 @@ window.MARKET_SNAPSHOT = {
             "price": 557.91,
             "ma20": 555.99,
             "status": "MA20上方",
-            "weight": 0.07159199949857051
+            "weight": 0.07048408081148065
           },
           {
             "symbol": "URI",
@@ -582401,7 +582441,7 @@ window.MARKET_SNAPSHOT = {
             "price": 1068.49,
             "ma20": 1002.66,
             "status": "MA20上方",
-            "weight": 0.10704023106923913
+            "weight": 0.10640807608240258
           },
           {
             "symbol": "MET",
@@ -582410,7 +582450,7 @@ window.MARKET_SNAPSHOT = {
             "price": 87.58,
             "ma20": 83.03,
             "status": "MA20上方",
-            "weight": 0.07617228733081326
+            "weight": 0.0761226464616925
           },
           {
             "symbol": "COHR",
@@ -582419,7 +582459,7 @@ window.MARKET_SNAPSHOT = {
             "price": 363.58,
             "ma20": 380.01,
             "status": "MA20下方",
-            "weight": 0.10716586986209196
+            "weight": 0.10793883107086472
           },
           {
             "symbol": "CVNA",
@@ -582428,7 +582468,7 @@ window.MARKET_SNAPSHOT = {
             "price": 67.82,
             "ma20": 68.02,
             "status": "MA20下方",
-            "weight": 0.07684973170187571
+            "weight": 0.07616787559792415
           },
           {
             "symbol": "GRMN",
@@ -582437,7 +582477,7 @@ window.MARKET_SNAPSHOT = {
             "price": 238.58,
             "ma20": 235.91,
             "status": "MA20上方",
-            "weight": 0.0607870633132272
+            "weight": 0.06151062018312212
           },
           {
             "symbol": "BDX",
@@ -582446,7 +582486,7 @@ window.MARKET_SNAPSHOT = {
             "price": 147.35,
             "ma20": 147.09,
             "status": "MA20上方",
-            "weight": 0.0676479465133345
+            "weight": 0.06628681696918391
           },
           {
             "symbol": "KR",
@@ -582455,7 +582495,7 @@ window.MARKET_SNAPSHOT = {
             "price": 64.12,
             "ma20": 64.72,
             "status": "MA20下方",
-            "weight": 0.06031968700381468
+            "weight": 0.05896974781881987
           },
           {
             "symbol": "DAL",
@@ -582464,7 +582504,7 @@ window.MARKET_SNAPSHOT = {
             "price": 81.83,
             "ma20": 77.44,
             "status": "MA20上方",
-            "weight": 0.08014347829530548
+            "weight": 0.08428600300554645
           },
           {
             "symbol": "YUM",
@@ -582473,7 +582513,7 @@ window.MARKET_SNAPSHOT = {
             "price": 153.27,
             "ma20": 150.81,
             "status": "MA20上方",
-            "weight": 0.06772835534076031
+            "weight": 0.06752810548576353
           },
           {
             "symbol": "WAB",
@@ -582482,7 +582522,7 @@ window.MARKET_SNAPSHOT = {
             "price": 262.09,
             "ma20": 260.72,
             "status": "MA20上方",
-            "weight": 0.07065925710043111
+            "weight": 0.07095245364445726
           },
           {
             "symbol": "DDOG",
@@ -582491,7 +582531,7 @@ window.MARKET_SNAPSHOT = {
             "price": 234.24,
             "ma20": 230.05,
             "status": "MA20上方",
-            "weight": 0.12019411012575894
+            "weight": 0.12155682144425516
           },
           {
             "symbol": "FITB",
@@ -582500,7 +582540,7 @@ window.MARKET_SNAPSHOT = {
             "price": 53.42,
             "ma20": 50.03,
             "status": "MA20上方",
-            "weight": 0.07643060068891867
+            "weight": 0.07621511491798831
           },
           {
             "symbol": "HSY",
@@ -582509,7 +582549,7 @@ window.MARKET_SNAPSHOT = {
             "price": 180.84,
             "ma20": 187.4,
             "status": "MA20下方",
-            "weight": 0.042114123364268334
+            "weight": 0.042381710832884695
           },
           {
             "symbol": "CMG",
@@ -582518,7 +582558,7 @@ window.MARKET_SNAPSHOT = {
             "price": 31.25,
             "ma20": 31.32,
             "status": "MA20下方",
-            "weight": 0.0636777606591851
+            "weight": 0.06429070442349394
           },
           {
             "symbol": "PYPL",
@@ -582527,7 +582567,7 @@ window.MARKET_SNAPSHOT = {
             "price": 41.24,
             "ma20": 43.44,
             "status": "MA20下方",
-            "weight": 0.06021415041781831
+            "weight": 0.059963783723999825
           },
           {
             "symbol": "ODFL",
@@ -582536,7 +582576,7 @@ window.MARKET_SNAPSHOT = {
             "price": 247.76,
             "ma20": 224.09,
             "status": "MA20上方",
-            "weight": 0.06990140390194284
+            "weight": 0.07213846210564263
           },
           {
             "symbol": "EBAY",
@@ -582545,7 +582585,7 @@ window.MARKET_SNAPSHOT = {
             "price": 109.61,
             "ma20": 111.83,
             "status": "MA20下方",
-            "weight": 0.07723066852180549
+            "weight": 0.07818509507385556
           },
           {
             "symbol": "ED",
@@ -582554,7 +582594,7 @@ window.MARKET_SNAPSHOT = {
             "price": 106.84,
             "ma20": 106.17,
             "status": "MA20上方",
-            "weight": 0.06269777807493303
+            "weight": 0.061183965310338005
           },
           {
             "symbol": "PEG",
@@ -582563,7 +582603,7 @@ window.MARKET_SNAPSHOT = {
             "price": 78.78,
             "ma20": 78.3,
             "status": "MA20上方",
-            "weight": 0.063247573432457
+            "weight": 0.06230966825654786
           },
           {
             "symbol": "AIG",
@@ -582572,7 +582612,7 @@ window.MARKET_SNAPSHOT = {
             "price": 75.32,
             "ma20": 75.48,
             "status": "MA20下方",
-            "weight": 0.06461351838835297
+            "weight": 0.06382434177434987
           },
           {
             "symbol": "ROK",
@@ -582581,7 +582621,7 @@ window.MARKET_SNAPSHOT = {
             "price": 457.59,
             "ma20": 450.58,
             "status": "MA20上方",
-            "weight": 0.07939969664161672
+            "weight": 0.08114107039957266
           },
           {
             "symbol": "AMP",
@@ -582590,7 +582630,7 @@ window.MARKET_SNAPSHOT = {
             "price": 450.38,
             "ma20": 453.23,
             "status": "MA20下方",
-            "weight": 0.06610409702675893
+            "weight": 0.06493295815798332
           },
           {
             "symbol": "CBRE",
@@ -582599,7 +582639,7 @@ window.MARKET_SNAPSHOT = {
             "price": 131.91,
             "ma20": 129.99,
             "status": "MA20上方",
-            "weight": 0.06259023126825101
+            "weight": 0.06052764028902101
           },
           {
             "symbol": "DHI",
@@ -582608,7 +582648,7 @@ window.MARKET_SNAPSHOT = {
             "price": 154.43,
             "ma20": 144.59,
             "status": "MA20上方",
-            "weight": 0.063513927673305
+            "weight": 0.06570587384158634
           },
           {
             "symbol": "MSCI",
@@ -582617,7 +582657,7 @@ window.MARKET_SNAPSHOT = {
             "price": 594.31,
             "ma20": 601.57,
             "status": "MA20下方",
-            "weight": 0.07188147127730343
+            "weight": 0.06899553968350138
           },
           {
             "symbol": "NUE",
@@ -582626,7 +582666,7 @@ window.MARKET_SNAPSHOT = {
             "price": 260.9,
             "ma20": 244.09,
             "status": "MA20上方",
-            "weight": 0.09230732366414499
+            "weight": 0.09448969613940575
           },
           {
             "symbol": "EQT",
@@ -582635,7 +582675,7 @@ window.MARKET_SNAPSHOT = {
             "price": 51.2,
             "ma20": 55.4,
             "status": "MA20下方",
-            "weight": 0.05301856547355108
+            "weight": 0.05070990245100508
           },
           {
             "symbol": "VTR",
@@ -582644,7 +582684,7 @@ window.MARKET_SNAPSHOT = {
             "price": 83.89,
             "ma20": 84.88,
             "status": "MA20下方",
-            "weight": 0.0645481862160695
+            "weight": 0.06309263485931346
           },
           {
             "symbol": "PCG",
@@ -582653,7 +582693,7 @@ window.MARKET_SNAPSHOT = {
             "price": 16.79,
             "ma20": 16.5,
             "status": "MA20上方",
-            "weight": 0.05935076063333366
+            "weight": 0.058574746695730165
           },
           {
             "symbol": "WEC",
@@ -582662,7 +582702,7 @@ window.MARKET_SNAPSHOT = {
             "price": 113.07,
             "ma20": 111.57,
             "status": "MA20上方",
-            "weight": 0.05992668885977104
+            "weight": 0.05841091671337998
           },
           {
             "symbol": "HIG",
@@ -582671,7 +582711,7 @@ window.MARKET_SNAPSHOT = {
             "price": 128.4,
             "ma20": 131.25,
             "status": "MA20下方",
-            "weight": 0.0582109655045728
+            "weight": 0.0568299071291049
           },
           {
             "symbol": "TTWO",
@@ -582680,7 +582720,7 @@ window.MARKET_SNAPSHOT = {
             "price": 212.08,
             "ma20": 224.59,
             "status": "MA20下方",
-            "weight": 0.058965803372032596
+            "weight": 0.058397850518468616
           },
           {
             "symbol": "ROP",
@@ -582689,7 +582729,7 @@ window.MARKET_SNAPSHOT = {
             "price": 332.71,
             "ma20": 328.37,
             "status": "MA20上方",
-            "weight": 0.057222942037578155
+            "weight": 0.056004726665856416
           },
           {
             "symbol": "XYZ",
@@ -582698,7 +582738,7 @@ window.MARKET_SNAPSHOT = {
             "price": 69.09,
             "ma20": 70.65,
             "status": "MA20下方",
-            "weight": 0.0586150198623875
+            "weight": 0.059733617675176556
           },
           {
             "symbol": "CCL",
@@ -582707,7 +582747,7 @@ window.MARKET_SNAPSHOT = {
             "price": 28.12,
             "ma20": 26.7,
             "status": "MA20上方",
-            "weight": 0.05381461286506659
+            "weight": 0.05722289806836208
           },
           {
             "symbol": "LYV",
@@ -582716,7 +582756,7 @@ window.MARKET_SNAPSHOT = {
             "price": 172.33,
             "ma20": 165.96,
             "status": "MA20上方",
-            "weight": 0.04282473637664393
+            "weight": 0.04330136993626149
           },
           {
             "symbol": "LVS",
@@ -582725,7 +582765,7 @@ window.MARKET_SNAPSHOT = {
             "price": 50.61,
             "ma20": 50.65,
             "status": "MA20下方",
-            "weight": 0.024973976688113967
+            "weight": 0.024447855771078972
           },
           {
             "symbol": "VMC",
@@ -582734,7 +582774,7 @@ window.MARKET_SNAPSHOT = {
             "price": 280.19,
             "ma20": 273.7,
             "status": "MA20上方",
-            "weight": 0.05809537781514819
+            "weight": 0.05867023042777476
           },
           {
             "symbol": "KDP",
@@ -582743,7 +582783,7 @@ window.MARKET_SNAPSHOT = {
             "price": 31.23,
             "ma20": 29.97,
             "status": "MA20上方",
-            "weight": 0.069418950937388
+            "weight": 0.06721451680789078
           },
           {
             "symbol": "CCI",
@@ -582752,7 +582792,7 @@ window.MARKET_SNAPSHOT = {
             "price": 92.04,
             "ma20": 91.2,
             "status": "MA20上方",
-            "weight": 0.06556133744163471
+            "weight": 0.06350874291264459
           },
           {
             "symbol": "STT",
@@ -582761,7 +582801,7 @@ window.MARKET_SNAPSHOT = {
             "price": 164.85,
             "ma20": 157.81,
             "status": "MA20上方",
-            "weight": 0.07248252726231137
+            "weight": 0.07257869236496398
           },
           {
             "symbol": "MLM",
@@ -582770,7 +582810,7 @@ window.MARKET_SNAPSHOT = {
             "price": 565.54,
             "ma20": 563.16,
             "status": "MA20上方",
-            "weight": 0.053848786616722565
+            "weight": 0.05413525570161506
           },
           {
             "symbol": "MCHP",
@@ -582779,7 +582819,7 @@ window.MARKET_SNAPSHOT = {
             "price": 92.94,
             "ma20": 93.65,
             "status": "MA20下方",
-            "weight": 0.07639542182691988
+            "weight": 0.07937713408653849
           },
           {
             "symbol": "ADM",
@@ -582788,7 +582828,7 @@ window.MARKET_SNAPSHOT = {
             "price": 78.9,
             "ma20": 80.28,
             "status": "MA20下方",
-            "weight": 0.0629008103641832
+            "weight": 0.06000901286023147
           },
           {
             "symbol": "AXON",
@@ -582797,7 +582837,7 @@ window.MARKET_SNAPSHOT = {
             "price": 446.2,
             "ma20": 433.79,
             "status": "MA20上方",
-            "weight": 0.05681587234873498
+            "weight": 0.05566601069007721
           },
           {
             "symbol": "SATS",
@@ -582806,7 +582846,7 @@ window.MARKET_SNAPSHOT = {
             "price": 128.13,
             "ma20": 126.76,
             "status": "MA20上方",
-            "weight": 0.024989053343256306
+            "weight": 0.027307342272835253
           },
           {
             "symbol": "ACGL",
@@ -582815,7 +582855,7 @@ window.MARKET_SNAPSHOT = {
             "price": 91.13,
             "ma20": 92.1,
             "status": "MA20下方",
-            "weight": 0.05242354015060008
+            "weight": 0.05142050243580004
           },
           {
             "symbol": "SYY",
@@ -582824,7 +582864,7 @@ window.MARKET_SNAPSHOT = {
             "price": 79.64,
             "ma20": 75.56,
             "status": "MA20上方",
-            "weight": 0.06059408212740526
+            "weight": 0.06038592232882852
           },
           {
             "symbol": "PRU",
@@ -582833,7 +582873,7 @@ window.MARKET_SNAPSHOT = {
             "price": 106.51,
             "ma20": 102.86,
             "status": "MA20上方",
-            "weight": 0.05876779663449654
+            "weight": 0.0584933342505132
           },
           {
             "symbol": "WDAY",
@@ -582842,7 +582882,7 @@ window.MARKET_SNAPSHOT = {
             "price": 130.53,
             "ma20": 135.02,
             "status": "MA20下方",
-            "weight": 0.04700599540278609
+            "weight": 0.043865226501282675
           },
           {
             "symbol": "EME",
@@ -582851,7 +582891,7 @@ window.MARKET_SNAPSHOT = {
             "price": 811.53,
             "ma20": 845.92,
             "status": "MA20下方",
-            "weight": 0.05613541264664405
+            "weight": 0.057642021397442
           },
           {
             "symbol": "RMD",
@@ -582860,7 +582900,7 @@ window.MARKET_SNAPSHOT = {
             "price": 192.39,
             "ma20": 198.67,
             "status": "MA20下方",
-            "weight": 0.045481243012724146
+            "weight": 0.04442707288247134
           },
           {
             "symbol": "PAYX",
@@ -582869,7 +582909,7 @@ window.MARKET_SNAPSHOT = {
             "price": 99.27,
             "ma20": 96.92,
             "status": "MA20上方",
-            "weight": 0.05237328463345895
+            "weight": 0.050540041917157344
           },
           {
             "symbol": "KVUE",
@@ -582878,7 +582918,7 @@ window.MARKET_SNAPSHOT = {
             "price": 18.07,
             "ma20": 17.44,
             "status": "MA20上方",
-            "weight": 0.055818802888654935
+            "weight": 0.05491922739629693
           },
           {
             "symbol": "GEHC",
@@ -582887,7 +582927,7 @@ window.MARKET_SNAPSHOT = {
             "price": 64.51,
             "ma20": 63.34,
             "status": "MA20上方",
-            "weight": 0.047020066947585606
+            "weight": 0.04675486576052671
           },
           {
             "symbol": "TPL",
@@ -582896,7 +582936,7 @@ window.MARKET_SNAPSHOT = {
             "price": 369.55,
             "ma20": 391.11,
             "status": "MA20下方",
-            "weight": 0.03503312099908288
+            "weight": 0.03391381143840433
           },
           {
             "symbol": "A",
@@ -582905,7 +582945,7 @@ window.MARKET_SNAPSHOT = {
             "price": 129.55,
             "ma20": 125.23,
             "status": "MA20上方",
-            "weight": 0.05973571789463473
+            "weight": 0.05778474444955075
           },
           {
             "symbol": "CPRT",
@@ -582914,7 +582954,7 @@ window.MARKET_SNAPSHOT = {
             "price": 31.06,
             "ma20": 32.24,
             "status": "MA20下方",
-            "weight": 0.04497466739994154
+            "weight": 0.043778788596484416
           },
           {
             "symbol": "HBAN",
@@ -582923,7 +582963,7 @@ window.MARKET_SNAPSHOT = {
             "price": 17.21,
             "ma20": 16.07,
             "status": "MA20上方",
-            "weight": 0.05526297686907402
+            "weight": 0.05550620107539206
           },
           {
             "symbol": "KMB",
@@ -582932,7 +582972,7 @@ window.MARKET_SNAPSHOT = {
             "price": 101.54,
             "ma20": 98.14,
             "status": "MA20上方",
-            "weight": 0.05445687837413026
+            "weight": 0.05349903251862324
           },
           {
             "symbol": "HAL",
@@ -582941,7 +582981,7 @@ window.MARKET_SNAPSHOT = {
             "price": 39.76,
             "ma20": 40.7,
             "status": "MA20下方",
-            "weight": 0.05344071181753658
+            "weight": 0.05256128176075378
           },
           {
             "symbol": "HPE",
@@ -582950,7 +582990,7 @@ window.MARKET_SNAPSHOT = {
             "price": 46.8,
             "ma20": 42.32,
             "status": "MA20上方",
-            "weight": 0.09703938315815394
+            "weight": 0.09811707286518376
           },
           {
             "symbol": "IR",
@@ -582959,7 +582999,7 @@ window.MARKET_SNAPSHOT = {
             "price": 73.2,
             "ma20": 71.26,
             "status": "MA20上方",
-            "weight": 0.04027175610587444
+            "weight": 0.04110725428306853
           },
           {
             "symbol": "MTB",
@@ -582968,7 +583008,7 @@ window.MARKET_SNAPSHOT = {
             "price": 227.82,
             "ma20": 215.35,
             "status": "MA20上方",
-            "weight": 0.05457749161526898
+            "weight": 0.054570460501355125
           },
           {
             "symbol": "NRG",
@@ -582977,7 +583017,7 @@ window.MARKET_SNAPSHOT = {
             "price": 123.7,
             "ma20": 131.58,
             "status": "MA20下方",
-            "weight": 0.04136129571749418
+            "weight": 0.04167814649150353
           },
           {
             "symbol": "IRM",
@@ -582986,7 +583026,7 @@ window.MARKET_SNAPSHOT = {
             "price": 125.17,
             "ma20": 126.31,
             "status": "MA20下方",
-            "weight": 0.05866125493815733
+            "weight": 0.0584983597100945
           },
           {
             "symbol": "ATO",
@@ -582995,7 +583035,7 @@ window.MARKET_SNAPSHOT = {
             "price": 168.23,
             "ma20": 172.82,
             "status": "MA20下方",
-            "weight": 0.045114377737593886
+            "weight": 0.044066244884534436
           },
           {
             "symbol": "DVN",
@@ -583004,7 +583044,7 @@ window.MARKET_SNAPSHOT = {
             "price": 44.61,
             "ma20": 46.31,
             "status": "MA20下方",
-            "weight": 0.08640933617246177
+            "weight": 0.08129685964659278
           },
           {
             "symbol": "AEE",
@@ -583013,7 +583053,7 @@ window.MARKET_SNAPSHOT = {
             "price": 108.25,
             "ma20": 108.39,
             "status": "MA20下方",
-            "weight": 0.04844531341370809
+            "weight": 0.04738405330010472
           },
           {
             "symbol": "DTE",
@@ -583022,7 +583062,7 @@ window.MARKET_SNAPSHOT = {
             "price": 145.79,
             "ma20": 143.49,
             "status": "MA20上方",
-            "weight": 0.048800117364724484
+            "weight": 0.047868507603741464
           },
           {
             "symbol": "IBKR",
@@ -583031,7 +583071,7 @@ window.MARKET_SNAPSHOT = {
             "price": 88.83,
             "ma20": 85.58,
             "status": "MA20上方",
-            "weight": 0.06141023172577724
+            "weight": 0.06276396980269683
           },
           {
             "symbol": "UAL",
@@ -583040,7 +583080,7 @@ window.MARKET_SNAPSHOT = {
             "price": 112.61,
             "ma20": 104.16,
             "status": "MA20上方",
-            "weight": 0.05373520914798361
+            "weight": 0.05786213652710268
           },
           {
             "symbol": "OTIS",
@@ -583049,7 +583089,7 @@ window.MARKET_SNAPSHOT = {
             "price": 70.13,
             "ma20": 70.94,
             "status": "MA20下方",
-            "weight": 0.04386502558146536
+            "weight": 0.04340187912788737
           },
           {
             "symbol": "FISV",
@@ -583058,7 +583098,7 @@ window.MARKET_SNAPSHOT = {
             "price": 53.06,
             "ma20": 55.44,
             "status": "MA20下方",
-            "weight": 0.04631246926623847
+            "weight": 0.04532763523943922
           },
           {
             "symbol": "CTSH",
@@ -583067,7 +583107,7 @@ window.MARKET_SNAPSHOT = {
             "price": 51.18,
             "ma20": 52.39,
             "status": "MA20下方",
-            "weight": 0.03977824692754853
+            "weight": 0.03861864669841175
           },
           {
             "symbol": "XYL",
@@ -583076,7 +583116,7 @@ window.MARKET_SNAPSHOT = {
             "price": 109.05,
             "ma20": 109.22,
             "status": "MA20下方",
-            "weight": 0.04201361232998606
+            "weight": 0.04203193884602663
           },
           {
             "symbol": "VICI",
@@ -583085,7 +583125,7 @@ window.MARKET_SNAPSHOT = {
             "price": 28.09,
             "ma20": 28.07,
             "status": "MA20上方",
-            "weight": 0.04981125836960405
+            "weight": 0.04840321650319114
           },
           {
             "symbol": "CBOE",
@@ -583094,7 +583134,7 @@ window.MARKET_SNAPSHOT = {
             "price": 295.9,
             "ma20": 324.93,
             "status": "MA20下方",
-            "weight": 0.05069877080231644
+            "weight": 0.0489700883439611
           },
           {
             "symbol": "FE",
@@ -583103,7 +583143,7 @@ window.MARKET_SNAPSHOT = {
             "price": 46.67,
             "ma20": 45.7,
             "status": "MA20上方",
-            "weight": 0.0388133409984388
+            "weight": 0.038343251513356845
           },
           {
             "symbol": "WAT",
@@ -583112,7 +583152,7 @@ window.MARKET_SNAPSHOT = {
             "price": 359.74,
             "ma20": 355.64,
             "status": "MA20上方",
-            "weight": 0.057189773396265
+            "weight": 0.05567304633349102
           },
           {
             "symbol": "DOW",
@@ -583121,7 +583161,7 @@ window.MARKET_SNAPSHOT = {
             "price": 33.63,
             "ma20": 35.46,
             "status": "MA20下方",
-            "weight": 0.03948676492812996
+            "weight": 0.038117105832198614
           },
           {
             "symbol": "TPR",
@@ -583130,7 +583170,7 @@ window.MARKET_SNAPSHOT = {
             "price": 145.39,
             "ma20": 138.83,
             "status": "MA20上方",
-            "weight": 0.04580689876379869
+            "weight": 0.04644730763415153
           },
           {
             "symbol": "PPL",
@@ -583139,7 +583179,7 @@ window.MARKET_SNAPSHOT = {
             "price": 35.46,
             "ma20": 35.44,
             "status": "MA20上方",
-            "weight": 0.0423392680810606
+            "weight": 0.04147109755675422
           },
           {
             "symbol": "JBL",
@@ -583148,7 +583188,7 @@ window.MARKET_SNAPSHOT = {
             "price": 376.89,
             "ma20": 360.32,
             "status": "MA20上方",
-            "weight": 0.059696518591264645
+            "weight": 0.06275391888353424
           },
           {
             "symbol": "IQV",
@@ -583157,7 +583197,7 @@ window.MARKET_SNAPSHOT = {
             "price": 181.06,
             "ma20": 176.86,
             "status": "MA20上方",
-            "weight": 0.05001831110022552
+            "weight": 0.048858523141256376
           },
           {
             "symbol": "EXPE",
@@ -583166,7 +583206,7 @@ window.MARKET_SNAPSHOT = {
             "price": 224.66,
             "ma20": 222.74,
             "status": "MA20上方",
-            "weight": 0.041402505241549904
+            "weight": 0.04175352838522294
           },
           {
             "symbol": "RJF",
@@ -583175,7 +583215,7 @@ window.MARKET_SNAPSHOT = {
             "price": 150.42,
             "ma20": 149.79,
             "status": "MA20上方",
-            "weight": 0.042360375398259875
+            "weight": 0.04158467294329147
           },
           {
             "symbol": "EIX",
@@ -583184,7 +583224,7 @@ window.MARKET_SNAPSHOT = {
             "price": 72.34,
             "ma20": 70.77,
             "status": "MA20上方",
-            "weight": 0.0445283984077283
+            "weight": 0.04427731418694878
           },
           {
             "symbol": "CNP",
@@ -583193,7 +583233,7 @@ window.MARKET_SNAPSHOT = {
             "price": 42.55,
             "ma20": 42.25,
             "status": "MA20上方",
-            "weight": 0.04488119213805904
+            "weight": 0.0439134709132631
           },
           {
             "symbol": "TDY",
@@ -583202,7 +583242,7 @@ window.MARKET_SNAPSHOT = {
             "price": 623.73,
             "ma20": 616.96,
             "status": "MA20上方",
-            "weight": 0.04536263999227108
+            "weight": 0.046242268883234725
           },
           {
             "symbol": "DOV",
@@ -583211,7 +583251,7 @@ window.MARKET_SNAPSHOT = {
             "price": 218.53,
             "ma20": 212.77,
             "status": "MA20上方",
-            "weight": 0.04626120863875451
+            "weight": 0.04648047566738806
           },
           {
             "symbol": "EXR",
@@ -583220,7 +583260,7 @@ window.MARKET_SNAPSHOT = {
             "price": 150.26,
             "ma20": 143.83,
             "status": "MA20上方",
-            "weight": 0.051297816566638725
+            "weight": 0.0506385409249507
           },
           {
             "symbol": "WTW",
@@ -583229,7 +583269,7 @@ window.MARKET_SNAPSHOT = {
             "price": 260.79,
             "ma20": 255.97,
             "status": "MA20上方",
-            "weight": 0.04025868967141775
+            "weight": 0.03909908063438346
           },
           {
             "symbol": "BIIB",
@@ -583238,7 +583278,7 @@ window.MARKET_SNAPSHOT = {
             "price": 199.96,
             "ma20": 193.75,
             "status": "MA20上方",
-            "weight": 0.0460963705425316
+            "weight": 0.04663827509824069
           },
           {
             "symbol": "CHTR",
@@ -583247,7 +583287,7 @@ window.MARKET_SNAPSHOT = {
             "price": 139.14,
             "ma20": 140.54,
             "status": "MA20下方",
-            "weight": 0.019004626362090347
+            "weight": 0.018860549808596323
           },
           {
             "symbol": "STLD",
@@ -583256,7 +583296,7 @@ window.MARKET_SNAPSHOT = {
             "price": 279.55,
             "ma20": 254.21,
             "status": "MA20上方",
-            "weight": 0.059537711157098674
+            "weight": 0.06095882472109604
           },
           {
             "symbol": "AWK",
@@ -583265,7 +583305,7 @@ window.MARKET_SNAPSHOT = {
             "price": 124.45,
             "ma20": 123.91,
             "status": "MA20上方",
-            "weight": 0.0398747375204595
+            "weight": 0.03856537682685004
           },
           {
             "symbol": "KHC",
@@ -583274,7 +583314,7 @@ window.MARKET_SNAPSHOT = {
             "price": 24.22,
             "ma20": 23.51,
             "status": "MA20上方",
-            "weight": 0.03307617116160721
+            "weight": 0.03273684880446528
           },
           {
             "symbol": "ROL",
@@ -583283,7 +583323,7 @@ window.MARKET_SNAPSHOT = {
             "price": 47.05,
             "ma20": 49.76,
             "status": "MA20下方",
-            "weight": 0.02253658410676908
+            "weight": 0.02181451495048093
           },
           {
             "symbol": "VRSK",
@@ -583292,7 +583332,7 @@ window.MARKET_SNAPSHOT = {
             "price": 182,
             "ma20": 174.78,
             "status": "MA20上方",
-            "weight": 0.04133214751755232
+            "weight": 0.040370521908450835
           },
           {
             "symbol": "DG",
@@ -583301,7 +583341,7 @@ window.MARKET_SNAPSHOT = {
             "price": 114.34,
             "ma20": 106.5,
             "status": "MA20上方",
-            "weight": 0.03893495934992034
+            "weight": 0.03978957878085325
           },
           {
             "symbol": "HUBB",
@@ -583310,7 +583350,7 @@ window.MARKET_SNAPSHOT = {
             "price": 469.32,
             "ma20": 475.12,
             "status": "MA20下方",
-            "weight": 0.03997926899611305
+            "weight": 0.03943679151824642
           },
           {
             "symbol": "EL",
@@ -583319,7 +583359,7 @@ window.MARKET_SNAPSHOT = {
             "price": 88.02,
             "ma20": 84.12,
             "status": "MA20上方",
-            "weight": 0.03381191193255338
+            "weight": 0.0342535325060998
           },
           {
             "symbol": "ES",
@@ -583328,7 +583368,7 @@ window.MARKET_SNAPSHOT = {
             "price": 68.43,
             "ma20": 68.86,
             "status": "MA20下方",
-            "weight": 0.04172012010988186
+            "weight": 0.040557469004874974
           },
           {
             "symbol": "STZ",
@@ -583337,7 +583377,7 @@ window.MARKET_SNAPSHOT = {
             "price": 143.12,
             "ma20": 142.71,
             "status": "MA20上方",
-            "weight": 0.03241480855602992
+            "weight": 0.032047355749911736
           },
           {
             "symbol": "EXE",
@@ -583346,7 +583386,7 @@ window.MARKET_SNAPSHOT = {
             "price": 87.08,
             "ma20": 93.79,
             "status": "MA20下方",
-            "weight": 0.03404007198037412
+            "weight": 0.03289565332723416
           },
           {
             "symbol": "CTRA",
@@ -583364,7 +583404,7 @@ window.MARKET_SNAPSHOT = {
             "price": 170.75,
             "ma20": 167.88,
             "status": "MA20上方",
-            "weight": 0.049658481597495016
+            "weight": 0.05016212735664404
           },
           {
             "symbol": "CFG",
@@ -583373,7 +583413,7 @@ window.MARKET_SNAPSHOT = {
             "price": 66.51,
             "ma20": 62.92,
             "status": "MA20上方",
-            "weight": 0.04428516170476522
+            "weight": 0.04456175519925002
           },
           {
             "symbol": "MTD",
@@ -583382,7 +583422,7 @@ window.MARKET_SNAPSHOT = {
             "price": 1141.25,
             "ma20": 1122.41,
             "status": "MA20上方",
-            "weight": 0.03693579487804613
+            "weight": 0.036564238821578776
           },
           {
             "symbol": "FICO",
@@ -583391,7 +583431,7 @@ window.MARKET_SNAPSHOT = {
             "price": 1185.37,
             "ma20": 1209.01,
             "status": "MA20下方",
-            "weight": 0.046775825134279705
+            "weight": 0.044661259298959644
           },
           {
             "symbol": "LYB",
@@ -583400,7 +583440,7 @@ window.MARKET_SNAPSHOT = {
             "price": 63.47,
             "ma20": 68.37,
             "status": "MA20下方",
-            "weight": 0.027113856607983353
+            "weight": 0.025960519105048468
           },
           {
             "symbol": "ARES",
@@ -583409,7 +583449,7 @@ window.MARKET_SNAPSHOT = {
             "price": 132.82,
             "ma20": 126.42,
             "status": "MA20上方",
-            "weight": 0.042601601880537306
+            "weight": 0.04334056852099558
           },
           {
             "symbol": "BG",
@@ -583418,7 +583458,7 @@ window.MARKET_SNAPSHOT = {
             "price": 125.28,
             "ma20": 124.7,
             "status": "MA20上方",
-            "weight": 0.028049614337151224
+            "weight": 0.026936463355735758
           },
           {
             "symbol": "WRB",
@@ -583427,7 +583467,7 @@ window.MARKET_SNAPSHOT = {
             "price": 67.54,
             "ma20": 66.64,
             "status": "MA20上方",
-            "weight": 0.03253743201785428
+            "weight": 0.031691553211556124
           },
           {
             "symbol": "Q",
@@ -583436,7 +583476,7 @@ window.MARKET_SNAPSHOT = {
             "price": 149.12,
             "ma20": 152.73,
             "status": "MA20下方",
-            "weight": 0.046959760327016244
+            "weight": 0.04924950389668105
           },
           {
             "symbol": "ON",
@@ -583445,7 +583485,7 @@ window.MARKET_SNAPSHOT = {
             "price": 115.96,
             "ma20": 118.79,
             "status": "MA20下方",
-            "weight": 0.07010946174290712
+            "weight": 0.072524417401486
           },
           {
             "symbol": "CINF",
@@ -583454,7 +583494,7 @@ window.MARKET_SNAPSHOT = {
             "price": 168.3,
             "ma20": 163.96,
             "status": "MA20上方",
-            "weight": 0.041970392585244695
+            "weight": 0.041712319616656335
           },
           {
             "symbol": "FIS",
@@ -583463,7 +583503,7 @@ window.MARKET_SNAPSHOT = {
             "price": 38.35,
             "ma20": 41.8,
             "status": "MA20下方",
-            "weight": 0.03224293468740726
+            "weight": 0.0315407894241173
           },
           {
             "symbol": "DXCM",
@@ -583472,7 +583512,7 @@ window.MARKET_SNAPSHOT = {
             "price": 75.25,
             "ma20": 71.33,
             "status": "MA20上方",
-            "weight": 0.04617778448030023
+            "weight": 0.04567539704246477
           },
           {
             "symbol": "TSCO",
@@ -583481,7 +583521,7 @@ window.MARKET_SNAPSHOT = {
             "price": 31.26,
             "ma20": 30.72,
             "status": "MA20上方",
-            "weight": 0.026329870540581703
+            "weight": 0.02628918416166509
           },
           {
             "symbol": "CMS",
@@ -583490,7 +583530,7 @@ window.MARKET_SNAPSHOT = {
             "price": 72.85,
             "ma20": 72.53,
             "status": "MA20上方",
-            "weight": 0.03626639138972625
+            "weight": 0.035346067419073104
           },
           {
             "symbol": "PPG",
@@ -583499,7 +583539,7 @@ window.MARKET_SNAPSHOT = {
             "price": 118.24,
             "ma20": 110.21,
             "status": "MA20上方",
-            "weight": 0.040766270394543176
+            "weight": 0.04193444493014953
           },
           {
             "symbol": "SYF",
@@ -583508,7 +583548,7 @@ window.MARKET_SNAPSHOT = {
             "price": 72.33,
             "ma20": 71.14,
             "status": "MA20上方",
-            "weight": 0.03877514680541154
+            "weight": 0.03962574879850307
           },
           {
             "symbol": "AVB",
@@ -583517,7 +583557,7 @@ window.MARKET_SNAPSHOT = {
             "price": 184.36,
             "ma20": 185.18,
             "status": "MA20下方",
-            "weight": 0.04264180629425021
+            "weight": 0.04140777676602991
           },
           {
             "symbol": "ULTA",
@@ -583526,7 +583566,7 @@ window.MARKET_SNAPSHOT = {
             "price": 476.42,
             "ma20": 490.14,
             "status": "MA20下方",
-            "weight": 0.03351339416073506
+            "weight": 0.033333873402723
           },
           {
             "symbol": "VRSN",
@@ -583535,7 +583575,7 @@ window.MARKET_SNAPSHOT = {
             "price": 279.57,
             "ma20": 295.81,
             "status": "MA20下方",
-            "weight": 0.03810373309640602
+            "weight": 0.03634110841616932
           },
           {
             "symbol": "DRI",
@@ -583544,7 +583584,7 @@ window.MARKET_SNAPSHOT = {
             "price": 210.84,
             "ma20": 199.77,
             "status": "MA20上方",
-            "weight": 0.03761022391808011
+            "weight": 0.03826987980346995
           },
           {
             "symbol": "PHM",
@@ -583553,7 +583593,7 @@ window.MARKET_SNAPSHOT = {
             "price": 124,
             "ma20": 117.06,
             "status": "MA20上方",
-            "weight": 0.03651666386508908
+            "weight": 0.03755726963484246
           },
           {
             "symbol": "RF",
@@ -583562,7 +583602,7 @@ window.MARKET_SNAPSHOT = {
             "price": 28.89,
             "ma20": 27.84,
             "status": "MA20上方",
-            "weight": 0.039777241817205704
+            "weight": 0.039517198871547116
           },
           {
             "symbol": "NI",
@@ -583571,7 +583611,7 @@ window.MARKET_SNAPSHOT = {
             "price": 46.62,
             "ma20": 46.65,
             "status": "MA20下方",
-            "weight": 0.03580002019065654
+            "weight": 0.03517721197714163
           },
           {
             "symbol": "TSN",
@@ -583580,7 +583620,7 @@ window.MARKET_SNAPSHOT = {
             "price": 55.64,
             "ma20": 61.75,
             "status": "MA20下方",
-            "weight": 0.025668507935004404
+            "weight": 0.025006686876518865
           },
           {
             "symbol": "LH",
@@ -583589,7 +583629,7 @@ window.MARKET_SNAPSHOT = {
             "price": 265.27,
             "ma20": 259.65,
             "status": "MA20上方",
-            "weight": 0.0360512977763622
+            "weight": 0.034988254696884984
           },
           {
             "symbol": "BRO",
@@ -583598,7 +583638,7 @@ window.MARKET_SNAPSHOT = {
             "price": 59.95,
             "ma20": 57.58,
             "status": "MA20上方",
-            "weight": 0.028462714688051324
+            "weight": 0.027866173378275145
           },
           {
             "symbol": "EQR",
@@ -583607,7 +583647,7 @@ window.MARKET_SNAPSHOT = {
             "price": 66.65,
             "ma20": 66.32,
             "status": "MA20上方",
-            "weight": 0.03725843529809218
+            "weight": 0.03609787617243469
           },
           {
             "symbol": "CHD",
@@ -583616,7 +583656,7 @@ window.MARKET_SNAPSHOT = {
             "price": 97.08,
             "ma20": 96,
             "status": "MA20上方",
-            "weight": 0.03727552217392017
+            "weight": 0.036219492294302005
           },
           {
             "symbol": "EFX",
@@ -583625,7 +583665,7 @@ window.MARKET_SNAPSHOT = {
             "price": 159.58,
             "ma20": 165.71,
             "status": "MA20下方",
-            "weight": 0.032056989273985065
+            "weight": 0.030276383793463743
           },
           {
             "symbol": "DGX",
@@ -583634,7 +583674,7 @@ window.MARKET_SNAPSHOT = {
             "price": 203.83,
             "ma20": 195.02,
             "status": "MA20上方",
-            "weight": 0.03593973052830889
+            "weight": 0.03533099104032923
           },
           {
             "symbol": "DLTR",
@@ -583643,7 +583683,7 @@ window.MARKET_SNAPSHOT = {
             "price": 114.89,
             "ma20": 103.05,
             "status": "MA20上方",
-            "weight": 0.03269623945202026
+            "weight": 0.0334655404437529
           },
           {
             "symbol": "LEN",
@@ -583652,7 +583692,7 @@ window.MARKET_SNAPSHOT = {
             "price": 94.95,
             "ma20": 89,
             "status": "MA20上方",
-            "weight": 0.03132325872372454
+            "weight": 0.03253181005354848
           },
           {
             "symbol": "VLTO",
@@ -583661,7 +583701,7 @@ window.MARKET_SNAPSHOT = {
             "price": 82.64,
             "ma20": 84.81,
             "status": "MA20下方",
-            "weight": 0.033266137016400694
+            "weight": 0.032701670587396224
           },
           {
             "symbol": "STE",
@@ -583670,7 +583710,7 @@ window.MARKET_SNAPSHOT = {
             "price": 207.22,
             "ma20": 212.77,
             "status": "MA20下方",
-            "weight": 0.0330088287686381
+            "weight": 0.03230465928047399
           },
           {
             "symbol": "KEY",
@@ -583679,7 +583719,7 @@ window.MARKET_SNAPSHOT = {
             "price": 22.33,
             "ma20": 21.46,
             "status": "MA20上方",
-            "weight": 0.03305606895475076
+            "weight": 0.033005208346106374
           },
           {
             "symbol": "L",
@@ -583688,7 +583728,7 @@ window.MARKET_SNAPSHOT = {
             "price": 107.37,
             "ma20": 106.61,
             "status": "MA20上方",
-            "weight": 0.029616581361611705
+            "weight": 0.02892453516609566
           },
           {
             "symbol": "ALB",
@@ -583697,7 +583737,7 @@ window.MARKET_SNAPSHOT = {
             "price": 159.06,
             "ma20": 168.7,
             "status": "MA20下方",
-            "weight": 0.027842561606529762
+            "weight": 0.029488391731116843
           },
           {
             "symbol": "OMC",
@@ -583706,7 +583746,7 @@ window.MARKET_SNAPSHOT = {
             "price": 75.59,
             "ma20": 74.01,
             "status": "MA20上方",
-            "weight": 0.0373348236841467
+            "weight": 0.03749093356836938
           },
           {
             "symbol": "FSLR",
@@ -583715,7 +583755,7 @@ window.MARKET_SNAPSHOT = {
             "price": 271.17,
             "ma20": 270.15,
             "status": "MA20上方",
-            "weight": 0.04297349270738168
+            "weight": 0.04594476167602213
           },
           {
             "symbol": "WSM",
@@ -583724,7 +583764,7 @@ window.MARKET_SNAPSHOT = {
             "price": 218.74,
             "ma20": 196.31,
             "status": "MA20上方",
-            "weight": 0.039595316845154806
+            "weight": 0.041133386672891264
           },
           {
             "symbol": "RL",
@@ -583733,7 +583773,7 @@ window.MARKET_SNAPSHOT = {
             "price": 393.3,
             "ma20": 361.91,
             "status": "MA20上方",
-            "weight": 0.023424096539481465
+            "weight": 0.024053859739905526
           },
           {
             "symbol": "HUM",
@@ -583742,7 +583782,7 @@ window.MARKET_SNAPSHOT = {
             "price": 368.69,
             "ma20": 324.49,
             "status": "MA20上方",
-            "weight": 0.07079293677602652
+            "weight": 0.07038357161985478
           },
           {
             "symbol": "SW",
@@ -583751,7 +583791,7 @@ window.MARKET_SNAPSHOT = {
             "price": 42.69,
             "ma20": 39.87,
             "status": "MA20上方",
-            "weight": 0.0328269037965872
+            "weight": 0.035360138705900726
           },
           {
             "symbol": "NTAP",
@@ -583760,7 +583800,7 @@ window.MARKET_SNAPSHOT = {
             "price": 160.47,
             "ma20": 150.02,
             "status": "MA20上方",
-            "weight": 0.05099728857413476
+            "weight": 0.05006161816501815
           },
           {
             "symbol": "MRNA",
@@ -583769,7 +583809,7 @@ window.MARKET_SNAPSHOT = {
             "price": 49.64,
             "ma20": 47.77,
             "status": "MA20上方",
-            "weight": 0.025767008748601022
+            "weight": 0.02733347466265798
           },
           {
             "symbol": "JBHT",
@@ -583778,7 +583818,7 @@ window.MARKET_SNAPSHOT = {
             "price": 289.14,
             "ma20": 272.59,
             "status": "MA20上方",
-            "weight": 0.03356767011924748
+            "weight": 0.033976127137212375
           },
           {
             "symbol": "CHRW",
@@ -583787,7 +583827,7 @@ window.MARKET_SNAPSHOT = {
             "price": 191.11,
             "ma20": 178.57,
             "status": "MA20上方",
-            "weight": 0.0354381804672404
+            "weight": 0.03598028041823241
           },
           {
             "symbol": "GIS",
@@ -583796,7 +583836,7 @@ window.MARKET_SNAPSHOT = {
             "price": 33.82,
             "ma20": 33.37,
             "status": "MA20上方",
-            "weight": 0.02919041457625491
+            "weight": 0.02868833856577484
           },
           {
             "symbol": "TROW",
@@ -583805,7 +583845,7 @@ window.MARKET_SNAPSHOT = {
             "price": 108.27,
             "ma20": 104.17,
             "status": "MA20上方",
-            "weight": 0.03773586271093294
+            "weight": 0.03772813526060646
           },
           {
             "symbol": "CPAY",
@@ -583814,7 +583854,7 @@ window.MARKET_SNAPSHOT = {
             "price": 350.85,
             "ma20": 349.94,
             "status": "MA20上方",
-            "weight": 0.039467667831616336
+            "weight": 0.0389955561670088
           },
           {
             "symbol": "CF",
@@ -583823,7 +583863,7 @@ window.MARKET_SNAPSHOT = {
             "price": 106.56,
             "ma20": 117.03,
             "status": "MA20下方",
-            "weight": 0.02754504894505426
+            "weight": 0.026402759548202336
           },
           {
             "symbol": "LDOS",
@@ -583832,7 +583872,7 @@ window.MARKET_SNAPSHOT = {
             "price": 122.08,
             "ma20": 125.48,
             "status": "MA20下方",
-            "weight": 0.025184044749763896
+            "weight": 0.02482979069925732
           },
           {
             "symbol": "PFG",
@@ -583841,7 +583881,7 @@ window.MARKET_SNAPSHOT = {
             "price": 109.69,
             "ma20": 103.92,
             "status": "MA20上方",
-            "weight": 0.034604943993040434
+            "weight": 0.03415905386597147
           },
           {
             "symbol": "IP",
@@ -583850,7 +583890,7 @@ window.MARKET_SNAPSHOT = {
             "price": 34.95,
             "ma20": 32.43,
             "status": "MA20上方",
-            "weight": 0.02702440178747214
+            "weight": 0.029144650295756334
           },
           {
             "symbol": "DD",
@@ -583859,7 +583899,7 @@ window.MARKET_SNAPSHOT = {
             "price": 46.84,
             "ma20": 47.78,
             "status": "MA20下方",
-            "weight": 0.02953215209281461
+            "weight": 0.030170849142256564
           },
           {
             "symbol": "EVRG",
@@ -583868,7 +583908,7 @@ window.MARKET_SNAPSHOT = {
             "price": 82.81,
             "ma20": 82.48,
             "status": "MA20上方",
-            "weight": 0.030901112379739033
+            "weight": 0.030361816606345737
           },
           {
             "symbol": "BR",
@@ -583877,7 +583917,7 @@ window.MARKET_SNAPSHOT = {
             "price": 144.86,
             "ma20": 149.97,
             "status": "MA20下方",
-            "weight": 0.027690789944763546
+            "weight": 0.02673946534014903
           },
           {
             "symbol": "SNA",
@@ -583886,7 +583926,7 @@ window.MARKET_SNAPSHOT = {
             "price": 384.67,
             "ma20": 371.88,
             "status": "MA20上方",
-            "weight": 0.03171324153673972
+            "weight": 0.03168049720047728
           },
           {
             "symbol": "PKG",
@@ -583895,7 +583935,7 @@ window.MARKET_SNAPSHOT = {
             "price": 224.4,
             "ma20": 218.43,
             "status": "MA20上方",
-            "weight": 0.03109409356556098
+            "weight": 0.03165335971873829
           },
           {
             "symbol": "EXPD",
@@ -583904,7 +583944,7 @@ window.MARKET_SNAPSHOT = {
             "price": 166.44,
             "ma20": 159.74,
             "status": "MA20上方",
-            "weight": 0.03567739672883219
+            "weight": 0.03543250532387137
           },
           {
             "symbol": "INCY",
@@ -583913,7 +583953,7 @@ window.MARKET_SNAPSHOT = {
             "price": 107.83,
             "ma20": 98.53,
             "status": "MA20上方",
-            "weight": 0.028202391109260264
+            "weight": 0.028359673509158217
           },
           {
             "symbol": "LUV",
@@ -583922,7 +583962,7 @@ window.MARKET_SNAPSHOT = {
             "price": 44.29,
             "ma20": 41.29,
             "status": "MA20上方",
-            "weight": 0.03245903341111412
+            "weight": 0.03427664962017375
           },
           {
             "symbol": "GPN",
@@ -583931,7 +583971,7 @@ window.MARKET_SNAPSHOT = {
             "price": 65.44,
             "ma20": 69.6,
             "status": "MA20下方",
-            "weight": 0.023903534173007862
+            "weight": 0.024515196929468314
           },
           {
             "symbol": "IFF",
@@ -583940,7 +583980,7 @@ window.MARKET_SNAPSHOT = {
             "price": 77.51,
             "ma20": 74.71,
             "status": "MA20上方",
-            "weight": 0.030512134677066677
+            "weight": 0.03131263355912656
           },
           {
             "symbol": "LNT",
@@ -583949,7 +583989,7 @@ window.MARKET_SNAPSHOT = {
             "price": 72.62,
             "ma20": 72.23,
             "status": "MA20上方",
-            "weight": 0.030100039436509397
+            "weight": 0.029428086216141312
           },
           {
             "symbol": "AMCR",
@@ -583958,7 +583998,7 @@ window.MARKET_SNAPSHOT = {
             "price": 39.92,
             "ma20": 38.28,
             "status": "MA20上方",
-            "weight": 0.028467740239765442
+            "weight": 0.029261240958042355
           },
           {
             "symbol": "NVR",
@@ -583967,7 +584007,7 @@ window.MARKET_SNAPSHOT = {
             "price": 6479.7,
             "ma20": 6068.5,
             "status": "MA20上方",
-            "weight": 0.028545133736162784
+            "weight": 0.028829051434051074
           },
           {
             "symbol": "SBAC",
@@ -583976,7 +584016,7 @@ window.MARKET_SNAPSHOT = {
             "price": 203.65,
             "ma20": 203.57,
             "status": "MA20上方",
-            "weight": 0.03570151937705993
+            "weight": 0.03446460180851414
           },
           {
             "symbol": "WST",
@@ -583985,7 +584025,7 @@ window.MARKET_SNAPSHOT = {
             "price": 330.34,
             "ma20": 315.76,
             "status": "MA20上方",
-            "weight": 0.03848064947496451
+            "weight": 0.03775225746659667
           },
           {
             "symbol": "ZBH",
@@ -583994,7 +584034,7 @@ window.MARKET_SNAPSHOT = {
             "price": 87.14,
             "ma20": 85.19,
             "status": "MA20上方",
-            "weight": 0.02823555975057341
+            "weight": 0.027425943118953792
           },
           {
             "symbol": "WY",
@@ -584003,7 +584043,7 @@ window.MARKET_SNAPSHOT = {
             "price": 24.33,
             "ma20": 23.93,
             "status": "MA20上方",
-            "weight": 0.028112936288749047
+            "weight": 0.027823959517792273
           },
           {
             "symbol": "HPQ",
@@ -584012,7 +584052,7 @@ window.MARKET_SNAPSHOT = {
             "price": 24.68,
             "ma20": 24.39,
             "status": "MA20上方",
-            "weight": 0.03629051403795399
+            "weight": 0.035651615361615784
           },
           {
             "symbol": "LULU",
@@ -584021,7 +584061,7 @@ window.MARKET_SNAPSHOT = {
             "price": 121.84,
             "ma20": 124.16,
             "status": "MA20下方",
-            "weight": 0.02024392741479065
+            "weight": 0.020383264061728402
           },
           {
             "symbol": "FTV",
@@ -584030,7 +584070,7 @@ window.MARKET_SNAPSHOT = {
             "price": 59.84,
             "ma20": 59.79,
             "status": "MA20上方",
-            "weight": 0.030141248960565126
+            "weight": 0.029513519029023313
           },
           {
             "symbol": "PTC",
@@ -584039,7 +584079,7 @@ window.MARKET_SNAPSHOT = {
             "price": 118.39,
             "ma20": 140.36,
             "status": "MA20下方",
-            "weight": 0.026103720713446608
+            "weight": 0.022484911258625544
           },
           {
             "symbol": "CSGP",
@@ -584048,7 +584088,7 @@ window.MARKET_SNAPSHOT = {
             "price": 32.65,
             "ma20": 33.27,
             "status": "MA20下方",
-            "weight": 0.02347837249799389
+            "weight": 0.022009502782235138
           },
           {
             "symbol": "HOLX",
@@ -584066,7 +584106,7 @@ window.MARKET_SNAPSHOT = {
             "price": 132.46,
             "ma20": 147.3,
             "status": "MA20下方",
-            "weight": 0.03001460505736947
+            "weight": 0.030063304307216872
           },
           {
             "symbol": "FFIV",
@@ -584075,7 +584115,7 @@ window.MARKET_SNAPSHOT = {
             "price": 393.84,
             "ma20": 389.53,
             "status": "MA20上方",
-            "weight": 0.03536380230187152
+            "weight": 0.03502845837353533
           },
           {
             "symbol": "CNC",
@@ -584084,7 +584124,7 @@ window.MARKET_SNAPSHOT = {
             "price": 63.54,
             "ma20": 60.54,
             "status": "MA20上方",
-            "weight": 0.04914587532265548
+            "weight": 0.04697096052252235
           },
           {
             "symbol": "LII",
@@ -584093,7 +584133,7 @@ window.MARKET_SNAPSHOT = {
             "price": 517.03,
             "ma20": 504.06,
             "status": "MA20上方",
-            "weight": 0.025902698644882077
+            "weight": 0.026074094491585705
           },
           {
             "symbol": "BALL",
@@ -584102,7 +584142,7 @@ window.MARKET_SNAPSHOT = {
             "price": 56.34,
             "ma20": 55.01,
             "status": "MA20上方",
-            "weight": 0.02370050188375769
+            "weight": 0.023982498213851153
           },
           {
             "symbol": "TKO",
@@ -584111,7 +584151,7 @@ window.MARKET_SNAPSHOT = {
             "price": 213.7,
             "ma20": 198.67,
             "status": "MA20上方",
-            "weight": 0.0221244888662118
+            "weight": 0.022510038556532014
           },
           {
             "symbol": "VTRS",
@@ -584120,7 +584160,7 @@ window.MARKET_SNAPSHOT = {
             "price": 16.31,
             "ma20": 16.2,
             "status": "MA20上方",
-            "weight": 0.02944973304470315
+            "weight": 0.029934652541935745
           },
           {
             "symbol": "CDW",
@@ -584129,7 +584169,7 @@ window.MARKET_SNAPSHOT = {
             "price": 129.13,
             "ma20": 120.9,
             "status": "MA20上方",
-            "weight": 0.027351062648889493
+            "weight": 0.026846005083272468
           },
           {
             "symbol": "ESS",
@@ -584138,7 +584178,7 @@ window.MARKET_SNAPSHOT = {
             "price": 280.59,
             "ma20": 277.17,
             "status": "MA20上方",
-            "weight": 0.02936128333453476
+            "weight": 0.028446111413956473
           },
           {
             "symbol": "TRMB",
@@ -584147,7 +584187,7 @@ window.MARKET_SNAPSHOT = {
             "price": 50,
             "ma20": 54.99,
             "status": "MA20下方",
-            "weight": 0.019352394540706978
+            "weight": 0.018794213742123242
           },
           {
             "symbol": "TXT",
@@ -584156,7 +584196,7 @@ window.MARKET_SNAPSHOT = {
             "price": 93.75,
             "ma20": 91.18,
             "status": "MA20上方",
-            "weight": 0.025448388769926254
+            "weight": 0.025668037357417156
           },
           {
             "symbol": "INVH",
@@ -584165,7 +584205,7 @@ window.MARKET_SNAPSHOT = {
             "price": 29.45,
             "ma20": 29.18,
             "status": "MA20上方",
-            "weight": 0.027017366015072382
+            "weight": 0.026320342011069114
           },
           {
             "symbol": "KIM",
@@ -584174,7 +584214,7 @@ window.MARKET_SNAPSHOT = {
             "price": 25.75,
             "ma20": 24.1,
             "status": "MA20上方",
-            "weight": 0.027750091454990078
+            "weight": 0.027671185546520937
           },
           {
             "symbol": "NDSN",
@@ -584183,7 +584223,7 @@ window.MARKET_SNAPSHOT = {
             "price": 285.63,
             "ma20": 283.63,
             "status": "MA20上方",
-            "weight": 0.02396786123494851
+            "weight": 0.02415235874769889
           },
           {
             "symbol": "J",
@@ -584192,7 +584232,7 @@ window.MARKET_SNAPSHOT = {
             "price": 126.31,
             "ma20": 118.44,
             "status": "MA20上方",
-            "weight": 0.022813994561388124
+            "weight": 0.02325883203414482
           },
           {
             "symbol": "HII",
@@ -584201,7 +584241,7 @@ window.MARKET_SNAPSHOT = {
             "price": 300.95,
             "ma20": 309.49,
             "status": "MA20下方",
-            "weight": 0.018210589191260465
+            "weight": 0.01862837357594054
           },
           {
             "symbol": "PODD",
@@ -584210,7 +584250,7 @@ window.MARKET_SNAPSHOT = {
             "price": 149.19,
             "ma20": 150.18,
             "status": "MA20下方",
-            "weight": 0.017073809393528067
+            "weight": 0.016611154100009136
           },
           {
             "symbol": "GPC",
@@ -584219,7 +584259,7 @@ window.MARKET_SNAPSHOT = {
             "price": 102.26,
             "ma20": 97.42,
             "status": "MA20上方",
-            "weight": 0.02199080919061639
+            "weight": 0.02245375340922152
           },
           {
             "symbol": "TYL",
@@ -584228,7 +584268,7 @@ window.MARKET_SNAPSHOT = {
             "price": 295.48,
             "ma20": 310.06,
             "status": "MA20下方",
-            "weight": 0.02105605657179134
+            "weight": 0.02019330168955549
           },
           {
             "symbol": "APA",
@@ -584237,7 +584277,7 @@ window.MARKET_SNAPSHOT = {
             "price": 36.78,
             "ma20": 37.92,
             "status": "MA20下方",
-            "weight": 0.02177772579793799
+            "weight": 0.020715949486010066
           },
           {
             "symbol": "MAA",
@@ -584246,7 +584286,7 @@ window.MARKET_SNAPSHOT = {
             "price": 138.1,
             "ma20": 132,
             "status": "MA20上方",
-            "weight": 0.026512800622975417
+            "weight": 0.025744424343052824
           },
           {
             "symbol": "DECK",
@@ -584255,7 +584295,7 @@ window.MARKET_SNAPSHOT = {
             "price": 114.37,
             "ma20": 106.64,
             "status": "MA20上方",
-            "weight": 0.025252392253075837
+            "weight": 0.0255303397648897
           },
           {
             "symbol": "PNR",
@@ -584264,7 +584304,7 @@ window.MARKET_SNAPSHOT = {
             "price": 72.57,
             "ma20": 72.77,
             "status": "MA20下方",
-            "weight": 0.01888099778992316
+            "weight": 0.018860549808596323
           },
           {
             "symbol": "IEX",
@@ -584273,7 +584313,7 @@ window.MARKET_SNAPSHOT = {
             "price": 216.9,
             "ma20": 211.9,
             "status": "MA20上方",
-            "weight": 0.025948933720651917
+            "weight": 0.02578764329545195
           },
           {
             "symbol": "REG",
@@ -584282,7 +584322,7 @@ window.MARKET_SNAPSHOT = {
             "price": 80.69,
             "ma20": 77.86,
             "status": "MA20上方",
-            "weight": 0.021356584564295306
+            "weight": 0.020946115534833328
           },
           {
             "symbol": "SMCI",
@@ -584291,7 +584331,7 @@ window.MARKET_SNAPSHOT = {
             "price": 31.97,
             "ma20": 38.48,
             "status": "MA20下方",
-            "weight": 0.023690450780329463
+            "weight": 0.025429830573263822
           },
           {
             "symbol": "COO",
@@ -584300,7 +584340,7 @@ window.MARKET_SNAPSHOT = {
             "price": 67.51,
             "ma20": 62.73,
             "status": "MA20上方",
-            "weight": 0.021210843564586027
+            "weight": 0.020790326287813212
           },
           {
             "symbol": "BBY",
@@ -584309,7 +584349,7 @@ window.MARKET_SNAPSHOT = {
             "price": 77.1,
             "ma20": 67.92,
             "status": "MA20上方",
-            "weight": 0.02387539108340883
+            "weight": 0.023918172331210588
           },
           {
             "symbol": "MKC",
@@ -584318,7 +584358,7 @@ window.MARKET_SNAPSHOT = {
             "price": 49.23,
             "ma20": 47.24,
             "status": "MA20上方",
-            "weight": 0.020328356683587755
+            "weight": 0.019794280198800748
           },
           {
             "symbol": "AVY",
@@ -584327,7 +584367,7 @@ window.MARKET_SNAPSHOT = {
             "price": 158.75,
             "ma20": 157.39,
             "status": "MA20上方",
-            "weight": 0.019497130430073437
+            "weight": 0.019490742440090587
           },
           {
             "symbol": "HST",
@@ -584336,7 +584376,7 @@ window.MARKET_SNAPSHOT = {
             "price": 24.34,
             "ma20": 23.17,
             "status": "MA20上方",
-            "weight": 0.02465636181978201
+            "weight": 0.024626762132173043
           },
           {
             "symbol": "EG",
@@ -584345,7 +584385,7 @@ window.MARKET_SNAPSHOT = {
             "price": 336.25,
             "ma20": 339.31,
             "status": "MA20下方",
-            "weight": 0.021906379921819288
+            "weight": 0.021382325426489646
           },
           {
             "symbol": "ERIE",
@@ -584354,7 +584394,7 @@ window.MARKET_SNAPSHOT = {
             "price": 226.01,
             "ma20": 220.03,
             "status": "MA20上方",
-            "weight": 0.009459093436303799
+            "weight": 0.009056883257408018
           },
           {
             "symbol": "HAS",
@@ -584363,7 +584403,7 @@ window.MARKET_SNAPSHOT = {
             "price": 83.77,
             "ma20": 87.64,
             "status": "MA20下方",
-            "weight": 0.017618579199337937
+            "weight": 0.017627302027346782
           },
           {
             "symbol": "ALLE",
@@ -584372,7 +584412,7 @@ window.MARKET_SNAPSHOT = {
             "price": 133.71,
             "ma20": 129.92,
             "status": "MA20上方",
-            "weight": 0.01797840870206844
+            "weight": 0.01826553539417112
           },
           {
             "symbol": "APTV",
@@ -584381,7 +584421,7 @@ window.MARKET_SNAPSHOT = {
             "price": 67.96,
             "ma20": 63.46,
             "status": "MA20上方",
-            "weight": 0.02219183125918092
+            "weight": 0.02273316896194147
           },
           {
             "symbol": "CLX",
@@ -584390,7 +584430,7 @@ window.MARKET_SNAPSHOT = {
             "price": 98.3,
             "ma20": 93.67,
             "status": "MA20上方",
-            "weight": 0.019389583623391413
+            "weight": 0.018860549808596323
           },
           {
             "symbol": "HRL",
@@ -584399,7 +584439,7 @@ window.MARKET_SNAPSHOT = {
             "price": 24.44,
             "ma20": 22.27,
             "status": "MA20上方",
-            "weight": 0.011521579859775843
+            "weight": 0.011393721962709722
           },
           {
             "symbol": "BEN",
@@ -584408,7 +584448,7 @@ window.MARKET_SNAPSHOT = {
             "price": 31.81,
             "ma20": 31.37,
             "status": "MA20上方",
-            "weight": 0.01567871623769025
+            "weight": 0.01574074450052902
           },
           {
             "symbol": "MAS",
@@ -584417,7 +584457,7 @@ window.MARKET_SNAPSHOT = {
             "price": 73.75,
             "ma20": 68.85,
             "status": "MA20上方",
-            "weight": 0.023041149498866043
+            "weight": 0.023565385068603752
           },
           {
             "symbol": "ALGN",
@@ -584426,7 +584466,7 @@ window.MARKET_SNAPSHOT = {
             "price": 176.51,
             "ma20": 166.39,
             "status": "MA20上方",
-            "weight": 0.018374422177140557
+            "weight": 0.018694709642413623
           },
           {
             "symbol": "BF.B",
@@ -584435,7 +584475,7 @@ window.MARKET_SNAPSHOT = {
             "price": 26.68,
             "ma20": 25.92,
             "status": "MA20上方",
-            "weight": 0.007371479254261192
+            "weight": 0.0072849062090437604
           },
           {
             "symbol": "DPZ",
@@ -584444,7 +584484,7 @@ window.MARKET_SNAPSHOT = {
             "price": 312.26,
             "ma20": 311.34,
             "status": "MA20上方",
-            "weight": 0.015831493009799295
+            "weight": 0.015435196557986346
           },
           {
             "symbol": "PNW",
@@ -584453,7 +584493,7 @@ window.MARKET_SNAPSHOT = {
             "price": 102.4,
             "ma20": 101.05,
             "status": "MA20上方",
-            "weight": 0.020075068877196452
+            "weight": 0.019596277091297767
           },
           {
             "symbol": "FOX",
@@ -584462,7 +584502,7 @@ window.MARKET_SNAPSHOT = {
             "price": 61.36,
             "ma20": 58.86,
             "status": "MA20上方",
-            "weight": 0.013716740848500475
+            "weight": 0.013553664490749878
           },
           {
             "symbol": "FOXA",
@@ -584471,7 +584511,7 @@ window.MARKET_SNAPSHOT = {
             "price": 68.3,
             "ma20": 65.72,
             "status": "MA20上方",
-            "weight": 0.02179079223239469
+            "weight": 0.021509972099854512
           },
           {
             "symbol": "GNRC",
@@ -584480,7 +584520,7 @@ window.MARKET_SNAPSHOT = {
             "price": 257.33,
             "ma20": 265.76,
             "status": "MA20下方",
-            "weight": 0.02239385843808827
+            "weight": 0.023685996098554808
           },
           {
             "symbol": "DOC",
@@ -584489,7 +584529,7 @@ window.MARKET_SNAPSHOT = {
             "price": 20.5,
             "ma20": 19.67,
             "status": "MA20上方",
-            "weight": 0.022759718602875706
+            "weight": 0.022401488629576062
           },
           {
             "symbol": "GEN",
@@ -584498,7 +584538,7 @@ window.MARKET_SNAPSHOT = {
             "price": 23.94,
             "ma20": 25.18,
             "status": "MA20下方",
-            "weight": 0.02167319432228444
+            "weight": 0.02071192911834503
           },
           {
             "symbol": "JKHY",
@@ -584507,7 +584547,7 @@ window.MARKET_SNAPSHOT = {
             "price": 125.96,
             "ma20": 134.69,
             "status": "MA20下方",
-            "weight": 0.014922873259887634
+            "weight": 0.014478349053707968
           },
           {
             "symbol": "SOLV",
@@ -584516,7 +584556,7 @@ window.MARKET_SNAPSHOT = {
             "price": 79.22,
             "ma20": 77.39,
             "status": "MA20上方",
-            "weight": 0.019370486526877787
+            "weight": 0.018633399035521837
           },
           {
             "symbol": "IT",
@@ -584525,7 +584565,7 @@ window.MARKET_SNAPSHOT = {
             "price": 148.81,
             "ma20": 158.94,
             "status": "MA20下方",
-            "weight": 0.017418562241116233
+            "weight": 0.016445313933826436
           },
           {
             "symbol": "SWK",
@@ -584534,7 +584574,7 @@ window.MARKET_SNAPSHOT = {
             "price": 83.13,
             "ma20": 77.94,
             "status": "MA20上方",
-            "weight": 0.019467982230131582
+            "weight": 0.020531012573418446
           },
           {
             "symbol": "UDR",
@@ -584543,7 +584583,7 @@ window.MARKET_SNAPSHOT = {
             "price": 39.11,
             "ma20": 37.94,
             "status": "MA20上方",
-            "weight": 0.019262939720195764
+            "weight": 0.018830397051108564
           },
           {
             "symbol": "GDDY",
@@ -584552,7 +584592,7 @@ window.MARKET_SNAPSHOT = {
             "price": 75.17,
             "ma20": 86.44,
             "status": "MA20下方",
-            "weight": 0.017537165261569305
+            "weight": 0.016137755807451245
           },
           {
             "symbol": "UHS",
@@ -584561,7 +584601,7 @@ window.MARKET_SNAPSHOT = {
             "price": 146.05,
             "ma20": 153.41,
             "status": "MA20下方",
-            "weight": 0.012788018891732363
+            "weight": 0.012675214155939687
           },
           {
             "symbol": "IVZ",
@@ -584570,7 +584610,7 @@ window.MARKET_SNAPSHOT = {
             "price": 28.29,
             "ma20": 27.52,
             "status": "MA20上方",
-            "weight": 0.01959362102298441
+            "weight": 0.01983850424311613
           },
           {
             "symbol": "GL",
@@ -584579,7 +584619,7 @@ window.MARKET_SNAPSHOT = {
             "price": 165.1,
             "ma20": 155.71,
             "status": "MA20上方",
-            "weight": 0.020682155524261326
+            "weight": 0.020649613419536986
           },
           {
             "symbol": "TTD",
@@ -584588,7 +584628,7 @@ window.MARKET_SNAPSHOT = {
             "price": 18.9,
             "ma20": 21.01,
             "status": "MA20下方",
-            "weight": 0.01372578684158588
+            "weight": 0.01321695869880318
           },
           {
             "symbol": "AIZ",
@@ -584597,7 +584637,7 @@ window.MARKET_SNAPSHOT = {
             "price": 258.5,
             "ma20": 253.33,
             "status": "MA20上方",
-            "weight": 0.020987709068479403
+            "weight": 0.0207199698536751
           },
           {
             "symbol": "WYNN",
@@ -584606,7 +584646,7 @@ window.MARKET_SNAPSHOT = {
             "price": 107.75,
             "ma20": 101.31,
             "status": "MA20上方",
-            "weight": 0.014303725288708892
+            "weight": 0.014389900965077194
           },
           {
             "symbol": "DVA",
@@ -584615,7 +584655,7 @@ window.MARKET_SNAPSHOT = {
             "price": 203.83,
             "ma20": 195.61,
             "status": "MA20上方",
-            "weight": 0.010442091351584337
+            "weight": 0.010536378558140966
           },
           {
             "symbol": "SJM",
@@ -584624,7 +584664,7 @@ window.MARKET_SNAPSHOT = {
             "price": 116.83,
             "ma20": 104.05,
             "status": "MA20上方",
-            "weight": 0.020331372014616225
+            "weight": 0.019944038894323307
           },
           {
             "symbol": "ZBRA",
@@ -584633,7 +584673,7 @@ window.MARKET_SNAPSHOT = {
             "price": 222.44,
             "ma20": 245.01,
             "status": "MA20下方",
-            "weight": 0.01701752321433
+            "weight": 0.0171609393782027
           },
           {
             "symbol": "CPT",
@@ -584642,7 +584682,7 @@ window.MARKET_SNAPSHOT = {
             "price": 114.44,
             "ma20": 108.52,
             "status": "MA20上方",
-            "weight": 0.019208663761683342
+            "weight": 0.018735918410980233
           },
           {
             "symbol": "PSKY",
@@ -584651,7 +584691,7 @@ window.MARKET_SNAPSHOT = {
             "price": 10.49,
             "ma20": 10.38,
             "status": "MA20上方",
-            "weight": 0.0052004409137643036
+            "weight": 0.005200345574723015
           },
           {
             "symbol": "AES",
@@ -584660,7 +584700,7 @@ window.MARKET_SNAPSHOT = {
             "price": 14.67,
             "ma20": 14.65,
             "status": "MA20上方",
-            "weight": 0.01697631369027427
+            "weight": 0.016730760038043933
           },
           {
             "symbol": "RVTY",
@@ -584669,7 +584709,7 @@ window.MARKET_SNAPSHOT = {
             "price": 101.52,
             "ma20": 98.91,
             "status": "MA20上方",
-            "weight": 0.018381457949540315
+            "weight": 0.018105725779485965
           },
           {
             "symbol": "MGM",
@@ -584678,7 +584718,7 @@ window.MARKET_SNAPSHOT = {
             "price": 47.22,
             "ma20": 42.89,
             "status": "MA20上方",
-            "weight": 0.014287643523223731
+            "weight": 0.01413561271026372
           },
           {
             "symbol": "NWSA",
@@ -584687,7 +584727,7 @@ window.MARKET_SNAPSHOT = {
             "price": 26.3,
             "ma20": 26.45,
             "status": "MA20下方",
-            "weight": 0.016308920422640046
+            "weight": 0.015628174205908035
           },
           {
             "symbol": "BLDR",
@@ -584696,7 +584736,7 @@ window.MARKET_SNAPSHOT = {
             "price": 78.57,
             "ma20": 74.12,
             "status": "MA20上方",
-            "weight": 0.013445361055938363
+            "weight": 0.013913487396770525
           },
           {
             "symbol": "FRT",
@@ -584705,7 +584745,7 @@ window.MARKET_SNAPSHOT = {
             "price": 124.72,
             "ma20": 119.44,
             "status": "MA20上方",
-            "weight": 0.015658614030833802
+            "weight": 0.015526659922365894
           },
           {
             "symbol": "AOS",
@@ -584714,7 +584754,7 @@ window.MARKET_SNAPSHOT = {
             "price": 58.66,
             "ma20": 57.22,
             "status": "MA20上方",
-            "weight": 0.010401886937871432
+            "weight": 0.010481098502746734
           },
           {
             "symbol": "BAX",
@@ -584723,7 +584763,7 @@ window.MARKET_SNAPSHOT = {
             "price": 20.49,
             "ma20": 18.97,
             "status": "MA20上方",
-            "weight": 0.01692203773176185
+            "weight": 0.016777999358108097
           },
           {
             "symbol": "NCLH",
@@ -584732,7 +584772,7 @@ window.MARKET_SNAPSHOT = {
             "price": 19.06,
             "ma20": 17.45,
             "status": "MA20上方",
-            "weight": 0.013300625166571906
+            "weight": 0.013903436477607936
           },
           {
             "symbol": "CRL",
@@ -584741,7 +584781,7 @@ window.MARKET_SNAPSHOT = {
             "price": 188.06,
             "ma20": 171.26,
             "status": "MA20上方",
-            "weight": 0.0149258885909161
+            "weight": 0.014809024294157112
           },
           {
             "symbol": "HSIC",
@@ -584750,7 +584790,7 @@ window.MARKET_SNAPSHOT = {
             "price": 80.22,
             "ma20": 75.67,
             "status": "MA20上方",
-            "weight": 0.012750829809047924
+            "weight": 0.012749590957742838
           },
           {
             "symbol": "BXP",
@@ -584759,7 +584799,7 @@ window.MARKET_SNAPSHOT = {
             "price": 66.23,
             "ma20": 61.34,
             "status": "MA20上方",
-            "weight": 0.015540011010380732
+            "weight": 0.015448262752897709
           },
           {
             "symbol": "TECH",
@@ -584768,7 +584808,7 @@ window.MARKET_SNAPSHOT = {
             "price": 54.02,
             "ma20": 49.45,
             "status": "MA20上方",
-            "weight": 0.013222226559831738
+            "weight": 0.013370737761990775
           },
           {
             "symbol": "TAP",
@@ -584777,7 +584817,7 @@ window.MARKET_SNAPSHOT = {
             "price": 40.93,
             "ma20": 40.62,
             "status": "MA20上方",
-            "weight": 0.011025055350421463
+            "weight": 0.010842931592599902
           },
           {
             "symbol": "FDS",
@@ -584786,7 +584826,7 @@ window.MARKET_SNAPSHOT = {
             "price": 236.64,
             "ma20": 237.97,
             "status": "MA20下方",
-            "weight": 0.015082685804396433
+            "weight": 0.014082342838702001
           },
           {
             "symbol": "SWKS",
@@ -584795,7 +584835,7 @@ window.MARKET_SNAPSHOT = {
             "price": 72.73,
             "ma20": 75.43,
             "status": "MA20下方",
-            "weight": 0.017246688372493563
+            "weight": 0.017538853938716004
           },
           {
             "symbol": "ARE",
@@ -584804,7 +584844,7 @@ window.MARKET_SNAPSHOT = {
             "price": 52.77,
             "ma20": 49.56,
             "status": "MA20上方",
-            "weight": 0.013126741077263589
+            "weight": 0.013013930131718901
           },
           {
             "symbol": "MOS",
@@ -584813,7 +584853,7 @@ window.MARKET_SNAPSHOT = {
             "price": 21.09,
             "ma20": 22.32,
             "status": "MA20下方",
-            "weight": 0.010189808655535855
+            "weight": 0.010655984496175764
           },
           {
             "symbol": "POOL",
@@ -584822,7 +584862,7 @@ window.MARKET_SNAPSHOT = {
             "price": 192.34,
             "ma20": 182.91,
             "status": "MA20上方",
-            "weight": 0.010034016552398347
+            "weight": 0.009988603463779925
           },
           {
             "symbol": "CAG",
@@ -584831,7 +584871,7 @@ window.MARKET_SNAPSHOT = {
             "price": 13.45,
             "ma20": 13.3,
             "status": "MA20上方",
-            "weight": 0.010368718296558284
+            "weight": 0.010274049567997422
           },
           {
             "symbol": "EPAM",
@@ -584849,7 +584889,7 @@ window.MARKET_SNAPSHOT = {
             "price": 22.73,
             "ma20": 20.97,
             "status": "MA20上方",
-            "weight": 0.007317203295748769
+            "weight": 0.007144193340767529
           },
           {
             "symbol": "NWS",
@@ -584858,7 +584898,7 @@ window.MARKET_SNAPSHOT = {
             "price": 30.13,
             "ma20": 30.3,
             "status": "MA20下方",
-            "weight": 0.006054784705163542
+            "weight": 0.005802395632562035
           }
         ],
         "missingSamples": [
@@ -584876,7 +584916,7 @@ window.MARKET_SNAPSHOT = {
         "sourceUrl": "https://yfiua.github.io/index-constituents/constituents-csi300.csv",
         "weightSourceUrl": "https://stock.finance.sina.com.cn/fundInfo/view/FundInfo_CGMX.php?symbol=510300",
         "benchmarkCode": "CSI300",
-        "generatedAt": "2026-06-12T04:27:09.633Z",
+        "generatedAt": "2026-06-12T11:47:54.829Z",
         "coverage": {
           "total": 300,
           "effective": 300,
@@ -584885,7 +584925,7 @@ window.MARKET_SNAPSHOT = {
           "weightCovered": 300,
           "weightMissing": 0,
           "effectiveWeight": 100,
-          "aboveWeight": 39.9757
+          "aboveWeight": 45.6619
         },
         "series": [
           {
@@ -585079,8 +585119,8 @@ window.MARKET_SNAPSHOT = {
             "effectiveWeight": 99.8378
           },
           {
-            "value": 58.6,
-            "aboveWeight": 58.504,
+            "value": 57.7,
+            "aboveWeight": 57.5816,
             "effectiveWeight": 99.8378
           },
           {
@@ -585104,8 +585144,8 @@ window.MARKET_SNAPSHOT = {
             "effectiveWeight": 99.8378
           },
           {
-            "value": 63.5,
-            "aboveWeight": 63.4097,
+            "value": 64.4,
+            "aboveWeight": 64.332,
             "effectiveWeight": 99.8378
           },
           {
@@ -585164,8 +585204,8 @@ window.MARKET_SNAPSHOT = {
             "effectiveWeight": 99.9088
           },
           {
-            "value": 67.8,
-            "aboveWeight": 67.6971,
+            "value": 66.8,
+            "aboveWeight": 66.7748,
             "effectiveWeight": 99.9088
           },
           {
@@ -585289,8 +585329,8 @@ window.MARKET_SNAPSHOT = {
             "effectiveWeight": 99.9088
           },
           {
-            "value": 52.6,
-            "aboveWeight": 52.5948,
+            "value": 53.6,
+            "aboveWeight": 53.5171,
             "effectiveWeight": 99.9088
           },
           {
@@ -585299,8 +585339,8 @@ window.MARKET_SNAPSHOT = {
             "effectiveWeight": 99.9088
           },
           {
-            "value": 45.7,
-            "aboveWeight": 45.6213,
+            "value": 44.7,
+            "aboveWeight": 44.699,
             "effectiveWeight": 99.9088
           },
           {
@@ -585324,8 +585364,8 @@ window.MARKET_SNAPSHOT = {
             "effectiveWeight": 99.9088
           },
           {
-            "value": 68.2,
-            "aboveWeight": 68.133,
+            "value": 69.1,
+            "aboveWeight": 69.0553,
             "effectiveWeight": 99.9088
           },
           {
@@ -585404,13 +585444,13 @@ window.MARKET_SNAPSHOT = {
             "effectiveWeight": 100
           },
           {
-            "value": 36.1,
-            "aboveWeight": 36.1443,
+            "value": 35.2,
+            "aboveWeight": 35.222,
             "effectiveWeight": 100
           },
           {
-            "value": 40.3,
-            "aboveWeight": 40.3102,
+            "value": 41.2,
+            "aboveWeight": 41.2325,
             "effectiveWeight": 100
           },
           {
@@ -585424,8 +585464,8 @@ window.MARKET_SNAPSHOT = {
             "effectiveWeight": 100
           },
           {
-            "value": 20,
-            "aboveWeight": 20.0081,
+            "value": 19.1,
+            "aboveWeight": 19.0857,
             "effectiveWeight": 100
           },
           {
@@ -585454,8 +585494,8 @@ window.MARKET_SNAPSHOT = {
             "effectiveWeight": 100
           },
           {
-            "value": 35.2,
-            "aboveWeight": 35.1814,
+            "value": 36.1,
+            "aboveWeight": 36.1038,
             "effectiveWeight": 100
           },
           {
@@ -585464,8 +585504,8 @@ window.MARKET_SNAPSHOT = {
             "effectiveWeight": 100
           },
           {
-            "value": 35.4,
-            "aboveWeight": 35.445,
+            "value": 34.5,
+            "aboveWeight": 34.5226,
             "effectiveWeight": 100
           },
           {
@@ -585474,8 +585514,8 @@ window.MARKET_SNAPSHOT = {
             "effectiveWeight": 100
           },
           {
-            "value": 55.1,
-            "aboveWeight": 55.0679,
+            "value": 56,
+            "aboveWeight": 55.9903,
             "effectiveWeight": 100
           },
           {
@@ -585604,8 +585644,8 @@ window.MARKET_SNAPSHOT = {
             "effectiveWeight": 100
           },
           {
-            "value": 51.3,
-            "aboveWeight": 51.3278,
+            "value": 50.4,
+            "aboveWeight": 50.4054,
             "effectiveWeight": 100
           },
           {
@@ -585684,18 +585724,18 @@ window.MARKET_SNAPSHOT = {
             "effectiveWeight": 100
           },
           {
-            "value": 38.7,
-            "aboveWeight": 38.6884,
+            "value": 39.6,
+            "aboveWeight": 39.6108,
             "effectiveWeight": 100
           },
           {
-            "value": 44.4,
-            "aboveWeight": 44.4253,
+            "value": 43.5,
+            "aboveWeight": 43.5029,
             "effectiveWeight": 100
           },
           {
-            "value": 48.7,
-            "aboveWeight": 48.7432,
+            "value": 49.7,
+            "aboveWeight": 49.6655,
             "effectiveWeight": 100
           },
           {
@@ -585709,8 +585749,8 @@ window.MARKET_SNAPSHOT = {
             "effectiveWeight": 100
           },
           {
-            "value": 35.6,
-            "aboveWeight": 35.6071,
+            "value": 34.7,
+            "aboveWeight": 34.6848,
             "effectiveWeight": 100
           },
           {
@@ -585879,8 +585919,8 @@ window.MARKET_SNAPSHOT = {
             "effectiveWeight": 100
           },
           {
-            "value": 48.4,
-            "aboveWeight": 48.4492,
+            "value": 49.4,
+            "aboveWeight": 49.3716,
             "effectiveWeight": 100
           },
           {
@@ -585914,8 +585954,8 @@ window.MARKET_SNAPSHOT = {
             "effectiveWeight": 100
           },
           {
-            "value": 64.9,
-            "aboveWeight": 64.8692,
+            "value": 63.9,
+            "aboveWeight": 63.9469,
             "effectiveWeight": 100
           },
           {
@@ -586039,8 +586079,8 @@ window.MARKET_SNAPSHOT = {
             "effectiveWeight": 100
           },
           {
-            "value": 31.6,
-            "aboveWeight": 31.644,
+            "value": 32.6,
+            "aboveWeight": 32.5664,
             "effectiveWeight": 100
           },
           {
@@ -586084,8 +586124,8 @@ window.MARKET_SNAPSHOT = {
             "effectiveWeight": 100
           },
           {
-            "value": 39.7,
-            "aboveWeight": 39.7324,
+            "value": 45.7,
+            "aboveWeight": 45.6619,
             "effectiveWeight": 100
           }
         ],
@@ -586329,15 +586369,15 @@ window.MARKET_SNAPSHOT = {
           83,
           78.4,
           76.1,
-          82.4
+          80.9
         ],
         "samples": [
           {
             "symbol": "000001.SZ",
             "name": "平安银行",
             "sourceSymbol": "000001.SZ",
-            "price": 11.16,
-            "ma20": 10.92,
+            "price": 11.24,
+            "ma20": 10.93,
             "status": "MA20上方",
             "weight": 0.4358402594769918
           },
@@ -586354,26 +586394,26 @@ window.MARKET_SNAPSHOT = {
             "symbol": "000063.SZ",
             "name": "中兴通讯",
             "sourceSymbol": "000063.SZ",
-            "price": 36.97,
-            "ma20": 36.92,
-            "status": "MA20上方",
+            "price": 36.35,
+            "ma20": 36.88,
+            "status": "MA20下方",
             "weight": 0.48651935941617686
           },
           {
             "symbol": "000100.SZ",
             "name": "TCL科技",
             "sourceSymbol": "000100.SZ",
-            "price": 4.53,
+            "price": 4.55,
             "ma20": 4.54,
-            "status": "MA20下方",
+            "status": "MA20上方",
             "weight": 0.3750253395499697
           },
           {
             "symbol": "000157.SZ",
             "name": "中联重科",
             "sourceSymbol": "000157.SZ",
-            "price": 7.46,
-            "ma20": 7.35,
+            "price": 7.35,
+            "ma20": 7.34,
             "status": "MA20上方",
             "weight": 0.17230893979322934
           },
@@ -586381,7 +586421,7 @@ window.MARKET_SNAPSHOT = {
             "symbol": "000166.SZ",
             "name": "申万宏源",
             "sourceSymbol": "000166.SZ",
-            "price": 4.49,
+            "price": 4.53,
             "ma20": 4.42,
             "status": "MA20上方",
             "weight": 0.19258057976890336
@@ -586390,7 +586430,7 @@ window.MARKET_SNAPSHOT = {
             "symbol": "000301.SZ",
             "name": "东方盛虹",
             "sourceSymbol": "000301.SZ",
-            "price": 12.01,
+            "price": 11.88,
             "ma20": 12.11,
             "status": "MA20下方",
             "weight": 0.1114940198662072
@@ -586399,8 +586439,8 @@ window.MARKET_SNAPSHOT = {
             "symbol": "000333.SZ",
             "name": "美的集团",
             "sourceSymbol": "000333.SZ",
-            "price": 83,
-            "ma20": 81.74,
+            "price": 83.23,
+            "ma20": 81.75,
             "status": "MA20上方",
             "weight": 1.520372998175553
           },
@@ -586408,8 +586448,8 @@ window.MARKET_SNAPSHOT = {
             "symbol": "000338.SZ",
             "name": "潍柴动力",
             "sourceSymbol": "000338.SZ",
-            "price": 28.42,
-            "ma20": 32.4,
+            "price": 28,
+            "ma20": 32.38,
             "status": "MA20下方",
             "weight": 0.36488951956213267
           },
@@ -586417,8 +586457,8 @@ window.MARKET_SNAPSHOT = {
             "symbol": "000408.SZ",
             "name": "藏格矿业",
             "sourceSymbol": "000408.SZ",
-            "price": 80.94,
-            "ma20": 78.36,
+            "price": 79.47,
+            "ma20": 78.29,
             "status": "MA20上方",
             "weight": 0.2635313196837625
           },
@@ -586426,8 +586466,8 @@ window.MARKET_SNAPSHOT = {
             "symbol": "000425.SZ",
             "name": "徐工机械",
             "sourceSymbol": "000425.SZ",
-            "price": 9.26,
-            "ma20": 9.52,
+            "price": 9.12,
+            "ma20": 9.51,
             "status": "MA20下方",
             "weight": 0.4257044394891548
           },
@@ -586444,8 +586484,8 @@ window.MARKET_SNAPSHOT = {
             "symbol": "000568.SZ",
             "name": "泸州老窖",
             "sourceSymbol": "000568.SZ",
-            "price": 85.81,
-            "ma20": 88.71,
+            "price": 85,
+            "ma20": 88.67,
             "status": "MA20下方",
             "weight": 0.3446178795864587
           },
@@ -586453,8 +586493,8 @@ window.MARKET_SNAPSHOT = {
             "symbol": "000596.SZ",
             "name": "古井贡酒",
             "sourceSymbol": "000596.SZ",
-            "price": 88.3,
-            "ma20": 91.54,
+            "price": 87.55,
+            "ma20": 91.51,
             "status": "MA20下方",
             "weight": 0.09122237989053317
           },
@@ -586462,7 +586502,7 @@ window.MARKET_SNAPSHOT = {
             "symbol": "000617.SZ",
             "name": "中油资本",
             "sourceSymbol": "000617.SZ",
-            "price": 7.3,
+            "price": 7.25,
             "ma20": 7.85,
             "status": "MA20下方",
             "weight": 0.10135819987837019
@@ -586471,7 +586511,7 @@ window.MARKET_SNAPSHOT = {
             "symbol": "000625.SZ",
             "name": "长安汽车",
             "sourceSymbol": "000625.SZ",
-            "price": 7.59,
+            "price": 7.54,
             "ma20": 8.09,
             "status": "MA20下方",
             "weight": 0.23312385972025146
@@ -586489,7 +586529,7 @@ window.MARKET_SNAPSHOT = {
             "symbol": "000651.SZ",
             "name": "格力电器",
             "sourceSymbol": "000651.SZ",
-            "price": 38.46,
+            "price": 38.53,
             "ma20": 38.81,
             "status": "MA20下方",
             "weight": 0.7095073991485913
@@ -586498,8 +586538,8 @@ window.MARKET_SNAPSHOT = {
             "symbol": "000661.SZ",
             "name": "长春高新",
             "sourceSymbol": "000661.SZ",
-            "price": 65.63,
-            "ma20": 73.3,
+            "price": 66.5,
+            "ma20": 73.34,
             "status": "MA20下方",
             "weight": 0.12162983985404421
           },
@@ -586507,7 +586547,7 @@ window.MARKET_SNAPSHOT = {
             "symbol": "000708.SZ",
             "name": "中信特钢",
             "sourceSymbol": "000708.SZ",
-            "price": 14.11,
+            "price": 14.07,
             "ma20": 14.02,
             "status": "MA20上方",
             "weight": 0.06081491992702211
@@ -586516,8 +586556,8 @@ window.MARKET_SNAPSHOT = {
             "symbol": "000725.SZ",
             "name": "京东方A",
             "sourceSymbol": "000725.SZ",
-            "price": 5.76,
-            "ma20": 5.48,
+            "price": 5.57,
+            "ma20": 5.47,
             "status": "MA20上方",
             "weight": 0.6081491992702212
           },
@@ -586534,8 +586574,8 @@ window.MARKET_SNAPSHOT = {
             "symbol": "000776.SZ",
             "name": "广发证券",
             "sourceSymbol": "000776.SZ",
-            "price": 20.15,
-            "ma20": 19.12,
+            "price": 20.08,
+            "ma20": 19.11,
             "status": "MA20上方",
             "weight": 0.2533954996959255
           },
@@ -586543,8 +586583,8 @@ window.MARKET_SNAPSHOT = {
             "symbol": "000786.SZ",
             "name": "北新建材",
             "sourceSymbol": "000786.SZ",
-            "price": 20.6,
-            "ma20": 22.75,
+            "price": 21.09,
+            "ma20": 22.77,
             "status": "MA20下方",
             "weight": 0.10135819987837019
           },
@@ -586552,8 +586592,8 @@ window.MARKET_SNAPSHOT = {
             "symbol": "000792.SZ",
             "name": "盐湖股份",
             "sourceSymbol": "000792.SZ",
-            "price": 32.04,
-            "ma20": 31.02,
+            "price": 31.7,
+            "ma20": 31.01,
             "status": "MA20上方",
             "weight": 0.35475369957429564
           },
@@ -586561,8 +586601,8 @@ window.MARKET_SNAPSHOT = {
             "symbol": "000807.SZ",
             "name": "云铝股份",
             "sourceSymbol": "000807.SZ",
-            "price": 28.67,
-            "ma20": 29.02,
+            "price": 28.1,
+            "ma20": 29,
             "status": "MA20下方",
             "weight": 0.27366713967159956
           },
@@ -586570,8 +586610,8 @@ window.MARKET_SNAPSHOT = {
             "symbol": "000858.SZ",
             "name": "五 粮 液",
             "sourceSymbol": "000858.SZ",
-            "price": 80.33,
-            "ma20": 82.65,
+            "price": 79.92,
+            "ma20": 82.63,
             "status": "MA20下方",
             "weight": 0.8108655990269615
           },
@@ -586579,7 +586619,7 @@ window.MARKET_SNAPSHOT = {
             "symbol": "000876.SZ",
             "name": "新 希 望",
             "sourceSymbol": "000876.SZ",
-            "price": 6.59,
+            "price": 6.54,
             "ma20": 7.64,
             "status": "MA20下方",
             "weight": 0.08108655990269616
@@ -586588,7 +586628,7 @@ window.MARKET_SNAPSHOT = {
             "symbol": "000895.SZ",
             "name": "双汇发展",
             "sourceSymbol": "000895.SZ",
-            "price": 24.24,
+            "price": 24.17,
             "ma20": 24.99,
             "status": "MA20下方",
             "weight": 0.1114940198662072
@@ -586597,8 +586637,8 @@ window.MARKET_SNAPSHOT = {
             "symbol": "000938.SZ",
             "name": "紫光股份",
             "sourceSymbol": "000938.SZ",
-            "price": 25.58,
-            "ma20": 28.51,
+            "price": 25.15,
+            "ma20": 28.49,
             "status": "MA20下方",
             "weight": 0.19258057976890336
           },
@@ -586606,8 +586646,8 @@ window.MARKET_SNAPSHOT = {
             "symbol": "000963.SZ",
             "name": "华东医药",
             "sourceSymbol": "000963.SZ",
-            "price": 29.39,
-            "ma20": 28.98,
+            "price": 29.11,
+            "ma20": 28.96,
             "status": "MA20上方",
             "weight": 0.1419014798297183
           },
@@ -586615,8 +586655,8 @@ window.MARKET_SNAPSHOT = {
             "symbol": "000975.SZ",
             "name": "山金国际",
             "sourceSymbol": "000975.SZ",
-            "price": 21.73,
-            "ma20": 22.72,
+            "price": 21.11,
+            "ma20": 22.69,
             "status": "MA20下方",
             "weight": 0.1621731198053923
           },
@@ -586624,8 +586664,8 @@ window.MARKET_SNAPSHOT = {
             "symbol": "000977.SZ",
             "name": "浪潮信息",
             "sourceSymbol": "000977.SZ",
-            "price": 58.66,
-            "ma20": 64.64,
+            "price": 57.86,
+            "ma20": 64.6,
             "status": "MA20下方",
             "weight": 0.27366713967159956
           },
@@ -586633,7 +586673,7 @@ window.MARKET_SNAPSHOT = {
             "symbol": "000983.SZ",
             "name": "山西焦煤",
             "sourceSymbol": "000983.SZ",
-            "price": 7.45,
+            "price": 7.46,
             "ma20": 7.03,
             "status": "MA20上方",
             "weight": 0.07095073991485915
@@ -586642,8 +586682,8 @@ window.MARKET_SNAPSHOT = {
             "symbol": "000999.SZ",
             "name": "华润三九",
             "sourceSymbol": "000999.SZ",
-            "price": 24.77,
-            "ma20": 24.44,
+            "price": 24.85,
+            "ma20": 24.45,
             "status": "MA20上方",
             "weight": 0.07095073991485915
           },
@@ -586660,7 +586700,7 @@ window.MARKET_SNAPSHOT = {
             "symbol": "001965.SZ",
             "name": "招商公路",
             "sourceSymbol": "001965.SZ",
-            "price": 9.7,
+            "price": 9.74,
             "ma20": 9.87,
             "status": "MA20下方",
             "weight": 0.08108655990269616
@@ -586669,7 +586709,7 @@ window.MARKET_SNAPSHOT = {
             "symbol": "001979.SZ",
             "name": "招商蛇口",
             "sourceSymbol": "001979.SZ",
-            "price": 8.19,
+            "price": 8.16,
             "ma20": 8.58,
             "status": "MA20下方",
             "weight": 0.12162983985404421
@@ -586678,8 +586718,8 @@ window.MARKET_SNAPSHOT = {
             "symbol": "002001.SZ",
             "name": "新和成",
             "sourceSymbol": "002001.SZ",
-            "price": 30.65,
-            "ma20": 30.68,
+            "price": 30.09,
+            "ma20": 30.65,
             "status": "MA20下方",
             "weight": 0.1520372998175553
           },
@@ -586687,7 +586727,7 @@ window.MARKET_SNAPSHOT = {
             "symbol": "002027.SZ",
             "name": "分众传媒",
             "sourceSymbol": "002027.SZ",
-            "price": 5.43,
+            "price": 5.45,
             "ma20": 5.51,
             "status": "MA20下方",
             "weight": 0.29393877964727355
@@ -586696,8 +586736,8 @@ window.MARKET_SNAPSHOT = {
             "symbol": "002028.SZ",
             "name": "思源电气",
             "sourceSymbol": "002028.SZ",
-            "price": 175.26,
-            "ma20": 193.05,
+            "price": 173.3,
+            "ma20": 192.95,
             "status": "MA20下方",
             "weight": 0.3851611595378067
           },
@@ -586705,8 +586745,8 @@ window.MARKET_SNAPSHOT = {
             "symbol": "002049.SZ",
             "name": "紫光国微",
             "sourceSymbol": "002049.SZ",
-            "price": 72.46,
-            "ma20": 77.98,
+            "price": 71.51,
+            "ma20": 77.93,
             "status": "MA20下方",
             "weight": 0.2128522197445774
           },
@@ -586714,8 +586754,8 @@ window.MARKET_SNAPSHOT = {
             "symbol": "002050.SZ",
             "name": "三花智控",
             "sourceSymbol": "002050.SZ",
-            "price": 46.3,
-            "ma20": 48.93,
+            "price": 44.81,
+            "ma20": 48.85,
             "status": "MA20下方",
             "weight": 0.48651935941617686
           },
@@ -586723,8 +586763,8 @@ window.MARKET_SNAPSHOT = {
             "symbol": "002074.SZ",
             "name": "国轩高科",
             "sourceSymbol": "002074.SZ",
-            "price": 29.38,
-            "ma20": 32.53,
+            "price": 29.04,
+            "ma20": 32.52,
             "status": "MA20下方",
             "weight": 0.17230893979322934
           },
@@ -586732,8 +586772,8 @@ window.MARKET_SNAPSHOT = {
             "symbol": "002142.SZ",
             "name": "宁波银行",
             "sourceSymbol": "002142.SZ",
-            "price": 32.47,
-            "ma20": 31.36,
+            "price": 32.7,
+            "ma20": 31.37,
             "status": "MA20上方",
             "weight": 0.36488951956213267
           },
@@ -586741,8 +586781,8 @@ window.MARKET_SNAPSHOT = {
             "symbol": "002179.SZ",
             "name": "中航光电",
             "sourceSymbol": "002179.SZ",
-            "price": 36.73,
-            "ma20": 38.28,
+            "price": 36.01,
+            "ma20": 38.24,
             "status": "MA20下方",
             "weight": 0.18244475978106633
           },
@@ -586750,8 +586790,8 @@ window.MARKET_SNAPSHOT = {
             "symbol": "002230.SZ",
             "name": "科大讯飞",
             "sourceSymbol": "002230.SZ",
-            "price": 40.98,
-            "ma20": 46.75,
+            "price": 40.39,
+            "ma20": 46.72,
             "status": "MA20下方",
             "weight": 0.45611189945266584
           },
@@ -586759,8 +586799,8 @@ window.MARKET_SNAPSHOT = {
             "symbol": "002236.SZ",
             "name": "大华股份",
             "sourceSymbol": "002236.SZ",
-            "price": 16.04,
-            "ma20": 17.13,
+            "price": 15.95,
+            "ma20": 17.12,
             "status": "MA20下方",
             "weight": 0.1520372998175553
           },
@@ -586768,8 +586808,8 @@ window.MARKET_SNAPSHOT = {
             "symbol": "002241.SZ",
             "name": "歌尔股份",
             "sourceSymbol": "002241.SZ",
-            "price": 23.55,
-            "ma20": 25.46,
+            "price": 23.01,
+            "ma20": 25.43,
             "status": "MA20下方",
             "weight": 0.2838029596594366
           },
@@ -586777,7 +586817,7 @@ window.MARKET_SNAPSHOT = {
             "symbol": "002252.SZ",
             "name": "上海莱士",
             "sourceSymbol": "002252.SZ",
-            "price": 4.85,
+            "price": 5.01,
             "ma20": 5.2,
             "status": "MA20下方",
             "weight": 0.13176565984188124
@@ -586786,8 +586826,8 @@ window.MARKET_SNAPSHOT = {
             "symbol": "002304.SZ",
             "name": "洋河股份",
             "sourceSymbol": "002304.SZ",
-            "price": 43.89,
-            "ma20": 44.09,
+            "price": 43,
+            "ma20": 44.04,
             "status": "MA20下方",
             "weight": 0.1419014798297183
           },
@@ -586795,17 +586835,17 @@ window.MARKET_SNAPSHOT = {
             "symbol": "002311.SZ",
             "name": "海大集团",
             "sourceSymbol": "002311.SZ",
-            "price": 46.03,
-            "ma20": 45.68,
-            "status": "MA20上方",
+            "price": 45.65,
+            "ma20": 45.66,
+            "status": "MA20下方",
             "weight": 0.18244475978106633
           },
           {
             "symbol": "002352.SZ",
             "name": "顺丰控股",
             "sourceSymbol": "002352.SZ",
-            "price": 34.46,
-            "ma20": 35.04,
+            "price": 34.36,
+            "ma20": 35.03,
             "status": "MA20下方",
             "weight": 0.36488951956213267
           },
@@ -586813,8 +586853,8 @@ window.MARKET_SNAPSHOT = {
             "symbol": "002371.SZ",
             "name": "北方华创",
             "sourceSymbol": "002371.SZ",
-            "price": 656.16,
-            "ma20": 633.57,
+            "price": 667.19,
+            "ma20": 634.12,
             "status": "MA20上方",
             "weight": 0.7804581390634505
           },
@@ -586822,8 +586862,8 @@ window.MARKET_SNAPSHOT = {
             "symbol": "002384.SZ",
             "name": "东山精密",
             "sourceSymbol": "002384.SZ",
-            "price": 218.69,
-            "ma20": 217.6,
+            "price": 217.55,
+            "ma20": 217.54,
             "status": "MA20上方",
             "weight": 0.4155686195013178
           },
@@ -586831,8 +586871,8 @@ window.MARKET_SNAPSHOT = {
             "symbol": "002415.SZ",
             "name": "海康威视",
             "sourceSymbol": "002415.SZ",
-            "price": 30.64,
-            "ma20": 31.25,
+            "price": 30.24,
+            "ma20": 31.23,
             "status": "MA20下方",
             "weight": 0.4358402594769918
           },
@@ -586840,8 +586880,8 @@ window.MARKET_SNAPSHOT = {
             "symbol": "002422.SZ",
             "name": "科伦药业",
             "sourceSymbol": "002422.SZ",
-            "price": 37.53,
-            "ma20": 34.69,
+            "price": 37.31,
+            "ma20": 34.68,
             "status": "MA20上方",
             "weight": 0.13176565984188124
           },
@@ -586849,8 +586889,8 @@ window.MARKET_SNAPSHOT = {
             "symbol": "002459.SZ",
             "name": "晶澳科技",
             "sourceSymbol": "002459.SZ",
-            "price": 9.04,
-            "ma20": 9.2,
+            "price": 8.85,
+            "ma20": 9.19,
             "status": "MA20下方",
             "weight": 0.09122237989053317
           },
@@ -586858,17 +586898,17 @@ window.MARKET_SNAPSHOT = {
             "symbol": "002460.SZ",
             "name": "赣锋锂业",
             "sourceSymbol": "002460.SZ",
-            "price": 72.02,
-            "ma20": 71.59,
-            "status": "MA20上方",
+            "price": 71.16,
+            "ma20": 71.55,
+            "status": "MA20下方",
             "weight": 0.2838029596594366
           },
           {
             "symbol": "002463.SZ",
             "name": "沪电股份",
             "sourceSymbol": "002463.SZ",
-            "price": 127.25,
-            "ma20": 124.88,
+            "price": 125.2,
+            "ma20": 124.78,
             "status": "MA20上方",
             "weight": 0.3851611595378067
           },
@@ -586876,8 +586916,8 @@ window.MARKET_SNAPSHOT = {
             "symbol": "002466.SZ",
             "name": "天齐锂业",
             "sourceSymbol": "002466.SZ",
-            "price": 63.16,
-            "ma20": 63.2,
+            "price": 62.5,
+            "ma20": 63.17,
             "status": "MA20下方",
             "weight": 0.2229880397324144
           },
@@ -586885,8 +586925,8 @@ window.MARKET_SNAPSHOT = {
             "symbol": "002475.SZ",
             "name": "立讯精密",
             "sourceSymbol": "002475.SZ",
-            "price": 65.18,
-            "ma20": 70.7,
+            "price": 63.76,
+            "ma20": 70.63,
             "status": "MA20下方",
             "weight": 1.145347658625583
           },
@@ -586894,7 +586934,7 @@ window.MARKET_SNAPSHOT = {
             "symbol": "002493.SZ",
             "name": "荣盛石化",
             "sourceSymbol": "002493.SZ",
-            "price": 11.38,
+            "price": 11.34,
             "ma20": 11.47,
             "status": "MA20下方",
             "weight": 0.1419014798297183
@@ -586903,8 +586943,8 @@ window.MARKET_SNAPSHOT = {
             "symbol": "002594.SZ",
             "name": "比亚迪",
             "sourceSymbol": "002594.SZ",
-            "price": 90.88,
-            "ma20": 93.83,
+            "price": 91.6,
+            "ma20": 93.87,
             "status": "MA20下方",
             "weight": 1.05412527873505
           },
@@ -586912,8 +586952,8 @@ window.MARKET_SNAPSHOT = {
             "symbol": "002600.SZ",
             "name": "领益智造",
             "sourceSymbol": "002600.SZ",
-            "price": 14.29,
-            "ma20": 15.28,
+            "price": 14.01,
+            "ma20": 15.26,
             "status": "MA20下方",
             "weight": 0.2229880397324144
           },
@@ -586921,17 +586961,17 @@ window.MARKET_SNAPSHOT = {
             "symbol": "002601.SZ",
             "name": "龙佰集团",
             "sourceSymbol": "002601.SZ",
-            "price": 14.95,
-            "ma20": 15.05,
-            "status": "MA20下方",
+            "price": 15.34,
+            "ma20": 15.07,
+            "status": "MA20上方",
             "weight": 0.13176565984188124
           },
           {
             "symbol": "002625.SZ",
             "name": "光启技术",
             "sourceSymbol": "002625.SZ",
-            "price": 38.92,
-            "ma20": 38.68,
+            "price": 38.69,
+            "ma20": 38.66,
             "status": "MA20上方",
             "weight": 0.27366713967159956
           },
@@ -586939,8 +586979,8 @@ window.MARKET_SNAPSHOT = {
             "symbol": "002648.SZ",
             "name": "卫星化学",
             "sourceSymbol": "002648.SZ",
-            "price": 24.35,
-            "ma20": 24.36,
+            "price": 24.16,
+            "ma20": 24.35,
             "status": "MA20下方",
             "weight": 0.12162983985404421
           },
@@ -586948,8 +586988,8 @@ window.MARKET_SNAPSHOT = {
             "symbol": "002709.SZ",
             "name": "天赐材料",
             "sourceSymbol": "002709.SZ",
-            "price": 50.18,
-            "ma20": 52.01,
+            "price": 49.64,
+            "ma20": 51.98,
             "status": "MA20下方",
             "weight": 0.2635313196837625
           },
@@ -586957,8 +586997,8 @@ window.MARKET_SNAPSHOT = {
             "symbol": "002714.SZ",
             "name": "牧原股份",
             "sourceSymbol": "002714.SZ",
-            "price": 35.01,
-            "ma20": 37.08,
+            "price": 34.86,
+            "ma20": 37.07,
             "status": "MA20下方",
             "weight": 0.5473342793431991
           },
@@ -586966,7 +587006,7 @@ window.MARKET_SNAPSHOT = {
             "symbol": "002736.SZ",
             "name": "国信证券",
             "sourceSymbol": "002736.SZ",
-            "price": 10.25,
+            "price": 10.27,
             "ma20": 10.11,
             "status": "MA20上方",
             "weight": 0.1621731198053923
@@ -586975,8 +587015,8 @@ window.MARKET_SNAPSHOT = {
             "symbol": "002916.SZ",
             "name": "深南电路",
             "sourceSymbol": "002916.SZ",
-            "price": 383.9,
-            "ma20": 379.27,
+            "price": 379.5,
+            "ma20": 379.05,
             "status": "MA20上方",
             "weight": 0.24325967970808843
           },
@@ -586984,8 +587024,8 @@ window.MARKET_SNAPSHOT = {
             "symbol": "002920.SZ",
             "name": "德赛西威",
             "sourceSymbol": "002920.SZ",
-            "price": 87.19,
-            "ma20": 100.1,
+            "price": 86.95,
+            "ma20": 100.09,
             "status": "MA20下方",
             "weight": 0.1419014798297183
           },
@@ -586993,8 +587033,8 @@ window.MARKET_SNAPSHOT = {
             "symbol": "002938.SZ",
             "name": "鹏鼎控股",
             "sourceSymbol": "002938.SZ",
-            "price": 103.87,
-            "ma20": 105.45,
+            "price": 101.52,
+            "ma20": 105.33,
             "status": "MA20下方",
             "weight": 0.1419014798297183
           },
@@ -587002,7 +587042,7 @@ window.MARKET_SNAPSHOT = {
             "symbol": "003816.SZ",
             "name": "中国广核",
             "sourceSymbol": "003816.SZ",
-            "price": 4.4,
+            "price": 4.37,
             "ma20": 4.53,
             "status": "MA20下方",
             "weight": 0.12162983985404421
@@ -587011,8 +587051,8 @@ window.MARKET_SNAPSHOT = {
             "symbol": "300014.SZ",
             "name": "亿纬锂能",
             "sourceSymbol": "300014.SZ",
-            "price": 58.1,
-            "ma20": 61.87,
+            "price": 57.67,
+            "ma20": 61.85,
             "status": "MA20下方",
             "weight": 0.3243462396107846
           },
@@ -587020,8 +587060,8 @@ window.MARKET_SNAPSHOT = {
             "symbol": "300015.SZ",
             "name": "爱尔眼科",
             "sourceSymbol": "300015.SZ",
-            "price": 8.54,
-            "ma20": 9,
+            "price": 8.46,
+            "ma20": 8.99,
             "status": "MA20下方",
             "weight": 0.20271639975674038
           },
@@ -587029,8 +587069,8 @@ window.MARKET_SNAPSHOT = {
             "symbol": "300033.SZ",
             "name": "同花顺",
             "sourceSymbol": "300033.SZ",
-            "price": 207.8,
-            "ma20": 222.5,
+            "price": 207.46,
+            "ma20": 222.49,
             "status": "MA20下方",
             "weight": 0.27366713967159956
           },
@@ -587038,8 +587078,8 @@ window.MARKET_SNAPSHOT = {
             "symbol": "300059.SZ",
             "name": "东方财富",
             "sourceSymbol": "300059.SZ",
-            "price": 18.11,
-            "ma20": 18.98,
+            "price": 18,
+            "ma20": 18.97,
             "status": "MA20下方",
             "weight": 1.15548347861342
           },
@@ -587047,7 +587087,7 @@ window.MARKET_SNAPSHOT = {
             "symbol": "300122.SZ",
             "name": "智飞生物",
             "sourceSymbol": "300122.SZ",
-            "price": 12.45,
+            "price": 12.36,
             "ma20": 13.37,
             "status": "MA20下方",
             "weight": 0.09122237989053317
@@ -587056,8 +587096,8 @@ window.MARKET_SNAPSHOT = {
             "symbol": "300124.SZ",
             "name": "汇川技术",
             "sourceSymbol": "300124.SZ",
-            "price": 68.69,
-            "ma20": 75.53,
+            "price": 67.16,
+            "ma20": 75.45,
             "status": "MA20下方",
             "weight": 0.5676059193188732
           },
@@ -587065,7 +587105,7 @@ window.MARKET_SNAPSHOT = {
             "symbol": "300251.SZ",
             "name": "光线传媒",
             "sourceSymbol": "300251.SZ",
-            "price": 11.39,
+            "price": 11.31,
             "ma20": 12.54,
             "status": "MA20下方",
             "weight": 0.09122237989053317
@@ -587074,8 +587114,8 @@ window.MARKET_SNAPSHOT = {
             "symbol": "300274.SZ",
             "name": "阳光电源",
             "sourceSymbol": "300274.SZ",
-            "price": 153.95,
-            "ma20": 164.21,
+            "price": 148.76,
+            "ma20": 163.95,
             "status": "MA20下方",
             "weight": 0.9831745388201909
           },
@@ -587083,17 +587123,17 @@ window.MARKET_SNAPSHOT = {
             "symbol": "300308.SZ",
             "name": "中际旭创",
             "sourceSymbol": "300308.SZ",
-            "price": 1129,
-            "ma20": 1130.08,
-            "status": "MA20下方",
+            "price": 1149,
+            "ma20": 1131.08,
+            "status": "MA20上方",
             "weight": 2.645449016825462
           },
           {
             "symbol": "300316.SZ",
             "name": "晶盛机电",
             "sourceSymbol": "300316.SZ",
-            "price": 48.03,
-            "ma20": 51.15,
+            "price": 47.08,
+            "ma20": 51.1,
             "status": "MA20下方",
             "weight": 0.09122237989053317
           },
@@ -587101,8 +587141,8 @@ window.MARKET_SNAPSHOT = {
             "symbol": "300347.SZ",
             "name": "泰格医药",
             "sourceSymbol": "300347.SZ",
-            "price": 40.1,
-            "ma20": 40.71,
+            "price": 39.82,
+            "ma20": 40.7,
             "status": "MA20下方",
             "weight": 0.1114940198662072
           },
@@ -587110,8 +587150,8 @@ window.MARKET_SNAPSHOT = {
             "symbol": "300394.SZ",
             "name": "天孚通信",
             "sourceSymbol": "300394.SZ",
-            "price": 290.01,
-            "ma20": 298.95,
+            "price": 280.95,
+            "ma20": 298.5,
             "status": "MA20下方",
             "weight": 0.3750253395499697
           },
@@ -587119,8 +587159,8 @@ window.MARKET_SNAPSHOT = {
             "symbol": "300408.SZ",
             "name": "三环集团",
             "sourceSymbol": "300408.SZ",
-            "price": 127.36,
-            "ma20": 121.69,
+            "price": 126.5,
+            "ma20": 121.65,
             "status": "MA20上方",
             "weight": 0.24325967970808843
           },
@@ -587128,7 +587168,7 @@ window.MARKET_SNAPSHOT = {
             "symbol": "300413.SZ",
             "name": "芒果超媒",
             "sourceSymbol": "300413.SZ",
-            "price": 15.94,
+            "price": 15.95,
             "ma20": 17.38,
             "status": "MA20下方",
             "weight": 0.07095073991485915
@@ -587137,8 +587177,8 @@ window.MARKET_SNAPSHOT = {
             "symbol": "300418.SZ",
             "name": "昆仑万维",
             "sourceSymbol": "300418.SZ",
-            "price": 37.98,
-            "ma20": 43.46,
+            "price": 37.22,
+            "ma20": 43.42,
             "status": "MA20下方",
             "weight": 0.1419014798297183
           },
@@ -587146,8 +587186,8 @@ window.MARKET_SNAPSHOT = {
             "symbol": "300433.SZ",
             "name": "蓝思科技",
             "sourceSymbol": "300433.SZ",
-            "price": 44.01,
-            "ma20": 40.99,
+            "price": 41.14,
+            "ma20": 40.85,
             "status": "MA20上方",
             "weight": 0.24325967970808843
           },
@@ -587155,8 +587195,8 @@ window.MARKET_SNAPSHOT = {
             "symbol": "300442.SZ",
             "name": "润泽科技",
             "sourceSymbol": "300442.SZ",
-            "price": 75.32,
-            "ma20": 84.85,
+            "price": 73.53,
+            "ma20": 84.76,
             "status": "MA20下方",
             "weight": 0.17230893979322934
           },
@@ -587164,8 +587204,8 @@ window.MARKET_SNAPSHOT = {
             "symbol": "300476.SZ",
             "name": "胜宏科技",
             "sourceSymbol": "300476.SZ",
-            "price": 333.66,
-            "ma20": 351.05,
+            "price": 327.21,
+            "ma20": 350.73,
             "status": "MA20下方",
             "weight": 0.6689641191972433
           },
@@ -587173,8 +587213,8 @@ window.MARKET_SNAPSHOT = {
             "symbol": "300498.SZ",
             "name": "温氏股份",
             "sourceSymbol": "300498.SZ",
-            "price": 13.02,
-            "ma20": 13.5,
+            "price": 12.93,
+            "ma20": 13.49,
             "status": "MA20下方",
             "weight": 0.35475369957429564
           },
@@ -587182,8 +587222,8 @@ window.MARKET_SNAPSHOT = {
             "symbol": "300502.SZ",
             "name": "新易盛",
             "sourceSymbol": "300502.SZ",
-            "price": 505.26,
-            "ma20": 495.43,
+            "price": 506.46,
+            "ma20": 495.49,
             "status": "MA20上方",
             "weight": 1.6926819379687823
           },
@@ -587191,8 +587231,8 @@ window.MARKET_SNAPSHOT = {
             "symbol": "300628.SZ",
             "name": "亿联网络",
             "sourceSymbol": "300628.SZ",
-            "price": 34.34,
-            "ma20": 37.42,
+            "price": 34.1,
+            "ma20": 37.4,
             "status": "MA20下方",
             "weight": 0.07095073991485915
           },
@@ -587200,17 +587240,17 @@ window.MARKET_SNAPSHOT = {
             "symbol": "300661.SZ",
             "name": "圣邦股份",
             "sourceSymbol": "300661.SZ",
-            "price": 105.54,
-            "ma20": 111.07,
-            "status": "MA20下方",
+            "price": 111.44,
+            "ma20": 111.36,
+            "status": "MA20上方",
             "weight": 0.12162983985404421
           },
           {
             "symbol": "300750.SZ",
             "name": "宁德时代",
             "sourceSymbol": "300750.SZ",
-            "price": 395.32,
-            "ma20": 409.13,
+            "price": 394.85,
+            "ma20": 409.11,
             "status": "MA20下方",
             "weight": 3.851611595378067
           },
@@ -587218,8 +587258,8 @@ window.MARKET_SNAPSHOT = {
             "symbol": "300759.SZ",
             "name": "康龙化成",
             "sourceSymbol": "300759.SZ",
-            "price": 22.15,
-            "ma20": 24.36,
+            "price": 22.38,
+            "ma20": 24.37,
             "status": "MA20下方",
             "weight": 0.1114940198662072
           },
@@ -587227,8 +587267,8 @@ window.MARKET_SNAPSHOT = {
             "symbol": "300760.SZ",
             "name": "迈瑞医疗",
             "sourceSymbol": "300760.SZ",
-            "price": 149.98,
-            "ma20": 149.87,
+            "price": 151.04,
+            "ma20": 149.92,
             "status": "MA20上方",
             "weight": 0.45611189945266584
           },
@@ -587236,7 +587276,7 @@ window.MARKET_SNAPSHOT = {
             "symbol": "300782.SZ",
             "name": "卓胜微",
             "sourceSymbol": "300782.SZ",
-            "price": 89.77,
+            "price": 89.76,
             "ma20": 110.24,
             "status": "MA20下方",
             "weight": 0.12162983985404421
@@ -587245,8 +587285,8 @@ window.MARKET_SNAPSHOT = {
             "symbol": "300803.SZ",
             "name": "指南针",
             "sourceSymbol": "300803.SZ",
-            "price": 85.66,
-            "ma20": 91.8,
+            "price": 86.2,
+            "ma20": 91.83,
             "status": "MA20下方",
             "weight": 0.18244475978106633
           },
@@ -587254,8 +587294,8 @@ window.MARKET_SNAPSHOT = {
             "symbol": "300832.SZ",
             "name": "新产业",
             "sourceSymbol": "300832.SZ",
-            "price": 43.88,
-            "ma20": 46.26,
+            "price": 43.58,
+            "ma20": 46.25,
             "status": "MA20下方",
             "weight": 0.09122237989053317
           },
@@ -587263,8 +587303,8 @@ window.MARKET_SNAPSHOT = {
             "symbol": "300866.SZ",
             "name": "安克创新",
             "sourceSymbol": "300866.SZ",
-            "price": 117.29,
-            "ma20": 120.67,
+            "price": 115.05,
+            "ma20": 120.56,
             "status": "MA20下方",
             "weight": 0.10135819987837019
           },
@@ -587272,8 +587312,8 @@ window.MARKET_SNAPSHOT = {
             "symbol": "300896.SZ",
             "name": "爱美客",
             "sourceSymbol": "300896.SZ",
-            "price": 94.22,
-            "ma20": 100.44,
+            "price": 94.27,
+            "ma20": 100.45,
             "status": "MA20下方",
             "weight": 0.08108655990269616
           },
@@ -587281,7 +587321,7 @@ window.MARKET_SNAPSHOT = {
             "symbol": "300979.SZ",
             "name": "华利集团",
             "sourceSymbol": "300979.SZ",
-            "price": 33.54,
+            "price": 33.62,
             "ma20": 34.76,
             "status": "MA20下方",
             "weight": 0.030407459963511053
@@ -587290,7 +587330,7 @@ window.MARKET_SNAPSHOT = {
             "symbol": "300999.SZ",
             "name": "金龙鱼",
             "sourceSymbol": "300999.SZ",
-            "price": 25.67,
+            "price": 25.7,
             "ma20": 26.35,
             "status": "MA20下方",
             "weight": 0.07095073991485915
@@ -587299,17 +587339,17 @@ window.MARKET_SNAPSHOT = {
             "symbol": "301236.SZ",
             "name": "软通动力",
             "sourceSymbol": "301236.SZ",
-            "price": 40.55,
-            "ma20": 40.17,
-            "status": "MA20上方",
+            "price": 39.75,
+            "ma20": 40.13,
+            "status": "MA20下方",
             "weight": 0.12162983985404421
           },
           {
             "symbol": "301269.SZ",
             "name": "华大九天",
             "sourceSymbol": "301269.SZ",
-            "price": 96.01,
-            "ma20": 106.63,
+            "price": 94.57,
+            "ma20": 106.56,
             "status": "MA20下方",
             "weight": 0.09122237989053317
           },
@@ -587317,8 +587357,8 @@ window.MARKET_SNAPSHOT = {
             "symbol": "302132.SZ",
             "name": "中航成飞",
             "sourceSymbol": "302132.SZ",
-            "price": 63.99,
-            "ma20": 69.22,
+            "price": 63.81,
+            "ma20": 69.21,
             "status": "MA20下方",
             "weight": 0.09122237989053317
           },
@@ -587326,8 +587366,8 @@ window.MARKET_SNAPSHOT = {
             "symbol": "600000.SS",
             "name": "浦发银行",
             "sourceSymbol": "600000.SS",
-            "price": 9.55,
-            "ma20": 9.24,
+            "price": 9.67,
+            "ma20": 9.25,
             "status": "MA20上方",
             "weight": 0.6588282992094063
           },
@@ -587335,7 +587375,7 @@ window.MARKET_SNAPSHOT = {
             "symbol": "600009.SS",
             "name": "上海机场",
             "sourceSymbol": "600009.SS",
-            "price": 24.16,
+            "price": 24.28,
             "ma20": 24.63,
             "status": "MA20下方",
             "weight": 0.1621731198053923
@@ -587344,7 +587384,7 @@ window.MARKET_SNAPSHOT = {
             "symbol": "600010.SS",
             "name": "包钢股份",
             "sourceSymbol": "600010.SS",
-            "price": 2.41,
+            "price": 2.39,
             "ma20": 2.44,
             "status": "MA20下方",
             "weight": 0.2128522197445774
@@ -587353,16 +587393,16 @@ window.MARKET_SNAPSHOT = {
             "symbol": "600011.SS",
             "name": "华能国际",
             "sourceSymbol": "600011.SS",
-            "price": 8.2,
-            "ma20": 8.18,
-            "status": "MA20上方",
+            "price": 8.05,
+            "ma20": 8.17,
+            "status": "MA20下方",
             "weight": 0.13176565984188124
           },
           {
             "symbol": "600015.SS",
             "name": "华夏银行",
             "sourceSymbol": "600015.SS",
-            "price": 6.93,
+            "price": 6.99,
             "ma20": 6.77,
             "status": "MA20上方",
             "weight": 0.17230893979322934
@@ -587371,7 +587411,7 @@ window.MARKET_SNAPSHOT = {
             "symbol": "600016.SS",
             "name": "民生银行",
             "sourceSymbol": "600016.SS",
-            "price": 3.6,
+            "price": 3.63,
             "ma20": 3.55,
             "status": "MA20上方",
             "weight": 0.3750253395499697
@@ -587380,7 +587420,7 @@ window.MARKET_SNAPSHOT = {
             "symbol": "600018.SS",
             "name": "上港集团",
             "sourceSymbol": "600018.SS",
-            "price": 5.03,
+            "price": 5.04,
             "ma20": 5.06,
             "status": "MA20下方",
             "weight": 0.06081491992702211
@@ -587398,7 +587438,7 @@ window.MARKET_SNAPSHOT = {
             "symbol": "600023.SS",
             "name": "浙能电力",
             "sourceSymbol": "600023.SS",
-            "price": 6.25,
+            "price": 6.26,
             "ma20": 6.15,
             "status": "MA20上方",
             "weight": 0.08108655990269616
@@ -587407,7 +587447,7 @@ window.MARKET_SNAPSHOT = {
             "symbol": "600025.SS",
             "name": "华能水电",
             "sourceSymbol": "600025.SS",
-            "price": 9.79,
+            "price": 9.86,
             "ma20": 9.7,
             "status": "MA20上方",
             "weight": 0.07095073991485915
@@ -587416,8 +587456,8 @@ window.MARKET_SNAPSHOT = {
             "symbol": "600026.SS",
             "name": "中远海能",
             "sourceSymbol": "600026.SS",
-            "price": 17.6,
-            "ma20": 19.45,
+            "price": 17.5,
+            "ma20": 19.44,
             "status": "MA20下方",
             "weight": 0.08108655990269616
           },
@@ -587425,7 +587465,7 @@ window.MARKET_SNAPSHOT = {
             "symbol": "600027.SS",
             "name": "华电国际",
             "sourceSymbol": "600027.SS",
-            "price": 5.14,
+            "price": 5.12,
             "ma20": 5.31,
             "status": "MA20下方",
             "weight": 0.08108655990269616
@@ -587434,8 +587474,8 @@ window.MARKET_SNAPSHOT = {
             "symbol": "600028.SS",
             "name": "中国石化",
             "sourceSymbol": "600028.SS",
-            "price": 4.93,
-            "ma20": 4.9,
+            "price": 4.94,
+            "ma20": 4.91,
             "status": "MA20上方",
             "weight": 0.35475369957429564
           },
@@ -587443,7 +587483,7 @@ window.MARKET_SNAPSHOT = {
             "symbol": "600029.SS",
             "name": "南方航空",
             "sourceSymbol": "600029.SS",
-            "price": 5.28,
+            "price": 5.27,
             "ma20": 5.3,
             "status": "MA20下方",
             "weight": 0.17230893979322934
@@ -587452,7 +587492,7 @@ window.MARKET_SNAPSHOT = {
             "symbol": "600030.SS",
             "name": "中信证券",
             "sourceSymbol": "600030.SS",
-            "price": 26.18,
+            "price": 26.29,
             "ma20": 25.83,
             "status": "MA20上方",
             "weight": 1.1048043786742352
@@ -587461,8 +587501,8 @@ window.MARKET_SNAPSHOT = {
             "symbol": "600031.SS",
             "name": "三一重工",
             "sourceSymbol": "600031.SS",
-            "price": 19.07,
-            "ma20": 18.73,
+            "price": 18.91,
+            "ma20": 18.72,
             "status": "MA20上方",
             "weight": 0.496655179404014
           },
@@ -587470,8 +587510,8 @@ window.MARKET_SNAPSHOT = {
             "symbol": "600036.SS",
             "name": "招商银行",
             "sourceSymbol": "600036.SS",
-            "price": 39.07,
-            "ma20": 37.91,
+            "price": 39.34,
+            "ma20": 37.92,
             "status": "MA20上方",
             "weight": 2.0575714575309147
           },
@@ -587479,7 +587519,7 @@ window.MARKET_SNAPSHOT = {
             "symbol": "600039.SS",
             "name": "四川路桥",
             "sourceSymbol": "600039.SS",
-            "price": 8.29,
+            "price": 8.25,
             "ma20": 8.35,
             "status": "MA20下方",
             "weight": 0.10135819987837019
@@ -587497,7 +587537,7 @@ window.MARKET_SNAPSHOT = {
             "symbol": "600050.SS",
             "name": "中国联通",
             "sourceSymbol": "600050.SS",
-            "price": 4.41,
+            "price": 4.37,
             "ma20": 4.46,
             "status": "MA20下方",
             "weight": 0.3142104196229476
@@ -587506,8 +587546,8 @@ window.MARKET_SNAPSHOT = {
             "symbol": "600061.SS",
             "name": "国投资本",
             "sourceSymbol": "600061.SS",
-            "price": 6.42,
-            "ma20": 6.38,
+            "price": 6.46,
+            "ma20": 6.39,
             "status": "MA20上方",
             "weight": 0.08108655990269616
           },
@@ -587515,8 +587555,8 @@ window.MARKET_SNAPSHOT = {
             "symbol": "600066.SS",
             "name": "宇通客车",
             "sourceSymbol": "600066.SS",
-            "price": 29.32,
-            "ma20": 31.49,
+            "price": 28.85,
+            "ma20": 31.47,
             "status": "MA20下方",
             "weight": 0.17230893979322934
           },
@@ -587524,7 +587564,7 @@ window.MARKET_SNAPSHOT = {
             "symbol": "600085.SS",
             "name": "同仁堂",
             "sourceSymbol": "600085.SS",
-            "price": 24.82,
+            "price": 24.95,
             "ma20": 25.25,
             "status": "MA20下方",
             "weight": 0.09122237989053317
@@ -587533,8 +587573,8 @@ window.MARKET_SNAPSHOT = {
             "symbol": "600089.SS",
             "name": "特变电工",
             "sourceSymbol": "600089.SS",
-            "price": 23.31,
-            "ma20": 25.44,
+            "price": 23.03,
+            "ma20": 25.43,
             "status": "MA20下方",
             "weight": 0.4459760794648288
           },
@@ -587542,8 +587582,8 @@ window.MARKET_SNAPSHOT = {
             "symbol": "600104.SS",
             "name": "上汽集团",
             "sourceSymbol": "600104.SS",
-            "price": 10.99,
-            "ma20": 11.98,
+            "price": 10.92,
+            "ma20": 11.97,
             "status": "MA20下方",
             "weight": 0.27366713967159956
           },
@@ -587551,9 +587591,9 @@ window.MARKET_SNAPSHOT = {
             "symbol": "600111.SS",
             "name": "北方稀土",
             "sourceSymbol": "600111.SS",
-            "price": 50.2,
-            "ma20": 49.58,
-            "status": "MA20上方",
+            "price": 49.43,
+            "ma20": 49.54,
+            "status": "MA20下方",
             "weight": 0.4662477194405029
           },
           {
@@ -587569,8 +587609,8 @@ window.MARKET_SNAPSHOT = {
             "symbol": "600150.SS",
             "name": "中国船舶",
             "sourceSymbol": "600150.SS",
-            "price": 35.42,
-            "ma20": 36.91,
+            "price": 34.89,
+            "ma20": 36.88,
             "status": "MA20下方",
             "weight": 0.5980133792823841
           },
@@ -587578,8 +587618,8 @@ window.MARKET_SNAPSHOT = {
             "symbol": "600160.SS",
             "name": "巨化股份",
             "sourceSymbol": "600160.SS",
-            "price": 42.69,
-            "ma20": 36.63,
+            "price": 42.39,
+            "ma20": 36.62,
             "status": "MA20上方",
             "weight": 0.20271639975674038
           },
@@ -587587,8 +587627,8 @@ window.MARKET_SNAPSHOT = {
             "symbol": "600161.SS",
             "name": "天坛生物",
             "sourceSymbol": "600161.SS",
-            "price": 12.42,
-            "ma20": 13.12,
+            "price": 12.87,
+            "ma20": 13.14,
             "status": "MA20下方",
             "weight": 0.06081491992702211
           },
@@ -587596,8 +587636,8 @@ window.MARKET_SNAPSHOT = {
             "symbol": "600176.SS",
             "name": "中国巨石",
             "sourceSymbol": "600176.SS",
-            "price": 42.23,
-            "ma20": 38.58,
+            "price": 41.61,
+            "ma20": 38.55,
             "status": "MA20上方",
             "weight": 0.1621731198053923
           },
@@ -587605,8 +587645,8 @@ window.MARKET_SNAPSHOT = {
             "symbol": "600183.SS",
             "name": "生益科技",
             "sourceSymbol": "600183.SS",
-            "price": 152.09,
-            "ma20": 129.43,
+            "price": 151.28,
+            "ma20": 129.39,
             "status": "MA20上方",
             "weight": 0.3446178795864587
           },
@@ -587614,8 +587654,8 @@ window.MARKET_SNAPSHOT = {
             "symbol": "600188.SS",
             "name": "兖矿能源",
             "sourceSymbol": "600188.SS",
-            "price": 23.33,
-            "ma20": 22.87,
+            "price": 22.95,
+            "ma20": 22.85,
             "status": "MA20上方",
             "weight": 0.09122237989053317
           },
@@ -587632,7 +587672,7 @@ window.MARKET_SNAPSHOT = {
             "symbol": "600219.SS",
             "name": "南山铝业",
             "sourceSymbol": "600219.SS",
-            "price": 4.83,
+            "price": 4.73,
             "ma20": 5.09,
             "status": "MA20下方",
             "weight": 0.1520372998175553
@@ -587641,8 +587681,8 @@ window.MARKET_SNAPSHOT = {
             "symbol": "600233.SS",
             "name": "圆通速递",
             "sourceSymbol": "600233.SS",
-            "price": 17.33,
-            "ma20": 18.16,
+            "price": 17.17,
+            "ma20": 18.15,
             "status": "MA20下方",
             "weight": 0.1114940198662072
           },
@@ -587650,7 +587690,7 @@ window.MARKET_SNAPSHOT = {
             "symbol": "600276.SS",
             "name": "恒瑞医药",
             "sourceSymbol": "600276.SS",
-            "price": 48.6,
+            "price": 48.49,
             "ma20": 48.87,
             "status": "MA20下方",
             "weight": 1.05412527873505
@@ -587659,8 +587699,8 @@ window.MARKET_SNAPSHOT = {
             "symbol": "600309.SS",
             "name": "万华化学",
             "sourceSymbol": "600309.SS",
-            "price": 72.57,
-            "ma20": 74.35,
+            "price": 71.67,
+            "ma20": 74.31,
             "status": "MA20下方",
             "weight": 0.5676059193188732
           },
@@ -587668,8 +587708,8 @@ window.MARKET_SNAPSHOT = {
             "symbol": "600346.SS",
             "name": "恒力石化",
             "sourceSymbol": "600346.SS",
-            "price": 17.82,
-            "ma20": 17.86,
+            "price": 17.46,
+            "ma20": 17.85,
             "status": "MA20下方",
             "weight": 0.19258057976890336
           },
@@ -587677,17 +587717,17 @@ window.MARKET_SNAPSHOT = {
             "symbol": "600362.SS",
             "name": "江西铜业",
             "sourceSymbol": "600362.SS",
-            "price": 44.15,
-            "ma20": 44.1,
-            "status": "MA20上方",
+            "price": 43.05,
+            "ma20": 44.05,
+            "status": "MA20下方",
             "weight": 0.2229880397324144
           },
           {
             "symbol": "600372.SS",
             "name": "中航机载",
             "sourceSymbol": "600372.SS",
-            "price": 11.24,
-            "ma20": 11.39,
+            "price": 11.14,
+            "ma20": 11.38,
             "status": "MA20下方",
             "weight": 0.13176565984188124
           },
@@ -587695,8 +587735,8 @@ window.MARKET_SNAPSHOT = {
             "symbol": "600377.SS",
             "name": "宁沪高速",
             "sourceSymbol": "600377.SS",
-            "price": 12.18,
-            "ma20": 12.55,
+            "price": 12.54,
+            "ma20": 12.57,
             "status": "MA20下方",
             "weight": 0.02027163997567404
           },
@@ -587704,8 +587744,8 @@ window.MARKET_SNAPSHOT = {
             "symbol": "600406.SS",
             "name": "国电南瑞",
             "sourceSymbol": "600406.SS",
-            "price": 23.33,
-            "ma20": 24.75,
+            "price": 23.24,
+            "ma20": 24.74,
             "status": "MA20下方",
             "weight": 0.35475369957429564
           },
@@ -587713,7 +587753,7 @@ window.MARKET_SNAPSHOT = {
             "symbol": "600415.SS",
             "name": "小商品城",
             "sourceSymbol": "600415.SS",
-            "price": 11.29,
+            "price": 11.3,
             "ma20": 12.6,
             "status": "MA20下方",
             "weight": 0.17230893979322934
@@ -587722,8 +587762,8 @@ window.MARKET_SNAPSHOT = {
             "symbol": "600426.SS",
             "name": "华鲁恒升",
             "sourceSymbol": "600426.SS",
-            "price": 28.99,
-            "ma20": 29.56,
+            "price": 28.33,
+            "ma20": 29.53,
             "status": "MA20下方",
             "weight": 0.18244475978106633
           },
@@ -587731,8 +587771,8 @@ window.MARKET_SNAPSHOT = {
             "symbol": "600436.SS",
             "name": "片仔癀",
             "sourceSymbol": "600436.SS",
-            "price": 120.1,
-            "ma20": 123.48,
+            "price": 119.56,
+            "ma20": 123.45,
             "status": "MA20下方",
             "weight": 0.20271639975674038
           },
@@ -587740,8 +587780,8 @@ window.MARKET_SNAPSHOT = {
             "symbol": "600438.SS",
             "name": "通威股份",
             "sourceSymbol": "600438.SS",
-            "price": 14.2,
-            "ma20": 14.73,
+            "price": 13.7,
+            "ma20": 14.71,
             "status": "MA20下方",
             "weight": 0.2229880397324144
           },
@@ -587749,8 +587789,8 @@ window.MARKET_SNAPSHOT = {
             "symbol": "600460.SS",
             "name": "士兰微",
             "sourceSymbol": "600460.SS",
-            "price": 32.82,
-            "ma20": 33.6,
+            "price": 32.15,
+            "ma20": 33.57,
             "status": "MA20下方",
             "weight": 0.13176565984188124
           },
@@ -587758,8 +587798,8 @@ window.MARKET_SNAPSHOT = {
             "symbol": "600482.SS",
             "name": "中国动力",
             "sourceSymbol": "600482.SS",
-            "price": 32.46,
-            "ma20": 36.08,
+            "price": 31.22,
+            "ma20": 36.02,
             "status": "MA20下方",
             "weight": 0.09122237989053317
           },
@@ -587767,8 +587807,8 @@ window.MARKET_SNAPSHOT = {
             "symbol": "600489.SS",
             "name": "中金黄金",
             "sourceSymbol": "600489.SS",
-            "price": 22.1,
-            "ma20": 22.61,
+            "price": 21.51,
+            "ma20": 22.58,
             "status": "MA20下方",
             "weight": 0.27366713967159956
           },
@@ -587776,7 +587816,7 @@ window.MARKET_SNAPSHOT = {
             "symbol": "600515.SS",
             "name": "海南机场",
             "sourceSymbol": "600515.SS",
-            "price": 2.95,
+            "price": 2.98,
             "ma20": 3.15,
             "status": "MA20下方",
             "weight": 0.12162983985404421
@@ -587785,17 +587825,17 @@ window.MARKET_SNAPSHOT = {
             "symbol": "600519.SS",
             "name": "贵州茅台",
             "sourceSymbol": "600519.SS",
-            "price": 1281.55,
-            "ma20": 1291.14,
-            "status": "MA20下方",
+            "price": 1291.91,
+            "ma20": 1291.66,
+            "status": "MA20上方",
             "weight": 3.4157713359010757
           },
           {
             "symbol": "600522.SS",
             "name": "中天科技",
             "sourceSymbol": "600522.SS",
-            "price": 50.09,
-            "ma20": 44.89,
+            "price": 48.6,
+            "ma20": 44.81,
             "status": "MA20上方",
             "weight": 0.19258057976890336
           },
@@ -587803,8 +587843,8 @@ window.MARKET_SNAPSHOT = {
             "symbol": "600547.SS",
             "name": "山东黄金",
             "sourceSymbol": "600547.SS",
-            "price": 28.65,
-            "ma20": 29.15,
+            "price": 27.79,
+            "ma20": 29.1,
             "status": "MA20下方",
             "weight": 0.27366713967159956
           },
@@ -587812,8 +587852,8 @@ window.MARKET_SNAPSHOT = {
             "symbol": "600570.SS",
             "name": "恒生电子",
             "sourceSymbol": "600570.SS",
-            "price": 21.98,
-            "ma20": 24.39,
+            "price": 21.71,
+            "ma20": 24.38,
             "status": "MA20下方",
             "weight": 0.18244475978106633
           },
@@ -587821,8 +587861,8 @@ window.MARKET_SNAPSHOT = {
             "symbol": "600584.SS",
             "name": "长电科技",
             "sourceSymbol": "600584.SS",
-            "price": 70.31,
-            "ma20": 74.76,
+            "price": 68.92,
+            "ma20": 74.69,
             "status": "MA20下方",
             "weight": 0.2128522197445774
           },
@@ -587830,8 +587870,8 @@ window.MARKET_SNAPSHOT = {
             "symbol": "600585.SS",
             "name": "海螺水泥",
             "sourceSymbol": "600585.SS",
-            "price": 18.83,
-            "ma20": 19.54,
+            "price": 18.71,
+            "ma20": 19.53,
             "status": "MA20下方",
             "weight": 0.2128522197445774
           },
@@ -587839,7 +587879,7 @@ window.MARKET_SNAPSHOT = {
             "symbol": "600588.SS",
             "name": "用友网络",
             "sourceSymbol": "600588.SS",
-            "price": 10.13,
+            "price": 10,
             "ma20": 10.8,
             "status": "MA20下方",
             "weight": 0.1114940198662072
@@ -587848,8 +587888,8 @@ window.MARKET_SNAPSHOT = {
             "symbol": "600600.SS",
             "name": "青岛啤酒",
             "sourceSymbol": "600600.SS",
-            "price": 60.38,
-            "ma20": 60.64,
+            "price": 60.56,
+            "ma20": 60.65,
             "status": "MA20下方",
             "weight": 0.08108655990269616
           },
@@ -587857,8 +587897,8 @@ window.MARKET_SNAPSHOT = {
             "symbol": "600660.SS",
             "name": "福耀玻璃",
             "sourceSymbol": "600660.SS",
-            "price": 52.81,
-            "ma20": 53.58,
+            "price": 52.35,
+            "ma20": 53.56,
             "status": "MA20下方",
             "weight": 0.4155686195013178
           },
@@ -587866,7 +587906,7 @@ window.MARKET_SNAPSHOT = {
             "symbol": "600674.SS",
             "name": "川投能源",
             "sourceSymbol": "600674.SS",
-            "price": 15.65,
+            "price": 15.6,
             "ma20": 15.23,
             "status": "MA20上方",
             "weight": 0.1114940198662072
@@ -587875,7 +587915,7 @@ window.MARKET_SNAPSHOT = {
             "symbol": "600690.SS",
             "name": "海尔智家",
             "sourceSymbol": "600690.SS",
-            "price": 21.18,
+            "price": 21.13,
             "ma20": 20.6,
             "status": "MA20上方",
             "weight": 0.3851611595378067
@@ -587884,8 +587924,8 @@ window.MARKET_SNAPSHOT = {
             "symbol": "600741.SS",
             "name": "华域汽车",
             "sourceSymbol": "600741.SS",
-            "price": 16.87,
-            "ma20": 16.93,
+            "price": 16.65,
+            "ma20": 16.92,
             "status": "MA20下方",
             "weight": 0.12162983985404421
           },
@@ -587893,7 +587933,7 @@ window.MARKET_SNAPSHOT = {
             "symbol": "600760.SS",
             "name": "中航沈飞",
             "sourceSymbol": "600760.SS",
-            "price": 44.59,
+            "price": 44.61,
             "ma20": 43.38,
             "status": "MA20上方",
             "weight": 0.19258057976890336
@@ -587902,7 +587942,7 @@ window.MARKET_SNAPSHOT = {
             "symbol": "600795.SS",
             "name": "国电电力",
             "sourceSymbol": "600795.SS",
-            "price": 5.04,
+            "price": 5.01,
             "ma20": 5.04,
             "status": "MA20下方",
             "weight": 0.18244475978106633
@@ -587911,7 +587951,7 @@ window.MARKET_SNAPSHOT = {
             "symbol": "600803.SS",
             "name": "新奥股份",
             "sourceSymbol": "600803.SS",
-            "price": 18.37,
+            "price": 18.33,
             "ma20": 19.45,
             "status": "MA20下方",
             "weight": 0.08108655990269616
@@ -587920,8 +587960,8 @@ window.MARKET_SNAPSHOT = {
             "symbol": "600809.SS",
             "name": "山西汾酒",
             "sourceSymbol": "600809.SS",
-            "price": 120.65,
-            "ma20": 125.22,
+            "price": 118.54,
+            "ma20": 125.11,
             "status": "MA20下方",
             "weight": 0.33448205959862165
           },
@@ -587929,8 +587969,8 @@ window.MARKET_SNAPSHOT = {
             "symbol": "600845.SS",
             "name": "宝信软件",
             "sourceSymbol": "600845.SS",
-            "price": 18.09,
-            "ma20": 20.77,
+            "price": 17.93,
+            "ma20": 20.76,
             "status": "MA20下方",
             "weight": 0.07095073991485915
           },
@@ -587938,8 +587978,8 @@ window.MARKET_SNAPSHOT = {
             "symbol": "600875.SS",
             "name": "东方电气",
             "sourceSymbol": "600875.SS",
-            "price": 30.97,
-            "ma20": 34.56,
+            "price": 30.3,
+            "ma20": 34.52,
             "status": "MA20下方",
             "weight": 0.12162983985404421
           },
@@ -587947,7 +587987,7 @@ window.MARKET_SNAPSHOT = {
             "symbol": "600886.SS",
             "name": "国投电力",
             "sourceSymbol": "600886.SS",
-            "price": 14.06,
+            "price": 14.03,
             "ma20": 13.79,
             "status": "MA20上方",
             "weight": 0.12162983985404421
@@ -587956,8 +587996,8 @@ window.MARKET_SNAPSHOT = {
             "symbol": "600887.SS",
             "name": "伊利股份",
             "sourceSymbol": "600887.SS",
-            "price": 25.6,
-            "ma20": 26.35,
+            "price": 25.71,
+            "ma20": 26.36,
             "status": "MA20下方",
             "weight": 0.7196432191364283
           },
@@ -587965,8 +588005,8 @@ window.MARKET_SNAPSHOT = {
             "symbol": "600893.SS",
             "name": "航发动力",
             "sourceSymbol": "600893.SS",
-            "price": 39.57,
-            "ma20": 42.79,
+            "price": 38.82,
+            "ma20": 42.75,
             "status": "MA20下方",
             "weight": 0.2128522197445774
           },
@@ -587974,8 +588014,8 @@ window.MARKET_SNAPSHOT = {
             "symbol": "600900.SS",
             "name": "长江电力",
             "sourceSymbol": "600900.SS",
-            "price": 28.01,
-            "ma20": 27.4,
+            "price": 28.28,
+            "ma20": 27.41,
             "status": "MA20上方",
             "weight": 1.3176565984188127
           },
@@ -587983,8 +588023,8 @@ window.MARKET_SNAPSHOT = {
             "symbol": "600905.SS",
             "name": "三峡能源",
             "sourceSymbol": "600905.SS",
-            "price": 4.22,
-            "ma20": 4.18,
+            "price": 4.18,
+            "ma20": 4.17,
             "status": "MA20上方",
             "weight": 0.23312385972025146
           },
@@ -587992,7 +588032,7 @@ window.MARKET_SNAPSHOT = {
             "symbol": "600918.SS",
             "name": "中泰证券",
             "sourceSymbol": "600918.SS",
-            "price": 5.3,
+            "price": 5.34,
             "ma20": 5.48,
             "status": "MA20下方",
             "weight": 0.08108655990269616
@@ -588001,8 +588041,8 @@ window.MARKET_SNAPSHOT = {
             "symbol": "600919.SS",
             "name": "江苏银行",
             "sourceSymbol": "600919.SS",
-            "price": 11.81,
-            "ma20": 11.34,
+            "price": 11.89,
+            "ma20": 11.35,
             "status": "MA20上方",
             "weight": 0.6081491992702212
           },
@@ -588010,7 +588050,7 @@ window.MARKET_SNAPSHOT = {
             "symbol": "600926.SS",
             "name": "杭州银行",
             "sourceSymbol": "600926.SS",
-            "price": 16.62,
+            "price": 16.74,
             "ma20": 16.17,
             "status": "MA20上方",
             "weight": 0.3040745996351106
@@ -588019,7 +588059,7 @@ window.MARKET_SNAPSHOT = {
             "symbol": "600930.SS",
             "name": "华电新能",
             "sourceSymbol": "600930.SS",
-            "price": 5.87,
+            "price": 5.81,
             "ma20": 6.12,
             "status": "MA20下方",
             "weight": 0.07095073991485915
@@ -588028,8 +588068,8 @@ window.MARKET_SNAPSHOT = {
             "symbol": "600938.SS",
             "name": "中国海油",
             "sourceSymbol": "600938.SS",
-            "price": 33.73,
-            "ma20": 35.32,
+            "price": 33.36,
+            "ma20": 35.3,
             "status": "MA20下方",
             "weight": 0.2838029596594366
           },
@@ -588037,8 +588077,8 @@ window.MARKET_SNAPSHOT = {
             "symbol": "600941.SS",
             "name": "中国移动",
             "sourceSymbol": "600941.SS",
-            "price": 95.58,
-            "ma20": 98.01,
+            "price": 95.12,
+            "ma20": 97.98,
             "status": "MA20下方",
             "weight": 0.36488951956213267
           },
@@ -588046,7 +588086,7 @@ window.MARKET_SNAPSHOT = {
             "symbol": "600958.SS",
             "name": "东方证券",
             "sourceSymbol": "600958.SS",
-            "price": 9.2,
+            "price": 9.24,
             "ma20": 9.29,
             "status": "MA20下方",
             "weight": 0.2229880397324144
@@ -588055,8 +588095,8 @@ window.MARKET_SNAPSHOT = {
             "symbol": "600989.SS",
             "name": "宝丰能源",
             "sourceSymbol": "600989.SS",
-            "price": 23.52,
-            "ma20": 24.92,
+            "price": 23.1,
+            "ma20": 24.9,
             "status": "MA20下方",
             "weight": 0.17230893979322934
           },
@@ -588064,8 +588104,8 @@ window.MARKET_SNAPSHOT = {
             "symbol": "600999.SS",
             "name": "招商证券",
             "sourceSymbol": "600999.SS",
-            "price": 17.56,
-            "ma20": 17.17,
+            "price": 17.69,
+            "ma20": 17.18,
             "status": "MA20上方",
             "weight": 0.24325967970808843
           },
@@ -588073,7 +588113,7 @@ window.MARKET_SNAPSHOT = {
             "symbol": "601006.SS",
             "name": "大秦铁路",
             "sourceSymbol": "601006.SS",
-            "price": 5.05,
+            "price": 5.06,
             "ma20": 5.23,
             "status": "MA20下方",
             "weight": 0.24325967970808843
@@ -588082,8 +588122,8 @@ window.MARKET_SNAPSHOT = {
             "symbol": "601009.SS",
             "name": "南京银行",
             "sourceSymbol": "601009.SS",
-            "price": 11.68,
-            "ma20": 11.11,
+            "price": 11.83,
+            "ma20": 11.12,
             "status": "MA20上方",
             "weight": 0.2838029596594366
           },
@@ -588091,8 +588131,8 @@ window.MARKET_SNAPSHOT = {
             "symbol": "601012.SS",
             "name": "隆基绿能",
             "sourceSymbol": "601012.SS",
-            "price": 13.84,
-            "ma20": 14.08,
+            "price": 13.46,
+            "ma20": 14.06,
             "status": "MA20下方",
             "weight": 0.4358402594769918
           },
@@ -588100,7 +588140,7 @@ window.MARKET_SNAPSHOT = {
             "symbol": "601018.SS",
             "name": "宁波港",
             "sourceSymbol": "601018.SS",
-            "price": 3.37,
+            "price": 3.38,
             "ma20": 3.47,
             "status": "MA20下方",
             "weight": 0.050679099939185096
@@ -588109,8 +588149,8 @@ window.MARKET_SNAPSHOT = {
             "symbol": "601021.SS",
             "name": "春秋航空",
             "sourceSymbol": "601021.SS",
-            "price": 45.49,
-            "ma20": 46.38,
+            "price": 45.55,
+            "ma20": 46.39,
             "status": "MA20下方",
             "weight": 0.1114940198662072
           },
@@ -588118,8 +588158,8 @@ window.MARKET_SNAPSHOT = {
             "symbol": "601058.SS",
             "name": "赛轮轮胎",
             "sourceSymbol": "601058.SS",
-            "price": 12.55,
-            "ma20": 12.66,
+            "price": 12.41,
+            "ma20": 12.65,
             "status": "MA20下方",
             "weight": 0.17230893979322934
           },
@@ -588127,8 +588167,8 @@ window.MARKET_SNAPSHOT = {
             "symbol": "601059.SS",
             "name": "信达证券",
             "sourceSymbol": "601059.SS",
-            "price": 15,
-            "ma20": 16.58,
+            "price": 15.14,
+            "ma20": 16.59,
             "status": "MA20下方",
             "weight": 0.07095073991485915
           },
@@ -588136,8 +588176,8 @@ window.MARKET_SNAPSHOT = {
             "symbol": "601066.SS",
             "name": "中信建投",
             "sourceSymbol": "601066.SS",
-            "price": 25.28,
-            "ma20": 23.91,
+            "price": 25.46,
+            "ma20": 23.92,
             "status": "MA20上方",
             "weight": 0.1419014798297183
           },
@@ -588145,7 +588185,7 @@ window.MARKET_SNAPSHOT = {
             "symbol": "601077.SS",
             "name": "渝农商行",
             "sourceSymbol": "601077.SS",
-            "price": 6.94,
+            "price": 7,
             "ma20": 6.79,
             "status": "MA20上方",
             "weight": 0.13176565984188124
@@ -588154,8 +588194,8 @@ window.MARKET_SNAPSHOT = {
             "symbol": "601088.SS",
             "name": "中国神华",
             "sourceSymbol": "601088.SS",
-            "price": 46.54,
-            "ma20": 47.08,
+            "price": 46.14,
+            "ma20": 47.06,
             "status": "MA20下方",
             "weight": 0.527062639367525
           },
@@ -588163,8 +588203,8 @@ window.MARKET_SNAPSHOT = {
             "symbol": "601100.SS",
             "name": "恒立液压",
             "sourceSymbol": "601100.SS",
-            "price": 118.79,
-            "ma20": 114.71,
+            "price": 114.54,
+            "ma20": 114.5,
             "status": "MA20上方",
             "weight": 0.23312385972025146
           },
@@ -588172,7 +588212,7 @@ window.MARKET_SNAPSHOT = {
             "symbol": "601111.SS",
             "name": "中国国航",
             "sourceSymbol": "601111.SS",
-            "price": 6.29,
+            "price": 6.27,
             "ma20": 6.58,
             "status": "MA20下方",
             "weight": 0.1419014798297183
@@ -588181,8 +588221,8 @@ window.MARKET_SNAPSHOT = {
             "symbol": "601117.SS",
             "name": "中国化学",
             "sourceSymbol": "601117.SS",
-            "price": 7.61,
-            "ma20": 7.7,
+            "price": 7.51,
+            "ma20": 7.69,
             "status": "MA20下方",
             "weight": 0.1114940198662072
           },
@@ -588190,8 +588230,8 @@ window.MARKET_SNAPSHOT = {
             "symbol": "601127.SS",
             "name": "赛力斯",
             "sourceSymbol": "601127.SS",
-            "price": 68.94,
-            "ma20": 78.31,
+            "price": 68.67,
+            "ma20": 78.29,
             "status": "MA20下方",
             "weight": 0.3952969795256438
           },
@@ -588199,8 +588239,8 @@ window.MARKET_SNAPSHOT = {
             "symbol": "601136.SS",
             "name": "首创证券",
             "sourceSymbol": "601136.SS",
-            "price": 13.95,
-            "ma20": 14.63,
+            "price": 14.08,
+            "ma20": 14.64,
             "status": "MA20下方",
             "weight": 0.04054327995134808
           },
@@ -588208,8 +588248,8 @@ window.MARKET_SNAPSHOT = {
             "symbol": "601138.SS",
             "name": "工业富联",
             "sourceSymbol": "601138.SS",
-            "price": 71.02,
-            "ma20": 72.07,
+            "price": 70.13,
+            "ma20": 72.03,
             "status": "MA20下方",
             "weight": 0.9730387188323537
           },
@@ -588217,8 +588257,8 @@ window.MARKET_SNAPSHOT = {
             "symbol": "601166.SS",
             "name": "兴业银行",
             "sourceSymbol": "601166.SS",
-            "price": 18.43,
-            "ma20": 18.13,
+            "price": 18.61,
+            "ma20": 18.14,
             "status": "MA20上方",
             "weight": 1.4088789783093456
           },
@@ -588226,7 +588266,7 @@ window.MARKET_SNAPSHOT = {
             "symbol": "601169.SS",
             "name": "北京银行",
             "sourceSymbol": "601169.SS",
-            "price": 5.22,
+            "price": 5.27,
             "ma20": 5.14,
             "status": "MA20上方",
             "weight": 0.3243462396107846
@@ -588235,8 +588275,8 @@ window.MARKET_SNAPSHOT = {
             "symbol": "601186.SS",
             "name": "中国铁建",
             "sourceSymbol": "601186.SS",
-            "price": 6.4,
-            "ma20": 6.37,
+            "price": 6.41,
+            "ma20": 6.38,
             "status": "MA20上方",
             "weight": 0.1419014798297183
           },
@@ -588244,8 +588284,8 @@ window.MARKET_SNAPSHOT = {
             "symbol": "601211.SS",
             "name": "国泰海通",
             "sourceSymbol": "601211.SS",
-            "price": 17.39,
-            "ma20": 15.81,
+            "price": 17.68,
+            "ma20": 15.91,
             "status": "MA20上方",
             "weight": 0.9223596188931689
           },
@@ -588253,7 +588293,7 @@ window.MARKET_SNAPSHOT = {
             "symbol": "601225.SS",
             "name": "陕西煤业",
             "sourceSymbol": "601225.SS",
-            "price": 26.99,
+            "price": 27,
             "ma20": 25.64,
             "status": "MA20上方",
             "weight": 0.3243462396107846
@@ -588262,7 +588302,7 @@ window.MARKET_SNAPSHOT = {
             "symbol": "601229.SS",
             "name": "上海银行",
             "sourceSymbol": "601229.SS",
-            "price": 9.21,
+            "price": 9.36,
             "ma20": 9.15,
             "status": "MA20上方",
             "weight": 0.3952969795256438
@@ -588271,8 +588311,8 @@ window.MARKET_SNAPSHOT = {
             "symbol": "601236.SS",
             "name": "红塔证券",
             "sourceSymbol": "601236.SS",
-            "price": 6.64,
-            "ma20": 6.9,
+            "price": 6.8,
+            "ma20": 6.91,
             "status": "MA20下方",
             "weight": 0.050679099939185096
           },
@@ -588280,7 +588320,7 @@ window.MARKET_SNAPSHOT = {
             "symbol": "601238.SS",
             "name": "广汽集团",
             "sourceSymbol": "601238.SS",
-            "price": 5.92,
+            "price": 5.88,
             "ma20": 6.15,
             "status": "MA20下方",
             "weight": 0.07095073991485915
@@ -588289,7 +588329,7 @@ window.MARKET_SNAPSHOT = {
             "symbol": "601288.SS",
             "name": "农业银行",
             "sourceSymbol": "601288.SS",
-            "price": 6.69,
+            "price": 6.8,
             "ma20": 6.48,
             "status": "MA20上方",
             "weight": 0.8716805189539836
@@ -588298,17 +588338,17 @@ window.MARKET_SNAPSHOT = {
             "symbol": "601298.SS",
             "name": "青岛港",
             "sourceSymbol": "601298.SS",
-            "price": 8.99,
-            "ma20": 9.09,
-            "status": "MA20下方",
+            "price": 9.24,
+            "ma20": 9.11,
+            "status": "MA20上方",
             "weight": 0.02027163997567404
           },
           {
             "symbol": "601318.SS",
             "name": "中国平安",
             "sourceSymbol": "601318.SS",
-            "price": 54.15,
-            "ma20": 53.72,
+            "price": 54.01,
+            "ma20": 53.71,
             "status": "MA20上方",
             "weight": 2.8887086965335507
           },
@@ -588316,7 +588356,7 @@ window.MARKET_SNAPSHOT = {
             "symbol": "601319.SS",
             "name": "中国人保",
             "sourceSymbol": "601319.SS",
-            "price": 6.99,
+            "price": 7.02,
             "ma20": 6.82,
             "status": "MA20上方",
             "weight": 0.1114940198662072
@@ -588325,8 +588365,8 @@ window.MARKET_SNAPSHOT = {
             "symbol": "601328.SS",
             "name": "交通银行",
             "sourceSymbol": "601328.SS",
-            "price": 7.03,
-            "ma20": 6.74,
+            "price": 7.14,
+            "ma20": 6.75,
             "status": "MA20上方",
             "weight": 0.7601864990877765
           },
@@ -588334,7 +588374,7 @@ window.MARKET_SNAPSHOT = {
             "symbol": "601336.SS",
             "name": "新华保险",
             "sourceSymbol": "601336.SS",
-            "price": 61.52,
+            "price": 61.46,
             "ma20": 58.54,
             "status": "MA20上方",
             "weight": 0.23312385972025146
@@ -588343,7 +588383,7 @@ window.MARKET_SNAPSHOT = {
             "symbol": "601360.SS",
             "name": "三六零",
             "sourceSymbol": "601360.SS",
-            "price": 9.26,
+            "price": 9.16,
             "ma20": 10.21,
             "status": "MA20下方",
             "weight": 0.1520372998175553
@@ -588361,7 +588401,7 @@ window.MARKET_SNAPSHOT = {
             "symbol": "601390.SS",
             "name": "中国中铁",
             "sourceSymbol": "601390.SS",
-            "price": 4.58,
+            "price": 4.57,
             "ma20": 4.71,
             "status": "MA20下方",
             "weight": 0.2229880397324144
@@ -588370,8 +588410,8 @@ window.MARKET_SNAPSHOT = {
             "symbol": "601398.SS",
             "name": "工商银行",
             "sourceSymbol": "601398.SS",
-            "price": 7.66,
-            "ma20": 7.31,
+            "price": 7.78,
+            "ma20": 7.32,
             "status": "MA20上方",
             "weight": 1.013581998783702
           },
@@ -588379,8 +588419,8 @@ window.MARKET_SNAPSHOT = {
             "symbol": "601456.SS",
             "name": "国联民生",
             "sourceSymbol": "601456.SS",
-            "price": 9.67,
-            "ma20": 8.97,
+            "price": 9.41,
+            "ma20": 8.96,
             "status": "MA20上方",
             "weight": 0.06081491992702211
           },
@@ -588388,8 +588428,8 @@ window.MARKET_SNAPSHOT = {
             "symbol": "601600.SS",
             "name": "中国铝业",
             "sourceSymbol": "601600.SS",
-            "price": 11,
-            "ma20": 11.01,
+            "price": 10.8,
+            "ma20": 11,
             "status": "MA20下方",
             "weight": 0.3851611595378067
           },
@@ -588397,8 +588437,8 @@ window.MARKET_SNAPSHOT = {
             "symbol": "601601.SS",
             "name": "中国太保",
             "sourceSymbol": "601601.SS",
-            "price": 32.98,
-            "ma20": 32.38,
+            "price": 32.86,
+            "ma20": 32.37,
             "status": "MA20上方",
             "weight": 0.5676059193188732
           },
@@ -588406,7 +588446,7 @@ window.MARKET_SNAPSHOT = {
             "symbol": "601607.SS",
             "name": "上海医药",
             "sourceSymbol": "601607.SS",
-            "price": 16.3,
+            "price": 16.34,
             "ma20": 16.36,
             "status": "MA20下方",
             "weight": 0.08108655990269616
@@ -588415,7 +588455,7 @@ window.MARKET_SNAPSHOT = {
             "symbol": "601618.SS",
             "name": "中国中冶",
             "sourceSymbol": "601618.SS",
-            "price": 2.7,
+            "price": 2.68,
             "ma20": 2.77,
             "status": "MA20下方",
             "weight": 0.08108655990269616
@@ -588424,8 +588464,8 @@ window.MARKET_SNAPSHOT = {
             "symbol": "601628.SS",
             "name": "中国人寿",
             "sourceSymbol": "601628.SS",
-            "price": 35.82,
-            "ma20": 33.81,
+            "price": 35.81,
+            "ma20": 33.8,
             "status": "MA20上方",
             "weight": 0.3040745996351106
           },
@@ -588433,8 +588473,8 @@ window.MARKET_SNAPSHOT = {
             "symbol": "601633.SS",
             "name": "长城汽车",
             "sourceSymbol": "601633.SS",
-            "price": 18.17,
-            "ma20": 17.34,
+            "price": 17.6,
+            "ma20": 17.31,
             "status": "MA20上方",
             "weight": 0.1114940198662072
           },
@@ -588442,7 +588482,7 @@ window.MARKET_SNAPSHOT = {
             "symbol": "601658.SS",
             "name": "邮储银行",
             "sourceSymbol": "601658.SS",
-            "price": 5.14,
+            "price": 5.2,
             "ma20": 4.99,
             "status": "MA20上方",
             "weight": 0.23312385972025146
@@ -588451,7 +588491,7 @@ window.MARKET_SNAPSHOT = {
             "symbol": "601668.SS",
             "name": "中国建筑",
             "sourceSymbol": "601668.SS",
-            "price": 4.75,
+            "price": 4.77,
             "ma20": 4.78,
             "status": "MA20下方",
             "weight": 0.4155686195013178
@@ -588460,7 +588500,7 @@ window.MARKET_SNAPSHOT = {
             "symbol": "601669.SS",
             "name": "中国电建",
             "sourceSymbol": "601669.SS",
-            "price": 4.86,
+            "price": 4.82,
             "ma20": 5.29,
             "status": "MA20下方",
             "weight": 0.18244475978106633
@@ -588469,8 +588509,8 @@ window.MARKET_SNAPSHOT = {
             "symbol": "601688.SS",
             "name": "华泰证券",
             "sourceSymbol": "601688.SS",
-            "price": 19.75,
-            "ma20": 18.72,
+            "price": 19.97,
+            "ma20": 18.73,
             "status": "MA20上方",
             "weight": 0.537198459355362
           },
@@ -588478,8 +588518,8 @@ window.MARKET_SNAPSHOT = {
             "symbol": "601689.SS",
             "name": "拓普集团",
             "sourceSymbol": "601689.SS",
-            "price": 61.51,
-            "ma20": 67.02,
+            "price": 60.62,
+            "ma20": 66.98,
             "status": "MA20下方",
             "weight": 0.2635313196837625
           },
@@ -588487,7 +588527,7 @@ window.MARKET_SNAPSHOT = {
             "symbol": "601698.SS",
             "name": "中国卫通",
             "sourceSymbol": "601698.SS",
-            "price": 33.93,
+            "price": 33.84,
             "ma20": 32.08,
             "status": "MA20上方",
             "weight": 0.12162983985404421
@@ -588496,7 +588536,7 @@ window.MARKET_SNAPSHOT = {
             "symbol": "601728.SS",
             "name": "中国电信",
             "sourceSymbol": "601728.SS",
-            "price": 6.2,
+            "price": 6.05,
             "ma20": 6.24,
             "status": "MA20下方",
             "weight": 0.3851611595378067
@@ -588505,7 +588545,7 @@ window.MARKET_SNAPSHOT = {
             "symbol": "601766.SS",
             "name": "中国中车",
             "sourceSymbol": "601766.SS",
-            "price": 5.8,
+            "price": 5.76,
             "ma20": 5.75,
             "status": "MA20上方",
             "weight": 0.3243462396107846
@@ -588514,25 +588554,25 @@ window.MARKET_SNAPSHOT = {
             "symbol": "601788.SS",
             "name": "光大证券",
             "sourceSymbol": "601788.SS",
-            "price": 14.24,
+            "price": 14.29,
             "ma20": 14.28,
-            "status": "MA20下方",
+            "status": "MA20上方",
             "weight": 0.13176565984188124
           },
           {
             "symbol": "601800.SS",
             "name": "中国交建",
             "sourceSymbol": "601800.SS",
-            "price": 6.42,
-            "ma20": 6.35,
-            "status": "MA20上方",
+            "price": 6.31,
+            "ma20": 6.34,
+            "status": "MA20下方",
             "weight": 0.12162983985404421
           },
           {
             "symbol": "601808.SS",
             "name": "中海油服",
             "sourceSymbol": "601808.SS",
-            "price": 12.48,
+            "price": 12.51,
             "ma20": 13.19,
             "status": "MA20下方",
             "weight": 0.030407459963511053
@@ -588541,16 +588581,16 @@ window.MARKET_SNAPSHOT = {
             "symbol": "601816.SS",
             "name": "京沪高铁",
             "sourceSymbol": "601816.SS",
-            "price": 4.94,
+            "price": 5,
             "ma20": 4.96,
-            "status": "MA20下方",
+            "status": "MA20上方",
             "weight": 0.5980133792823841
           },
           {
             "symbol": "601818.SS",
             "name": "光大银行",
             "sourceSymbol": "601818.SS",
-            "price": 3.2,
+            "price": 3.23,
             "ma20": 3.12,
             "status": "MA20上方",
             "weight": 0.2533954996959255
@@ -588559,7 +588599,7 @@ window.MARKET_SNAPSHOT = {
             "symbol": "601825.SS",
             "name": "沪农商行",
             "sourceSymbol": "601825.SS",
-            "price": 8.82,
+            "price": 8.88,
             "ma20": 8.66,
             "status": "MA20上方",
             "weight": 0.2128522197445774
@@ -588568,8 +588608,8 @@ window.MARKET_SNAPSHOT = {
             "symbol": "601838.SS",
             "name": "成都银行",
             "sourceSymbol": "601838.SS",
-            "price": 19.91,
-            "ma20": 18.92,
+            "price": 20.07,
+            "ma20": 18.93,
             "status": "MA20上方",
             "weight": 0.1621731198053923
           },
@@ -588577,7 +588617,7 @@ window.MARKET_SNAPSHOT = {
             "symbol": "601857.SS",
             "name": "中国石油",
             "sourceSymbol": "601857.SS",
-            "price": 10.48,
+            "price": 10.38,
             "ma20": 10.86,
             "status": "MA20下方",
             "weight": 0.4662477194405029
@@ -588586,8 +588626,8 @@ window.MARKET_SNAPSHOT = {
             "symbol": "601868.SS",
             "name": "中国能建",
             "sourceSymbol": "601868.SS",
-            "price": 2.67,
-            "ma20": 2.9,
+            "price": 2.65,
+            "ma20": 2.89,
             "status": "MA20下方",
             "weight": 0.12162983985404421
           },
@@ -588595,8 +588635,8 @@ window.MARKET_SNAPSHOT = {
             "symbol": "601872.SS",
             "name": "招商轮船",
             "sourceSymbol": "601872.SS",
-            "price": 15.7,
-            "ma20": 16.03,
+            "price": 15.6,
+            "ma20": 16.02,
             "status": "MA20下方",
             "weight": 0.1114940198662072
           },
@@ -588604,8 +588644,8 @@ window.MARKET_SNAPSHOT = {
             "symbol": "601877.SS",
             "name": "正泰电器",
             "sourceSymbol": "601877.SS",
-            "price": 27.58,
-            "ma20": 29.17,
+            "price": 27.19,
+            "ma20": 29.15,
             "status": "MA20下方",
             "weight": 0.12162983985404421
           },
@@ -588613,7 +588653,7 @@ window.MARKET_SNAPSHOT = {
             "symbol": "601878.SS",
             "name": "浙商证券",
             "sourceSymbol": "601878.SS",
-            "price": 9.23,
+            "price": 9.3,
             "ma20": 9.34,
             "status": "MA20下方",
             "weight": 0.12162983985404421
@@ -588622,7 +588662,7 @@ window.MARKET_SNAPSHOT = {
             "symbol": "601881.SS",
             "name": "中国银河",
             "sourceSymbol": "601881.SS",
-            "price": 12.36,
+            "price": 12.4,
             "ma20": 12.25,
             "status": "MA20上方",
             "weight": 0.13176565984188124
@@ -588631,7 +588671,7 @@ window.MARKET_SNAPSHOT = {
             "symbol": "601888.SS",
             "name": "中国中免",
             "sourceSymbol": "601888.SS",
-            "price": 58.55,
+            "price": 58.49,
             "ma20": 57.29,
             "status": "MA20上方",
             "weight": 0.36488951956213267
@@ -588640,17 +588680,17 @@ window.MARKET_SNAPSHOT = {
             "symbol": "601898.SS",
             "name": "中煤能源",
             "sourceSymbol": "601898.SS",
-            "price": 16.69,
-            "ma20": 16.37,
-            "status": "MA20上方",
+            "price": 16.18,
+            "ma20": 16.34,
+            "status": "MA20下方",
             "weight": 0.09122237989053317
           },
           {
             "symbol": "601899.SS",
             "name": "紫金矿业",
             "sourceSymbol": "601899.SS",
-            "price": 29.55,
-            "ma20": 30.25,
+            "price": 29.09,
+            "ma20": 30.22,
             "status": "MA20下方",
             "weight": 2.2501520372998183
           },
@@ -588658,7 +588698,7 @@ window.MARKET_SNAPSHOT = {
             "symbol": "601901.SS",
             "name": "方正证券",
             "sourceSymbol": "601901.SS",
-            "price": 6.66,
+            "price": 6.68,
             "ma20": 6.78,
             "status": "MA20下方",
             "weight": 0.13176565984188124
@@ -588667,7 +588707,7 @@ window.MARKET_SNAPSHOT = {
             "symbol": "601916.SS",
             "name": "浙商银行",
             "sourceSymbol": "601916.SS",
-            "price": 3.06,
+            "price": 3.08,
             "ma20": 3.03,
             "status": "MA20上方",
             "weight": 0.18244475978106633
@@ -588676,16 +588716,16 @@ window.MARKET_SNAPSHOT = {
             "symbol": "601919.SS",
             "name": "中远海控",
             "sourceSymbol": "601919.SS",
-            "price": 14.49,
-            "ma20": 14.52,
-            "status": "MA20下方",
+            "price": 14.57,
+            "ma20": 14.53,
+            "status": "MA20上方",
             "weight": 0.3750253395499697
           },
           {
             "symbol": "601939.SS",
             "name": "建设银行",
             "sourceSymbol": "601939.SS",
-            "price": 10.61,
+            "price": 10.7,
             "ma20": 10.16,
             "status": "MA20上方",
             "weight": 0.3142104196229476
@@ -588694,7 +588734,7 @@ window.MARKET_SNAPSHOT = {
             "symbol": "601985.SS",
             "name": "中国核电",
             "sourceSymbol": "601985.SS",
-            "price": 9.19,
+            "price": 9.24,
             "ma20": 9.01,
             "status": "MA20上方",
             "weight": 0.2838029596594366
@@ -588703,7 +588743,7 @@ window.MARKET_SNAPSHOT = {
             "symbol": "601988.SS",
             "name": "中国银行",
             "sourceSymbol": "601988.SS",
-            "price": 6.19,
+            "price": 6.29,
             "ma20": 5.95,
             "status": "MA20上方",
             "weight": 0.3243462396107846
@@ -588712,8 +588752,8 @@ window.MARKET_SNAPSHOT = {
             "symbol": "601995.SS",
             "name": "中金公司",
             "sourceSymbol": "601995.SS",
-            "price": 32.57,
-            "ma20": 33.45,
+            "price": 32.82,
+            "ma20": 33.46,
             "status": "MA20下方",
             "weight": 0.1621731198053923
           },
@@ -588721,17 +588761,17 @@ window.MARKET_SNAPSHOT = {
             "symbol": "601998.SS",
             "name": "中信银行",
             "sourceSymbol": "601998.SS",
-            "price": 7.6,
+            "price": 7.68,
             "ma20": 7.61,
-            "status": "MA20下方",
+            "status": "MA20上方",
             "weight": 0.1621731198053923
           },
           {
             "symbol": "603019.SS",
             "name": "中科曙光",
             "sourceSymbol": "603019.SS",
-            "price": 82.95,
-            "ma20": 88.75,
+            "price": 82.15,
+            "ma20": 88.71,
             "status": "MA20下方",
             "weight": 0.496655179404014
           },
@@ -588739,7 +588779,7 @@ window.MARKET_SNAPSHOT = {
             "symbol": "603195.SS",
             "name": "公牛集团",
             "sourceSymbol": "603195.SS",
-            "price": 39.97,
+            "price": 39.98,
             "ma20": 41.75,
             "status": "MA20下方",
             "weight": 0.04054327995134808
@@ -588748,8 +588788,8 @@ window.MARKET_SNAPSHOT = {
             "symbol": "603259.SS",
             "name": "药明康德",
             "sourceSymbol": "603259.SS",
-            "price": 98.95,
-            "ma20": 100.06,
+            "price": 99.71,
+            "ma20": 100.1,
             "status": "MA20下方",
             "weight": 0.8919521589296576
           },
@@ -588757,8 +588797,8 @@ window.MARKET_SNAPSHOT = {
             "symbol": "603260.SS",
             "name": "合盛硅业",
             "sourceSymbol": "603260.SS",
-            "price": 43.69,
-            "ma20": 39.52,
+            "price": 43.36,
+            "ma20": 39.5,
             "status": "MA20上方",
             "weight": 0.07095073991485915
           },
@@ -588766,8 +588806,8 @@ window.MARKET_SNAPSHOT = {
             "symbol": "603288.SS",
             "name": "海天味业",
             "sourceSymbol": "603288.SS",
-            "price": 35.29,
-            "ma20": 35.23,
+            "price": 35.53,
+            "ma20": 35.24,
             "status": "MA20上方",
             "weight": 0.24325967970808843
           },
@@ -588775,8 +588815,8 @@ window.MARKET_SNAPSHOT = {
             "symbol": "603296.SS",
             "name": "华勤技术",
             "sourceSymbol": "603296.SS",
-            "price": 106.3,
-            "ma20": 109.15,
+            "price": 102.77,
+            "ma20": 108.97,
             "status": "MA20下方",
             "weight": 0.1419014798297183
           },
@@ -588784,8 +588824,8 @@ window.MARKET_SNAPSHOT = {
             "symbol": "603369.SS",
             "name": "今世缘",
             "sourceSymbol": "603369.SS",
-            "price": 25.32,
-            "ma20": 27.53,
+            "price": 25.06,
+            "ma20": 27.52,
             "status": "MA20下方",
             "weight": 0.10135819987837019
           },
@@ -588793,8 +588833,8 @@ window.MARKET_SNAPSHOT = {
             "symbol": "603392.SS",
             "name": "万泰生物",
             "sourceSymbol": "603392.SS",
-            "price": 29.11,
-            "ma20": 34.45,
+            "price": 29.52,
+            "ma20": 34.47,
             "status": "MA20下方",
             "weight": 0.07095073991485915
           },
@@ -588802,8 +588842,8 @@ window.MARKET_SNAPSHOT = {
             "symbol": "603501.SS",
             "name": "豪威集团",
             "sourceSymbol": "603501.SS",
-            "price": 86.39,
-            "ma20": 97.73,
+            "price": 86.01,
+            "ma20": 97.71,
             "status": "MA20下方",
             "weight": 0.4257044394891548
           },
@@ -588811,8 +588851,8 @@ window.MARKET_SNAPSHOT = {
             "symbol": "603799.SS",
             "name": "华友钴业",
             "sourceSymbol": "603799.SS",
-            "price": 51.7,
-            "ma20": 53.69,
+            "price": 50.22,
+            "ma20": 53.62,
             "status": "MA20下方",
             "weight": 0.40543279951348077
           },
@@ -588820,8 +588860,8 @@ window.MARKET_SNAPSHOT = {
             "symbol": "603893.SS",
             "name": "瑞芯微",
             "sourceSymbol": "603893.SS",
-            "price": 162.85,
-            "ma20": 180.5,
+            "price": 160.51,
+            "ma20": 180.38,
             "status": "MA20下方",
             "weight": 0.1520372998175553
           },
@@ -588829,8 +588869,8 @@ window.MARKET_SNAPSHOT = {
             "symbol": "603986.SS",
             "name": "兆易创新",
             "sourceSymbol": "603986.SS",
-            "price": 490.3,
-            "ma20": 476.88,
+            "price": 481.47,
+            "ma20": 476.44,
             "status": "MA20上方",
             "weight": 0.5676059193188732
           },
@@ -588847,8 +588887,8 @@ window.MARKET_SNAPSHOT = {
             "symbol": "605117.SS",
             "name": "德业股份",
             "sourceSymbol": "605117.SS",
-            "price": 105.7,
-            "ma20": 112.86,
+            "price": 103.79,
+            "ma20": 112.77,
             "status": "MA20下方",
             "weight": 0.12162983985404421
           },
@@ -588856,8 +588896,8 @@ window.MARKET_SNAPSHOT = {
             "symbol": "605499.SS",
             "name": "东鹏饮料",
             "sourceSymbol": "605499.SS",
-            "price": 133.31,
-            "ma20": 141.26,
+            "price": 131.84,
+            "ma20": 141.19,
             "status": "MA20下方",
             "weight": 0.2229880397324144
           },
@@ -588865,8 +588905,8 @@ window.MARKET_SNAPSHOT = {
             "symbol": "688008.SS",
             "name": "澜起科技",
             "sourceSymbol": "688008.SS",
-            "price": 230.2,
-            "ma20": 249.76,
+            "price": 224.88,
+            "ma20": 249.49,
             "status": "MA20下方",
             "weight": 0.537198459355362
           },
@@ -588874,17 +588914,17 @@ window.MARKET_SNAPSHOT = {
             "symbol": "688009.SS",
             "name": "中国通号",
             "sourceSymbol": "688009.SS",
-            "price": 4.91,
+            "price": 4.92,
             "ma20": 4.91,
-            "status": "MA20下方",
+            "status": "MA20上方",
             "weight": 0.06081491992702211
           },
           {
             "symbol": "688012.SS",
             "name": "中微公司",
             "sourceSymbol": "688012.SS",
-            "price": 308.44,
-            "ma20": 299.11,
+            "price": 303.92,
+            "ma20": 298.88,
             "status": "MA20上方",
             "weight": 0.4763835394283399
           },
@@ -588892,8 +588932,8 @@ window.MARKET_SNAPSHOT = {
             "symbol": "688036.SS",
             "name": "传音控股",
             "sourceSymbol": "688036.SS",
-            "price": 54.06,
-            "ma20": 60.45,
+            "price": 53.67,
+            "ma20": 60.43,
             "status": "MA20下方",
             "weight": 0.1520372998175553
           },
@@ -588901,8 +588941,8 @@ window.MARKET_SNAPSHOT = {
             "symbol": "688041.SS",
             "name": "海光信息",
             "sourceSymbol": "688041.SS",
-            "price": 288.13,
-            "ma20": 297.15,
+            "price": 280,
+            "ma20": 296.74,
             "status": "MA20下方",
             "weight": 0.8210014190147986
           },
@@ -588910,8 +588950,8 @@ window.MARKET_SNAPSHOT = {
             "symbol": "688047.SS",
             "name": "龙芯中科",
             "sourceSymbol": "688047.SS",
-            "price": 146.19,
-            "ma20": 148.34,
+            "price": 140.56,
+            "ma20": 148.05,
             "status": "MA20下方",
             "weight": 0.10135819987837019
           },
@@ -588919,8 +588959,8 @@ window.MARKET_SNAPSHOT = {
             "symbol": "688082.SS",
             "name": "盛美上海",
             "sourceSymbol": "688082.SS",
-            "price": 305.1,
-            "ma20": 240.93,
+            "price": 304.66,
+            "ma20": 240.91,
             "status": "MA20上方",
             "weight": 0.07095073991485915
           },
@@ -588928,8 +588968,8 @@ window.MARKET_SNAPSHOT = {
             "symbol": "688111.SS",
             "name": "金山办公",
             "sourceSymbol": "688111.SS",
-            "price": 217.36,
-            "ma20": 238.71,
+            "price": 215,
+            "ma20": 238.59,
             "status": "MA20下方",
             "weight": 0.2838029596594366
           },
@@ -588937,8 +588977,8 @@ window.MARKET_SNAPSHOT = {
             "symbol": "688126.SS",
             "name": "沪硅产业",
             "sourceSymbol": "688126.SS",
-            "price": 30.03,
-            "ma20": 28.39,
+            "price": 29.59,
+            "ma20": 28.37,
             "status": "MA20上方",
             "weight": 0.1621731198053923
           },
@@ -588946,8 +588986,8 @@ window.MARKET_SNAPSHOT = {
             "symbol": "688169.SS",
             "name": "石头科技",
             "sourceSymbol": "688169.SS",
-            "price": 100.8,
-            "ma20": 114.1,
+            "price": 101.99,
+            "ma20": 114.16,
             "status": "MA20下方",
             "weight": 0.12162983985404421
           },
@@ -588955,8 +588995,8 @@ window.MARKET_SNAPSHOT = {
             "symbol": "688187.SS",
             "name": "时代电气",
             "sourceSymbol": "688187.SS",
-            "price": 53.22,
-            "ma20": 56.8,
+            "price": 53.07,
+            "ma20": 56.79,
             "status": "MA20下方",
             "weight": 0.050679099939185096
           },
@@ -588964,8 +589004,8 @@ window.MARKET_SNAPSHOT = {
             "symbol": "688223.SS",
             "name": "晶科能源",
             "sourceSymbol": "688223.SS",
-            "price": 5.28,
-            "ma20": 5.89,
+            "price": 5.16,
+            "ma20": 5.88,
             "status": "MA20下方",
             "weight": 0.09122237989053317
           },
@@ -588973,8 +589013,8 @@ window.MARKET_SNAPSHOT = {
             "symbol": "688256.SS",
             "name": "寒武纪",
             "sourceSymbol": "688256.SS",
-            "price": 1203.05,
-            "ma20": 1304.13,
+            "price": 1240,
+            "ma20": 1305.98,
             "status": "MA20下方",
             "weight": 1.145347658625583
           },
@@ -588982,8 +589022,8 @@ window.MARKET_SNAPSHOT = {
             "symbol": "688271.SS",
             "name": "联影医疗",
             "sourceSymbol": "688271.SS",
-            "price": 113.18,
-            "ma20": 115.55,
+            "price": 114.02,
+            "ma20": 115.59,
             "status": "MA20下方",
             "weight": 0.2533954996959255
           },
@@ -588991,8 +589031,8 @@ window.MARKET_SNAPSHOT = {
             "symbol": "688303.SS",
             "name": "大全能源",
             "sourceSymbol": "688303.SS",
-            "price": 21.78,
-            "ma20": 20.4,
+            "price": 20.95,
+            "ma20": 20.35,
             "status": "MA20上方",
             "weight": 0.07095073991485915
           },
@@ -589000,8 +589040,8 @@ window.MARKET_SNAPSHOT = {
             "symbol": "688396.SS",
             "name": "华润微",
             "sourceSymbol": "688396.SS",
-            "price": 62.81,
-            "ma20": 65.42,
+            "price": 60.8,
+            "ma20": 65.32,
             "status": "MA20下方",
             "weight": 0.1114940198662072
           },
@@ -589009,8 +589049,8 @@ window.MARKET_SNAPSHOT = {
             "symbol": "688472.SS",
             "name": "阿特斯",
             "sourceSymbol": "688472.SS",
-            "price": 11.44,
-            "ma20": 13.04,
+            "price": 11.2,
+            "ma20": 13.03,
             "status": "MA20下方",
             "weight": 0.09122237989053317
           },
@@ -589018,8 +589058,8 @@ window.MARKET_SNAPSHOT = {
             "symbol": "688506.SS",
             "name": "百利天恒",
             "sourceSymbol": "688506.SS",
-            "price": 231.81,
-            "ma20": 227.36,
+            "price": 232,
+            "ma20": 227.37,
             "status": "MA20上方",
             "weight": 0.1114940198662072
           },
@@ -589027,8 +589067,8 @@ window.MARKET_SNAPSHOT = {
             "symbol": "688981.SS",
             "name": "中芯国际",
             "sourceSymbol": "688981.SS",
-            "price": 127.2,
-            "ma20": 133.21,
+            "price": 124.88,
+            "ma20": 133.09,
             "status": "MA20下方",
             "weight": 0.9730387188323537
           }
