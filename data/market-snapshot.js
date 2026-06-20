@@ -1,6 +1,6 @@
 window.MARKET_SNAPSHOT = {
   "source": "Yahoo Finance chart API",
-  "generatedAt": "2026-06-20T10:35:54.558Z",
+  "generatedAt": "2026-06-20T14:14:11.727Z",
   "refreshIntervalHours": 4,
   "instruments": {
     "AAPL": {
@@ -140632,8 +140632,8 @@ window.MARKET_SNAPSHOT = {
       "longName": "Bitcoin USD",
       "exchangeName": "CCC",
       "timezone": "UTC",
-      "lastMarketTime": "2026-06-20T10:35:44.000Z",
-      "price": 63554.1797,
+      "lastMarketTime": "2026-06-20T14:14:09.000Z",
+      "price": 63182,
       "previousClose": 63540.8359,
       "history": [
         64828.6563,
@@ -141365,7 +141365,7 @@ window.MARKET_SNAPSHOT = {
         65600.6406,
         62896.4727,
         63540.8359,
-        63554.1797
+        63182
       ],
       "volumeHistory": [
         25641109124,
@@ -142097,7 +142097,7 @@ window.MARKET_SNAPSHOT = {
         25063963967,
         30432454936,
         22361931660,
-        19739310080
+        17615288320
       ],
       "ohlcv": [
         {
@@ -147936,9 +147936,9 @@ window.MARKET_SNAPSHOT = {
           "date": "2026-06-20",
           "open": 63484.4375,
           "high": 63759.1523,
-          "low": 63281.5195,
-          "close": 63554.1797,
-          "volume": 19739310080
+          "low": 63195.5039,
+          "close": 63182,
+          "volume": 17615288320
         }
       ]
     },
@@ -147953,8 +147953,8 @@ window.MARKET_SNAPSHOT = {
       "longName": "Ethereum USD",
       "exchangeName": "CCC",
       "timezone": "UTC",
-      "lastMarketTime": "2026-06-20T10:35:50.000Z",
-      "price": 1725,
+      "lastMarketTime": "2026-06-20T14:14:05.000Z",
+      "price": 1707.9,
       "previousClose": 1710.9824,
       "history": [
         3511.0869,
@@ -148686,7 +148686,7 @@ window.MARKET_SNAPSHOT = {
         1790.3982,
         1709.5334,
         1710.9824,
-        1725
+        1707.9
       ],
       "volumeHistory": [
         16115123753,
@@ -149418,7 +149418,7 @@ window.MARKET_SNAPSHOT = {
         14698492893,
         12942260783,
         7855725190,
-        6749972992
+        6224935424
       ],
       "ohlcv": [
         {
@@ -155258,8 +155258,8 @@ window.MARKET_SNAPSHOT = {
           "open": 1709.681,
           "high": 1728.1877,
           "low": 1702.9498,
-          "close": 1725,
-          "volume": 6749972992
+          "close": 1707.9,
+          "volume": 6224935424
         }
       ]
     },
@@ -568723,7 +568723,7 @@ window.MARKET_SNAPSHOT = {
       "method": "equal_weight_above_ma20",
       "sourceUrl": "https://yfiua.github.io/index-constituents/constituents-sp500.csv",
       "benchmarkCode": "SPY",
-      "generatedAt": "2026-06-20T10:35:58.419Z",
+      "generatedAt": "2026-06-20T14:14:13.914Z",
       "coverage": {
         "total": 503,
         "effective": 502,
@@ -574712,7 +574712,7 @@ window.MARKET_SNAPSHOT = {
       "method": "equal_weight_above_ma20",
       "sourceUrl": "https://yfiua.github.io/index-constituents/constituents-csi300.csv",
       "benchmarkCode": "CSI300",
-      "generatedAt": "2026-06-20T10:36:01.180Z",
+      "generatedAt": "2026-06-20T14:14:17.213Z",
       "coverage": {
         "total": 300,
         "effective": 300,
@@ -578877,7 +578877,7 @@ window.MARKET_SNAPSHOT = {
           "https://www.ishares.com/us/products/239726/ishares-core-sp-500-etf/1467271812596.ajax?fileType=csv&fileName=IVV_holdings&dataType=fund"
         ],
         "benchmarkCode": "SPY",
-        "generatedAt": "2026-06-20T10:35:58.419Z",
+        "generatedAt": "2026-06-20T14:14:13.914Z",
         "coverage": {
           "total": 503,
           "effective": 502,
@@ -584876,7 +584876,7 @@ window.MARKET_SNAPSHOT = {
         "sourceUrl": "https://yfiua.github.io/index-constituents/constituents-csi300.csv",
         "weightSourceUrl": "https://stock.finance.sina.com.cn/fundInfo/view/FundInfo_CGMX.php?symbol=510300",
         "benchmarkCode": "CSI300",
-        "generatedAt": "2026-06-20T10:36:01.180Z",
+        "generatedAt": "2026-06-20T14:14:17.213Z",
         "coverage": {
           "total": 300,
           "effective": 300,
