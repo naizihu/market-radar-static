@@ -4,8 +4,11 @@ import { createServer } from "node:http";
 import { extname, join, normalize, resolve } from "node:path";
 import { fileURLToPath } from "node:url";
 
-const rootDir = resolve(fileURLToPath(new URL("..", import.meta.url)));
+const rootDir = process.env.MARKET_RADAR_ROOT
+  ? resolve(process.env.MARKET_RADAR_ROOT)
+  : resolve(fileURLToPath(new URL("..", import.meta.url)));
 const port = Number(process.env.PORT || 4173);
+const host = process.env.HOST || "0.0.0.0";
 
 const mimeTypes = {
   ".css": "text/css; charset=utf-8",
@@ -42,6 +45,7 @@ const server = createServer(async (req, res) => {
   }
 });
 
-server.listen(port, () => {
-  console.log(`Market radar preview: http://localhost:${port}`);
+server.listen(port, host, () => {
+  console.log(`Market radar preview: http://127.0.0.1:${port}`);
+  console.log(`Alternate local URL: http://localhost:${port}`);
 });

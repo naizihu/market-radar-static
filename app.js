@@ -2,7 +2,7 @@ const marketDefinitions = [
   { code: "SPX", name: "美国", index: "S&P 500", price: 5238.4, region: "美股" },
   { code: "QQQ", name: "美国", index: "QQQ", price: 443.6, region: "美股ETF" },
   { code: "IXIC", name: "美国", index: "纳斯达克", price: 16340.9, region: "美股" },
-  { code: "RUT", name: "美国", index: "罗素2000", price: 2065.8, region: "美股" },
+  { code: "IWM", name: "美国", index: "IWM", price: 206.5, region: "美股ETF", proxyNote: "ETF代理 IWM" },
   { code: "SSEC", name: "中国", index: "上证指数", price: 3138.2, region: "A股" },
   { code: "CSI300", name: "中国", index: "沪深300", price: 3658.2, region: "A股" },
   { code: "CSI500", name: "中国", index: "中证500", price: 5486.7, region: "A股" },
@@ -152,7 +152,11 @@ const customWatchSymbols = new Set();
 const dataMeta = {
   source: "local-fallback",
   generatedAt: null,
+  snapshotVersion: null,
   refreshIntervalHours: 4,
+  health: null,
+  errors: [],
+  errorLog: [],
 };
 
 const state = {
@@ -238,10 +242,13 @@ function configureMarketUniverse() {
     { code: "SPY", name: "\u7f8e\u56fd", index: "SPY", price: 523.8, region: "\u7f8e\u80a1ETF" },
     { code: "QQQ", name: "\u7f8e\u56fd", index: "QQQ", price: 443.6, region: "\u7f8e\u80a1ETF" },
     { code: "DIA", name: "\u7f8e\u56fd", index: "DIA", price: 390.4, region: "\u7f8e\u80a1ETF" },
-    { code: "RUT", name: "\u7f8e\u56fd", index: "\u7f57\u7d202000", price: 2065.8, region: "\u7f8e\u80a1" },
+    { code: "IWM", name: "\u7f8e\u56fd", index: "IWM", price: 206.5, region: "\u7f8e\u80a1ETF", proxyNote: "ETF\u4ee3\u7406 IWM" },
     { code: "SSEC", name: "\u4e2d\u56fd", index: "\u4e0a\u8bc1\u6307\u6570", price: 3138.2, region: "A\u80a1" },
     { code: "CSI300", name: "\u4e2d\u56fd", index: "\u6caa\u6df1300", price: 3658.2, region: "A\u80a1" },
     { code: "CSI500", name: "\u4e2d\u56fd", index: "\u4e2d\u8bc1500", price: 5486.7, region: "A\u80a1" },
+    { code: "CHINEXT", name: "\u4e2d\u56fd", index: "\u521b\u4e1a\u677f", price: 2.1, region: "A\u80a1", proxyNote: "ETF\u4ee3\u7406 159915.SZ" },
+    { code: "STAR50", name: "\u4e2d\u56fd", index: "\u79d1\u521b50", price: 0.9, region: "A\u80a1", proxyNote: "ETF\u4ee3\u7406 588000.SS" },
+    { code: "A50", name: "\u4e2d\u56fd", index: "A50", price: 15.2, region: "A\u80a1 / \u6e2f\u80a1", proxyNote: "ETF\u4ee3\u7406 2822.HK" },
     { code: "HSI", name: "\u9999\u6e2f", index: "\u6052\u751f\u6307\u6570", price: 18792.5, region: "\u6e2f\u80a1" },
     { code: "HSTECH", name: "\u9999\u6e2f", index: "\u6052\u751f\u79d1\u6280", price: 3928.4, region: "\u6e2f\u80a1" },
     { code: "N225", name: "\u65e5\u672c", index: "Nikkei 225", price: 38876.5, region: "\u4e9a\u592a" },
@@ -298,7 +305,11 @@ function applyMarketSnapshot(snapshot) {
   if (!snapshot || !snapshot.instruments) return;
   dataMeta.source = snapshot.source || "Yahoo Finance";
   dataMeta.generatedAt = snapshot.generatedAt || null;
+  dataMeta.snapshotVersion = snapshot.snapshotVersion || null;
   dataMeta.refreshIntervalHours = snapshot.refreshIntervalHours || 4;
+  dataMeta.health = snapshot.health || null;
+  dataMeta.errors = snapshot.errors || [];
+  dataMeta.errorLog = snapshot.errorLog || [];
 
   hydrateGroup(stocks, snapshot.instruments);
   hydrateGroup(markets, snapshot.instruments);
@@ -423,8 +434,11 @@ function normalizeBreadthGroup(input, label) {
       typeof point === "number" ? { value: point, above: null, effective: null } : point,
     ),
     benchmarkSeries: input.benchmarkSeries || [],
+    sectorBreadth: input.sectorBreadth || [],
+    divergence: input.divergence || null,
     samples: input.samples || [],
     missingSamples: input.missingSamples || [],
+    missingWeightSamples: input.missingWeightSamples || [],
   };
 }
 
@@ -1023,7 +1037,206 @@ function relationText(subject, base, subjectLabel, baseLabel) {
   return `${subjectLabel} ${diff >= 0 ? "高于" : "低于"} ${baseLabel} ${formatPercent(Math.abs(diff))}`;
 }
 
+function relationState(subject, base, subjectLabel, baseLabel) {
+  if (!Number.isFinite(subject) || !Number.isFinite(base) || base === 0) {
+    return {
+      type: "neutral",
+      title: `${subjectLabel} / ${baseLabel} 数据不足`,
+      text: "历史数据不足，暂不判断该项关系。",
+      relation: "数据不足",
+    };
+  }
+  const diff = ((subject - base) / base) * 100;
+  const positive = diff >= 0;
+  return {
+    type: positive ? "buy" : "sell",
+    title: `${subjectLabel}${positive ? "高于" : "低于"}${baseLabel}`,
+    text: `${subjectLabel} ${positive ? "高于" : "低于"} ${baseLabel} ${formatPercent(Math.abs(diff))}。`,
+    relation: `${subjectLabel} ${positive ? "高于" : "低于"} ${baseLabel} ${formatPercent(Math.abs(diff))}`,
+    diff,
+  };
+}
+
+function buildCoreRuleAnalyses(stock, indicators) {
+  return [
+    relationState(stock.price, indicators.ma20, "当前价", "MA20"),
+    relationState(indicators.ma20, indicators.ma60, "MA20", "MA60"),
+    relationState(indicators.ma60, indicators.ma120, "MA60", "MA120"),
+    relationState(stock.price, indicators.ma200, "当前价", "MA200"),
+    relationState(stock.price, indicators.ma20Deduction, "当前价", "MA20抵扣价"),
+  ].map((item, index) => ({
+    ...item,
+    title:
+      [
+        item.type === "buy" ? "股价在 MA20 上方" : "股价低于 MA20",
+        item.type === "buy" ? "MA20 高于 MA60" : "MA20 低于 MA60",
+        item.type === "buy" ? "MA60 高于 MA120" : "MA60 低于 MA120",
+        item.type === "buy" ? "股价高于 MA200" : "股价低于 MA200",
+        item.type === "buy" ? "MA20 抵扣偏多" : "MA20 抵扣承压",
+      ][index] || item.title,
+  }));
+}
+
+function getMaStructureState(stock, indicators) {
+  const price = stock.price;
+  const { ma20, ma60, ma120, ma200, ma20Deduction } = indicators;
+  const required = [price, ma20, ma60, ma120, ma200];
+  if (!required.every(Number.isFinite)) {
+    return {
+      type: "neutral",
+      title: "均线结构数据不足",
+      text: "MA20、MA60、MA120 或 MA200 样本不足，暂不生成结构判断。",
+    };
+  }
+
+  const maSpread = Math.max(ma20, ma60, ma120) / Math.min(ma20, ma60, ma120) - 1;
+  const aboveMa20 = price > ma20;
+  const aboveMa200 = price > ma200;
+  const bullishStack = price > ma20 && ma20 > ma60 && ma60 > ma120 && aboveMa200;
+  const bearishStack = price < ma20 && ma20 < ma60 && ma60 < ma120 && !aboveMa200;
+  const tangled = maSpread <= 0.025;
+  const repair = price > ma20 && ma20 < ma60;
+  const deductionPositive = Number.isFinite(ma20Deduction) && price > ma20Deduction;
+
+  if (bullishStack) {
+    return {
+      type: "buy",
+      title: "均线结构偏多",
+      text: `股价站上 MA20，MA20 高于 MA60，MA60 高于 MA120，且股价位于 MA200 上方。${deductionPositive ? "当前价高于 MA20 抵扣价，MA20 更容易维持向上。" : ""}`,
+    };
+  }
+  if (bearishStack) {
+    return {
+      type: "sell",
+      title: "均线结构偏空",
+      text: "股价低于 MA20，短中期均线向下排列，且股价仍在 MA200 下方，趋势修复前承压更明显。",
+    };
+  }
+  if (!aboveMa200) {
+    return {
+      type: "sell",
+      title: "长期趋势承压",
+      text: aboveMa20
+        ? "股价短线站上 MA20，但仍低于 MA200，属于短线修复中的长期承压结构。"
+        : "股价同时低于 MA20 与 MA200，短线和长期趋势都需要重新修复。",
+    };
+  }
+  if (repair) {
+    return {
+      type: "neutral",
+      title: "短线修复中",
+      text: "股价重新站上 MA20，但 MA20 仍低于 MA60，短线已有修复，趋势结构还未完全转强。",
+    };
+  }
+  if (tangled) {
+    return {
+      type: "neutral",
+      title: "均线结构纠缠",
+      text: "MA20、MA60、MA120 距离较近，趋势方向不够清晰，需要等待价格突破或均线重新发散。",
+    };
+  }
+  if (aboveMa200) {
+    return {
+      type: aboveMa20 ? "buy" : "neutral",
+      title: aboveMa20 ? "长期趋势向好" : "长期向好但短线回落",
+      text: aboveMa20
+        ? "股价位于 MA200 上方，长期趋势仍向好；短中期均线尚未形成完整多头排列。"
+        : "股价仍在 MA200 上方，但短线跌破 MA20，需要观察能否重新站回短期均线。",
+    };
+  }
+  return {
+    type: "neutral",
+    title: "均线结构中性",
+    text: "当前均线状态没有形成明确多头或空头排列，适合继续观察 MA20 与 MA60 的相对位置。",
+  };
+}
+
+function buildRuleAnalyses(stock, indicators) {
+  const volumeProfile = getVolumeProfile(stock);
+  const obv = volumeProfile.usable ? calculateOBV(stock.history, stock.volumeHistory) : [];
+  const obvMa = volumeProfile.usable ? movingAverage(obv, 20).at(-1) : null;
+  const obvLast = volumeProfile.usable ? obv.at(-1) : null;
+  const bias20 = getBias(stock.price, indicators.ma20);
+  const rsiValue = indicators.rsi ?? 50;
+  const auxiliary = [
+    {
+      type: rsiValue >= 70 ? "sell" : rsiValue <= 30 ? "buy" : "neutral",
+      title: `RSI ${indicators.rsi ? indicators.rsi.toFixed(1) : "--"}`,
+      text: rsiValue >= 70 ? "RSI 超买，短线追高风险升高。" : rsiValue <= 30 ? "RSI 超卖，可能出现技术修复。" : "RSI 处于中性区，动能没有进入极端状态。",
+    },
+    volumeProfile.usable
+      ? {
+          type: obvLast > obvMa ? "buy" : "sell",
+          title: volumeProfile.referenceOnly ? "OBV 参考口径" : obvLast > obvMa ? "OBV 量能确认" : "OBV 量能背离",
+          text: volumeProfile.referenceOnly
+            ? `OBV 使用当前成交量口径计算，仅作辅助参考。${obvLast > obvMa ? "当前高于20日均值。" : "当前低于20日均值。"}`
+            : obvLast > obvMa
+              ? "OBV 高于20日均值，资金流入对价格有确认。"
+              : "OBV 低于20日均值，价格上涨的量能确认不足。",
+        }
+      : {
+          type: "neutral",
+          title: "OBV 暂不适用",
+          text: volumeProfile.reason,
+        },
+    {
+      type: bias20 === null ? "neutral" : Math.abs(bias20) > 8 ? "sell" : bias20 > 0 ? "buy" : "neutral",
+      title: `MA20 乖离率 ${bias20 === null ? "--" : formatPercent(bias20)}`,
+      text: bias20 === null ? "数据不足。" : Math.abs(bias20) > 8 ? "价格偏离 MA20 过大，短线波动风险上升。" : "价格与 MA20 距离可控，趋势延续性更健康。",
+    },
+  ];
+  return [...buildCoreRuleAnalyses(stock, indicators), ...auxiliary];
+}
+
+function renderIndicatorCards(stock, indicators) {
+  const core = buildCoreRuleAnalyses(stock, indicators);
+  const values = [
+    ["当前价 / MA20", indicators.ma20, core[0]],
+    ["MA20 / MA60", indicators.ma60, core[1]],
+    ["MA60 / MA120", indicators.ma120, core[2]],
+    ["当前价 / MA200", indicators.ma200, core[3]],
+    ["MA20 抵扣价", indicators.ma20Deduction, core[4]],
+  ];
+  els.indicatorGrid.innerHTML = values
+    .map(
+      ([label, value, relation]) => `
+        <div class="indicator-card ${label.includes("抵扣") ? "wide" : ""}">
+          <span>${label}</span>
+          <strong>${Number.isFinite(value) ? formatDetailValue(value, stock) : "--"}</strong>
+          <em class="${relation.type === "buy" ? "change-up" : relation.type === "sell" ? "change-down" : ""}">
+            ${relation.relation}
+          </em>
+        </div>
+      `,
+    )
+    .join("");
+}
+
+function renderRuleAnalysisHtml(stock, indicators, analyses) {
+  const structure = getMaStructureState(stock, indicators);
+  return `
+    <div class="analysis-title">固定规则分析结果</div>
+    <div class="ma-structure-card ${structure.type}">
+      <strong>${structure.title}</strong>
+      <p>${structure.text}</p>
+    </div>
+    ${analyses
+      .map((signal) => `
+      <div class="signal-item ${signal.type}">
+        <strong>${signal.title}</strong>
+        <p>${signal.text}</p>
+      </div>
+    `)
+      .join("")}
+    <div class="rule-note">
+      <strong>规则备注</strong>
+      <p>以上判断由固定指标规则生成：当前价相对 MA20、MA20/MA60/MA120 排列、当前价相对 MA200、当前价相对 MA20 抵扣价、RSI 70/30、OBV 相对20日均值、MA20 乖离率。均线结构摘要不调用 AI。</p>
+    </div>
+  `;
+}
+
 function getRuleAnalyses(stock, indicators) {
+  return buildRuleAnalyses(stock, indicators);
   const price = stock.price;
   const volumeProfile = getVolumeProfile(stock);
   const obv = volumeProfile.usable ? calculateOBV(stock.history, stock.volumeHistory) : [];
@@ -1152,21 +1365,8 @@ function renderDetailsLegacy() {
     `,
   );
 
-  els.signalList.innerHTML = `
-    <div class="analysis-title">固定规则分析结果</div>
-    ${analyses
-      .map((signal) => `
-      <div class="signal-item ${signal.type}">
-        <strong>${signal.title}</strong>
-        <p>${signal.text}</p>
-      </div>
-    `)
-      .join("")}
-    <div class="rule-note">
-      <strong>规则备注</strong>
-      <p>以上判断由固定指标规则生成：价格相对 MA20、MA20 抵扣价、MA20/MA60/MA120 排列、价格相对 MA200、RSI 70/30、OBV 相对20日均值、MA20 乖离率。</p>
-    </div>
-  `;
+  renderIndicatorCards(stock, indicators);
+  els.signalList.innerHTML = renderRuleAnalysisHtml(stock, indicators, analyses);
 
   drawPriceChart(stock);
 }
@@ -1586,21 +1786,8 @@ function renderDetails() {
     `,
   );
 
-  els.signalList.innerHTML = `
-    <div class="analysis-title">固定规则分析结果</div>
-    ${analyses
-      .map((signal) => `
-      <div class="signal-item ${signal.type}">
-        <strong>${signal.title}</strong>
-        <p>${signal.text}</p>
-      </div>
-    `)
-      .join("")}
-    <div class="rule-note">
-      <strong>规则备注</strong>
-      <p>以上判断由固定指标规则生成：价格相对 MA20、MA20 抵扣价、MA20/MA60/MA120 排列、价格相对 MA200、RSI 70/30、OBV 相对20日均值、MA20 乖离率。</p>
-    </div>
-  `;
+  renderIndicatorCards(stock, indicators);
+  els.signalList.innerHTML = renderRuleAnalysisHtml(stock, indicators, analyses);
 
   drawPriceChart(stock);
 }
@@ -1657,13 +1844,28 @@ function renderAll() {
         day: "2-digit",
         hour: "2-digit",
         minute: "2-digit",
+        timeZone: "Asia/Shanghai",
       }).format(new Date(dataMeta.generatedAt))
     : nowText;
+  const freshness = getDataFreshness();
   els.marketClock.textContent = nowText;
-  els.syncStatus.textContent = `上次同步 ${syncTime}`;
+  els.syncStatus.textContent = dataMeta.generatedAt
+    ? `上次同步 UTC+8 ${syncTime} · ${freshness.label}`
+    : "本地演示数据 · 等待快照";
+  const pulse = els.syncStatus.closest(".market-pulse");
+  pulse?.classList.toggle("is-stale", freshness.level === "stale");
+  pulse?.classList.toggle("is-expired", freshness.level === "expired");
   renderStockList();
   renderOverview();
   renderDetails();
+}
+
+function getDataFreshness() {
+  if (!dataMeta.generatedAt) return { level: "fallback", label: "无快照" };
+  const ageHours = (Date.now() - new Date(dataMeta.generatedAt).getTime()) / 36e5;
+  if (ageHours > 8) return { level: "expired", label: `已延迟 ${ageHours.toFixed(1)}h` };
+  if (ageHours > 4) return { level: "stale", label: `略有延迟 ${ageHours.toFixed(1)}h` };
+  return { level: "fresh", label: `新鲜 ${Math.max(0, ageHours).toFixed(1)}h` };
 }
 
 function createMarketCard({ eyebrow, title, price, change, weekChange, monthChange, meta, history, chartKey, isFuture = false }) {
@@ -1860,6 +2062,18 @@ els.priceChart.addEventListener("mouseleave", () => {
   drawPriceChart(getSelectedStock());
 });
 
+document.addEventListener("click", (event) => {
+  const button = event.target.closest(".sample-filters button");
+  if (!button) return;
+  const filters = button.closest(".sample-filters");
+  const details = button.closest(".breadth-samples");
+  const filter = button.dataset.filter || "all";
+  filters.querySelectorAll("button").forEach((item) => item.classList.toggle("is-active", item === button));
+  details?.querySelectorAll(".sample-row[data-filter-type]").forEach((row) => {
+    row.hidden = filter !== "all" && row.dataset.filterType !== filter;
+  });
+});
+
 let breadthResizeTimer = null;
 window.addEventListener("resize", () => {
   window.clearTimeout(breadthResizeTimer);
@@ -1914,11 +2128,13 @@ function renderStockList() {
 
 function renderOverview() {
   const radar = getMarketRadarMetrics();
+  const insights = getMarketInsights();
   els.overviewStats.innerHTML = `
     <div class="radar-heading">
       <span>MARKET RADAR</span>
       <strong>市场状态雷达</strong>
     </div>
+    ${renderMarketInsights(insights)}
     ${radar.map((item) => metricBlock(item.label, item.value, item.positive, item.detail)).join("")}
   `;
 
@@ -1926,9 +2142,155 @@ function renderOverview() {
   drawBreadthChart();
 }
 
+function renderMarketInsights(insights) {
+  const summaryItems = insights.summary.slice(0, 2);
+  const signalItems = insights.signals.slice(0, 4);
+  return `
+    <section class="radar-insights">
+      <div class="insight-summary">
+        ${summaryItems.map((item) => `<span class="${item.type}">${item.text}</span>`).join("")}
+      </div>
+      <div class="insight-signals">
+        ${signalItems
+          .map(
+            (item) => `
+          <div class="insight-signal ${item.type}">
+            <strong>${item.label}</strong>
+            <span>${item.value}</span>
+            <em>${item.detail}</em>
+          </div>
+        `,
+          )
+          .join("")}
+      </div>
+    </section>
+  `;
+}
+
+function getMarketInsights() {
+  const marketMap = new Map([...markets, ...futures].map((item) => [item.code, item]));
+  const equities = ["SPY", "QQQ", "DIA", "IWM", "SSEC", "CSI300", "CSI500", "CHINEXT", "STAR50", "HSI", "HSTECH", "N225", "KOSPI", "ASX200"]
+    .map((code) => marketMap.get(code))
+    .filter(Boolean);
+  const futuresGroup = ["GC", "CL", "HG", "SI"].map((code) => marketMap.get(code)).filter(Boolean);
+  const crypto = ["BTC", "ETH"].map((code) => marketMap.get(code)).filter(Boolean);
+  const dxy = marketMap.get("DXY");
+  const tnx = marketMap.get("TNX");
+  const equityMonth = averagePeriodChange(equities, 21);
+  const cryptoMonth = averagePeriodChange(crypto, 21);
+  const dxyMonth = dxy ? getPeriodChange(dxy, 21) : null;
+  const tnxMonth = tnx ? getPeriodChange(tnx, 21) : null;
+  const futuresBest = strongestByPeriod(futuresGroup, 21);
+  const futuresBestChange = futuresBest ? getPeriodChange(futuresBest, 21) : null;
+  const equityBest = strongestByPeriod(equities, 21);
+  const equityWorst = weakestByPeriod(equities, 21);
+  const breadthGroups = [breadthSeries.sp500, breadthSeries.csi300].filter(Boolean);
+  const breadthNow = averageLatestBreadth(breadthGroups);
+  const breadthSignals = getBreadthInsightSignals(breadthGroups);
+
+  const riskConfirmed = equityMonth >= 0 && cryptoMonth >= 0 && (!Number.isFinite(dxyMonth) || dxyMonth <= 1.5);
+  const defensivePressure =
+    ((Number.isFinite(dxyMonth) && dxyMonth > 1.5) || (Number.isFinite(tnxMonth) && tnxMonth > 3)) && equityMonth < 0;
+  const summary = [];
+
+  if (riskConfirmed) {
+    summary.push({
+      type: "buy",
+      text: `风险偏好确认：股指1月 ${formatPercent(equityMonth)}，加密资产 ${formatPercent(cryptoMonth)}，DXY 未形成明显压力。`,
+    });
+  }
+  if (defensivePressure) {
+    summary.push({
+      type: "sell",
+      text: `防御压力上升：美元或10Y走强，同时股指1月 ${formatPercent(equityMonth)}。`,
+    });
+  }
+  if (futuresBest && Number.isFinite(futuresBestChange) && futuresBestChange > 3) {
+    summary.push({
+      type: "neutral",
+      text: `商品线索突出：${futuresBest.index} 1月 ${formatPercent(futuresBestChange)}，关注通胀或避险交易。`,
+    });
+  }
+  breadthSignals.forEach((signal) => {
+    if (signal.summary && signal.summary.type !== "neutral") summary.push(signal.summary);
+  });
+  if (!summary.length) {
+    summary.push({
+      type: "neutral",
+      text: "市场状态暂未出现强确认信号，继续观察股指、美元/利率与宽度是否同向。",
+    });
+  }
+
+  const liquiditySell = (Number.isFinite(dxyMonth) && dxyMonth > 1.5) || (Number.isFinite(tnxMonth) && tnxMonth > 3);
+  const liquidityBuy = (!Number.isFinite(dxyMonth) || dxyMonth <= 0) && (!Number.isFinite(tnxMonth) || tnxMonth <= 0);
+  const breadthBad = breadthSignals.some((signal) => signal.type === "sell") || (Number.isFinite(breadthNow) && breadthNow < 40);
+  const breadthGood = breadthSignals.some((signal) => signal.type === "buy") || (Number.isFinite(breadthNow) && breadthNow >= 50);
+
+  return {
+    summary: summary.slice(0, 4),
+    signals: [
+      {
+        label: "风险偏好",
+        value: riskConfirmed ? "确认" : equityMonth >= 0 ? "分化" : "谨慎",
+        type: riskConfirmed ? "buy" : equityMonth < 0 ? "sell" : "neutral",
+        detail: `股指1月 ${formatPercent(equityMonth)} / 加密 ${formatPercent(cryptoMonth)}`,
+      },
+      {
+        label: "流动性压力",
+        value: liquiditySell ? "压力" : liquidityBuy ? "缓和" : "中性",
+        type: liquiditySell ? "sell" : liquidityBuy ? "buy" : "neutral",
+        detail: `DXY ${Number.isFinite(dxyMonth) ? formatPercent(dxyMonth) : "--"} / 10Y ${Number.isFinite(tnxMonth) ? formatPercent(tnxMonth) : "--"}`,
+      },
+      {
+        label: "商品线索",
+        value: futuresBest ? futuresBest.index : "--",
+        type: Number.isFinite(futuresBestChange) && futuresBestChange > 0 ? "buy" : Number.isFinite(futuresBestChange) && futuresBestChange < 0 ? "sell" : "neutral",
+        detail: futuresBest ? `1月 ${formatPercent(futuresBestChange)}` : "商品数据不足",
+      },
+      {
+        label: "宽度质量",
+        value: Number.isFinite(breadthNow) ? `${breadthNow.toFixed(1)}%` : "--",
+        type: breadthBad ? "sell" : breadthGood ? "buy" : "neutral",
+        detail: breadthSignals.map((signal) => signal.detail).filter(Boolean).join("；") || "未出现明显背离或修复",
+      },
+      {
+        label: "区域强弱",
+        value: equityBest && equityWorst ? `${equityBest.index} / ${equityWorst.index}` : "--",
+        type: equityMonth >= 0 ? "buy" : "sell",
+        detail: equityBest && equityWorst ? `最强 ${formatPercent(getPeriodChange(equityBest, 21))}，最弱 ${formatPercent(getPeriodChange(equityWorst, 21))}` : "区域数据不足",
+      },
+    ],
+  };
+}
+
+function getBreadthInsightSignals(groups) {
+  return groups.map((group) => {
+    const divergence = group?.divergence;
+    if (divergence?.type === "divergence") {
+      return {
+        type: "sell",
+        detail: `${group.label} 背离`,
+        summary: { type: "sell", text: `${group.label} 宽度背离：${divergence.detail}` },
+      };
+    }
+    if (divergence?.type === "repair") {
+      return {
+        type: "buy",
+        detail: `${group.label} 修复`,
+        summary: { type: "buy", text: `${group.label} 宽度修复：${divergence.detail}` },
+      };
+    }
+    return {
+      type: "neutral",
+      detail: group?.label ? `${group.label} 同步` : "",
+      summary: { type: "neutral", text: "" },
+    };
+  });
+}
+
 function getMarketRadarMetrics() {
   const marketMap = new Map([...markets, ...futures].map((item) => [item.code, item]));
-  const equities = ["SPY", "QQQ", "DIA", "RUT", "SSEC", "CSI300", "CSI500", "HSI", "HSTECH", "N225", "KOSPI", "ASX200"]
+  const equities = ["SPY", "QQQ", "DIA", "IWM", "SSEC", "CSI300", "CSI500", "CHINEXT", "STAR50", "HSI", "HSTECH", "N225", "KOSPI", "ASX200"]
     .map((code) => marketMap.get(code))
     .filter(Boolean);
   const futuresGroup = ["GC", "CL", "HG", "SI"].map((code) => marketMap.get(code)).filter(Boolean);
@@ -2031,8 +2393,8 @@ function metricBlock(label, value, positive = null, detail = "") {
 function renderMarketCards() {
   const marketByCode = new Map(markets.filter((market) => !snapshotOnlyMode() || market.isSnapshotData).map((market) => [market.code, market]));
   const groupDefs = [
-    ["\u7f8e\u80a1", ["SPY", "QQQ", "DIA", "RUT"]],
-    ["A\u80a1 / \u6e2f\u80a1", ["SSEC", "CSI300", "CSI500", "HSI", "HSTECH"]],
+    ["\u7f8e\u80a1", ["SPY", "QQQ", "DIA", "IWM"]],
+    ["A\u80a1 / \u6e2f\u80a1", ["SSEC", "CSI300", "CSI500", "CHINEXT", "STAR50", "A50", "HSI", "HSTECH"]],
     ["\u4e9a\u592a", ["N225", "KOSPI", "ASX200"]],
     ["\u5229\u7387", ["TNX"]],
     ["\u5916\u6c47", ["DXY", "EURUSD", "USDJPY", "GBPUSD", "USDCNY", "AUDUSD"]],
@@ -2231,6 +2593,44 @@ function getBreadthValues(group) {
   return (group.series || []).map((point) => (typeof point === "number" ? point : point.value)).filter(Number.isFinite);
 }
 
+function getBreadthMethodLabel(group) {
+  const method = group?.method || "";
+  return method.includes("weighted") || method.includes("market_cap") ? "权重宽度" : "等权宽度";
+}
+
+function getBreadthExplanation(group) {
+  return getBreadthMethodLabel(group) === "权重宽度"
+    ? "站上 MA20 的成分股按 ETF/指数代理权重加总，用于观察大权重股票是否支撑指数。"
+    : "有效成分股中，收盘价站上 MA20 的股票数量占比，每只股票按 1 票计算。";
+}
+
+function renderBreadthSectorRows(group, weighted) {
+  const rows = group.sectorBreadth || [];
+  if (!rows.length) return "<p>暂无板块分类数据，缺失行业字段会进入未分类。</p>";
+  return `
+    <div class="sector-table">
+      ${rows
+        .map(
+          (row) => `
+        <div class="sector-row">
+          <span>${row.sector || "未分类"}</span>
+          <span>${row.aboveMa20 ?? 0}/${row.effective ?? 0}</span>
+          <strong>${Number.isFinite(row.breadth) ? `${row.breadth.toFixed(1)}%` : "--"}</strong>
+          ${weighted ? `<em>权重 ${Number.isFinite(row.weightedBreadth) ? `${row.weightedBreadth.toFixed(1)}%` : "--"}</em>` : ""}
+        </div>
+      `,
+        )
+        .join("")}
+    </div>
+  `;
+}
+
+function getSampleFilterType(sample, weighted) {
+  if (!Number.isFinite(sample.price) || !Number.isFinite(sample.ma20) || sample.status === "数据不足") return "missing";
+  if (weighted && !Number.isFinite(sample.weight)) return "weight-missing";
+  return sample.price >= sample.ma20 ? "above" : "below";
+}
+
 function renderBreadthMeta(key, group, valueEl, coverageEl, samplesEl) {
   const values = getBreadthValues(group);
   if (valueEl) valueEl.textContent = values.length ? `${values.at(-1).toFixed(1)}%` : "--";
@@ -2239,20 +2639,37 @@ function renderBreadthMeta(key, group, valueEl, coverageEl, samplesEl) {
   const isWeighted = method.includes("weighted") || method.includes("market_cap");
   if (coverageEl) {
     coverageEl.innerHTML = `
+      <div class="breadth-explain">
+        <strong>${getBreadthMethodLabel(group)}</strong>
+        <p>${getBreadthExplanation(group)}</p>
+        <em class="${group.divergence?.type || "neutral"}">${group.divergence?.label || "宽度状态"}：${group.divergence?.detail || "暂无背离或修复判断。"}</em>
+      </div>
       <span>\u5168\u90e8\u6837\u672c <strong>${coverage.total ?? "--"}</strong></span>
       <span>\u6709\u6548\u6837\u672c <strong>${coverage.effective ?? "--"}</strong></span>
       <span>MA20\u4e0a\u65b9 <strong>${coverage.aboveMa20 ?? "--"}</strong></span>
       <span>\u7f3a\u5931\u6837\u672c <strong>${coverage.missing ?? "--"}</strong></span>
+      ${isWeighted ? `<span>权重覆盖 <strong>${coverage.weightCovered ?? "--"}/${coverage.effective ?? "--"}</strong></span>` : ""}
     `;
   }
   if (samplesEl) {
     samplesEl.innerHTML = `
       <summary>\u67e5\u770b\u5168\u90e8\u6837\u672c\u660e\u7ec6</summary>
+      <details class="sector-breadth">
+        <summary>查看板块宽度</summary>
+        ${renderBreadthSectorRows(group, isWeighted)}
+      </details>
+      <div class="sample-filters" data-breadth-filter="${key}">
+        <button type="button" data-filter="all" class="is-active">全部</button>
+        <button type="button" data-filter="above">MA20上方</button>
+        <button type="button" data-filter="below">MA20下方</button>
+        <button type="button" data-filter="missing">数据缺失</button>
+        ${isWeighted ? `<button type="button" data-filter="weight-missing">权重缺失</button>` : ""}
+      </div>
       <div class="sample-table ${isWeighted ? "has-weight" : ""}" role="table" aria-label="${key} breadth samples">
         <div class="sample-row sample-head" role="row">
           <span>\u4ee3\u7801</span><span>\u540d\u79f0</span><span>\u5f53\u524d\u4ef7</span><span>MA20</span>${isWeighted ? "<span>\u6743\u91cd</span>" : ""}<span>\u72b6\u6001</span>
         </div>
-        ${(group.samples || []).map((sample) => renderBreadthSample(sample, isWeighted)).join("")}
+        ${(group.samples || []).map((sample) => renderBreadthSampleV3(sample, isWeighted)).join("")}
       </div>
     `;
   }
@@ -2286,6 +2703,29 @@ function renderBreadthSample(sample, showWeight = false) {
   `;
 }
 
+function renderBreadthSampleV3(sample, showWeight = false) {
+  const filterType = getSampleFilterType(sample, showWeight);
+  const statusClass = filterType === "above" ? "change-up" : filterType === "below" ? "change-down" : "";
+  const statusText =
+    filterType === "above"
+      ? "MA20上方"
+      : filterType === "below"
+        ? "MA20下方"
+        : filterType === "weight-missing"
+          ? "权重缺失"
+          : "数据不足";
+  return `
+    <div class="sample-row" role="row" data-filter-type="${filterType}">
+      <span>${sample.symbol}</span>
+      <span>${sample.name || sample.sourceSymbol || sample.symbol}${sample.sector ? ` · ${sample.sector}` : ""}</span>
+      <span>${sample.price ? formatNumber(sample.price) : "--"}</span>
+      <span>${sample.ma20 ? formatNumber(sample.ma20) : "--"}</span>
+      ${showWeight ? `<span>${Number.isFinite(sample.weight) ? `${sample.weight.toFixed(2)}%` : "--"}</span>` : ""}
+      <span class="${statusClass}">${statusText}</span>
+    </div>
+  `;
+}
+
 function ensureStaticCopy() {
   const notes = document.querySelector(".data-note-grid");
   if (notes && !notes.dataset.updated) {
@@ -2305,14 +2745,579 @@ function ensureStaticCopy() {
       </div>
       <div class="data-note">
         <strong>\u6280\u672f\u6307\u6807</strong>
-        <p>\u8be6\u60c5\u4e3b\u56fe\u9ed8\u8ba4\u8fd11\u5e74\u5e76\u53ef\u7f29\u653e\uff1bMA20/50/60/120/200 \u7528\u8fd12\u5e74\u5b8c\u6574\u5feb\u7167\u5386\u53f2\u8ba1\u7b97\uff0c\u56fe\u4e0a\u53ea\u5c55\u793a\u5f53\u524d\u7a97\u53e3\uff1bRSI \u4e3a14\u65e5\uff1bOBV \u5e2620\u65e5\u5747\u7ebf\uff1bVolume \u9ad8\u4e8e\u5f53\u524d\u53ef\u89c6\u7a97\u53e380\u5206\u4f4d\u6807\u7eff\u8272\u3002</p>
+        <p>\u8be6\u60c5\u4e3b\u56fe\u9ed8\u8ba4\u8fd11\u5e74\u5e76\u53ef\u7f29\u653e\uff1bMA20/50/60/120/200 \u7528\u8fd12\u5e74\u5b8c\u6574\u5feb\u7167\u5386\u53f2\u8ba1\u7b97\uff0c\u56fe\u4e0a\u53ea\u5c55\u793a\u5f53\u524d\u7a97\u53e3\uff1bRSI \u4e3a14\u65e5\uff1bOBV \u5e2620\u65e5\u5747\u7ebf\uff1bVolume \u9ad8\u4e8e\u5f53\u524d\u53ef\u89c6\u7a97\u53e380\u5206\u4f4d\u6807\u7eff\u8272\u3002\u5747\u7ebf\u7ed3\u6784\u6309\u5f53\u524d\u4ef7\u3001MA20\u3001MA60\u3001MA120\u3001MA200 \u7684\u76f8\u5bf9\u4f4d\u7f6e\u56fa\u5b9a\u5224\u65ad\uff0c\u4e0d\u8c03\u7528 AI\u3002</p>
       </div>
       <div class="data-note">
         <strong>\u5e02\u573a\u5bbd\u5ea6</strong>
-        <p>S\u0026amp;P 500 \u4e0e\u6caa\u6df1300\u5bbd\u5ea6\u5c55\u793a\u8fd11\u5e74\u4ea4\u6613\u65e5\u3002\u7b49\u6743\u5bbd\u5ea6\u4e3a\u7ad9\u4e0aMA20\u6570\u91cf / \u6709\u6548\u6837\u672c\u6570\uff1b\u6743\u91cd\u5bbd\u5ea6\u6309 SPY/510300 \u6301\u4ed3\u6743\u91cd\u52a0\u603b\u3002\u0026gt;80 \u4e3a\u6781\u70ed\uff0c\u0026lt;20 \u4e3a\u6781\u51b7\uff1b\u62b5\u6263\u4ef7\u53d6\u4e0d\u542b\u6700\u65b0K\u7ebf\u7684\u7b2c20/60/120\u6839\u524d\u7f6eK\u7ebf\uff0c\u5feb\u7167\u6bcf4\u5c0f\u65f6\u5237\u65b0\u3002</p>
+        <p>S\u0026amp;P 500 \u4e0e\u6caa\u6df1300\u5bbd\u5ea6\u5c55\u793a\u8fd11\u5e74\u4ea4\u6613\u65e5\u3002\u7b49\u6743\u5bbd\u5ea6\u4e3a\u7ad9\u4e0aMA20\u6570\u91cf / \u6709\u6548\u6837\u672c\u6570\uff1b\u6743\u91cd\u5bbd\u5ea6\u6309 SPY/510300 \u6301\u4ed3\u6743\u91cd\u52a0\u603b\u3002\u677f\u5757\u5bbd\u5ea6\u4f18\u5148\u8bfb\u53d6\u6210\u5206\u80a1\u6e90\u91cc\u7684 Sector / GICS Sector / Industry\uff1b\u6e90\u5b57\u6bb5\u7f3a\u5931\u65f6\u6309\u540d\u79f0\u548c\u4ee3\u7801\u5173\u952e\u8bcd\u5f52\u7c7b\uff0c\u4ecd\u65e0\u6cd5\u8bc6\u522b\u7684\u8fdb\u5165\u672a\u5206\u7c7b\u3002\u5bbd\u5ea6\u80cc\u79bb\u548c\u4fee\u590d\u4f7f\u7528\u8fd121\u4e2a\u4ea4\u6613\u65e5\u7684\u6307\u6570\u4e0e\u5bbd\u5ea6\u53d8\u5316\u56fa\u5b9a\u5224\u65ad\uff1b\u0026gt;80 \u4e3a\u6781\u70ed\uff0c\u0026lt;20 \u4e3a\u6781\u51b7\u3002</p>
+      </div>
+      <div class="data-note">
+        <strong>\u5e02\u573a\u6d1e\u5bdf\u4e0e A50</strong>
+        <p>\u5e02\u573a\u72b6\u6001\u96f7\u8fbe\u53ea\u4f7f\u7528\u73b0\u6709\u5feb\u7167\u4e2d\u7684\u4eca\u65e5\u30017\u65e5\u30011\u6708\u6da8\u8dcc\u3001\u5bbd\u5ea6\u3001DXY\u300110Y\u3001\u5546\u54c1\u548c\u52a0\u5bc6\u6570\u636e\u751f\u6210\u56fa\u5b9a\u6458\u8981\u4e0e\u4fe1\u53f7\u5217\u8868\uff0c\u4e0d\u8c03\u7528 AI\u3002A50 \u4f7f\u7528 2822.HK ETF \u4ee3\u7406\uff1b\u5f53\u524d\u5feb\u7167\u6ca1\u6709 A50 \u6216\u53d6\u6570\u5931\u8d25\u65f6\u4e0d\u5c55\u793a\u5361\u7247\uff0c\u771f\u5b9e\u5237\u65b0\u6210\u529f\u540e\u81ea\u52a8\u51fa\u73b0\u3002\u62b5\u6263\u4ef7\u53d6\u4e0d\u542b\u6700\u65b0K\u7ebf\u7684\u7b2c20/60/120\u6839\u524d\u7f6eK\u7ebf\uff0c\u5feb\u7167\u6bcf4\u5c0f\u65f6\u5237\u65b0\u3002</p>
+      </div>
+    `;
+    notes.insertAdjacentHTML("beforeend", buildDataHealthNote());
+  }
+}
+
+function buildDataHealthNote() {
+  const freshness = getDataFreshness();
+  const health = dataMeta.health || {};
+  const instruments = health.instruments || {};
+  const errorCount = dataMeta.errorLog?.length ?? dataMeta.errors?.length ?? 0;
+  return `
+    <div class="data-note wide-note">
+      <strong>快照健康与数据时效</strong>
+      <p>快照版本：${dataMeta.snapshotVersion || "--"}；当前状态：${freshness.label}。计划按 UTC+8 每 4 小时整点刷新：00:00 / 04:00 / 08:00 / 12:00 / 16:00 / 20:00。</p>
+      <p>行情标的：成功 ${instruments.success ?? "--"} / 总计 ${instruments.total ?? "--"}；错误日志 ${errorCount} 条。宽度健康检查包含样本数、有效样本、缺失样本、权重覆盖率；Yahoo 行情、ETF 持仓、成分股清单分别记录来源和失败原因。</p>
+    </div>
+  `;
+}
+
+function getSectorSourceLabel(source) {
+  return (
+    {
+      source_field: "官方/原始字段",
+      manual_map: "GICS/申万补表",
+      rule_infer: "兜底推断",
+      unknown: "未分类",
+    }[source] || "未分类"
+  );
+}
+
+function getSectorContribution(group, weighted = false) {
+  const rows = (group?.sectorBreadth || []).filter((row) => row.sector !== "未分类" && (row.effective || 0) >= 5);
+  const allRows = group?.sectorBreadth || [];
+  const coverage = group?.coverage || {};
+  const total = coverage.effective || rows.reduce((sum, row) => sum + (row.effective || 0), 0);
+  const latest = getBreadthValues(group).at(-1);
+  const breadthKey = weighted ? "weightedBreadth" : "breadth";
+  const valid = rows.filter((row) => Number.isFinite(row[breadthKey]));
+  const best = [...valid].sort((a, b) => b[breadthKey] - a[breadthKey])[0] || null;
+  const worst = [...valid].sort((a, b) => a[breadthKey] - b[breadthKey])[0] || null;
+  const strong = valid.filter((row) => row[breadthKey] >= Math.max(60, Number.isFinite(latest) ? latest + 12 : 60));
+  const above50 = valid.filter((row) => row[breadthKey] >= 50);
+  const unclassified = allRows.find((row) => row.sector === "未分类");
+  const unclassifiedPct = coverage.total ? ((unclassified?.total || 0) / coverage.total) * 100 : null;
+  const concentrated = strong.length > 0 && strong.length <= Math.max(2, Math.ceil(valid.length * 0.25));
+  const broad = valid.length >= 5 && above50.length >= Math.ceil(valid.length * 0.6);
+  return {
+    best,
+    worst,
+    concentrated,
+    broad,
+    strong,
+    unclassifiedPct,
+    total,
+    label: concentrated
+      ? `集中驱动：${strong.map((row) => row.sector).slice(0, 3).join("、")} 明显强于整体`
+      : broad
+        ? `全面扩散：${above50.length}/${valid.length} 个板块宽度高于 50`
+        : "板块分化：暂未形成全面扩散",
+  };
+}
+
+function renderSectorContribution(group, weighted = false) {
+  const contribution = getSectorContribution(group, weighted);
+  const valueKey = weighted ? "weightedBreadth" : "breadth";
+  return `
+    <div class="sector-contribution">
+      <span><strong>最强板块</strong>${contribution.best ? `${contribution.best.sector} ${contribution.best[valueKey].toFixed(1)}%` : "--"}</span>
+      <span><strong>最弱板块</strong>${contribution.worst ? `${contribution.worst.sector} ${contribution.worst[valueKey].toFixed(1)}%` : "--"}</span>
+      <span><strong>驱动判断</strong>${contribution.label}</span>
+      <span><strong>未分类占比</strong>${Number.isFinite(contribution.unclassifiedPct) ? `${contribution.unclassifiedPct.toFixed(1)}%` : "--"}</span>
+    </div>
+  `;
+}
+
+function renderBreadthSectorRows(group, weighted) {
+  const rows = group.sectorBreadth || [];
+  if (!rows.length) return "<p>暂无板块分类数据；缺失行业字段会进入未分类。</p>";
+  return `
+    <div class="sector-table">
+      ${rows
+        .map((row) => {
+          const width = Number.isFinite(row.breadth) ? `${row.breadth.toFixed(1)}%` : "--";
+          const weightWidth = Number.isFinite(row.weightedBreadth) ? `${row.weightedBreadth.toFixed(1)}%` : "--";
+          const sourceSummary = row.sourceCounts
+            ? Object.entries(row.sourceCounts)
+                .filter(([, value]) => value)
+                .map(([key, value]) => `${getSectorSourceLabel(key)} ${value}`)
+                .join(" / ")
+            : "";
+          return `
+            <div class="sector-row">
+              <span>${row.sector || "未分类"}</span>
+              <span>${row.aboveMa20 ?? 0}/${row.effective ?? 0}</span>
+              <strong>${width}</strong>
+              ${weighted ? `<em>权重 ${weightWidth}</em>` : ""}
+              ${sourceSummary ? `<small>${sourceSummary}</small>` : ""}
+            </div>
+          `;
+        })
+        .join("")}
+    </div>
+  `;
+}
+
+function getSampleFilterType(sample, weighted) {
+  if (weighted && !Number.isFinite(sample.weight)) return "weight-missing";
+  if (!Number.isFinite(sample.price) || !Number.isFinite(sample.ma20) || sample.status === "数据不足") return "missing";
+  return sample.price >= sample.ma20 ? "above" : "below";
+}
+
+function renderBreadthSampleV3(sample, showWeight = false) {
+  const filterType = getSampleFilterType(sample, showWeight);
+  const statusClass = filterType === "above" ? "change-up" : filterType === "below" ? "change-down" : "";
+  const statusText =
+    filterType === "above"
+      ? "MA20上方"
+      : filterType === "below"
+        ? "MA20下方"
+        : filterType === "weight-missing"
+          ? "权重缺失"
+          : "数据不足";
+  const sector = sample.sector || "未分类";
+  const source = getSectorSourceLabel(sample.sectorSource);
+  return `
+    <div class="sample-row" role="row" data-filter-type="${filterType}">
+      <span>${sample.symbol}</span>
+      <span>${sample.name || sample.sourceSymbol || sample.symbol}<em>${sector} · ${source}</em></span>
+      <span>${sample.price ? formatNumber(sample.price) : "--"}</span>
+      <span>${sample.ma20 ? formatNumber(sample.ma20) : "--"}</span>
+      ${showWeight ? `<span>${Number.isFinite(sample.weight) ? `${sample.weight.toFixed(2)}%` : "--"}</span>` : ""}
+      <span class="${statusClass}">${statusText}</span>
+    </div>
+  `;
+}
+
+function renderBreadthMeta(key, group, valueEl, coverageEl, samplesEl) {
+  const values = getBreadthValues(group);
+  if (valueEl) valueEl.textContent = values.length ? `${values.at(-1).toFixed(1)}%` : "--";
+  const coverage = group.coverage || {};
+  const method = group.method || "";
+  const isWeighted = method.includes("weighted") || method.includes("market_cap");
+  if (coverageEl) {
+    coverageEl.innerHTML = `
+      <div class="breadth-explain">
+        <strong>${getBreadthMethodLabel(group)}</strong>
+        <p>${getBreadthExplanation(group)}</p>
+        <em class="${group.divergence?.type || "neutral"}">${group.divergence?.label || "宽度状态"}：${group.divergence?.detail || "暂无背离或修复判断。"}</em>
+        ${renderSectorContribution(group, isWeighted)}
+      </div>
+      <span>全部样本 <strong>${coverage.total ?? "--"}</strong></span>
+      <span>有效样本 <strong>${coverage.effective ?? "--"}</strong></span>
+      <span>MA20上方 <strong>${coverage.aboveMa20 ?? "--"}</strong></span>
+      <span>缺失样本 <strong>${coverage.missing ?? "--"}</strong></span>
+      ${isWeighted ? `<span>权重覆盖 <strong>${coverage.weightCovered ?? "--"}/${coverage.effective ?? "--"}</strong></span>` : ""}
+    `;
+  }
+  if (samplesEl) {
+    samplesEl.innerHTML = `
+      <summary>查看全部样本明细</summary>
+      <details class="sector-breadth">
+        <summary>查看板块宽度</summary>
+        ${renderBreadthSectorRows(group, isWeighted)}
+      </details>
+      <div class="sample-filters" data-breadth-filter="${key}">
+        <button type="button" data-filter="all" class="is-active">全部</button>
+        <button type="button" data-filter="above">MA20上方</button>
+        <button type="button" data-filter="below">MA20下方</button>
+        <button type="button" data-filter="missing">数据缺失</button>
+        ${isWeighted ? `<button type="button" data-filter="weight-missing">权重缺失</button>` : ""}
+      </div>
+      <div class="sample-table ${isWeighted ? "has-weight" : ""}" role="table" aria-label="${key} breadth samples">
+        <div class="sample-row sample-head" role="row">
+          <span>代码</span><span>名称 / 板块</span><span>当前价</span><span>MA20</span>${isWeighted ? "<span>权重</span>" : ""}<span>状态</span>
+        </div>
+        ${(group.samples || []).map((sample) => renderBreadthSampleV3(sample, isWeighted)).join("")}
       </div>
     `;
   }
+}
+
+function getBreadthInsightSignals(groups) {
+  return groups.map((group) => {
+    const divergence = group?.divergence;
+    const contribution = getSectorContribution(group, false);
+    if (divergence?.type === "divergence") {
+      return {
+        type: "sell",
+        category: "宽度质量",
+        detail: `${group.label} 背离`,
+        summary: { type: "sell", text: `${group.label} 宽度背离：${divergence.detail}` },
+      };
+    }
+    if (divergence?.type === "repair") {
+      return {
+        type: "buy",
+        category: "宽度质量",
+        detail: `${group.label} 修复`,
+        summary: { type: "buy", text: `${group.label} 宽度修复：${divergence.detail}` },
+      };
+    }
+    if (contribution.concentrated) {
+      return {
+        type: "neutral",
+        category: "板块集中",
+        detail: `${group.label} ${contribution.label}`,
+        summary: { type: "neutral", text: `${group.label} ${contribution.label}` },
+      };
+    }
+    return {
+      type: "neutral",
+      category: "宽度质量",
+      detail: group?.label ? `${group.label} 同步` : "",
+      summary: { type: "neutral", text: "" },
+    };
+  });
+}
+
+function getMarketInsights() {
+  const marketMap = new Map([...markets, ...futures].map((item) => [item.code, item]));
+  const equities = ["SPY", "QQQ", "DIA", "IWM", "SSEC", "CSI300", "CSI500", "CHINEXT", "STAR50", "HSI", "HSTECH", "N225", "KOSPI", "ASX200"]
+    .map((code) => marketMap.get(code))
+    .filter(Boolean);
+  const futuresGroup = ["GC", "CL", "HG", "SI"].map((code) => marketMap.get(code)).filter(Boolean);
+  const crypto = ["BTC", "ETH"].map((code) => marketMap.get(code)).filter(Boolean);
+  const dxy = marketMap.get("DXY");
+  const tnx = marketMap.get("TNX");
+  const equityMonth = averagePeriodChange(equities, 21);
+  const cryptoMonth = averagePeriodChange(crypto, 21);
+  const dxyMonth = dxy ? getPeriodChange(dxy, 21) : null;
+  const tnxMonth = tnx ? getPeriodChange(tnx, 21) : null;
+  const futuresBest = strongestByPeriod(futuresGroup, 21);
+  const futuresBestChange = futuresBest ? getPeriodChange(futuresBest, 21) : null;
+  const equityBest = strongestByPeriod(equities, 21);
+  const equityWorst = weakestByPeriod(equities, 21);
+  const breadthGroups = [breadthSeries.sp500, breadthSeries.csi300].filter(Boolean);
+  const breadthNow = averageLatestBreadth(breadthGroups);
+  const breadthSignals = getBreadthInsightSignals(breadthGroups);
+  const riskConfirmed = equityMonth >= 0 && cryptoMonth >= 0 && (!Number.isFinite(dxyMonth) || dxyMonth <= 1.5);
+  const defensivePressure =
+    ((Number.isFinite(dxyMonth) && dxyMonth > 1.5) || (Number.isFinite(tnxMonth) && tnxMonth > 3)) && equityMonth < 0;
+  const summary = [];
+
+  if (riskConfirmed) {
+    summary.push({ type: "buy", text: `风险偏好确认：股指1月 ${formatPercent(equityMonth)}，加密资产 ${formatPercent(cryptoMonth)}，DXY 未形成明显压力。` });
+  }
+  if (defensivePressure) {
+    summary.push({ type: "sell", text: `防御压力上升：美元或10Y走强，同时股指1月 ${formatPercent(equityMonth)}。` });
+  }
+  if (futuresBest && Number.isFinite(futuresBestChange) && futuresBestChange > 3) {
+    summary.push({ type: "neutral", text: `商品线索突出：${futuresBest.index} 1月 ${formatPercent(futuresBestChange)}。` });
+  }
+  breadthSignals.forEach((signal) => {
+    if (signal.summary?.text) summary.push(signal.summary);
+  });
+  if (!summary.length) {
+    summary.push({ type: "neutral", text: "市场状态暂未出现强确认信号，继续观察股指、美元/利率、商品与宽度是否同向。" });
+  }
+
+  const liquiditySell = (Number.isFinite(dxyMonth) && dxyMonth > 1.5) || (Number.isFinite(tnxMonth) && tnxMonth > 3);
+  const liquidityBuy = (!Number.isFinite(dxyMonth) || dxyMonth <= 0) && (!Number.isFinite(tnxMonth) || tnxMonth <= 0);
+  const breadthBad = breadthSignals.some((signal) => signal.type === "sell") || (Number.isFinite(breadthNow) && breadthNow < 40);
+  const breadthGood = breadthSignals.some((signal) => signal.type === "buy") || (Number.isFinite(breadthNow) && breadthNow >= 50);
+
+  return {
+    summary: summary.slice(0, 4),
+    signals: [
+      {
+        label: "风险偏好",
+        value: riskConfirmed ? "确认" : equityMonth >= 0 ? "分化" : "谨慎",
+        type: riskConfirmed ? "buy" : equityMonth < 0 ? "sell" : "neutral",
+        detail: `股指1月 ${formatPercent(equityMonth)} / 加密 ${formatPercent(cryptoMonth)}`,
+      },
+      {
+        label: "流动性压力",
+        value: liquiditySell ? "压力" : liquidityBuy ? "缓和" : "中性",
+        type: liquiditySell ? "sell" : liquidityBuy ? "buy" : "neutral",
+        detail: `DXY ${Number.isFinite(dxyMonth) ? formatPercent(dxyMonth) : "--"} / 10Y ${Number.isFinite(tnxMonth) ? formatPercent(tnxMonth) : "--"}`,
+      },
+      {
+        label: "商品线索",
+        value: futuresBest ? futuresBest.index : "--",
+        type: Number.isFinite(futuresBestChange) && futuresBestChange > 0 ? "buy" : Number.isFinite(futuresBestChange) && futuresBestChange < 0 ? "sell" : "neutral",
+        detail: futuresBest ? `1月 ${formatPercent(futuresBestChange)}` : "商品数据不足",
+      },
+      {
+        label: "宽度质量",
+        value: Number.isFinite(breadthNow) ? `${breadthNow.toFixed(1)}%` : "--",
+        type: breadthBad ? "sell" : breadthGood ? "buy" : "neutral",
+        detail: breadthSignals.map((signal) => signal.detail).filter(Boolean).join("；") || "未出现明显背离或修复",
+      },
+      {
+        label: "区域强弱",
+        value: equityBest && equityWorst ? `${equityBest.index} / ${equityWorst.index}` : "--",
+        type: equityMonth >= 0 ? "buy" : "sell",
+        detail: equityBest && equityWorst ? `最强 ${formatPercent(getPeriodChange(equityBest, 21))}，最弱 ${formatPercent(getPeriodChange(equityWorst, 21))}` : "区域数据不足",
+      },
+    ],
+  };
+}
+
+function renderOverview() {
+  const radar = getMarketRadarMetrics();
+  const insights = getMarketInsights();
+  els.overviewStats.innerHTML = `
+    <div class="radar-heading">
+      <span>MARKET RADAR</span>
+      <strong>市场状态雷达</strong>
+    </div>
+    ${renderMarketInsights(insights)}
+    ${radar.map((item) => metricBlock(item.label, item.value, item.positive, item.detail)).join("")}
+  `;
+  renderMarketCards();
+  drawBreadthChart();
+}
+
+function getStockStateTags(stock, indicators) {
+  const tags = [];
+  const { ma20, ma60, ma120, ma200 } = indicators;
+  const price = stock.price;
+  const volumeProfile = getVolumeProfile(stock);
+  const visibleVolumes = (stock.volumeHistory || []).slice(-state.chartWindow).filter(Number.isFinite);
+  const latestVolume = visibleVolumes.at(-1);
+  const threshold = percentile(visibleVolumes, 0.8);
+  const highVolume = volumeProfile.usable && Number.isFinite(latestVolume) && Number.isFinite(threshold) && latestVolume >= threshold;
+  const obv = volumeProfile.usable ? calculateOBV(stock.history, stock.volumeHistory) : [];
+  const obvMa = volumeProfile.usable ? movingAverage(obv, 20).at(-1) : null;
+  const obvLast = volumeProfile.usable ? obv.at(-1) : null;
+  const bias20 = getBias(price, ma20);
+
+  if ([price, ma20, ma60, ma120, ma200].every(Number.isFinite) && price > ma20 && ma20 > ma60 && ma60 > ma120 && price > ma200) {
+    tags.push({ type: "buy", label: "趋势多头" });
+  }
+  if (Number.isFinite(price) && Number.isFinite(ma20) && Number.isFinite(ma60) && price > ma20 && ma20 < ma60) {
+    tags.push({ type: "neutral", label: "短线修复" });
+  }
+  if (Number.isFinite(price) && Number.isFinite(ma200) && price < ma200) {
+    tags.push({ type: "sell", label: "长期承压" });
+  }
+  if (Number.isFinite(bias20) && Math.abs(bias20) >= 8) {
+    tags.push({ type: "sell", label: "高位乖离" });
+  }
+  if (highVolume && Number.isFinite(price) && Number.isFinite(ma20) && price > ma20) {
+    tags.push({ type: "buy", label: "放量突破" });
+  }
+  if (Number.isFinite(price) && Number.isFinite(ma20) && price > ma20 && Number.isFinite(obvLast) && Number.isFinite(obvMa) && obvLast < obvMa) {
+    tags.push({ type: "sell", label: "量价背离" });
+  }
+  return tags.length ? tags : [{ type: "neutral", label: "等待确认" }];
+}
+
+function buildCoreRuleAnalyses(stock, indicators) {
+  const price = stock.price;
+  const relation = (a, b, bullishText, bearishText, neutralText = "数据不足") => {
+    if (!Number.isFinite(a) || !Number.isFinite(b)) return { type: "neutral", relation: neutralText };
+    const gap = ((a - b) / Math.abs(b || 1)) * 100;
+    return {
+      type: gap >= 0 ? "buy" : "sell",
+      relation: `${gap >= 0 ? bullishText : bearishText} ${formatPercent(Math.abs(gap))}`,
+      gap,
+    };
+  };
+  return [
+    relation(price, indicators.ma20, "当前价高于MA20", "当前价低于MA20"),
+    relation(indicators.ma20, indicators.ma60, "MA20高于MA60", "MA20低于MA60"),
+    relation(indicators.ma60, indicators.ma120, "MA60高于MA120", "MA60低于MA120"),
+    relation(price, indicators.ma200, "当前价高于MA200", "当前价低于MA200"),
+    relation(price, indicators.ma20Deduction, "当前价高于MA20抵扣价", "当前价低于MA20抵扣价"),
+  ].map((item, index) => ({
+    ...item,
+    title:
+      [
+        item.type === "buy" ? "股价在 MA20 上方" : item.type === "sell" ? "股价低于 MA20" : "MA20 数据不足",
+        item.type === "buy" ? "MA20 高于 MA60" : item.type === "sell" ? "MA20 低于 MA60" : "MA60 数据不足",
+        item.type === "buy" ? "MA60 高于 MA120" : item.type === "sell" ? "MA60 低于 MA120" : "MA120 数据不足",
+        item.type === "buy" ? "股价高于 MA200" : item.type === "sell" ? "股价低于 MA200" : "MA200 数据不足",
+        item.type === "buy" ? "MA20 抵扣偏多" : item.type === "sell" ? "MA20 抵扣承压" : "抵扣价数据不足",
+      ][index],
+    text: item.relation,
+  }));
+}
+
+function getMaStructureState(stock, indicators) {
+  const price = stock.price;
+  const { ma20, ma60, ma120, ma200, ma20Deduction } = indicators;
+  const required = [price, ma20, ma60, ma120, ma200];
+  if (!required.every(Number.isFinite)) {
+    return { type: "neutral", title: "均线结构数据不足", text: "MA20、MA60、MA120 或 MA200 样本不足，暂不生成结构判断。" };
+  }
+  const maSpread = Math.max(ma20, ma60, ma120) / Math.min(ma20, ma60, ma120) - 1;
+  const bullishStack = price > ma20 && ma20 > ma60 && ma60 > ma120 && price > ma200;
+  const bearishStack = price < ma20 && ma20 < ma60 && ma60 < ma120 && price < ma200;
+  const repair = price > ma20 && ma20 < ma60;
+  const tangled = maSpread <= 0.025;
+  const deductionPositive = Number.isFinite(ma20Deduction) && price > ma20Deduction;
+  if (bullishStack) {
+    return {
+      type: "buy",
+      title: "均线结构偏多",
+      text: `股价站上 MA20，MA20 高于 MA60，MA60 高于 MA120，且股价位于 MA200 上方。${deductionPositive ? "当前价高于 MA20 抵扣价，MA20 更容易维持向上。" : ""}`,
+    };
+  }
+  if (bearishStack) return { type: "sell", title: "均线结构偏空", text: "股价低于 MA20，短中期均线向下排列，且股价仍在 MA200 下方。" };
+  if (price < ma200) return { type: "sell", title: "长期趋势承压", text: price > ma20 ? "股价短线站上 MA20，但仍低于 MA200，属于短线修复中的长期承压结构。" : "股价同时低于 MA20 与 MA200，短线和长期趋势都需要重新修复。" };
+  if (repair) return { type: "neutral", title: "短线修复中", text: "股价重新站上 MA20，但 MA20 仍低于 MA60，短线已有修复，趋势结构还未完全转强。" };
+  if (tangled) return { type: "neutral", title: "均线结构纠缠", text: "MA20、MA60、MA120 距离较近，趋势方向不够清晰，需要等待价格突破或均线重新发散。" };
+  return { type: price > ma20 ? "buy" : "neutral", title: price > ma20 ? "长期趋势向好" : "长期向好但短线回落", text: price > ma20 ? "股价位于 MA200 上方，长期趋势仍向好；短中期均线尚未形成完整多头排列。" : "股价仍在 MA200 上方，但短线跌破 MA20，需要观察能否重新站回短期均线。" };
+}
+
+function buildRuleAnalyses(stock, indicators) {
+  const volumeProfile = getVolumeProfile(stock);
+  const obv = volumeProfile.usable ? calculateOBV(stock.history, stock.volumeHistory) : [];
+  const obvMa = volumeProfile.usable ? movingAverage(obv, 20).at(-1) : null;
+  const obvLast = volumeProfile.usable ? obv.at(-1) : null;
+  const bias20 = getBias(stock.price, indicators.ma20);
+  const rsiValue = indicators.rsi ?? 50;
+  const visibleVolumes = (stock.volumeHistory || []).slice(-state.chartWindow).filter(Number.isFinite);
+  const latestVolume = visibleVolumes.at(-1);
+  const volumeThreshold = percentile(visibleVolumes, 0.8);
+  const volumeSignal = volumeProfile.usable && Number.isFinite(latestVolume) && Number.isFinite(volumeThreshold) && latestVolume >= volumeThreshold;
+  const auxiliary = [
+    {
+      type: rsiValue >= 70 ? "sell" : rsiValue <= 30 ? "buy" : "neutral",
+      title: `RSI ${indicators.rsi ? indicators.rsi.toFixed(1) : "--"}`,
+      text: rsiValue >= 70 ? "RSI 超买，短线追高风险升高。" : rsiValue <= 30 ? "RSI 超卖，可能出现技术修复。" : "RSI 处于中性区，动能没有进入极端状态。",
+    },
+    volumeProfile.usable
+      ? {
+          type: obvLast > obvMa ? "buy" : "sell",
+          title: volumeProfile.referenceOnly ? "OBV 参考口径" : obvLast > obvMa ? "OBV 量能确认" : "OBV 量能背离",
+          text: volumeProfile.referenceOnly
+            ? `OBV 使用当前成交量口径计算，仅作辅助参考。${obvLast > obvMa ? "当前高于20日均值。" : "当前低于20日均值。"}`
+            : obvLast > obvMa
+              ? "OBV 高于20日均值，资金流入对价格有确认。"
+              : "OBV 低于20日均值，价格上涨的量能确认不足。",
+        }
+      : { type: "neutral", title: "OBV 暂不适用", text: volumeProfile.reason },
+    {
+      type: volumeSignal ? "buy" : "neutral",
+      title: volumeProfile.usable ? (volumeSignal ? "Volume 放量" : "Volume 未放量") : "Volume 暂不适用",
+      text: volumeProfile.usable ? "Volume 以当前可视窗口 80 分位为阈值，超过阈值代表短期成交量显著放大。" : volumeProfile.reason,
+    },
+    {
+      type: bias20 === null ? "neutral" : Math.abs(bias20) > 8 ? "sell" : bias20 > 0 ? "buy" : "neutral",
+      title: `MA20 乖离率 ${bias20 === null ? "--" : formatPercent(bias20)}`,
+      text: bias20 === null ? "数据不足。" : Math.abs(bias20) > 8 ? "价格偏离 MA20 过大，短线波动风险上升。" : "价格与 MA20 距离可控，趋势延续性更健康。",
+    },
+  ];
+  return [...buildCoreRuleAnalyses(stock, indicators), ...auxiliary];
+}
+
+function renderIndicatorCards(stock, indicators) {
+  const core = buildCoreRuleAnalyses(stock, indicators);
+  const values = [
+    ["当前价 / MA20", indicators.ma20, core[0]],
+    ["MA20 / MA60", indicators.ma60, core[1]],
+    ["MA60 / MA120", indicators.ma120, core[2]],
+    ["当前价 / MA200", indicators.ma200, core[3]],
+    ["MA20 抵扣价", indicators.ma20Deduction, core[4]],
+  ];
+  els.indicatorGrid.innerHTML = values
+    .map(
+      ([label, value, relation]) => `
+        <div class="indicator-card ${label.includes("抵扣") ? "wide" : ""}">
+          <span>${label}</span>
+          <strong>${Number.isFinite(value) ? formatDetailValue(value, stock) : "--"}</strong>
+          <em class="${relation.type === "buy" ? "change-up" : relation.type === "sell" ? "change-down" : ""}">
+            ${relation.relation}
+          </em>
+        </div>
+      `,
+    )
+    .join("");
+}
+
+function renderRuleAnalysisHtml(stock, indicators, analyses) {
+  const structure = getMaStructureState(stock, indicators);
+  const tags = getStockStateTags(stock, indicators);
+  return `
+    <div class="analysis-title">固定规则分析结果</div>
+    <div class="state-tags">
+      ${tags.map((tag) => `<span class="state-tag ${tag.type}">${tag.label}</span>`).join("")}
+    </div>
+    <div class="ma-structure-card ${structure.type}">
+      <strong>${structure.title}</strong>
+      <p>${structure.text}</p>
+    </div>
+    ${analyses
+      .map(
+        (signal) => `
+      <div class="signal-item ${signal.type}">
+        <strong>${signal.title}</strong>
+        <p>${signal.text}</p>
+      </div>
+    `,
+      )
+      .join("")}
+    <div class="rule-note">
+      <strong>规则备注</strong>
+      <p>以上判断由固定指标规则生成：当前价相对 MA20、MA20/MA60/MA120 排列、当前价相对 MA200、当前价相对 MA20 抵扣价、RSI 70/30、OBV 相对20日均值、Volume 当前可视窗口80分位、MA20乖离率。均线结构摘要和状态标签不调用 AI。</p>
+    </div>
+  `;
+}
+
+function ensureStaticCopy() {
+  const notes = document.querySelector(".data-note-grid");
+  if (notes && !notes.dataset.updated) {
+    notes.dataset.updated = "true";
+    notes.innerHTML = `
+      <div class="data-note">
+        <strong>股票与自选</strong>
+        <p>Yahoo Finance 日线 OHLCV，快照保留近2年；自选卡片显示当前价、今日、7日、1月变化，价格与成交量迷你图都取近1年。成交量柱按近1年窗口计算，高于该窗口80分位标绿色。</p>
+      </div>
+      <div class="data-note">
+        <strong>技术指标与个股状态</strong>
+        <p>详情主图默认近1年并可缩放；MA20/50/60/120/200 使用完整快照历史计算；RSI 为14日；OBV 带20日均线；Volume 高于当前可视窗口80分位标绿色。个股状态标签包括趋势多头、短线修复、长期承压、高位乖离、放量突破、量价背离，全部由固定规则生成。</p>
+      </div>
+      <div class="data-note">
+        <strong>市场宽度与板块</strong>
+        <p>S&amp;P 500 与沪深300宽度展示近1年交易日。等权宽度为站上MA20数量 / 有效样本数；权重宽度按 SPY/510300 持仓权重加总。行业分类按市场分别处理：S&amp;P 500 使用 GICS 一级行业；沪深300优先中证官方行业字段，缺失时使用本地申万一级补表，再用名称/代码兜底推断。两地行业不做强行统一，只用于各自市场内部判断宽度是否由少数行业带动。</p>
+      </div>
+      <div class="data-note">
+        <strong>市场洞察与数据源</strong>
+        <p>市场状态雷达只使用现有快照中的今日、7日、1月涨跌、宽度、DXY、10Y、商品和加密数据生成固定摘要与信号列表，不调用 AI。指数或板块缺失时不造数，A50 使用 2822.HK ETF 代理；当前快照没有 A50 或取数失败时不展示卡片，真实刷新成功后自动出现。</p>
+      </div>
+    `;
+    notes.insertAdjacentHTML("beforeend", buildDataHealthNote());
+  }
+}
+
+function getConfiguredMissingMarkets() {
+  if (!snapshotOnlyMode()) return [];
+  return [...markets, ...futures]
+    .filter((item) => !item.isSnapshotData)
+    .map((item) => item.index || item.code)
+    .filter(Boolean);
+}
+
+function formatMissingMarketList(items) {
+  if (!items.length) return "已配置市场卡片均包含在当前快照中。";
+  const shown = items.slice(0, 12).join("、");
+  const suffix = items.length > 12 ? ` 等 ${items.length} 个` : "";
+  return `已配置但当前快照未包含：${shown}${suffix}。它们不会显示假数据，刷新市场快照成功后会自动进入对应分组。`;
+}
+
+function buildDataHealthNote() {
+  const freshness = getDataFreshness();
+  const health = dataMeta.health || {};
+  const instruments = health.instruments || {};
+  const errorCount = dataMeta.errorLog?.length ?? dataMeta.errors?.length ?? 0;
+  const missingMarkets = getConfiguredMissingMarkets();
+  const breadthHealth = health.breadth || {};
+  const sp500 = breadthHealth.sp500 || {};
+  const csi300 = breadthHealth.csi300 || {};
+  return `
+    <div class="data-note wide-note">
+      <strong>快照健康与数据时效</strong>
+      <p>快照版本：${dataMeta.snapshotVersion || "--"}；当前状态：${freshness.label}。计划按 UTC+8 每 4 小时整点刷新：00:00 / 04:00 / 08:00 / 12:00 / 16:00 / 20:00。</p>
+      <p>行情标的：成功 ${instruments.success ?? "--"} / 总计 ${instruments.total ?? "--"}；错误日志 ${errorCount} 条。宽度健康检查包含样本数、有效样本、缺失样本、权重覆盖率；Yahoo 行情、ETF 持仓、成分股清单分别记录来源和失败原因。</p>
+      <p>${formatMissingMarketList(missingMarkets)}</p>
+      <p>宽度覆盖：S&amp;P 500 有效 ${sp500.effective ?? "--"} / 全部 ${sp500.total ?? "--"}，沪深300 有效 ${csi300.effective ?? "--"} / 全部 ${csi300.total ?? "--"}。板块宽度只比较有效样本不少于 5 的行业，未分类样本保留并排在最后，用来提示分类质量。</p>
+    </div>
+  `;
 }
 
 renderAll();

@@ -6,9 +6,10 @@
   "description": "V0.1 static market tracking dashboard with scheduled snapshot refresh.",
   "scripts": {
     "check": "node -e \"const fs=require('fs'),cp=require('child_process');for(const f of ['app.js','scripts/fetch-market-data.mjs','scripts/serve.mjs']){const args=['--check'];if(f.endsWith('.mjs'))args.push('--input-type=module');const r=cp.spawnSync(process.execPath,args,{input:fs.readFileSync(f),stdio:['pipe','inherit','inherit']});if(r.status)process.exit(r.status);console.log(f+': ok')}\"",
-    "snapshot": "node scripts/fetch-market-data.mjs",
-    "snapshot:force": "node scripts/fetch-market-data.mjs --force",
-    "dev": "node scripts/serve.mjs"
+    "snapshot": "node -e \"const fs=require('fs');process.env.MARKET_RADAR_ROOT=process.cwd();import('data:text/javascript;base64,'+fs.readFileSync('scripts/fetch-market-data.mjs').toString('base64'))\"",
+    "snapshot:force": "node -e \"const fs=require('fs');process.env.MARKET_RADAR_ROOT=process.cwd();process.argv.push('--force');import('data:text/javascript;base64,'+fs.readFileSync('scripts/fetch-market-data.mjs').toString('base64'))\"",
+    "snapshot:market": "node -e \"const fs=require('fs');process.env.MARKET_RADAR_ROOT=process.cwd();process.env.MARKET_RADAR_INSTRUMENT_TIMEOUT_MS=process.env.MARKET_RADAR_INSTRUMENT_TIMEOUT_MS||'8000';process.argv.push('--force','--skip-full-breadth','--market-only');import('data:text/javascript;base64,'+fs.readFileSync('scripts/fetch-market-data.mjs').toString('base64'))\"",
+    "dev": "node -e \"const fs=require('fs');process.env.MARKET_RADAR_ROOT=process.cwd();import('data:text/javascript;base64,'+fs.readFileSync('scripts/serve.mjs').toString('base64'))\""
   },
   "engines": {
     "node": ">=20"
