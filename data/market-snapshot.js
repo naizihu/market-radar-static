@@ -1,7 +1,7 @@
 window.MARKET_SNAPSHOT = {
   "source": "Yahoo Finance chart API",
-  "generatedAt": "2026-06-28T17:18:37.899Z",
-  "snapshotVersion": "20260628-171837-vh568.",
+  "generatedAt": "2026-06-28T21:07:56.476Z",
+  "snapshotVersion": "20260628-210756-4wf0lg",
   "refreshIntervalHours": 4,
   "instruments": {
     "AAPL": {
@@ -129211,8 +129211,8 @@ window.MARKET_SNAPSHOT = {
       "longName": "EUR/USD",
       "exchangeName": "CCY",
       "timezone": "Europe/London",
-      "lastMarketTime": "2026-06-26T21:29:07.000Z",
-      "price": 1.139,
+      "lastMarketTime": "2026-06-28T21:07:04.000Z",
+      "price": 1.1388,
       "previousClose": 1.1362,
       "history": [
         1.071,
@@ -129733,7 +129733,7 @@ window.MARKET_SNAPSHOT = {
         1.138,
         1.1354,
         1.1362,
-        1.139
+        1.1388
       ],
       "volumeHistory": [
         0,
@@ -134402,11 +134402,11 @@ window.MARKET_SNAPSHOT = {
           "volume": 0
         },
         {
-          "date": "2026-06-26",
-          "open": 1.1378,
-          "high": 1.1434,
-          "low": 1.1357,
-          "close": 1.139,
+          "date": "2026-06-28",
+          "open": 1.139,
+          "high": 1.139,
+          "low": 1.1388,
+          "close": 1.1388,
           "volume": 0
         }
       ]
@@ -134422,8 +134422,8 @@ window.MARKET_SNAPSHOT = {
       "longName": "USD/JPY",
       "exchangeName": "CCY",
       "timezone": "Europe/London",
-      "lastMarketTime": "2026-06-28T04:21:13.000Z",
-      "price": 161.685,
+      "lastMarketTime": "2026-06-28T21:07:28.000Z",
+      "price": 161.721,
       "previousClose": 161.805,
       "history": [
         159.686,
@@ -134944,7 +134944,7 @@ window.MARKET_SNAPSHOT = {
         161.599,
         161.763,
         161.805,
-        161.685
+        161.721
       ],
       "volumeHistory": [
         0,
@@ -139615,9 +139615,9 @@ window.MARKET_SNAPSHOT = {
         {
           "date": "2026-06-28",
           "open": 161.685,
-          "high": 161.685,
-          "low": 161.685,
-          "close": 161.685,
+          "high": 161.747,
+          "low": 161.668,
+          "close": 161.721,
           "volume": 0
         }
       ]
@@ -139633,8 +139633,8 @@ window.MARKET_SNAPSHOT = {
       "longName": "GBP/USD",
       "exchangeName": "CCY",
       "timezone": "Europe/London",
-      "lastMarketTime": "2026-06-26T21:29:07.000Z",
-      "price": 1.3198,
+      "lastMarketTime": "2026-06-28T21:07:04.000Z",
+      "price": 1.3208,
       "previousClose": 1.3188,
       "history": [
         1.2684,
@@ -140155,7 +140155,7 @@ window.MARKET_SNAPSHOT = {
         1.32,
         1.3167,
         1.3188,
-        1.3198
+        1.3208
       ],
       "volumeHistory": [
         0,
@@ -144824,11 +144824,11 @@ window.MARKET_SNAPSHOT = {
           "volume": 0
         },
         {
-          "date": "2026-06-26",
-          "open": 1.3197,
-          "high": 1.323,
-          "low": 1.3181,
-          "close": 1.3198,
+          "date": "2026-06-28",
+          "open": 1.3206,
+          "high": 1.3208,
+          "low": 1.3206,
+          "close": 1.3208,
           "volume": 0
         }
       ]
@@ -144844,8 +144844,8 @@ window.MARKET_SNAPSHOT = {
       "longName": "USD/CNY",
       "exchangeName": "CCY",
       "timezone": "Europe/London",
-      "lastMarketTime": "2026-06-28T16:04:48.000Z",
-      "price": 6.7897,
+      "lastMarketTime": "2026-06-28T17:31:42.000Z",
+      "price": 6.7975,
       "previousClose": 6.79,
       "history": [
         7.2614,
@@ -145366,7 +145366,7 @@ window.MARKET_SNAPSHOT = {
         6.79,
         6.79,
         6.79,
-        6.7897
+        6.7975
       ],
       "volumeHistory": [
         0,
@@ -150039,7 +150039,7 @@ window.MARKET_SNAPSHOT = {
           "open": 6.7897,
           "high": 6.7975,
           "low": 6.7897,
-          "close": 6.7897,
+          "close": 6.7975,
           "volume": 0
         }
       ]
@@ -150055,8 +150055,8 @@ window.MARKET_SNAPSHOT = {
       "longName": "AUD/USD",
       "exchangeName": "CCY",
       "timezone": "Europe/London",
-      "lastMarketTime": "2026-06-28T17:17:05.000Z",
-      "price": 0.6901,
+      "lastMarketTime": "2026-06-28T21:07:04.000Z",
+      "price": 0.6893,
       "previousClose": 0.6901,
       "history": [
         0.6645,
@@ -150577,7 +150577,7 @@ window.MARKET_SNAPSHOT = {
         0.6916,
         0.69,
         0.6901,
-        0.6901
+        0.6893
       ],
       "volumeHistory": [
         0,
@@ -155249,8 +155249,8 @@ window.MARKET_SNAPSHOT = {
           "date": "2026-06-28",
           "open": 0.6901,
           "high": 0.6901,
-          "low": 0.6901,
-          "close": 0.6901,
+          "low": 0.6884,
+          "close": 0.6893,
           "volume": 0
         }
       ]
@@ -155266,8 +155266,8 @@ window.MARKET_SNAPSHOT = {
       "longName": "Bitcoin USD",
       "exchangeName": "CCC",
       "timezone": "UTC",
-      "lastMarketTime": "2026-06-28T17:18:35.000Z",
-      "price": 59531.7188,
+      "lastMarketTime": "2026-06-28T21:07:54.000Z",
+      "price": 59605.7383,
       "previousClose": 59940.0977,
       "history": [
         60320.1367,
@@ -156000,7 +156000,7 @@ window.MARKET_SNAPSHOT = {
         59721.6758,
         60016.4297,
         59940.0977,
-        59531.7188
+        59605.7383
       ],
       "volumeHistory": [
         24952866877,
@@ -156733,7 +156733,7 @@ window.MARKET_SNAPSHOT = {
         40625024718,
         41502864671,
         15099836554,
-        15145506816
+        15396696064
       ],
       "ohlcv": [
         {
@@ -162580,9 +162580,9 @@ window.MARKET_SNAPSHOT = {
           "date": "2026-06-28",
           "open": 59939.5234,
           "high": 60379.6797,
-          "low": 59542.8047,
-          "close": 59531.7188,
-          "volume": 15145506816
+          "low": 59275.4648,
+          "close": 59605.7383,
+          "volume": 15396696064
         }
       ]
     },
@@ -162597,8 +162597,8 @@ window.MARKET_SNAPSHOT = {
       "longName": "Ethereum USD",
       "exchangeName": "CCC",
       "timezone": "UTC",
-      "lastMarketTime": "2026-06-28T17:18:31.000Z",
-      "price": 1567.45,
+      "lastMarketTime": "2026-06-28T21:07:51.000Z",
+      "price": 1570.0699,
       "previousClose": 1571.5883,
       "history": [
         3373.636,
@@ -163331,7 +163331,7 @@ window.MARKET_SNAPSHOT = {
         1564.8167,
         1576.6161,
         1571.5883,
-        1567.45
+        1570.0699
       ],
       "volumeHistory": [
         12861158844,
@@ -164064,7 +164064,7 @@ window.MARKET_SNAPSHOT = {
         15976182558,
         15272225856,
         6111411513,
-        5774109696
+        5844337152
       ],
       "ohlcv": [
         {
@@ -169911,9 +169911,9 @@ window.MARKET_SNAPSHOT = {
           "date": "2026-06-28",
           "open": 1571.6818,
           "high": 1583.2004,
-          "low": 1561.6748,
-          "close": 1567.45,
-          "volume": 5774109696
+          "low": 1557.5844,
+          "close": 1570.0699,
+          "volume": 5844337152
         }
       ]
     },
@@ -190073,7 +190073,7 @@ window.MARKET_SNAPSHOT = {
         },
         {
           "date": "2026-06-26",
-          "open": 58.025,
+          "open": 58.545,
           "high": 60,
           "low": 56.13,
           "close": 59.674,
@@ -406326,8 +406326,8 @@ window.MARKET_SNAPSHOT = {
       "exchangeName": "SAU",
       "timezone": "Asia/Riyadh",
       "lastMarketTime": "2026-06-28T12:19:59.000Z",
-      "price": 26.6,
-      "previousClose": 26.14,
+      "price": 26.14,
+      "previousClose": 26.34,
       "history": [
         27.7,
         28,
@@ -406831,8 +406831,7 @@ window.MARKET_SNAPSHOT = {
         26.44,
         26.38,
         26.34,
-        26.14,
-        26.6
+        26.14
       ],
       "volumeHistory": [
         0,
@@ -407337,8 +407336,7 @@ window.MARKET_SNAPSHOT = {
         5755753,
         8266489,
         8201780,
-        8839251,
-        5610598
+        8839251
       ],
       "ohlcv": [
         {
@@ -411364,14 +411362,6 @@ window.MARKET_SNAPSHOT = {
           "low": 26.14,
           "close": 26.14,
           "volume": 8839251
-        },
-        {
-          "date": "2026-06-28",
-          "open": 26.14,
-          "high": 26.64,
-          "low": 26.14,
-          "close": 26.6,
-          "volume": 5610598
         }
       ]
     },
@@ -582947,7 +582937,7 @@ window.MARKET_SNAPSHOT = {
       "method": "equal_weight_above_ma20",
       "sourceUrl": "https://raw.githubusercontent.com/datasets/s-and-p-500-companies/main/data/constituents.csv",
       "benchmarkCode": "SPY",
-      "generatedAt": "2026-06-28T17:18:45.624Z",
+      "generatedAt": "2026-06-28T21:08:06.818Z",
       "coverage": {
         "total": 503,
         "effective": 503,
@@ -590659,7 +590649,7 @@ window.MARKET_SNAPSHOT = {
       "method": "equal_weight_above_ma20",
       "sourceUrl": "https://yfiua.github.io/index-constituents/constituents-csi300.csv",
       "benchmarkCode": "CSI300",
-      "generatedAt": "2026-06-28T17:18:50.313Z",
+      "generatedAt": "2026-06-28T21:08:13.498Z",
       "coverage": {
         "total": 300,
         "effective": 300,
@@ -596301,7 +596291,7 @@ window.MARKET_SNAPSHOT = {
           "https://www.ishares.com/us/products/239726/ishares-core-sp-500-etf/1467271812596.ajax?fileType=csv&fileName=IVV_holdings&dataType=fund"
         ],
         "benchmarkCode": "SPY",
-        "generatedAt": "2026-06-28T17:18:45.624Z",
+        "generatedAt": "2026-06-28T21:08:06.818Z",
         "coverage": {
           "total": 503,
           "effective": 503,
@@ -604019,7 +604009,7 @@ window.MARKET_SNAPSHOT = {
         "sourceUrl": "https://yfiua.github.io/index-constituents/constituents-csi300.csv",
         "weightSourceUrl": "https://stock.finance.sina.com.cn/fundInfo/view/FundInfo_CGMX.php?symbol=510300",
         "benchmarkCode": "CSI300",
-        "generatedAt": "2026-06-28T17:18:50.313Z",
+        "generatedAt": "2026-06-28T21:08:13.498Z",
         "coverage": {
           "total": 300,
           "effective": 300,
@@ -609661,8 +609651,8 @@ window.MARKET_SNAPSHOT = {
   "errors": [],
   "errorLog": [],
   "health": {
-    "generatedAt": "2026-06-28T17:18:37.899Z",
-    "snapshotVersion": "20260628-171837-vh568.",
+    "generatedAt": "2026-06-28T21:07:56.476Z",
+    "snapshotVersion": "20260628-210756-4wf0lg",
     "refreshIntervalHours": 4,
     "instruments": {
       "total": 116,
