@@ -1,7 +1,7 @@
 window.MARKET_SNAPSHOT = {
   "source": "Yahoo Finance chart API",
-  "generatedAt": "2026-07-03T07:27:00.785Z",
-  "snapshotVersion": "20260703-072700-ggjmzw",
+  "generatedAt": "2026-07-03T10:42:09.462Z",
+  "snapshotVersion": "20260703-104209-8lx7xc",
   "refreshIntervalHours": 4,
   "instruments": {
     "AAPL": {
@@ -35232,8 +35232,8 @@ window.MARKET_SNAPSHOT = {
       "longName": "Tencent Holdings Limited",
       "exchangeName": "HKG",
       "timezone": "Asia/Hong_Kong",
-      "lastMarketTime": "2026-07-03T07:12:00.000Z",
-      "price": 432.8,
+      "lastMarketTime": "2026-07-03T08:08:13.000Z",
+      "price": 431.2,
       "previousClose": 430.2,
       "history": [
         379.4,
@@ -35726,7 +35726,7 @@ window.MARKET_SNAPSHOT = {
         420.2,
         429.8,
         430.2,
-        432.8
+        431.2
       ],
       "volumeHistory": [
         22256951,
@@ -36219,7 +36219,7 @@ window.MARKET_SNAPSHOT = {
         33066070,
         38994409,
         40905100,
-        20296235
+        24957596
       ],
       "ohlcv": [
         {
@@ -40147,8 +40147,8 @@ window.MARKET_SNAPSHOT = {
           "open": 433,
           "high": 445.8,
           "low": 431.2,
-          "close": 432.8,
-          "volume": 20296235
+          "close": 431.2,
+          "volume": 24957596
         }
       ]
     },
@@ -89443,8 +89443,8 @@ window.MARKET_SNAPSHOT = {
       "longName": "CSOP ETF Series - CSOP FTSE China A50 ETF",
       "exchangeName": "HKG",
       "timezone": "Asia/Hong_Kong",
-      "lastMarketTime": "2026-07-03T07:09:08.000Z",
-      "price": 15.67,
+      "lastMarketTime": "2026-07-03T07:59:00.000Z",
+      "price": 15.66,
       "previousClose": 15.48,
       "history": [
         11.76,
@@ -89935,7 +89935,7 @@ window.MARKET_SNAPSHOT = {
         16.11,
         16.24,
         15.48,
-        15.67
+        15.66
       ],
       "volumeHistory": [
         1768887,
@@ -90426,7 +90426,7 @@ window.MARKET_SNAPSHOT = {
         5259426,
         2129740,
         6141437,
-        3636998
+        4062013
       ],
       "ohlcv": [
         {
@@ -94338,8 +94338,8 @@ window.MARKET_SNAPSHOT = {
           "open": 15.55,
           "high": 15.84,
           "low": 15.48,
-          "close": 15.67,
-          "volume": 3636998
+          "close": 15.66,
+          "volume": 4062013
         }
       ]
     },
@@ -94354,8 +94354,8 @@ window.MARKET_SNAPSHOT = {
       "longName": "HANG SENG INDEX",
       "exchangeName": "HKG",
       "timezone": "Asia/Hong_Kong",
-      "lastMarketTime": "2026-07-03T07:11:58.000Z",
-      "price": 23346.8496,
+      "lastMarketTime": "2026-07-03T08:08:34.000Z",
+      "price": 23350.0293,
       "previousClose": 23055.0293,
       "history": [
         17978.5703,
@@ -94848,7 +94848,7 @@ window.MARKET_SNAPSHOT = {
         23026.6797,
         22881.0195,
         23055.0293,
-        23346.8496
+        23350.0293
       ],
       "volumeHistory": [
         3089700000,
@@ -99269,7 +99269,7 @@ window.MARKET_SNAPSHOT = {
           "open": 23240.8496,
           "high": 23516.6992,
           "low": 23226.1992,
-          "close": 23346.8496,
+          "close": 23350.0293,
           "volume": 0
         }
       ]
@@ -99285,8 +99285,8 @@ window.MARKET_SNAPSHOT = {
       "longName": "CSOP ETF Series - CSOP Hang Seng TECH Index ETF",
       "exchangeName": "HKG",
       "timezone": "Asia/Hong_Kong",
-      "lastMarketTime": "2026-07-03T07:11:56.000Z",
-      "price": 4.41,
+      "lastMarketTime": "2026-07-03T08:08:13.000Z",
+      "price": 4.416,
       "previousClose": 4.364,
       "history": [
         3.568,
@@ -99778,7 +99778,7 @@ window.MARKET_SNAPSHOT = {
         4.308,
         4.39,
         4.364,
-        4.41
+        4.416
       ],
       "volumeHistory": [
         705456134,
@@ -100270,7 +100270,7 @@ window.MARKET_SNAPSHOT = {
         3306806419,
         2186648552,
         4073081330,
-        1897295825
+        2199156680
       ],
       "ohlcv": [
         {
@@ -104190,8 +104190,8 @@ window.MARKET_SNAPSHOT = {
           "open": 4.41,
           "high": 4.47,
           "low": 4.384,
-          "close": 4.41,
-          "volume": 1897295825
+          "close": 4.416,
+          "volume": 2199156680
         }
       ]
     },
@@ -109107,7 +109107,7 @@ window.MARKET_SNAPSHOT = {
       "longName": "KOSPI Composite Index",
       "exchangeName": "KSC",
       "timezone": "Asia/Seoul",
-      "lastMarketTime": "2026-07-03T06:33:00.000Z",
+      "lastMarketTime": "2026-07-03T09:05:30.000Z",
       "price": 8088.3398,
       "previousClose": 7648.0898,
       "history": [
@@ -110084,7 +110084,7 @@ window.MARKET_SNAPSHOT = {
         449800,
         468200,
         505200,
-        462483
+        465821
       ],
       "ohlcv": [
         {
@@ -113973,7 +113973,7 @@ window.MARKET_SNAPSHOT = {
           "high": 8136.2798,
           "low": 7378.1001,
           "close": 8088.3398,
-          "volume": 462483
+          "volume": 465821
         }
       ]
     },
@@ -113988,7 +113988,7 @@ window.MARKET_SNAPSHOT = {
       "longName": "S&P/ASX 200",
       "exchangeName": "ASX",
       "timezone": "Australia/Sydney",
-      "lastMarketTime": "2026-07-03T06:25:15.000Z",
+      "lastMarketTime": "2026-07-03T07:15:44.000Z",
       "price": 8844.4004,
       "previousClose": 8724.5,
       "history": [
@@ -124090,8 +124090,8 @@ window.MARKET_SNAPSHOT = {
       "longName": "US Dollar Index",
       "exchangeName": "NYB",
       "timezone": "America/New_York",
-      "lastMarketTime": "2026-07-03T07:17:00.000Z",
-      "price": 100.693,
+      "lastMarketTime": "2026-07-03T10:32:08.000Z",
+      "price": 100.786,
       "previousClose": 100.86,
       "history": [
         105.4,
@@ -124597,7 +124597,7 @@ window.MARKET_SNAPSHOT = {
         101.19,
         101.39,
         100.86,
-        100.693
+        100.786
       ],
       "volumeHistory": [
         0,
@@ -129135,7 +129135,7 @@ window.MARKET_SNAPSHOT = {
           "open": 100.913,
           "high": 100.992,
           "low": 100.603,
-          "close": 100.693,
+          "close": 100.786,
           "volume": 0
         }
       ]
@@ -129151,8 +129151,8 @@ window.MARKET_SNAPSHOT = {
       "longName": "EUR/USD",
       "exchangeName": "CCY",
       "timezone": "Europe/London",
-      "lastMarketTime": "2026-07-03T07:26:05.000Z",
-      "price": 1.1457,
+      "lastMarketTime": "2026-07-03T10:42:03.000Z",
+      "price": 1.145,
       "previousClose": 1.1378,
       "history": [
         1.0748,
@@ -129672,7 +129672,7 @@ window.MARKET_SNAPSHOT = {
         1.1422,
         1.1413,
         1.1378,
-        1.1457
+        1.145
       ],
       "volumeHistory": [
         0,
@@ -134336,7 +134336,7 @@ window.MARKET_SNAPSHOT = {
           "open": 1.1436,
           "high": 1.1465,
           "low": 1.1423,
-          "close": 1.1457,
+          "close": 1.145,
           "volume": 0
         }
       ]
@@ -134352,8 +134352,8 @@ window.MARKET_SNAPSHOT = {
       "longName": "USD/JPY",
       "exchangeName": "CCY",
       "timezone": "Europe/London",
-      "lastMarketTime": "2026-07-03T07:27:00.000Z",
-      "price": 160.749,
+      "lastMarketTime": "2026-07-03T10:42:08.000Z",
+      "price": 161.129,
       "previousClose": 162.539,
       "history": [
         161.504,
@@ -134873,7 +134873,7 @@ window.MARKET_SNAPSHOT = {
         161.923,
         162.628,
         162.539,
-        160.749
+        161.129
       ],
       "volumeHistory": [
         0,
@@ -139537,7 +139537,7 @@ window.MARKET_SNAPSHOT = {
           "open": 161.1,
           "high": 161.524,
           "low": 160.466,
-          "close": 160.749,
+          "close": 161.129,
           "volume": 0
         }
       ]
@@ -139553,8 +139553,8 @@ window.MARKET_SNAPSHOT = {
       "longName": "GBP/USD",
       "exchangeName": "CCY",
       "timezone": "Europe/London",
-      "lastMarketTime": "2026-07-03T07:26:05.000Z",
-      "price": 1.337,
+      "lastMarketTime": "2026-07-03T10:42:03.000Z",
+      "price": 1.3354,
       "previousClose": 1.3279,
       "history": [
         1.269,
@@ -140074,7 +140074,7 @@ window.MARKET_SNAPSHOT = {
         1.3254,
         1.3251,
         1.3279,
-        1.337
+        1.3354
       ],
       "volumeHistory": [
         0,
@@ -144738,7 +144738,7 @@ window.MARKET_SNAPSHOT = {
           "open": 1.3346,
           "high": 1.338,
           "low": 1.3335,
-          "close": 1.337,
+          "close": 1.3354,
           "volume": 0
         }
       ]
@@ -144754,8 +144754,8 @@ window.MARKET_SNAPSHOT = {
       "longName": "USD/CNY",
       "exchangeName": "CCY",
       "timezone": "Europe/London",
-      "lastMarketTime": "2026-07-03T07:26:57.000Z",
-      "price": 6.7814,
+      "lastMarketTime": "2026-07-03T10:40:45.000Z",
+      "price": 6.7708,
       "previousClose": 6.7942,
       "history": [
         7.2694,
@@ -145275,7 +145275,7 @@ window.MARKET_SNAPSHOT = {
         6.7936,
         6.7936,
         6.7942,
-        6.7814
+        6.7708
       ],
       "volumeHistory": [
         0,
@@ -149939,7 +149939,7 @@ window.MARKET_SNAPSHOT = {
           "open": 6.7881,
           "high": 6.7881,
           "low": 6.7669,
-          "close": 6.7814,
+          "close": 6.7708,
           "volume": 0
         }
       ]
@@ -149955,8 +149955,8 @@ window.MARKET_SNAPSHOT = {
       "longName": "AUD/USD",
       "exchangeName": "CCY",
       "timezone": "Europe/London",
-      "lastMarketTime": "2026-07-03T07:25:05.000Z",
-      "price": 0.6948,
+      "lastMarketTime": "2026-07-03T10:41:03.000Z",
+      "price": 0.694,
       "previousClose": 0.6892,
       "history": [
         0.6668,
@@ -150476,7 +150476,7 @@ window.MARKET_SNAPSHOT = {
         0.6882,
         0.6913,
         0.6892,
-        0.6948
+        0.694
       ],
       "volumeHistory": [
         0,
@@ -155140,7 +155140,7 @@ window.MARKET_SNAPSHOT = {
           "open": 0.6922,
           "high": 0.6952,
           "low": 0.6914,
-          "close": 0.6948,
+          "close": 0.694,
           "volume": 0
         }
       ]
@@ -155156,8 +155156,8 @@ window.MARKET_SNAPSHOT = {
       "longName": "Bitcoin USD",
       "exchangeName": "CCC",
       "timezone": "UTC",
-      "lastMarketTime": "2026-07-03T07:26:54.000Z",
-      "price": 61648.0195,
+      "lastMarketTime": "2026-07-03T10:42:03.000Z",
+      "price": 61753.0195,
       "previousClose": 61485.3008,
       "history": [
         60173.9219,
@@ -155890,7 +155890,7 @@ window.MARKET_SNAPSHOT = {
         58558.8594,
         60003.7578,
         61485.3008,
-        61648.0195
+        61753.0195
       ],
       "volumeHistory": [
         29756701685,
@@ -156623,7 +156623,7 @@ window.MARKET_SNAPSHOT = {
         32747419391,
         37904450118,
         40109297349,
-        36249317376
+        33401249792
       ],
       "ohlcv": [
         {
@@ -162469,10 +162469,10 @@ window.MARKET_SNAPSHOT = {
         {
           "date": "2026-07-03",
           "open": 61492.9883,
-          "high": 61766.1211,
+          "high": 61804.1719,
           "low": 61192.2148,
-          "close": 61648.0195,
-          "volume": 36249317376
+          "close": 61753.0195,
+          "volume": 33401249792
         }
       ]
     },
@@ -162487,8 +162487,8 @@ window.MARKET_SNAPSHOT = {
       "longName": "Ethereum USD",
       "exchangeName": "CCC",
       "timezone": "UTC",
-      "lastMarketTime": "2026-07-03T07:26:51.000Z",
-      "price": 1714.86,
+      "lastMarketTime": "2026-07-03T10:42:08.000Z",
+      "price": 1736.89,
       "previousClose": 1698.1694,
       "history": [
         3292.9167,
@@ -163221,7 +163221,7 @@ window.MARKET_SNAPSHOT = {
         1569.5839,
         1608.9607,
         1698.1694,
-        1714.86
+        1736.89
       ],
       "volumeHistory": [
         16121324440,
@@ -163954,7 +163954,7 @@ window.MARKET_SNAPSHOT = {
         9639804637,
         11666600557,
         13538465176,
-        13364316160
+        13004737536
       ],
       "ohlcv": [
         {
@@ -169800,10 +169800,10 @@ window.MARKET_SNAPSHOT = {
         {
           "date": "2026-07-03",
           "open": 1698.3707,
-          "high": 1718.4539,
+          "high": 1738.3807,
           "low": 1693.5906,
-          "close": 1714.86,
-          "volume": 13364316160
+          "close": 1736.89,
+          "volume": 13004737536
         }
       ]
     },
@@ -169818,8 +169818,8 @@ window.MARKET_SNAPSHOT = {
       "longName": null,
       "exchangeName": "CMX",
       "timezone": "America/New_York",
-      "lastMarketTime": "2026-07-03T07:17:01.000Z",
-      "price": 4185,
+      "lastMarketTime": "2026-07-03T10:32:06.000Z",
+      "price": 4191.1001,
       "previousClose": 4112.7002,
       "history": [
         2359.8,
@@ -170325,7 +170325,7 @@ window.MARKET_SNAPSHOT = {
         4022.8999,
         4068.3,
         4112.7002,
-        4185
+        4191.1001
       ],
       "volumeHistory": [
         59,
@@ -170831,7 +170831,7 @@ window.MARKET_SNAPSHOT = {
         1108,
         770,
         770,
-        29452
+        38919
       ],
       "ohlcv": [
         {
@@ -174863,8 +174863,8 @@ window.MARKET_SNAPSHOT = {
           "open": 4138,
           "high": 4208.2998,
           "low": 4133.7998,
-          "close": 4185,
-          "volume": 29452
+          "close": 4191.1001,
+          "volume": 38919
         }
       ]
     },
@@ -174879,8 +174879,8 @@ window.MARKET_SNAPSHOT = {
       "longName": null,
       "exchangeName": "NYM",
       "timezone": "America/New_York",
-      "lastMarketTime": "2026-07-03T07:16:43.000Z",
-      "price": 68.75,
+      "lastMarketTime": "2026-07-03T10:32:04.000Z",
+      "price": 68.54,
       "previousClose": 68.69,
       "history": [
         83.88,
@@ -175386,7 +175386,7 @@ window.MARKET_SNAPSHOT = {
         69.5,
         68.58,
         68.69,
-        68.75
+        68.54
       ],
       "volumeHistory": [
         289685,
@@ -175892,7 +175892,7 @@ window.MARKET_SNAPSHOT = {
         194279,
         200004,
         200004,
-        11574
+        25432
       ],
       "ohlcv": [
         {
@@ -179923,9 +179923,9 @@ window.MARKET_SNAPSHOT = {
           "date": "2026-07-03",
           "open": 68.43,
           "high": 69.26,
-          "low": 68.3,
-          "close": 68.75,
-          "volume": 11574
+          "low": 68.14,
+          "close": 68.54,
+          "volume": 25432
         }
       ]
     },
@@ -179940,8 +179940,8 @@ window.MARKET_SNAPSHOT = {
       "longName": null,
       "exchangeName": "CMX",
       "timezone": "America/New_York",
-      "lastMarketTime": "2026-07-03T07:15:13.000Z",
-      "price": 6.245,
+      "lastMarketTime": "2026-07-03T10:31:52.000Z",
+      "price": 6.2225,
       "previousClose": 6.1145,
       "history": [
         4.541,
@@ -180447,7 +180447,7 @@ window.MARKET_SNAPSHOT = {
         6.1925,
         6.1235,
         6.1145,
-        6.245
+        6.2225
       ],
       "volumeHistory": [
         821,
@@ -180953,7 +180953,7 @@ window.MARKET_SNAPSHOT = {
         1742,
         1240,
         1240,
-        4985
+        6095
       ],
       "ohlcv": [
         {
@@ -184985,8 +184985,8 @@ window.MARKET_SNAPSHOT = {
           "open": 6.1735,
           "high": 6.2665,
           "low": 6.171,
-          "close": 6.245,
-          "volume": 4985
+          "close": 6.2225,
+          "volume": 6095
         }
       ]
     },
@@ -185001,8 +185001,8 @@ window.MARKET_SNAPSHOT = {
       "longName": null,
       "exchangeName": "CMX",
       "timezone": "America/New_York",
-      "lastMarketTime": "2026-07-03T07:16:42.000Z",
-      "price": 62.875,
+      "lastMarketTime": "2026-07-03T10:31:18.000Z",
+      "price": 63.01,
       "previousClose": 60.643,
       "history": [
         30.548,
@@ -185508,7 +185508,7 @@ window.MARKET_SNAPSHOT = {
         59.477,
         60.085,
         60.643,
-        62.875
+        63.01
       ],
       "volumeHistory": [
         261,
@@ -186014,7 +186014,7 @@ window.MARKET_SNAPSHOT = {
         1886,
         367,
         367,
-        7654
+        9547
       ],
       "ohlcv": [
         {
@@ -190044,10 +190044,10 @@ window.MARKET_SNAPSHOT = {
         {
           "date": "2026-07-03",
           "open": 61.5,
-          "high": 63.135,
+          "high": 63.35,
           "low": 61.385,
-          "close": 62.875,
-          "volume": 7654
+          "close": 63.01,
+          "volume": 9547
         }
       ]
     },
@@ -205155,8 +205155,8 @@ window.MARKET_SNAPSHOT = {
       "longName": "Alibaba Group Holding Limited",
       "exchangeName": "HKG",
       "timezone": "Asia/Hong_Kong",
-      "lastMarketTime": "2026-07-03T07:11:59.000Z",
-      "price": 94.05,
+      "lastMarketTime": "2026-07-03T08:08:13.000Z",
+      "price": 94.1,
       "previousClose": 94.5,
       "history": [
         72.2,
@@ -205649,7 +205649,7 @@ window.MARKET_SNAPSHOT = {
         93,
         92.85,
         94.5,
-        94.05
+        94.1
       ],
       "volumeHistory": [
         38913160,
@@ -206142,7 +206142,7 @@ window.MARKET_SNAPSHOT = {
         123324036,
         89897596,
         106165597,
-        52474442
+        67297454
       ],
       "ohlcv": [
         {
@@ -210070,8 +210070,8 @@ window.MARKET_SNAPSHOT = {
           "open": 94.15,
           "high": 96,
           "low": 93.5,
-          "close": 94.05,
-          "volume": 52474442
+          "close": 94.1,
+          "volume": 67297454
         }
       ]
     },
@@ -240269,7 +240269,7 @@ window.MARKET_SNAPSHOT = {
       "proxyNote": null,
       "currency": "USD",
       "shortName": "Exxon Mobil Corporation",
-      "longName": "Exxon Mobil Corporation",
+      "longName": "ExxonMobil Holdings Corporation",
       "exchangeName": "NYQ",
       "timezone": "America/New_York",
       "lastMarketTime": "2026-07-02T20:03:29.000Z",
@@ -401264,8 +401264,8 @@ window.MARKET_SNAPSHOT = {
       "longName": "Naspers Limited",
       "exchangeName": "JNB",
       "timezone": "Africa/Johannesburg",
-      "lastMarketTime": "2026-07-03T07:11:42.000Z",
-      "price": 80520,
+      "lastMarketTime": "2026-07-03T10:26:59.000Z",
+      "price": 79063,
       "previousClose": 80028,
       "history": [
         70401.3984,
@@ -401768,7 +401768,7 @@ window.MARKET_SNAPSHOT = {
         82062,
         83559,
         80028,
-        80520
+        79063
       ],
       "volumeHistory": [
         5197020,
@@ -402271,7 +402271,7 @@ window.MARKET_SNAPSHOT = {
         2237589,
         2014312,
         2235315,
-        53341
+        428146
       ],
       "ohlcv": [
         {
@@ -406278,9 +406278,9 @@ window.MARKET_SNAPSHOT = {
           "date": "2026-07-03",
           "open": 80495,
           "high": 81197,
-          "low": 80495,
-          "close": 80520,
-          "volume": 53341
+          "low": 79000,
+          "close": 79063,
+          "volume": 428146
         }
       ]
     },
@@ -411376,8 +411376,8 @@ window.MARKET_SNAPSHOT = {
       "longName": "Meituan",
       "exchangeName": "HKG",
       "timezone": "Asia/Hong_Kong",
-      "lastMarketTime": "2026-07-03T07:12:00.000Z",
-      "price": 71.8,
+      "lastMarketTime": "2026-07-03T08:08:13.000Z",
+      "price": 71.6,
       "previousClose": 70.85,
       "history": [
         117.1,
@@ -411870,7 +411870,7 @@ window.MARKET_SNAPSHOT = {
         67.65,
         68.5,
         70.85,
-        71.8
+        71.6
       ],
       "volumeHistory": [
         31244921,
@@ -412363,7 +412363,7 @@ window.MARKET_SNAPSHOT = {
         79469292,
         65133829,
         68122830,
-        25924108
+        33746748
       ],
       "ohlcv": [
         {
@@ -416291,8 +416291,8 @@ window.MARKET_SNAPSHOT = {
           "open": 71.35,
           "high": 72.65,
           "low": 70.4,
-          "close": 71.8,
-          "volume": 25924108
+          "close": 71.6,
+          "volume": 33746748
         }
       ]
     },
@@ -416307,8 +416307,8 @@ window.MARKET_SNAPSHOT = {
       "longName": "JD.com, Inc.",
       "exchangeName": "HKG",
       "timezone": "Asia/Hong_Kong",
-      "lastMarketTime": "2026-07-03T07:11:36.000Z",
-      "price": 104.4,
+      "lastMarketTime": "2026-07-03T08:08:13.000Z",
+      "price": 104.2,
       "previousClose": 102.8,
       "history": [
         103.3,
@@ -416801,7 +416801,7 @@ window.MARKET_SNAPSHOT = {
         99,
         99.25,
         102.8,
-        104.4
+        104.2
       ],
       "volumeHistory": [
         6863954,
@@ -417294,7 +417294,7 @@ window.MARKET_SNAPSHOT = {
         13468258,
         15331749,
         12471925,
-        6434268
+        9024619
       ],
       "ohlcv": [
         {
@@ -421222,8 +421222,8 @@ window.MARKET_SNAPSHOT = {
           "open": 104,
           "high": 105.7,
           "low": 103.4,
-          "close": 104.4,
-          "volume": 6434268
+          "close": 104.2,
+          "volume": 9024619
         }
       ]
     },
@@ -421238,8 +421238,8 @@ window.MARKET_SNAPSHOT = {
       "longName": "Xiaomi Corporation",
       "exchangeName": "HKG",
       "timezone": "Asia/Hong_Kong",
-      "lastMarketTime": "2026-07-03T07:11:55.000Z",
-      "price": 23.06,
+      "lastMarketTime": "2026-07-03T08:08:13.000Z",
+      "price": 22.96,
       "previousClose": 22.6,
       "history": [
         16.9,
@@ -421732,7 +421732,7 @@ window.MARKET_SNAPSHOT = {
         21.86,
         21.64,
         22.6,
-        23.06
+        22.96
       ],
       "volumeHistory": [
         68480845,
@@ -422225,7 +422225,7 @@ window.MARKET_SNAPSHOT = {
         206092162,
         173878074,
         222813169,
-        234126359
+        268236962
       ],
       "ohlcv": [
         {
@@ -426153,8 +426153,8 @@ window.MARKET_SNAPSHOT = {
           "open": 22.98,
           "high": 24.1,
           "low": 22.8,
-          "close": 23.06,
-          "volume": 234126359
+          "close": 22.96,
+          "volume": 268236962
         }
       ]
     },
@@ -426169,8 +426169,8 @@ window.MARKET_SNAPSHOT = {
       "longName": "AIA Group Limited",
       "exchangeName": "HKG",
       "timezone": "Asia/Hong_Kong",
-      "lastMarketTime": "2026-07-03T07:12:00.000Z",
-      "price": 73.45,
+      "lastMarketTime": "2026-07-03T08:08:13.000Z",
+      "price": 73.25,
       "previousClose": 72.8,
       "history": [
         53.15,
@@ -426663,7 +426663,7 @@ window.MARKET_SNAPSHOT = {
         72.2,
         71.45,
         72.8,
-        73.45
+        73.25
       ],
       "volumeHistory": [
         47374073,
@@ -427156,7 +427156,7 @@ window.MARKET_SNAPSHOT = {
         35718598,
         33418323,
         36610053,
-        12223497
+        16923389
       ],
       "ohlcv": [
         {
@@ -431084,8 +431084,8 @@ window.MARKET_SNAPSHOT = {
           "open": 74.7,
           "high": 74.75,
           "low": 73.1,
-          "close": 73.45,
-          "volume": 12223497
+          "close": 73.25,
+          "volume": 16923389
         }
       ]
     },
@@ -431100,8 +431100,8 @@ window.MARKET_SNAPSHOT = {
       "longName": "China Construction Bank Corporation",
       "exchangeName": "HKG",
       "timezone": "Asia/Hong_Kong",
-      "lastMarketTime": "2026-07-03T07:11:53.000Z",
-      "price": 7.77,
+      "lastMarketTime": "2026-07-03T08:08:13.000Z",
+      "price": 7.78,
       "previousClose": 7.84,
       "history": [
         5.8,
@@ -431594,7 +431594,7 @@ window.MARKET_SNAPSHOT = {
         8.24,
         8.07,
         7.84,
-        7.77
+        7.78
       ],
       "volumeHistory": [
         684365870,
@@ -432087,7 +432087,7 @@ window.MARKET_SNAPSHOT = {
         203474574,
         446077435,
         347609413,
-        186692933
+        226825441
       ],
       "ohlcv": [
         {
@@ -436015,8 +436015,8 @@ window.MARKET_SNAPSHOT = {
           "open": 7.93,
           "high": 7.96,
           "low": 7.72,
-          "close": 7.77,
-          "volume": 186692933
+          "close": 7.78,
+          "volume": 226825441
         }
       ]
     },
@@ -436031,7 +436031,7 @@ window.MARKET_SNAPSHOT = {
       "longName": "Industrial and Commercial Bank of China Limited",
       "exchangeName": "HKG",
       "timezone": "Asia/Hong_Kong",
-      "lastMarketTime": "2026-07-03T07:12:00.000Z",
+      "lastMarketTime": "2026-07-03T08:08:13.000Z",
       "price": 6.43,
       "previousClose": 6.42,
       "history": [
@@ -437018,7 +437018,7 @@ window.MARKET_SNAPSHOT = {
         138245398,
         436057786,
         265434405,
-        125776730
+        171152139
       ],
       "ohlcv": [
         {
@@ -440947,7 +440947,7 @@ window.MARKET_SNAPSHOT = {
           "high": 6.51,
           "low": 6.33,
           "close": 6.43,
-          "volume": 125776730
+          "volume": 171152139
         }
       ]
     },
@@ -440962,8 +440962,8 @@ window.MARKET_SNAPSHOT = {
       "longName": "Bank of China Limited",
       "exchangeName": "HKG",
       "timezone": "Asia/Hong_Kong",
-      "lastMarketTime": "2026-07-03T07:12:00.000Z",
-      "price": 4.82,
+      "lastMarketTime": "2026-07-03T08:08:13.000Z",
+      "price": 4.81,
       "previousClose": 4.81,
       "history": [
         3.83,
@@ -441456,7 +441456,7 @@ window.MARKET_SNAPSHOT = {
         5.09,
         4.99,
         4.81,
-        4.82
+        4.81
       ],
       "volumeHistory": [
         250927347,
@@ -441949,7 +441949,7 @@ window.MARKET_SNAPSHOT = {
         261673267,
         461664483,
         376237528,
-        158586411
+        195671439
       ],
       "ohlcv": [
         {
@@ -445877,8 +445877,8 @@ window.MARKET_SNAPSHOT = {
           "open": 4.85,
           "high": 4.87,
           "low": 4.76,
-          "close": 4.82,
-          "volume": 158586411
+          "close": 4.81,
+          "volume": 195671439
         }
       ]
     },
@@ -445893,8 +445893,8 @@ window.MARKET_SNAPSHOT = {
       "longName": "HSBC Holdings plc",
       "exchangeName": "HKG",
       "timezone": "Asia/Hong_Kong",
-      "lastMarketTime": "2026-07-03T07:12:00.000Z",
-      "price": 151.9,
+      "lastMarketTime": "2026-07-03T08:08:13.000Z",
+      "price": 152,
       "previousClose": 149.5,
       "history": [
         68.15,
@@ -446387,7 +446387,7 @@ window.MARKET_SNAPSHOT = {
         147.6,
         147.9,
         149.5,
-        151.9
+        152
       ],
       "volumeHistory": [
         14540763,
@@ -446880,7 +446880,7 @@ window.MARKET_SNAPSHOT = {
         14007945,
         13123569,
         18641915,
-        25981828
+        29830805
       ],
       "ohlcv": [
         {
@@ -450806,10 +450806,10 @@ window.MARKET_SNAPSHOT = {
         {
           "date": "2026-07-03",
           "open": 150,
-          "high": 152,
+          "high": 152.1,
           "low": 149.5,
-          "close": 151.9,
-          "volume": 25981828
+          "close": 152,
+          "volume": 29830805
         }
       ]
     },
@@ -450824,8 +450824,8 @@ window.MARKET_SNAPSHOT = {
       "longName": "Hong Kong Exchanges and Clearing Limited",
       "exchangeName": "HKG",
       "timezone": "Asia/Hong_Kong",
-      "lastMarketTime": "2026-07-03T07:12:00.000Z",
-      "price": 373.4,
+      "lastMarketTime": "2026-07-03T08:08:13.000Z",
+      "price": 375,
       "previousClose": 367.6,
       "history": [
         251.6,
@@ -451318,7 +451318,7 @@ window.MARKET_SNAPSHOT = {
         367,
         363,
         367.6,
-        373.4
+        375
       ],
       "volumeHistory": [
         3134030,
@@ -451811,7 +451811,7 @@ window.MARKET_SNAPSHOT = {
         4906988,
         5720632,
         4182160,
-        2617696
+        3575649
       ],
       "ohlcv": [
         {
@@ -455739,8 +455739,8 @@ window.MARKET_SNAPSHOT = {
           "open": 372.6,
           "high": 375.8,
           "low": 371.6,
-          "close": 373.4,
-          "volume": 2617696
+          "close": 375,
+          "volume": 3575649
         }
       ]
     },
@@ -455755,8 +455755,8 @@ window.MARKET_SNAPSHOT = {
       "longName": "Ping An Insurance (Group) Company of China, Ltd.",
       "exchangeName": "HKG",
       "timezone": "Asia/Hong_Kong",
-      "lastMarketTime": "2026-07-03T07:11:56.000Z",
-      "price": 52.2,
+      "lastMarketTime": "2026-07-03T08:08:13.000Z",
+      "price": 52.05,
       "previousClose": 52.3,
       "history": [
         36.85,
@@ -456249,7 +456249,7 @@ window.MARKET_SNAPSHOT = {
         51.9,
         51.05,
         52.3,
-        52.2
+        52.05
       ],
       "volumeHistory": [
         33932595,
@@ -456742,7 +456742,7 @@ window.MARKET_SNAPSHOT = {
         43912077,
         43974461,
         43712599,
-        18003636
+        23919438
       ],
       "ohlcv": [
         {
@@ -460670,8 +460670,8 @@ window.MARKET_SNAPSHOT = {
           "open": 52.5,
           "high": 53,
           "low": 51.9,
-          "close": 52.2,
-          "volume": 18003636
+          "close": 52.05,
+          "volume": 23919438
         }
       ]
     },
@@ -460686,7 +460686,7 @@ window.MARKET_SNAPSHOT = {
       "longName": "CNOOC Limited",
       "exchangeName": "HKG",
       "timezone": "Asia/Hong_Kong",
-      "lastMarketTime": "2026-07-03T07:11:57.000Z",
+      "lastMarketTime": "2026-07-03T08:08:13.000Z",
       "price": 21.18,
       "previousClose": 20.4,
       "history": [
@@ -461673,7 +461673,7 @@ window.MARKET_SNAPSHOT = {
         84288812,
         93656662,
         83097836,
-        52095353
+        67470854
       ],
       "ohlcv": [
         {
@@ -465602,7 +465602,7 @@ window.MARKET_SNAPSHOT = {
           "high": 21.3,
           "low": 20.56,
           "close": 21.18,
-          "volume": 52095353
+          "volume": 67470854
         }
       ]
     },
@@ -465617,8 +465617,8 @@ window.MARKET_SNAPSHOT = {
       "longName": "China Mobile Limited",
       "exchangeName": "HKG",
       "timezone": "Asia/Hong_Kong",
-      "lastMarketTime": "2026-07-03T07:11:47.000Z",
-      "price": 76.75,
+      "lastMarketTime": "2026-07-03T08:08:13.000Z",
+      "price": 76.7,
       "previousClose": 76.5,
       "history": [
         78.3,
@@ -466111,7 +466111,7 @@ window.MARKET_SNAPSHOT = {
         77.25,
         76.15,
         76.5,
-        76.75
+        76.7
       ],
       "volumeHistory": [
         22854512,
@@ -466604,7 +466604,7 @@ window.MARKET_SNAPSHOT = {
         22079991,
         31335678,
         20222851,
-        12073893
+        15675563
       ],
       "ohlcv": [
         {
@@ -470531,9 +470531,9 @@ window.MARKET_SNAPSHOT = {
           "date": "2026-07-03",
           "open": 76.8,
           "high": 77.6,
-          "low": 76.6,
-          "close": 76.75,
-          "volume": 12073893
+          "low": 76.55,
+          "close": 76.7,
+          "volume": 15675563
         }
       ]
     },
@@ -470548,8 +470548,8 @@ window.MARKET_SNAPSHOT = {
       "longName": "BYD Company Limited",
       "exchangeName": "HKG",
       "timezone": "Asia/Hong_Kong",
-      "lastMarketTime": "2026-07-03T07:12:00.000Z",
-      "price": 83.6,
+      "lastMarketTime": "2026-07-03T08:08:13.000Z",
+      "price": 84.1,
       "previousClose": 78.3,
       "history": [
         76.7333,
@@ -471042,7 +471042,7 @@ window.MARKET_SNAPSHOT = {
         72.9,
         72.45,
         78.3,
-        83.6
+        84.1
       ],
       "volumeHistory": [
         13278510,
@@ -471535,7 +471535,7 @@ window.MARKET_SNAPSHOT = {
         24806182,
         28317739,
         54549471,
-        39620046
+        54233110
       ],
       "ohlcv": [
         {
@@ -475461,10 +475461,10 @@ window.MARKET_SNAPSHOT = {
         {
           "date": "2026-07-03",
           "open": 81.2,
-          "high": 84.3,
+          "high": 84.45,
           "low": 80,
-          "close": 83.6,
-          "volume": 39620046
+          "close": 84.1,
+          "volume": 54233110
         }
       ]
     },
@@ -475479,8 +475479,8 @@ window.MARKET_SNAPSHOT = {
       "longName": "ANTA Sports Products Limited",
       "exchangeName": "HKG",
       "timezone": "Asia/Hong_Kong",
-      "lastMarketTime": "2026-07-03T07:11:50.000Z",
-      "price": 73,
+      "lastMarketTime": "2026-07-03T08:08:13.000Z",
+      "price": 72.75,
       "previousClose": 72.95,
       "history": [
         73.2,
@@ -475973,7 +475973,7 @@ window.MARKET_SNAPSHOT = {
         71.25,
         71.05,
         72.95,
-        73
+        72.75
       ],
       "volumeHistory": [
         7935896,
@@ -476466,7 +476466,7 @@ window.MARKET_SNAPSHOT = {
         10615773,
         9189269,
         10505316,
-        5236451
+        7807751
       ],
       "ohlcv": [
         {
@@ -480393,9 +480393,9 @@ window.MARKET_SNAPSHOT = {
           "date": "2026-07-03",
           "open": 72.6,
           "high": 74.7,
-          "low": 72.6,
-          "close": 73,
-          "volume": 5236451
+          "low": 72.5,
+          "close": 72.75,
+          "volume": 7807751
         }
       ]
     },
@@ -480410,8 +480410,8 @@ window.MARKET_SNAPSHOT = {
       "longName": "Kuaishou Technology",
       "exchangeName": "HKG",
       "timezone": "Asia/Hong_Kong",
-      "lastMarketTime": "2026-07-03T07:11:57.000Z",
-      "price": 42.88,
+      "lastMarketTime": "2026-07-03T08:08:13.000Z",
+      "price": 42.6,
       "previousClose": 42.64,
       "history": [
         46.95,
@@ -480904,7 +480904,7 @@ window.MARKET_SNAPSHOT = {
         41,
         41.6,
         42.64,
-        42.88
+        42.6
       ],
       "volumeHistory": [
         18904541,
@@ -481397,7 +481397,7 @@ window.MARKET_SNAPSHOT = {
         35817124,
         56110661,
         54587338,
-        83756834
+        95345363
       ],
       "ohlcv": [
         {
@@ -485325,8 +485325,8 @@ window.MARKET_SNAPSHOT = {
           "open": 45.3,
           "high": 45.58,
           "low": 41.52,
-          "close": 42.88,
-          "volume": 83756834
+          "close": 42.6,
+          "volume": 95345363
         }
       ]
     },
@@ -485341,8 +485341,8 @@ window.MARKET_SNAPSHOT = {
       "longName": "NetEase, Inc.",
       "exchangeName": "HKG",
       "timezone": "Asia/Hong_Kong",
-      "lastMarketTime": "2026-07-03T07:12:00.000Z",
-      "price": 206.2,
+      "lastMarketTime": "2026-07-03T08:08:13.000Z",
+      "price": 205.4,
       "previousClose": 200,
       "history": [
         148.9,
@@ -485835,7 +485835,7 @@ window.MARKET_SNAPSHOT = {
         199.4,
         202.4,
         200,
-        206.2
+        205.4
       ],
       "volumeHistory": [
         3651299,
@@ -486328,7 +486328,7 @@ window.MARKET_SNAPSHOT = {
         15789350,
         17680671,
         16024518,
-        6749066
+        9496915
       ],
       "ohlcv": [
         {
@@ -490256,8 +490256,8 @@ window.MARKET_SNAPSHOT = {
           "open": 200.8,
           "high": 207.8,
           "low": 200.2,
-          "close": 206.2,
-          "volume": 6749066
+          "close": 205.4,
+          "volume": 9496915
         }
       ]
     },
@@ -490272,8 +490272,8 @@ window.MARKET_SNAPSHOT = {
       "longName": "XPeng Inc.",
       "exchangeName": "HKG",
       "timezone": "Asia/Hong_Kong",
-      "lastMarketTime": "2026-07-03T07:12:00.000Z",
-      "price": 50.8,
+      "lastMarketTime": "2026-07-03T08:08:13.000Z",
+      "price": 51.7,
       "previousClose": 51.8,
       "history": [
         30.1,
@@ -490766,7 +490766,7 @@ window.MARKET_SNAPSHOT = {
         47.4,
         50.65,
         51.8,
-        50.8
+        51.7
       ],
       "volumeHistory": [
         10086587,
@@ -491259,7 +491259,7 @@ window.MARKET_SNAPSHOT = {
         19243364,
         26788580,
         26573857,
-        20803372
+        25450213
       ],
       "ohlcv": [
         {
@@ -495185,10 +495185,10 @@ window.MARKET_SNAPSHOT = {
         {
           "date": "2026-07-03",
           "open": 50.45,
-          "high": 51.55,
+          "high": 51.9,
           "low": 49.3,
-          "close": 50.8,
-          "volume": 20803372
+          "close": 51.7,
+          "volume": 25450213
         }
       ]
     },
@@ -495203,8 +495203,8 @@ window.MARKET_SNAPSHOT = {
       "longName": "Semiconductor Manufacturing International Corporation",
       "exchangeName": "HKG",
       "timezone": "Asia/Hong_Kong",
-      "lastMarketTime": "2026-07-03T07:12:00.000Z",
-      "price": 76.75,
+      "lastMarketTime": "2026-07-03T08:08:13.000Z",
+      "price": 77.6,
       "previousClose": 80.4,
       "history": [
         17.54,
@@ -495697,7 +495697,7 @@ window.MARKET_SNAPSHOT = {
         84.8,
         89.4,
         80.4,
-        76.75
+        77.6
       ],
       "volumeHistory": [
         28782125,
@@ -496190,7 +496190,7 @@ window.MARKET_SNAPSHOT = {
         124513219,
         176623921,
         178219425,
-        110962629
+        124054283
       ],
       "ohlcv": [
         {
@@ -500117,9 +500117,9 @@ window.MARKET_SNAPSHOT = {
           "date": "2026-07-03",
           "open": 80,
           "high": 81.45,
-          "low": 76.7,
-          "close": 76.75,
-          "volume": 110962629
+          "low": 76.45,
+          "close": 77.6,
+          "volume": 124054283
         }
       ]
     },
@@ -582937,7 +582937,7 @@ window.MARKET_SNAPSHOT = {
       "method": "equal_weight_above_ma20",
       "sourceUrl": "https://raw.githubusercontent.com/datasets/s-and-p-500-companies/main/data/constituents.csv",
       "benchmarkCode": "SPY",
-      "generatedAt": "2026-07-03T07:27:06.095Z",
+      "generatedAt": "2026-07-03T10:42:14.910Z",
       "coverage": {
         "total": 503,
         "effective": 502,
@@ -590651,7 +590651,7 @@ window.MARKET_SNAPSHOT = {
       "method": "equal_weight_above_ma20",
       "sourceUrl": "https://yfiua.github.io/index-constituents/constituents-csi300.csv",
       "benchmarkCode": "CSI300",
-      "generatedAt": "2026-07-03T07:27:10.744Z",
+      "generatedAt": "2026-07-03T10:42:20.159Z",
       "coverage": {
         "total": 300,
         "effective": 300,
@@ -596293,7 +596293,7 @@ window.MARKET_SNAPSHOT = {
           "https://www.ishares.com/us/products/239726/ishares-core-sp-500-etf/1467271812596.ajax?fileType=csv&fileName=IVV_holdings&dataType=fund"
         ],
         "benchmarkCode": "SPY",
-        "generatedAt": "2026-07-03T07:27:06.095Z",
+        "generatedAt": "2026-07-03T10:42:14.910Z",
         "coverage": {
           "total": 503,
           "effective": 502,
@@ -604015,7 +604015,7 @@ window.MARKET_SNAPSHOT = {
         "sourceUrl": "https://yfiua.github.io/index-constituents/constituents-csi300.csv",
         "weightSourceUrl": "https://stock.finance.sina.com.cn/fundInfo/view/FundInfo_CGMX.php?symbol=510300",
         "benchmarkCode": "CSI300",
-        "generatedAt": "2026-07-03T07:27:10.744Z",
+        "generatedAt": "2026-07-03T10:42:20.159Z",
         "coverage": {
           "total": 300,
           "effective": 300,
@@ -609657,8 +609657,8 @@ window.MARKET_SNAPSHOT = {
   "errors": [],
   "errorLog": [],
   "health": {
-    "generatedAt": "2026-07-03T07:27:00.785Z",
-    "snapshotVersion": "20260703-072700-ggjmzw",
+    "generatedAt": "2026-07-03T10:42:09.462Z",
+    "snapshotVersion": "20260703-104209-8lx7xc",
     "refreshIntervalHours": 4,
     "instruments": {
       "total": 116,
