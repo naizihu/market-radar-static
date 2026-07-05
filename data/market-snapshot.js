@@ -1,7 +1,7 @@
 window.MARKET_SNAPSHOT = {
   "source": "Yahoo Finance chart API",
-  "generatedAt": "2026-07-05T13:50:26.520Z",
-  "snapshotVersion": "20260705-135026-bkz2r2",
+  "generatedAt": "2026-07-05T17:17:07.817Z",
+  "snapshotVersion": "20260705-171707-9a2jfr",
   "refreshIntervalHours": 4,
   "instruments": {
     "AAPL": {
@@ -79757,7 +79757,7 @@ window.MARKET_SNAPSHOT = {
       "isProxy": false,
       "proxyNote": null,
       "currency": "CNY",
-      "shortName": "E FUND MANAGEMENT CO LTD",
+      "shortName": "CHINEXT ETF",
       "longName": "E Fund ChiNext ETF",
       "exchangeName": "SHZ",
       "timezone": "Asia/Shanghai",
@@ -144844,8 +144844,8 @@ window.MARKET_SNAPSHOT = {
       "longName": "USD/CNY",
       "exchangeName": "CCY",
       "timezone": "Europe/London",
-      "lastMarketTime": "2026-07-05T13:27:54.000Z",
-      "price": 6.7792,
+      "lastMarketTime": "2026-07-05T16:04:22.000Z",
+      "price": 6.7702,
       "previousClose": 6.7886,
       "history": [
         7.2694,
@@ -145366,7 +145366,7 @@ window.MARKET_SNAPSHOT = {
         6.7936,
         6.7942,
         6.7886,
-        6.7792
+        6.7702
       ],
       "volumeHistory": [
         0,
@@ -150039,7 +150039,7 @@ window.MARKET_SNAPSHOT = {
           "open": 6.7702,
           "high": 6.7792,
           "low": 6.7702,
-          "close": 6.7792,
+          "close": 6.7702,
           "volume": 0
         }
       ]
@@ -150055,7 +150055,7 @@ window.MARKET_SNAPSHOT = {
       "longName": "AUD/USD",
       "exchangeName": "CCY",
       "timezone": "Europe/London",
-      "lastMarketTime": "2026-07-05T04:50:33.000Z",
+      "lastMarketTime": "2026-07-05T17:16:29.000Z",
       "price": 0.6943,
       "previousClose": 0.6916,
       "history": [
@@ -155266,9 +155266,9 @@ window.MARKET_SNAPSHOT = {
       "longName": "Bitcoin USD",
       "exchangeName": "CCC",
       "timezone": "UTC",
-      "lastMarketTime": "2026-07-05T13:50:24.000Z",
-      "price": 62742.6914,
-      "previousClose": 62544.1992,
+      "lastMarketTime": "2026-07-05T17:17:03.000Z",
+      "price": 62650.9805,
+      "previousClose": 63088.3047,
       "history": [
         56662.375,
         58303.5391,
@@ -155999,7 +155999,8 @@ window.MARKET_SNAPSHOT = {
         60003.7578,
         61485.3008,
         62544.1992,
-        62742.6914
+        63088.3047,
+        62650.9805
       ],
       "volumeHistory": [
         55417544033,
@@ -156731,7 +156732,8 @@ window.MARKET_SNAPSHOT = {
         37904450118,
         40109297349,
         26131813598,
-        17879934976
+        18608397613,
+        16872394752
       ],
       "ohlcv": [
         {
@@ -162567,12 +162569,20 @@ window.MARKET_SNAPSHOT = {
           "volume": 26131813598
         },
         {
+          "date": "2026-07-04",
+          "open": 62545.1289,
+          "high": 63398.4102,
+          "low": 62287.5859,
+          "close": 63088.3047,
+          "volume": 18608397613
+        },
+        {
           "date": "2026-07-05",
           "open": 63087.7422,
           "high": 63087.7422,
           "low": 62468.1289,
-          "close": 62742.6914,
-          "volume": 17879934976
+          "close": 62650.9805,
+          "volume": 16872394752
         }
       ]
     },
@@ -162587,9 +162597,9 @@ window.MARKET_SNAPSHOT = {
       "longName": "Ethereum USD",
       "exchangeName": "CCC",
       "timezone": "UTC",
-      "lastMarketTime": "2026-07-05T13:50:20.000Z",
-      "price": 1764.47,
-      "previousClose": 1756.5187,
+      "lastMarketTime": "2026-07-05T17:17:05.000Z",
+      "price": 1774.5601,
+      "previousClose": 1779.033,
       "history": [
         2981.5986,
         3069.3779,
@@ -163320,7 +163330,8 @@ window.MARKET_SNAPSHOT = {
         1608.9607,
         1698.1694,
         1756.5187,
-        1764.47
+        1779.033,
+        1774.5601
       ],
       "volumeHistory": [
         31131942647,
@@ -164052,7 +164063,8 @@ window.MARKET_SNAPSHOT = {
         11666600557,
         13538465176,
         10177742550,
-        12312898560
+        8083146790,
+        11175372800
       ],
       "ohlcv": [
         {
@@ -169888,12 +169900,20 @@ window.MARKET_SNAPSHOT = {
           "volume": 10177742550
         },
         {
+          "date": "2026-07-04",
+          "open": 1756.5757,
+          "high": 1804.5887,
+          "low": 1743.5642,
+          "close": 1779.033,
+          "volume": 8083146790
+        },
+        {
           "date": "2026-07-05",
           "open": 1779.066,
           "high": 1779.066,
           "low": 1750.4539,
-          "close": 1764.47,
-          "volume": 12312898560
+          "close": 1774.5601,
+          "volume": 11175372800
         }
       ]
     },
@@ -240318,7 +240338,7 @@ window.MARKET_SNAPSHOT = {
       "isProxy": false,
       "proxyNote": null,
       "currency": "USD",
-      "shortName": "Exxon Mobil Corporation",
+      "shortName": "ExxonMobil Holdings Corporation",
       "longName": "ExxonMobil Holdings Corporation",
       "exchangeName": "NYQ",
       "timezone": "America/New_York",
@@ -485367,7 +485387,7 @@ window.MARKET_SNAPSHOT = {
       "isProxy": false,
       "proxyNote": null,
       "currency": "HKD",
-      "shortName": "NTES-S",
+      "shortName": "NTES",
       "longName": "NetEase, Inc.",
       "exchangeName": "HKG",
       "timezone": "Asia/Hong_Kong",
@@ -500160,7 +500180,7 @@ window.MARKET_SNAPSHOT = {
       "isProxy": false,
       "proxyNote": null,
       "currency": "CNY",
-      "shortName": "CONTEMPORARY AMPEREX TECHNOLOGY",
+      "shortName": "CATL",
       "longName": "Contemporary Amperex Technology Co., Limited",
       "exchangeName": "SHZ",
       "timezone": "Asia/Shanghai",
@@ -505031,7 +505051,7 @@ window.MARKET_SNAPSHOT = {
       "isProxy": false,
       "proxyNote": null,
       "currency": "CNY",
-      "shortName": "BYD COMPANY LIMITED",
+      "shortName": "BYD",
       "longName": "BYD Company Limited",
       "exchangeName": "SHZ",
       "timezone": "Asia/Shanghai",
@@ -524515,7 +524535,7 @@ window.MARKET_SNAPSHOT = {
       "isProxy": false,
       "proxyNote": null,
       "currency": "CNY",
-      "shortName": "WULIANGYE YIBIN CO. LTD.",
+      "shortName": "WULIANGYE",
       "longName": "Wuliangye Yibin Co.,Ltd.",
       "exchangeName": "SHZ",
       "timezone": "Asia/Shanghai",
@@ -529386,7 +529406,7 @@ window.MARKET_SNAPSHOT = {
       "isProxy": false,
       "proxyNote": null,
       "currency": "CNY",
-      "shortName": "MIDEA GROUP CO LTD",
+      "shortName": "MIDEA GROUP",
       "longName": "Midea Group Co., Ltd.",
       "exchangeName": "SHZ",
       "timezone": "Asia/Shanghai",
@@ -534257,7 +534277,7 @@ window.MARKET_SNAPSHOT = {
       "isProxy": false,
       "proxyNote": null,
       "currency": "CNY",
-      "shortName": "LUXSHARE PRECISION INDUSTRY CO ",
+      "shortName": "LXJM",
       "longName": "Luxshare Precision Industry Co., Ltd.",
       "exchangeName": "SHZ",
       "timezone": "Asia/Shanghai",
@@ -539128,7 +539148,7 @@ window.MARKET_SNAPSHOT = {
       "isProxy": false,
       "proxyNote": null,
       "currency": "CNY",
-      "shortName": "EAST MONEY INFORMATION CO LTD",
+      "shortName": "EASTMONEY",
       "longName": "East Money Information Co.,Ltd.",
       "exchangeName": "SHZ",
       "timezone": "Asia/Shanghai",
@@ -568354,7 +568374,7 @@ window.MARKET_SNAPSHOT = {
       "isProxy": false,
       "proxyNote": null,
       "currency": "CNY",
-      "shortName": "SHENZHEN MINDRAY BIO-MEDICAL EL",
+      "shortName": "MR",
       "longName": "Shenzhen Mindray Bio-Medical Electronics Co., Ltd.",
       "exchangeName": "SHZ",
       "timezone": "Asia/Shanghai",
@@ -582967,7 +582987,7 @@ window.MARKET_SNAPSHOT = {
       "method": "equal_weight_above_ma20",
       "sourceUrl": "https://raw.githubusercontent.com/datasets/s-and-p-500-companies/main/data/constituents.csv",
       "benchmarkCode": "SPY",
-      "generatedAt": "2026-07-05T13:50:36.350Z",
+      "generatedAt": "2026-07-05T17:17:14.792Z",
       "coverage": {
         "total": 503,
         "effective": 502,
@@ -590681,7 +590701,7 @@ window.MARKET_SNAPSHOT = {
       "method": "equal_weight_above_ma20",
       "sourceUrl": "https://yfiua.github.io/index-constituents/constituents-csi300.csv",
       "benchmarkCode": "CSI300",
-      "generatedAt": "2026-07-05T13:50:45.216Z",
+      "generatedAt": "2026-07-05T17:17:19.698Z",
       "coverage": {
         "total": 300,
         "effective": 300,
@@ -596323,7 +596343,7 @@ window.MARKET_SNAPSHOT = {
           "https://www.ishares.com/us/products/239726/ishares-core-sp-500-etf/1467271812596.ajax?fileType=csv&fileName=IVV_holdings&dataType=fund"
         ],
         "benchmarkCode": "SPY",
-        "generatedAt": "2026-07-05T13:50:36.350Z",
+        "generatedAt": "2026-07-05T17:17:14.792Z",
         "coverage": {
           "total": 503,
           "effective": 502,
@@ -604045,7 +604065,7 @@ window.MARKET_SNAPSHOT = {
         "sourceUrl": "https://yfiua.github.io/index-constituents/constituents-csi300.csv",
         "weightSourceUrl": "https://stock.finance.sina.com.cn/fundInfo/view/FundInfo_CGMX.php?symbol=510300",
         "benchmarkCode": "CSI300",
-        "generatedAt": "2026-07-05T13:50:45.216Z",
+        "generatedAt": "2026-07-05T17:17:19.699Z",
         "coverage": {
           "total": 300,
           "effective": 300,
@@ -609687,8 +609707,8 @@ window.MARKET_SNAPSHOT = {
   "errors": [],
   "errorLog": [],
   "health": {
-    "generatedAt": "2026-07-05T13:50:26.520Z",
-    "snapshotVersion": "20260705-135026-bkz2r2",
+    "generatedAt": "2026-07-05T17:17:07.817Z",
+    "snapshotVersion": "20260705-171707-9a2jfr",
     "refreshIntervalHours": 4,
     "instruments": {
       "total": 116,
