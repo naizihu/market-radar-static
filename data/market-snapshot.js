@@ -1,7 +1,7 @@
 window.MARKET_SNAPSHOT = {
   "source": "Yahoo Finance chart API",
-  "generatedAt": "2026-07-11T13:37:21.367Z",
-  "snapshotVersion": "20260711-133721-a6x99v",
+  "generatedAt": "2026-07-11T17:02:21.990Z",
+  "snapshotVersion": "20260711-170221-diajd7",
   "refreshIntervalHours": 4,
   "instruments": {
     "AAPL": {
@@ -40163,7 +40163,7 @@ window.MARKET_SNAPSHOT = {
       "longName": "Kweichow Moutai Co., Ltd.",
       "exchangeName": "SHH",
       "timezone": "Asia/Shanghai",
-      "lastMarketTime": "2026-07-10T07:00:04.000Z",
+      "lastMarketTime": "2026-07-10T07:00:03.000Z",
       "price": 1204.98,
       "previousClose": 1182.1899,
       "history": [
@@ -144794,7 +144794,7 @@ window.MARKET_SNAPSHOT = {
       "longName": "USD/CNY",
       "exchangeName": "CCY",
       "timezone": "Europe/London",
-      "lastMarketTime": "2026-07-11T02:32:58.000Z",
+      "lastMarketTime": "2026-07-11T16:08:54.000Z",
       "price": 6.7667,
       "previousClose": 6.7921,
       "history": [
@@ -155216,8 +155216,8 @@ window.MARKET_SNAPSHOT = {
       "longName": "Bitcoin USD",
       "exchangeName": "CCC",
       "timezone": "UTC",
-      "lastMarketTime": "2026-07-11T13:37:18.000Z",
-      "price": 64181.9805,
+      "lastMarketTime": "2026-07-11T17:02:18.000Z",
+      "price": 64143.0391,
       "previousClose": 64127.1406,
       "history": [
         57344.9141,
@@ -155950,7 +155950,7 @@ window.MARKET_SNAPSHOT = {
         62257.5742,
         63193.1484,
         64127.1406,
-        64181.9805
+        64143.0391
       ],
       "volumeHistory": [
         28707803842,
@@ -156683,7 +156683,7 @@ window.MARKET_SNAPSHOT = {
         27349235354,
         26546256117,
         27450201269,
-        18239895552
+        16452777984
       ],
       "ohlcv": [
         {
@@ -162529,10 +162529,10 @@ window.MARKET_SNAPSHOT = {
         {
           "date": "2026-07-11",
           "open": 64125.9023,
-          "high": 64233.1172,
+          "high": 64430.6289,
           "low": 63964.9727,
-          "close": 64181.9805,
-          "volume": 18239895552
+          "close": 64143.0391,
+          "volume": 16452777984
         }
       ]
     },
@@ -162547,8 +162547,8 @@ window.MARKET_SNAPSHOT = {
       "longName": "Ethereum USD",
       "exchangeName": "CCC",
       "timezone": "UTC",
-      "lastMarketTime": "2026-07-11T13:37:11.000Z",
-      "price": 1802.22,
+      "lastMarketTime": "2026-07-11T17:02:14.000Z",
+      "price": 1822.0601,
       "previousClose": 1795.6932,
       "history": [
         3100.3308,
@@ -163281,7 +163281,7 @@ window.MARKET_SNAPSHOT = {
         1742.6776,
         1744.4846,
         1795.6932,
-        1802.22
+        1822.0601
       ],
       "volumeHistory": [
         15230095766,
@@ -164014,7 +164014,7 @@ window.MARKET_SNAPSHOT = {
         10110272581,
         7763668656,
         9431692646,
-        6186482176
+        6359010304
       ],
       "ohlcv": [
         {
@@ -169860,10 +169860,10 @@ window.MARKET_SNAPSHOT = {
         {
           "date": "2026-07-11",
           "open": 1795.6898,
-          "high": 1801.3545,
+          "high": 1825.4348,
           "low": 1788.2904,
-          "close": 1802.22,
-          "volume": 6186482176
+          "close": 1822.0601,
+          "volume": 6359010304
         }
       ]
     },
@@ -411396,7 +411396,7 @@ window.MARKET_SNAPSHOT = {
       "longName": "Meituan",
       "exchangeName": "HKG",
       "timezone": "Asia/Hong_Kong",
-      "lastMarketTime": "2026-07-10T08:08:35.000Z",
+      "lastMarketTime": "2026-07-10T08:08:34.000Z",
       "price": 78.7,
       "previousClose": 78.5,
       "history": [
@@ -440982,7 +440982,7 @@ window.MARKET_SNAPSHOT = {
       "longName": "Bank of China Limited",
       "exchangeName": "HKG",
       "timezone": "Asia/Hong_Kong",
-      "lastMarketTime": "2026-07-10T08:08:35.000Z",
+      "lastMarketTime": "2026-07-10T08:08:34.000Z",
       "price": 5.09,
       "previousClose": 5.01,
       "history": [
@@ -582957,7 +582957,7 @@ window.MARKET_SNAPSHOT = {
       "method": "equal_weight_above_ma20",
       "sourceUrl": "https://raw.githubusercontent.com/datasets/s-and-p-500-companies/main/data/constituents.csv",
       "benchmarkCode": "SPY",
-      "generatedAt": "2026-07-11T13:37:27.021Z",
+      "generatedAt": "2026-07-11T17:02:27.995Z",
       "coverage": {
         "total": 503,
         "effective": 502,
@@ -590671,7 +590671,7 @@ window.MARKET_SNAPSHOT = {
       "method": "equal_weight_above_ma20",
       "sourceUrl": "https://yfiua.github.io/index-constituents/constituents-csi300.csv",
       "benchmarkCode": "CSI300",
-      "generatedAt": "2026-07-11T13:37:31.355Z",
+      "generatedAt": "2026-07-11T17:02:35.302Z",
       "coverage": {
         "total": 300,
         "effective": 300,
@@ -596313,7 +596313,7 @@ window.MARKET_SNAPSHOT = {
           "https://www.ishares.com/us/products/239726/ishares-core-sp-500-etf/1467271812596.ajax?fileType=csv&fileName=IVV_holdings&dataType=fund"
         ],
         "benchmarkCode": "SPY",
-        "generatedAt": "2026-07-11T13:37:27.021Z",
+        "generatedAt": "2026-07-11T17:02:27.995Z",
         "coverage": {
           "total": 503,
           "effective": 502,
@@ -604033,7 +604033,7 @@ window.MARKET_SNAPSHOT = {
         "sourceUrl": "https://yfiua.github.io/index-constituents/constituents-csi300.csv",
         "weightSourceUrl": "https://stock.finance.sina.com.cn/fundInfo/view/FundInfo_CGMX.php?symbol=510300",
         "benchmarkCode": "CSI300",
-        "generatedAt": "2026-07-11T13:37:31.355Z",
+        "generatedAt": "2026-07-11T17:02:35.302Z",
         "coverage": {
           "total": 300,
           "effective": 300,
@@ -609675,8 +609675,8 @@ window.MARKET_SNAPSHOT = {
   "errors": [],
   "errorLog": [],
   "health": {
-    "generatedAt": "2026-07-11T13:37:21.367Z",
-    "snapshotVersion": "20260711-133721-a6x99v",
+    "generatedAt": "2026-07-11T17:02:21.990Z",
+    "snapshotVersion": "20260711-170221-diajd7",
     "refreshIntervalHours": 4,
     "instruments": {
       "total": 116,
