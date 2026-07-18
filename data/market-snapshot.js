@@ -1,7 +1,7 @@
 window.MARKET_SNAPSHOT = {
   "source": "Yahoo Finance chart API",
-  "generatedAt": "2026-07-18T06:08:32.402Z",
-  "snapshotVersion": "20260718-060832-8chain",
+  "generatedAt": "2026-07-18T09:38:00.212Z",
+  "snapshotVersion": "20260718-093800-egw5hd",
   "refreshIntervalHours": 4,
   "instruments": {
     "AAPL": {
@@ -155236,9 +155236,9 @@ window.MARKET_SNAPSHOT = {
       "longName": "Bitcoin USD",
       "exchangeName": "CCC",
       "timezone": "UTC",
-      "lastMarketTime": "2026-07-18T06:08:27.000Z",
-      "price": 63927.9805,
-      "previousClose": 63789.2813,
+      "lastMarketTime": "2026-07-18T09:37:55.000Z",
+      "price": 63919.6016,
+      "previousClose": 63899.4609,
       "history": [
         63974.0664,
         66710.1563,
@@ -155969,7 +155969,8 @@ window.MARKET_SNAPSHOT = {
         64956.1133,
         64712.375,
         63789.2813,
-        63927.9805
+        63899.4609,
+        63919.6016
       ],
       "volumeHistory": [
         27239305337,
@@ -156701,7 +156702,8 @@ window.MARKET_SNAPSHOT = {
         29841287318,
         27029791676,
         27232426674,
-        23428212736
+        27280236800,
+        20557185024
       ],
       "ohlcv": [
         {
@@ -162537,12 +162539,20 @@ window.MARKET_SNAPSHOT = {
           "volume": 27232426674
         },
         {
+          "date": "2026-07-17",
+          "open": 63789.9102,
+          "high": 64332.0195,
+          "low": 62489.4531,
+          "close": 63899.4609,
+          "volume": 27280236800
+        },
+        {
           "date": "2026-07-18",
           "open": 63888.1992,
-          "high": 63973.2031,
+          "high": 63976.1172,
           "low": 63854.4297,
-          "close": 63927.9805,
-          "volume": 23428212736
+          "close": 63919.6016,
+          "volume": 20557185024
         }
       ]
     },
@@ -162557,9 +162567,9 @@ window.MARKET_SNAPSHOT = {
       "longName": "Ethereum USD",
       "exchangeName": "CCC",
       "timezone": "UTC",
-      "lastMarketTime": "2026-07-18T06:08:26.000Z",
-      "price": 1844.6801,
-      "previousClose": 1863.1934,
+      "lastMarketTime": "2026-07-18T09:37:52.000Z",
+      "price": 1843.58,
+      "previousClose": 1840.9882,
       "history": [
         3426.2585,
         3505.7349,
@@ -163290,7 +163300,8 @@ window.MARKET_SNAPSHOT = {
         1889.4799,
         1916.9437,
         1863.1934,
-        1844.6801
+        1840.9882,
+        1843.58
       ],
       "volumeHistory": [
         15035622003,
@@ -164022,7 +164033,8 @@ window.MARKET_SNAPSHOT = {
         13835437084,
         12684088080,
         11412820341,
-        8525976064
+        10651207679,
+        7574181376
       ],
       "ohlcv": [
         {
@@ -169858,12 +169870,20 @@ window.MARKET_SNAPSHOT = {
           "volume": 11412820341
         },
         {
+          "date": "2026-07-17",
+          "open": 1863.2163,
+          "high": 1869.0671,
+          "low": 1803.054,
+          "close": 1840.9882,
+          "volume": 10651207679
+        },
+        {
           "date": "2026-07-18",
           "open": 1840.656,
-          "high": 1846.3837,
+          "high": 1847.2209,
           "low": 1839.038,
-          "close": 1844.6801,
-          "volume": 8525976064
+          "close": 1843.58,
+          "volume": 7574181376
         }
       ]
     },
@@ -401285,8 +401305,8 @@ window.MARKET_SNAPSHOT = {
       "exchangeName": "JNB",
       "timezone": "Africa/Johannesburg",
       "lastMarketTime": "2026-07-17T15:00:16.000Z",
-      "price": 87748,
-      "previousClose": 89036,
+      "price": 84000,
+      "previousClose": 87748,
       "history": [
         70127.6016,
         70286,
@@ -401787,7 +401807,8 @@ window.MARKET_SNAPSHOT = {
         84750,
         84892,
         89036,
-        87748
+        87748,
+        84000
       ],
       "volumeHistory": [
         2407410,
@@ -402289,7 +402310,8 @@ window.MARKET_SNAPSHOT = {
         2130975,
         1244561,
         2078038,
-        1342571
+        1342571,
+        1143256
       ],
       "ohlcv": [
         {
@@ -406291,6 +406313,14 @@ window.MARKET_SNAPSHOT = {
           "low": 87748,
           "close": 87748,
           "volume": 1342571
+        },
+        {
+          "date": "2026-07-17",
+          "open": 86374,
+          "high": 86440,
+          "low": 84000,
+          "close": 84000,
+          "volume": 1143256
         }
       ]
     },
@@ -582947,7 +582977,7 @@ window.MARKET_SNAPSHOT = {
       "method": "equal_weight_above_ma20",
       "sourceUrl": "https://raw.githubusercontent.com/datasets/s-and-p-500-companies/main/data/constituents.csv",
       "benchmarkCode": "SPY",
-      "generatedAt": "2026-07-18T06:08:39.445Z",
+      "generatedAt": "2026-07-18T09:38:13.287Z",
       "coverage": {
         "total": 503,
         "effective": 503,
@@ -590659,7 +590689,7 @@ window.MARKET_SNAPSHOT = {
       "method": "equal_weight_above_ma20",
       "sourceUrl": "https://yfiua.github.io/index-constituents/constituents-csi300.csv",
       "benchmarkCode": "CSI300",
-      "generatedAt": "2026-07-18T06:08:45.034Z",
+      "generatedAt": "2026-07-18T09:38:22.177Z",
       "coverage": {
         "total": 300,
         "effective": 300,
@@ -596301,7 +596331,7 @@ window.MARKET_SNAPSHOT = {
           "https://www.ishares.com/us/products/239726/ishares-core-sp-500-etf/1467271812596.ajax?fileType=csv&fileName=IVV_holdings&dataType=fund"
         ],
         "benchmarkCode": "SPY",
-        "generatedAt": "2026-07-18T06:08:39.445Z",
+        "generatedAt": "2026-07-18T09:38:13.287Z",
         "coverage": {
           "total": 503,
           "effective": 503,
@@ -604019,7 +604049,7 @@ window.MARKET_SNAPSHOT = {
         "sourceUrl": "https://yfiua.github.io/index-constituents/constituents-csi300.csv",
         "weightSourceUrl": "https://stock.finance.sina.com.cn/fundInfo/view/FundInfo_CGMX.php?symbol=510300",
         "benchmarkCode": "CSI300",
-        "generatedAt": "2026-07-18T06:08:45.034Z",
+        "generatedAt": "2026-07-18T09:38:22.178Z",
         "coverage": {
           "total": 300,
           "effective": 300,
@@ -609661,8 +609691,8 @@ window.MARKET_SNAPSHOT = {
   "errors": [],
   "errorLog": [],
   "health": {
-    "generatedAt": "2026-07-18T06:08:32.402Z",
-    "snapshotVersion": "20260718-060832-8chain",
+    "generatedAt": "2026-07-18T09:38:00.212Z",
+    "snapshotVersion": "20260718-093800-egw5hd",
     "refreshIntervalHours": 4,
     "instruments": {
       "total": 116,
