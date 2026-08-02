@@ -1,7 +1,7 @@
 window.MARKET_SNAPSHOT = {
   "source": "Yahoo Finance chart API",
-  "generatedAt": "2026-08-02T17:05:07.235Z",
-  "snapshotVersion": "20260802-170507-ggwuzg",
+  "generatedAt": "2026-08-02T21:00:31.460Z",
+  "snapshotVersion": "20260802-210031-3y7cei",
   "refreshIntervalHours": 4,
   "instruments": {
     "AAPL": {
@@ -129101,8 +129101,8 @@ window.MARKET_SNAPSHOT = {
       "longName": "EUR/USD",
       "exchangeName": "CCY",
       "timezone": "Europe/London",
-      "lastMarketTime": "2026-07-31T21:29:53.000Z",
-      "price": 1.1527,
+      "lastMarketTime": "2026-08-02T20:59:54.000Z",
+      "price": 1.1553,
       "previousClose": 1.1524,
       "history": [
         1.0816,
@@ -129623,7 +129623,7 @@ window.MARKET_SNAPSHOT = {
         1.1387,
         1.1467,
         1.1524,
-        1.1527
+        1.1553
       ],
       "volumeHistory": [
         0,
@@ -134292,11 +134292,11 @@ window.MARKET_SNAPSHOT = {
           "volume": 0
         },
         {
-          "date": "2026-07-31",
-          "open": 1.153,
-          "high": 1.155,
-          "low": 1.1461,
-          "close": 1.1527,
+          "date": "2026-08-02",
+          "open": 1.1546,
+          "high": 1.1555,
+          "low": 1.1546,
+          "close": 1.1553,
           "volume": 0
         }
       ]
@@ -134312,8 +134312,8 @@ window.MARKET_SNAPSHOT = {
       "longName": "USD/JPY",
       "exchangeName": "CCY",
       "timezone": "Europe/London",
-      "lastMarketTime": "2026-08-02T04:21:09.000Z",
-      "price": 157.4,
+      "lastMarketTime": "2026-08-02T21:00:27.000Z",
+      "price": 157.144,
       "previousClose": 160.183,
       "history": [
         152.67,
@@ -134834,7 +134834,7 @@ window.MARKET_SNAPSHOT = {
         163.864,
         163.3,
         160.183,
-        157.4
+        157.144
       ],
       "volumeHistory": [
         0,
@@ -139506,8 +139506,8 @@ window.MARKET_SNAPSHOT = {
           "date": "2026-08-02",
           "open": 157.4,
           "high": 157.4,
-          "low": 157.4,
-          "close": 157.4,
+          "low": 157.013,
+          "close": 157.144,
           "volume": 0
         }
       ]
@@ -139523,8 +139523,8 @@ window.MARKET_SNAPSHOT = {
       "longName": "GBP/USD",
       "exchangeName": "CCY",
       "timezone": "Europe/London",
-      "lastMarketTime": "2026-08-01T12:44:53.000Z",
-      "price": 1.3482,
+      "lastMarketTime": "2026-08-02T20:59:54.000Z",
+      "price": 1.3495,
       "previousClose": 1.3461,
       "history": [
         1.2837,
@@ -140045,7 +140045,7 @@ window.MARKET_SNAPSHOT = {
         1.3287,
         1.3367,
         1.3461,
-        1.3482
+        1.3495
       ],
       "volumeHistory": [
         0,
@@ -144714,11 +144714,11 @@ window.MARKET_SNAPSHOT = {
           "volume": 0
         },
         {
-          "date": "2026-08-01",
+          "date": "2026-08-02",
           "open": 1.3482,
-          "high": 1.3482,
-          "low": 1.3482,
-          "close": 1.3482,
+          "high": 1.3497,
+          "low": 1.348,
+          "close": 1.3495,
           "volume": 0
         }
       ]
@@ -149945,8 +149945,8 @@ window.MARKET_SNAPSHOT = {
       "longName": "AUD/USD",
       "exchangeName": "CCY",
       "timezone": "Europe/London",
-      "lastMarketTime": "2026-08-02T17:03:56.000Z",
-      "price": 0.7025,
+      "lastMarketTime": "2026-08-02T20:59:54.000Z",
+      "price": 0.705,
       "previousClose": 0.7025,
       "history": [
         0.6542,
@@ -150467,7 +150467,7 @@ window.MARKET_SNAPSHOT = {
         0.6975,
         0.6959,
         0.7025,
-        0.7025
+        0.705
       ],
       "volumeHistory": [
         0,
@@ -155138,9 +155138,9 @@ window.MARKET_SNAPSHOT = {
         {
           "date": "2026-08-02",
           "open": 0.7025,
-          "high": 0.7025,
+          "high": 0.7058,
           "low": 0.7025,
-          "close": 0.7025,
+          "close": 0.705,
           "volume": 0
         }
       ]
@@ -155156,8 +155156,8 @@ window.MARKET_SNAPSHOT = {
       "longName": "Bitcoin USD",
       "exchangeName": "CCC",
       "timezone": "UTC",
-      "lastMarketTime": "2026-08-02T17:05:03.000Z",
-      "price": 63122.7891,
+      "lastMarketTime": "2026-08-02T21:00:25.000Z",
+      "price": 63424.0508,
       "previousClose": 62763.3203,
       "history": [
         61415.0664,
@@ -155890,7 +155890,7 @@ window.MARKET_SNAPSHOT = {
         64725.3086,
         62813.7461,
         62763.3203,
-        63122.7891
+        63424.0508
       ],
       "volumeHistory": [
         43060875727,
@@ -156623,7 +156623,7 @@ window.MARKET_SNAPSHOT = {
         26250039650,
         30439749629,
         13553286543,
-        15854234624
+        14724289536
       ],
       "ohlcv": [
         {
@@ -162471,8 +162471,8 @@ window.MARKET_SNAPSHOT = {
           "open": 62762.418,
           "high": 63521.1602,
           "low": 62751.0117,
-          "close": 63122.7891,
-          "volume": 15854234624
+          "close": 63424.0508,
+          "volume": 14724289536
         }
       ]
     },
@@ -162487,8 +162487,8 @@ window.MARKET_SNAPSHOT = {
       "longName": "Ethereum USD",
       "exchangeName": "CCC",
       "timezone": "UTC",
-      "lastMarketTime": "2026-08-02T17:05:05.000Z",
-      "price": 1862.4399,
+      "lastMarketTime": "2026-08-02T21:00:25.000Z",
+      "price": 1881.1899,
       "previousClose": 1843.4177,
       "history": [
         2986.0132,
@@ -163221,7 +163221,7 @@ window.MARKET_SNAPSHOT = {
         1917.3729,
         1860.3459,
         1843.4177,
-        1862.4399
+        1881.1899
       ],
       "volumeHistory": [
         21400241741,
@@ -163954,7 +163954,7 @@ window.MARKET_SNAPSHOT = {
         8075086285,
         10253082786,
         4889749337,
-        6282637824
+        5393038336
       ],
       "ohlcv": [
         {
@@ -169800,10 +169800,10 @@ window.MARKET_SNAPSHOT = {
         {
           "date": "2026-08-02",
           "open": 1843.4186,
-          "high": 1880.3959,
+          "high": 1882.5944,
           "low": 1842.1782,
-          "close": 1862.4399,
-          "volume": 6282637824
+          "close": 1881.1899,
+          "volume": 5393038336
         }
       ]
     },
@@ -169814,7 +169814,7 @@ window.MARKET_SNAPSHOT = {
       "isProxy": false,
       "proxyNote": null,
       "currency": "USD",
-      "shortName": "Gold Aug 26",
+      "shortName": "Gold Dec 26",
       "longName": null,
       "exchangeName": "CMX",
       "timezone": "America/New_York",
@@ -406216,8 +406216,8 @@ window.MARKET_SNAPSHOT = {
       "exchangeName": "SAU",
       "timezone": "Asia/Riyadh",
       "lastMarketTime": "2026-08-02T12:19:59.000Z",
-      "price": 26.58,
-      "previousClose": 26.48,
+      "price": 26.48,
+      "previousClose": 26.28,
       "history": [
         27.15,
         26.8,
@@ -406721,8 +406721,7 @@ window.MARKET_SNAPSHOT = {
         26.56,
         26.3,
         26.28,
-        26.48,
-        26.58
+        26.48
       ],
       "volumeHistory": [
         17797392,
@@ -407227,8 +407226,7 @@ window.MARKET_SNAPSHOT = {
         8185321,
         5150184,
         5834762,
-        9653829,
-        6774627
+        9653829
       ],
       "ohlcv": [
         {
@@ -411254,14 +411252,6 @@ window.MARKET_SNAPSHOT = {
           "low": 26.24,
           "close": 26.48,
           "volume": 9653829
-        },
-        {
-          "date": "2026-08-02",
-          "open": 26.6,
-          "high": 26.68,
-          "low": 26.52,
-          "close": 26.58,
-          "volume": 6774627
         }
       ]
     },
@@ -582837,7 +582827,7 @@ window.MARKET_SNAPSHOT = {
       "method": "equal_weight_above_ma20",
       "sourceUrl": "https://raw.githubusercontent.com/datasets/s-and-p-500-companies/main/data/constituents.csv",
       "benchmarkCode": "SPY",
-      "generatedAt": "2026-08-02T17:05:13.004Z",
+      "generatedAt": "2026-08-02T21:00:37.569Z",
       "coverage": {
         "total": 503,
         "effective": 503,
@@ -590549,7 +590539,7 @@ window.MARKET_SNAPSHOT = {
       "method": "equal_weight_above_ma20",
       "sourceUrl": "https://yfiua.github.io/index-constituents/constituents-csi300.csv",
       "benchmarkCode": "CSI300",
-      "generatedAt": "2026-08-02T17:05:17.387Z",
+      "generatedAt": "2026-08-02T21:00:43.362Z",
       "coverage": {
         "total": 300,
         "effective": 300,
@@ -596191,7 +596181,7 @@ window.MARKET_SNAPSHOT = {
           "https://www.ishares.com/us/products/239726/ishares-core-sp-500-etf/1467271812596.ajax?fileType=csv&fileName=IVV_holdings&dataType=fund"
         ],
         "benchmarkCode": "SPY",
-        "generatedAt": "2026-08-02T17:05:13.004Z",
+        "generatedAt": "2026-08-02T21:00:37.569Z",
         "coverage": {
           "total": 503,
           "effective": 503,
@@ -603909,7 +603899,7 @@ window.MARKET_SNAPSHOT = {
         "sourceUrl": "https://yfiua.github.io/index-constituents/constituents-csi300.csv",
         "weightSourceUrl": "https://stock.finance.sina.com.cn/fundInfo/view/FundInfo_CGMX.php?symbol=510300",
         "benchmarkCode": "CSI300",
-        "generatedAt": "2026-08-02T17:05:17.388Z",
+        "generatedAt": "2026-08-02T21:00:43.362Z",
         "coverage": {
           "total": 300,
           "effective": 300,
@@ -609842,8 +609832,8 @@ window.MARKET_SNAPSHOT = {
   "errors": [],
   "errorLog": [],
   "health": {
-    "generatedAt": "2026-08-02T17:05:07.235Z",
-    "snapshotVersion": "20260802-170507-ggwuzg",
+    "generatedAt": "2026-08-02T21:00:31.460Z",
+    "snapshotVersion": "20260802-210031-3y7cei",
     "refreshIntervalHours": 4,
     "instruments": {
       "total": 116,
