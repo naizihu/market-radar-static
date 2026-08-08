@@ -1,7 +1,7 @@
 window.MARKET_SNAPSHOT = {
   "source": "Yahoo Finance chart API",
-  "generatedAt": "2026-08-08T05:01:38.566Z",
-  "snapshotVersion": "20260808-050138-11hmy1",
+  "generatedAt": "2026-08-08T08:48:04.694Z",
+  "snapshotVersion": "20260808-084804-838i4l",
   "refreshIntervalHours": 4,
   "instruments": {
     "AAPL": {
@@ -155116,9 +155116,9 @@ window.MARKET_SNAPSHOT = {
       "longName": "Bitcoin USD",
       "exchangeName": "CCC",
       "timezone": "UTC",
-      "lastMarketTime": "2026-08-08T05:01:36.000Z",
-      "price": 64966.5586,
-      "previousClose": 64262.1133,
+      "lastMarketTime": "2026-08-08T08:47:59.000Z",
+      "price": 64951.9414,
+      "previousClose": 64880.1914,
       "history": [
         61710.1367,
         60880.1133,
@@ -155849,7 +155849,8 @@ window.MARKET_SNAPSHOT = {
         64055.9531,
         64597.5,
         64262.1133,
-        64966.5586
+        64880.1914,
+        64951.9414
       ],
       "volumeHistory": [
         45298472567,
@@ -156581,7 +156582,8 @@ window.MARKET_SNAPSHOT = {
         23662357784,
         23568584891,
         18529402711,
-        21881956352
+        22165720102,
+        20861607936
       ],
       "ohlcv": [
         {
@@ -162417,12 +162419,20 @@ window.MARKET_SNAPSHOT = {
           "volume": 18529402711
         },
         {
+          "date": "2026-08-07",
+          "open": 64257.4883,
+          "high": 65330.6094,
+          "low": 64113.2734,
+          "close": 64880.1914,
+          "volume": 22165720102
+        },
+        {
           "date": "2026-08-08",
           "open": 64884.1602,
           "high": 65010.5742,
           "low": 64800.7188,
-          "close": 64966.5586,
-          "volume": 21881956352
+          "close": 64951.9414,
+          "volume": 20861607936
         }
       ]
     },
@@ -162437,9 +162447,9 @@ window.MARKET_SNAPSHOT = {
       "longName": "Ethereum USD",
       "exchangeName": "CCC",
       "timezone": "UTC",
-      "lastMarketTime": "2026-08-08T05:01:32.000Z",
-      "price": 1916.1,
-      "previousClose": 1902.0575,
+      "lastMarketTime": "2026-08-08T08:48:01.000Z",
+      "price": 1915.8101,
+      "previousClose": 1913.2794,
       "history": [
         2683.3528,
         2599.5986,
@@ -163170,7 +163180,8 @@ window.MARKET_SNAPSHOT = {
         1868.3859,
         1906.526,
         1902.0575,
-        1916.1
+        1913.2794,
+        1915.8101
       ],
       "volumeHistory": [
         23468291180,
@@ -163902,7 +163913,8 @@ window.MARKET_SNAPSHOT = {
         7950029763,
         9791973976,
         7974662808,
-        8638568448
+        9081145963,
+        7957185024
       ],
       "ohlcv": [
         {
@@ -169738,12 +169750,20 @@ window.MARKET_SNAPSHOT = {
           "volume": 7974662808
         },
         {
+          "date": "2026-08-07",
+          "open": 1902.1405,
+          "high": 1937.1666,
+          "low": 1893.0817,
+          "close": 1913.2794,
+          "volume": 9081145963
+        },
+        {
           "date": "2026-08-08",
           "open": 1913.2822,
           "high": 1917.5715,
           "low": 1911.5477,
-          "close": 1916.1,
-          "volume": 8638568448
+          "close": 1915.8101,
+          "volume": 7957185024
         }
       ]
     },
@@ -401165,8 +401185,8 @@ window.MARKET_SNAPSHOT = {
       "exchangeName": "JNB",
       "timezone": "Africa/Johannesburg",
       "lastMarketTime": "2026-08-07T15:04:25.000Z",
-      "price": 87840,
-      "previousClose": 89700,
+      "price": 91203,
+      "previousClose": 87840,
       "history": [
         70088.7969,
         71768,
@@ -401667,7 +401687,8 @@ window.MARKET_SNAPSHOT = {
         89297,
         91200,
         89700,
-        87840
+        87840,
+        91203
       ],
       "volumeHistory": [
         2113055,
@@ -402169,7 +402190,8 @@ window.MARKET_SNAPSHOT = {
         1055073,
         1898695,
         942554,
-        1457619
+        1457619,
+        1874306
       ],
       "ohlcv": [
         {
@@ -406171,6 +406193,14 @@ window.MARKET_SNAPSHOT = {
           "low": 87765,
           "close": 87840,
           "volume": 1457619
+        },
+        {
+          "date": "2026-08-07",
+          "open": 88700,
+          "high": 91500,
+          "low": 88390,
+          "close": 91203,
+          "volume": 1874306
         }
       ]
     },
@@ -582827,7 +582857,7 @@ window.MARKET_SNAPSHOT = {
       "method": "equal_weight_above_ma20",
       "sourceUrl": "https://raw.githubusercontent.com/datasets/s-and-p-500-companies/main/data/constituents.csv",
       "benchmarkCode": "SPY",
-      "generatedAt": "2026-08-08T05:01:46.007Z",
+      "generatedAt": "2026-08-08T08:48:09.924Z",
       "coverage": {
         "total": 503,
         "effective": 503,
@@ -590539,7 +590569,7 @@ window.MARKET_SNAPSHOT = {
       "method": "equal_weight_above_ma20",
       "sourceUrl": "https://yfiua.github.io/index-constituents/constituents-csi300.csv",
       "benchmarkCode": "CSI300",
-      "generatedAt": "2026-08-08T05:01:51.025Z",
+      "generatedAt": "2026-08-08T08:48:15.881Z",
       "coverage": {
         "total": 300,
         "effective": 300,
@@ -596181,7 +596211,7 @@ window.MARKET_SNAPSHOT = {
           "https://www.ishares.com/us/products/239726/ishares-core-sp-500-etf/1467271812596.ajax?fileType=csv&fileName=IVV_holdings&dataType=fund"
         ],
         "benchmarkCode": "SPY",
-        "generatedAt": "2026-08-08T05:01:46.008Z",
+        "generatedAt": "2026-08-08T08:48:09.925Z",
         "coverage": {
           "total": 503,
           "effective": 503,
@@ -603899,7 +603929,7 @@ window.MARKET_SNAPSHOT = {
         "sourceUrl": "https://yfiua.github.io/index-constituents/constituents-csi300.csv",
         "weightSourceUrl": "https://stock.finance.sina.com.cn/fundInfo/view/FundInfo_CGMX.php?symbol=510300",
         "benchmarkCode": "CSI300",
-        "generatedAt": "2026-08-08T05:01:51.025Z",
+        "generatedAt": "2026-08-08T08:48:15.881Z",
         "coverage": {
           "total": 300,
           "effective": 300,
@@ -609832,8 +609862,8 @@ window.MARKET_SNAPSHOT = {
   "errors": [],
   "errorLog": [],
   "health": {
-    "generatedAt": "2026-08-08T05:01:38.566Z",
-    "snapshotVersion": "20260808-050138-11hmy1",
+    "generatedAt": "2026-08-08T08:48:04.694Z",
+    "snapshotVersion": "20260808-084804-838i4l",
     "refreshIntervalHours": 4,
     "instruments": {
       "total": 116,
