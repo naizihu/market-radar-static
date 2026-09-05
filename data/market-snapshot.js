@@ -1,7 +1,7 @@
 window.MARKET_SNAPSHOT = {
   "source": "Yahoo Finance chart API",
-  "generatedAt": "2026-09-05T08:13:25.977Z",
-  "snapshotVersion": "20260905-081325-e04zs6",
+  "generatedAt": "2026-09-05T14:54:07.038Z",
+  "snapshotVersion": "20260905-145407-d00udc",
   "refreshIntervalHours": 4,
   "instruments": {
     "AAPL": {
@@ -149785,7 +149785,7 @@ window.MARKET_SNAPSHOT = {
       "longName": "AUD/USD",
       "exchangeName": "CCY",
       "timezone": "Europe/London",
-      "lastMarketTime": "2026-09-05T04:50:53.000Z",
+      "lastMarketTime": "2026-09-05T11:42:50.000Z",
       "price": 0.7205,
       "previousClose": 0.7201,
       "history": [
@@ -154996,8 +154996,8 @@ window.MARKET_SNAPSHOT = {
       "longName": "Bitcoin USD",
       "exchangeName": "CCC",
       "timezone": "UTC",
-      "lastMarketTime": "2026-09-05T08:13:22.000Z",
-      "price": 79699.3516,
+      "lastMarketTime": "2026-09-05T14:54:03.000Z",
+      "price": 79737.8125,
       "previousClose": 79671.9688,
       "history": [
         56160.4883,
@@ -155730,7 +155730,7 @@ window.MARKET_SNAPSHOT = {
         77300.4766,
         81271.7422,
         79671.9688,
-        79699.3516
+        79737.8125
       ],
       "volumeHistory": [
         31030280656,
@@ -156463,7 +156463,7 @@ window.MARKET_SNAPSHOT = {
         26525296646,
         40504199354,
         37501874897,
-        32514215936
+        19300806656
       ],
       "ohlcv": [
         {
@@ -162309,10 +162309,10 @@ window.MARKET_SNAPSHOT = {
         {
           "date": "2026-09-05",
           "open": 79676.3281,
-          "high": 79755.2188,
+          "high": 79767.8516,
           "low": 79480.9297,
-          "close": 79699.3516,
-          "volume": 32514215936
+          "close": 79737.8125,
+          "volume": 19300806656
         }
       ]
     },
@@ -162327,8 +162327,8 @@ window.MARKET_SNAPSHOT = {
       "longName": "Ethereum USD",
       "exchangeName": "CCC",
       "timezone": "UTC",
-      "lastMarketTime": "2026-09-05T08:13:20.000Z",
-      "price": 2456.8301,
+      "lastMarketTime": "2026-09-05T14:54:01.000Z",
+      "price": 2457.24,
       "previousClose": 2456.0781,
       "history": [
         2367.7375,
@@ -163061,7 +163061,7 @@ window.MARKET_SNAPSHOT = {
         2391.501,
         2508.0208,
         2456.0781,
-        2456.8301
+        2457.24
       ],
       "volumeHistory": [
         13632325040,
@@ -163794,7 +163794,7 @@ window.MARKET_SNAPSHOT = {
         14227785690,
         18436029856,
         19101694317,
-        16316853248
+        8112359936
       ],
       "ohlcv": [
         {
@@ -169640,10 +169640,10 @@ window.MARKET_SNAPSHOT = {
         {
           "date": "2026-09-05",
           "open": 2456.2046,
-          "high": 2459.3318,
+          "high": 2461.5022,
           "low": 2446.7305,
-          "close": 2456.8301,
-          "volume": 16316853248
+          "close": 2457.24,
+          "volume": 8112359936
         }
       ]
     },
@@ -401515,8 +401515,8 @@ window.MARKET_SNAPSHOT = {
       "exchangeName": "JNB",
       "timezone": "Africa/Johannesburg",
       "lastMarketTime": "2026-09-04T15:05:37.000Z",
-      "price": 74618,
-      "previousClose": 74879,
+      "price": 75392,
+      "previousClose": 74618,
       "history": [
         72000,
         72829.7969,
@@ -402017,7 +402017,8 @@ window.MARKET_SNAPSHOT = {
         78815,
         76822,
         74879,
-        74618
+        74618,
+        75392
       ],
       "volumeHistory": [
         2367275,
@@ -402519,7 +402520,8 @@ window.MARKET_SNAPSHOT = {
         3723536,
         2040748,
         1794619,
-        1653746
+        1653746,
+        909411
       ],
       "ohlcv": [
         {
@@ -406521,6 +406523,14 @@ window.MARKET_SNAPSHOT = {
           "low": 74618,
           "close": 74618,
           "volume": 1653746
+        },
+        {
+          "date": "2026-09-04",
+          "open": 75610,
+          "high": 76690,
+          "low": 75392,
+          "close": 75392,
+          "volume": 909411
         }
       ]
     },
@@ -583177,7 +583187,7 @@ window.MARKET_SNAPSHOT = {
       "method": "equal_weight_above_ma20",
       "sourceUrl": "https://raw.githubusercontent.com/datasets/s-and-p-500-companies/main/data/constituents.csv",
       "benchmarkCode": "SPY",
-      "generatedAt": "2026-09-05T08:13:30.698Z",
+      "generatedAt": "2026-09-05T14:54:14.410Z",
       "coverage": {
         "total": 503,
         "effective": 503,
@@ -590889,7 +590899,7 @@ window.MARKET_SNAPSHOT = {
       "method": "equal_weight_above_ma20",
       "sourceUrl": "https://yfiua.github.io/index-constituents/constituents-csi300.csv",
       "benchmarkCode": "CSI300",
-      "generatedAt": "2026-09-05T08:13:35.144Z",
+      "generatedAt": "2026-09-05T14:54:21.676Z",
       "coverage": {
         "total": 300,
         "effective": 300,
@@ -596531,7 +596541,7 @@ window.MARKET_SNAPSHOT = {
           "https://www.ishares.com/us/products/239726/ishares-core-sp-500-etf/1467271812596.ajax?fileType=csv&fileName=IVV_holdings&dataType=fund"
         ],
         "benchmarkCode": "SPY",
-        "generatedAt": "2026-09-05T08:13:30.698Z",
+        "generatedAt": "2026-09-05T14:54:14.410Z",
         "coverage": {
           "total": 503,
           "effective": 503,
@@ -604249,7 +604259,7 @@ window.MARKET_SNAPSHOT = {
         "sourceUrl": "https://yfiua.github.io/index-constituents/constituents-csi300.csv",
         "weightSourceUrl": "https://stock.finance.sina.com.cn/fundInfo/view/FundInfo_CGMX.php?symbol=510300",
         "benchmarkCode": "CSI300",
-        "generatedAt": "2026-09-05T08:13:35.144Z",
+        "generatedAt": "2026-09-05T14:54:21.676Z",
         "coverage": {
           "total": 300,
           "effective": 300,
@@ -609911,8 +609921,8 @@ window.MARKET_SNAPSHOT = {
   "errors": [],
   "errorLog": [],
   "health": {
-    "generatedAt": "2026-09-05T08:13:25.977Z",
-    "snapshotVersion": "20260905-081325-e04zs6",
+    "generatedAt": "2026-09-05T14:54:07.038Z",
+    "snapshotVersion": "20260905-145407-d00udc",
     "refreshIntervalHours": 4,
     "instruments": {
       "total": 116,
