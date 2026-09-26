@@ -1,7 +1,7 @@
 window.MARKET_SNAPSHOT = {
   "source": "Yahoo Finance chart API",
-  "generatedAt": "2026-09-26T04:22:20.861Z",
-  "snapshotVersion": "20260926-042220-dw3q2p",
+  "generatedAt": "2026-09-26T12:50:48.242Z",
+  "snapshotVersion": "20260926-125048-d3xokg",
   "refreshIntervalHours": 4,
   "instruments": {
     "AAPL": {
@@ -124520,8 +124520,8 @@ window.MARKET_SNAPSHOT = {
       "longName": "EUR/USD",
       "exchangeName": "CCY",
       "timezone": "Europe/London",
-      "lastMarketTime": "2026-09-25T21:29:08.000Z",
-      "price": 1.1392,
+      "lastMarketTime": "2026-09-26T07:08:56.000Z",
+      "price": 1.14,
       "previousClose": 1.1375,
       "history": [
         1.1191,
@@ -125042,7 +125042,7 @@ window.MARKET_SNAPSHOT = {
         1.1448,
         1.1382,
         1.1375,
-        1.1392
+        1.14
       ],
       "volumeHistory": [
         0,
@@ -129711,11 +129711,11 @@ window.MARKET_SNAPSHOT = {
           "volume": 0
         },
         {
-          "date": "2026-09-25",
-          "open": 1.138,
-          "high": 1.1413,
-          "low": 1.1371,
-          "close": 1.1392,
+          "date": "2026-09-26",
+          "open": 1.14,
+          "high": 1.14,
+          "low": 1.14,
+          "close": 1.14,
           "volume": 0
         }
       ]
@@ -134942,7 +134942,7 @@ window.MARKET_SNAPSHOT = {
       "longName": "GBP/USD",
       "exchangeName": "CCY",
       "timezone": "Europe/London",
-      "lastMarketTime": "2026-09-25T21:29:08.000Z",
+      "lastMarketTime": "2026-09-26T07:23:57.000Z",
       "price": 1.3246,
       "previousClose": 1.3211,
       "history": [
@@ -140133,10 +140133,10 @@ window.MARKET_SNAPSHOT = {
           "volume": 0
         },
         {
-          "date": "2026-09-25",
-          "open": 1.3215,
-          "high": 1.3263,
-          "low": 1.321,
+          "date": "2026-09-26",
+          "open": 1.3246,
+          "high": 1.3246,
+          "low": 1.3246,
           "close": 1.3246,
           "volume": 0
         }
@@ -140153,7 +140153,7 @@ window.MARKET_SNAPSHOT = {
       "longName": "USD/CNY",
       "exchangeName": "CCY",
       "timezone": "Europe/London",
-      "lastMarketTime": "2026-09-26T03:30:31.000Z",
+      "lastMarketTime": "2026-09-26T03:30:32.000Z",
       "price": 6.7125,
       "previousClose": 6.7111,
       "history": [
@@ -145364,7 +145364,7 @@ window.MARKET_SNAPSHOT = {
       "longName": "AUD/USD",
       "exchangeName": "CCY",
       "timezone": "Europe/London",
-      "lastMarketTime": "2026-09-26T04:22:10.000Z",
+      "lastMarketTime": "2026-09-26T10:36:00.000Z",
       "price": 0.7026,
       "previousClose": 0.7008,
       "history": [
@@ -150575,9 +150575,9 @@ window.MARKET_SNAPSHOT = {
       "longName": "Bitcoin USD",
       "exchangeName": "CCC",
       "timezone": "UTC",
-      "lastMarketTime": "2026-09-26T04:22:17.000Z",
-      "price": 83996.1172,
-      "previousClose": 84379.0625,
+      "lastMarketTime": "2026-09-26T12:50:45.000Z",
+      "price": 84059.2813,
+      "previousClose": 84034.9219,
       "history": [
         65181.0195,
         65790.6641,
@@ -151308,7 +151308,8 @@ window.MARKET_SNAPSHOT = {
         86172.2813,
         84383.0078,
         84379.0625,
-        83996.1172
+        84034.9219,
+        84059.2813
       ],
       "volumeHistory": [
         36873129847,
@@ -152040,7 +152041,8 @@ window.MARKET_SNAPSHOT = {
         40800687783,
         46088463341,
         37106744985,
-        32565532672
+        34118533914,
+        24342394880
       ],
       "ohlcv": [
         {
@@ -157876,12 +157878,20 @@ window.MARKET_SNAPSHOT = {
           "volume": 37106744985
         },
         {
+          "date": "2026-09-25",
+          "open": 84379.5156,
+          "high": 85230.0547,
+          "low": 83165.5313,
+          "close": 84034.9219,
+          "volume": 34118533914
+        },
+        {
           "date": "2026-09-26",
           "open": 84081.9141,
-          "high": 84118.3203,
+          "high": 84284.6875,
           "low": 83799.75,
-          "close": 83996.1172,
-          "volume": 32565532672
+          "close": 84059.2813,
+          "volume": 24342394880
         }
       ]
     },
@@ -157896,9 +157906,9 @@ window.MARKET_SNAPSHOT = {
       "longName": "Ethereum USD",
       "exchangeName": "CCC",
       "timezone": "UTC",
-      "lastMarketTime": "2026-09-26T04:22:17.000Z",
-      "price": 2689.3,
-      "previousClose": 2687.3015,
+      "lastMarketTime": "2026-09-26T12:50:40.000Z",
+      "price": 2688.3101,
+      "previousClose": 2690.4756,
       "history": [
         2632.2,
         2695.9006,
@@ -158629,7 +158639,8 @@ window.MARKET_SNAPSHOT = {
         2752.6326,
         2684.6919,
         2687.3015,
-        2689.3
+        2690.4756,
+        2688.3101
       ],
       "volumeHistory": [
         17336033595,
@@ -159361,7 +159372,8 @@ window.MARKET_SNAPSHOT = {
         15430420481,
         17599121476,
         14036435848,
-        12485091328
+        13236986140,
+        8981088256
       ],
       "ohlcv": [
         {
@@ -165197,12 +165209,20 @@ window.MARKET_SNAPSHOT = {
           "volume": 14036435848
         },
         {
+          "date": "2026-09-25",
+          "open": 2687.3225,
+          "high": 2741.2969,
+          "low": 2667.0452,
+          "close": 2690.4756,
+          "volume": 13236986140
+        },
+        {
           "date": "2026-09-26",
           "open": 2691.2156,
-          "high": 2694.7151,
-          "low": 2680.9338,
-          "close": 2689.3,
-          "volume": 12485091328
+          "high": 2695.4595,
+          "low": 2680.8843,
+          "close": 2688.3101,
+          "volume": 8981088256
         }
       ]
     },
@@ -396644,8 +396664,8 @@ window.MARKET_SNAPSHOT = {
       "exchangeName": "JNB",
       "timezone": "Africa/Johannesburg",
       "lastMarketTime": "2026-09-25T15:08:23.000Z",
-      "price": 71182,
-      "previousClose": 74859,
+      "price": 70938,
+      "previousClose": 71182,
       "history": [
         78275.3984,
         83496,
@@ -397146,7 +397166,8 @@ window.MARKET_SNAPSHOT = {
         71460,
         71575,
         74859,
-        71182
+        71182,
+        70938
       ],
       "volumeHistory": [
         4446510,
@@ -397648,7 +397669,8 @@ window.MARKET_SNAPSHOT = {
         4970510,
         2709217,
         2860792,
-        2607821
+        2607821,
+        2180361
       ],
       "ohlcv": [
         {
@@ -401650,6 +401672,14 @@ window.MARKET_SNAPSHOT = {
           "low": 71182,
           "close": 71182,
           "volume": 2607821
+        },
+        {
+          "date": "2026-09-25",
+          "open": 70500,
+          "high": 71598,
+          "low": 70227,
+          "close": 70938,
+          "volume": 2180361
         }
       ]
     },
@@ -579006,7 +579036,7 @@ window.MARKET_SNAPSHOT = {
       "method": "equal_weight_above_ma20",
       "sourceUrl": "https://raw.githubusercontent.com/datasets/s-and-p-500-companies/main/data/constituents.csv",
       "benchmarkCode": "SPY",
-      "generatedAt": "2026-09-26T04:22:25.415Z",
+      "generatedAt": "2026-09-26T12:50:52.903Z",
       "coverage": {
         "total": 503,
         "effective": 503,
@@ -579020,8 +579050,8 @@ window.MARKET_SNAPSHOT = {
           "effective": 500
         },
         {
-          "value": 43,
-          "above": 215,
+          "value": 43.2,
+          "above": 216,
           "effective": 500
         },
         {
@@ -579050,13 +579080,13 @@ window.MARKET_SNAPSHOT = {
           "effective": 500
         },
         {
-          "value": 50,
-          "above": 250,
+          "value": 49.8,
+          "above": 249,
           "effective": 500
         },
         {
-          "value": 56.4,
-          "above": 282,
+          "value": 56.6,
+          "above": 283,
           "effective": 500
         },
         {
@@ -579130,8 +579160,8 @@ window.MARKET_SNAPSHOT = {
           "effective": 500
         },
         {
-          "value": 47,
-          "above": 235,
+          "value": 46.8,
+          "above": 234,
           "effective": 500
         },
         {
@@ -579200,8 +579230,8 @@ window.MARKET_SNAPSHOT = {
           "effective": 501
         },
         {
-          "value": 65.7,
-          "above": 329,
+          "value": 65.9,
+          "above": 330,
           "effective": 501
         },
         {
@@ -579245,13 +579275,13 @@ window.MARKET_SNAPSHOT = {
           "effective": 501
         },
         {
-          "value": 57.1,
-          "above": 286,
+          "value": 56.9,
+          "above": 285,
           "effective": 501
         },
         {
-          "value": 56.5,
-          "above": 283,
+          "value": 56.7,
+          "above": 284,
           "effective": 501
         },
         {
@@ -579290,13 +579320,13 @@ window.MARKET_SNAPSHOT = {
           "effective": 501
         },
         {
-          "value": 42.1,
-          "above": 211,
+          "value": 41.9,
+          "above": 210,
           "effective": 501
         },
         {
-          "value": 56.1,
-          "above": 281,
+          "value": 56.3,
+          "above": 282,
           "effective": 501
         },
         {
@@ -579485,18 +579515,18 @@ window.MARKET_SNAPSHOT = {
           "effective": 501
         },
         {
-          "value": 60.5,
-          "above": 303,
+          "value": 60.3,
+          "above": 302,
           "effective": 501
         },
         {
-          "value": 58.1,
-          "above": 291,
+          "value": 58.3,
+          "above": 292,
           "effective": 501
         },
         {
-          "value": 46.7,
-          "above": 234,
+          "value": 46.5,
+          "above": 233,
           "effective": 501
         },
         {
@@ -579570,8 +579600,8 @@ window.MARKET_SNAPSHOT = {
           "effective": 501
         },
         {
-          "value": 20.2,
-          "above": 101,
+          "value": 20.4,
+          "above": 102,
           "effective": 501
         },
         {
@@ -579580,8 +579610,8 @@ window.MARKET_SNAPSHOT = {
           "effective": 501
         },
         {
-          "value": 18.8,
-          "above": 94,
+          "value": 18.6,
+          "above": 93,
           "effective": 501
         },
         {
@@ -579595,8 +579625,8 @@ window.MARKET_SNAPSHOT = {
           "effective": 501
         },
         {
-          "value": 36.1,
-          "above": 181,
+          "value": 36.3,
+          "above": 182,
           "effective": 501
         },
         {
@@ -579700,8 +579730,8 @@ window.MARKET_SNAPSHOT = {
           "effective": 501
         },
         {
-          "value": 59.7,
-          "above": 299,
+          "value": 59.5,
+          "above": 298,
           "effective": 501
         },
         {
@@ -579810,8 +579840,8 @@ window.MARKET_SNAPSHOT = {
           "effective": 501
         },
         {
-          "value": 52.1,
-          "above": 261,
+          "value": 52.3,
+          "above": 262,
           "effective": 501
         },
         {
@@ -579825,13 +579855,13 @@ window.MARKET_SNAPSHOT = {
           "effective": 501
         },
         {
-          "value": 60.3,
-          "above": 302,
+          "value": 60.1,
+          "above": 301,
           "effective": 501
         },
         {
-          "value": 53.5,
-          "above": 268,
+          "value": 53.7,
+          "above": 269,
           "effective": 501
         },
         {
@@ -579840,8 +579870,8 @@ window.MARKET_SNAPSHOT = {
           "effective": 501
         },
         {
-          "value": 55.7,
-          "above": 279,
+          "value": 55.5,
+          "above": 278,
           "effective": 501
         },
         {
@@ -579850,8 +579880,8 @@ window.MARKET_SNAPSHOT = {
           "effective": 501
         },
         {
-          "value": 70.5,
-          "above": 353,
+          "value": 70.7,
+          "above": 354,
           "effective": 501
         },
         {
@@ -579910,8 +579940,8 @@ window.MARKET_SNAPSHOT = {
           "effective": 502
         },
         {
-          "value": 64.1,
-          "above": 322,
+          "value": 63.9,
+          "above": 321,
           "effective": 502
         },
         {
@@ -579995,13 +580025,13 @@ window.MARKET_SNAPSHOT = {
           "effective": 503
         },
         {
-          "value": 63,
-          "above": 317,
+          "value": 63.2,
+          "above": 318,
           "effective": 503
         },
         {
-          "value": 69.2,
-          "above": 348,
+          "value": 69,
+          "above": 347,
           "effective": 503
         },
         {
@@ -580025,8 +580055,8 @@ window.MARKET_SNAPSHOT = {
           "effective": 503
         },
         {
-          "value": 67.6,
-          "above": 340,
+          "value": 67.8,
+          "above": 341,
           "effective": 503
         },
         {
@@ -580075,8 +580105,8 @@ window.MARKET_SNAPSHOT = {
           "effective": 503
         },
         {
-          "value": 53.3,
-          "above": 268,
+          "value": 53.1,
+          "above": 267,
           "effective": 503
         },
         {
@@ -580190,8 +580220,8 @@ window.MARKET_SNAPSHOT = {
           "effective": 503
         },
         {
-          "value": 25.8,
-          "above": 130,
+          "value": 26,
+          "above": 131,
           "effective": 503
         },
         {
@@ -583561,8 +583591,8 @@ window.MARKET_SNAPSHOT = {
           "sectorSource": "source_field",
           "sectorMarket": "sp500",
           "sourceSymbol": "HUBB",
-          "price": 465.88,
-          "ma20": 454.29,
+          "price": 466.62,
+          "ma20": 454.11,
           "status": "MA20上方",
           "weight": 0.03720970315274668
         },
@@ -586718,7 +586748,7 @@ window.MARKET_SNAPSHOT = {
       "method": "equal_weight_above_ma20",
       "sourceUrl": "https://yfiua.github.io/index-constituents/constituents-csi300.csv",
       "benchmarkCode": "CSI300",
-      "generatedAt": "2026-09-26T04:22:30.446Z",
+      "generatedAt": "2026-09-26T12:50:57.249Z",
       "coverage": {
         "total": 300,
         "effective": 300,
@@ -592119,7 +592149,7 @@ window.MARKET_SNAPSHOT = {
           "https://www.ishares.com/us/products/239726/ishares-core-sp-500-etf/1467271812596.ajax?fileType=csv&fileName=IVV_holdings&dataType=fund"
         ],
         "benchmarkCode": "SPY",
-        "generatedAt": "2026-09-26T04:22:25.415Z",
+        "generatedAt": "2026-09-26T12:50:52.903Z",
         "coverage": {
           "total": 503,
           "effective": 503,
@@ -592138,7 +592168,7 @@ window.MARKET_SNAPSHOT = {
           },
           {
             "value": 34.1,
-            "aboveWeight": 34.0201,
+            "aboveWeight": 34.0573,
             "effectiveWeight": 99.865
           },
           {
@@ -592167,13 +592197,13 @@ window.MARKET_SNAPSHOT = {
             "effectiveWeight": 99.865
           },
           {
-            "value": 59.3,
-            "aboveWeight": 59.2001,
+            "value": 59.2,
+            "aboveWeight": 59.1629,
             "effectiveWeight": 99.865
           },
           {
             "value": 69.6,
-            "aboveWeight": 69.4815,
+            "aboveWeight": 69.5187,
             "effectiveWeight": 99.865
           },
           {
@@ -592248,7 +592278,7 @@ window.MARKET_SNAPSHOT = {
           },
           {
             "value": 51.5,
-            "aboveWeight": 51.4614,
+            "aboveWeight": 51.4242,
             "effectiveWeight": 99.865
           },
           {
@@ -592318,7 +592348,7 @@ window.MARKET_SNAPSHOT = {
           },
           {
             "value": 57.7,
-            "aboveWeight": 57.6551,
+            "aboveWeight": 57.6924,
             "effectiveWeight": 99.9037
           },
           {
@@ -592362,13 +592392,13 @@ window.MARKET_SNAPSHOT = {
             "effectiveWeight": 99.9037
           },
           {
-            "value": 37.7,
-            "aboveWeight": 37.6157,
+            "value": 37.6,
+            "aboveWeight": 37.5785,
             "effectiveWeight": 99.9037
           },
           {
             "value": 46,
-            "aboveWeight": 45.9497,
+            "aboveWeight": 45.9869,
             "effectiveWeight": 99.9037
           },
           {
@@ -592408,12 +592438,12 @@ window.MARKET_SNAPSHOT = {
           },
           {
             "value": 57.1,
-            "aboveWeight": 57.0526,
+            "aboveWeight": 57.0154,
             "effectiveWeight": 99.9037
           },
           {
             "value": 51.9,
-            "aboveWeight": 51.8373,
+            "aboveWeight": 51.8745,
             "effectiveWeight": 99.9037
           },
           {
@@ -592603,17 +592633,17 @@ window.MARKET_SNAPSHOT = {
           },
           {
             "value": 39.3,
-            "aboveWeight": 39.3074,
+            "aboveWeight": 39.2701,
             "effectiveWeight": 99.9037
           },
           {
             "value": 34.9,
-            "aboveWeight": 34.8206,
+            "aboveWeight": 34.8579,
             "effectiveWeight": 99.9037
           },
           {
             "value": 32.4,
-            "aboveWeight": 32.3634,
+            "aboveWeight": 32.3262,
             "effectiveWeight": 99.9037
           },
           {
@@ -592688,7 +592718,7 @@ window.MARKET_SNAPSHOT = {
           },
           {
             "value": 17.6,
-            "aboveWeight": 17.5645,
+            "aboveWeight": 17.6017,
             "effectiveWeight": 99.9037
           },
           {
@@ -592697,8 +592727,8 @@ window.MARKET_SNAPSHOT = {
             "effectiveWeight": 99.9037
           },
           {
-            "value": 14.2,
-            "aboveWeight": 14.1406,
+            "value": 14.1,
+            "aboveWeight": 14.1034,
             "effectiveWeight": 99.9037
           },
           {
@@ -592712,8 +592742,8 @@ window.MARKET_SNAPSHOT = {
             "effectiveWeight": 99.9037
           },
           {
-            "value": 24.4,
-            "aboveWeight": 24.4174,
+            "value": 24.5,
+            "aboveWeight": 24.4546,
             "effectiveWeight": 99.9037
           },
           {
@@ -592817,8 +592847,8 @@ window.MARKET_SNAPSHOT = {
             "effectiveWeight": 99.9037
           },
           {
-            "value": 76.1,
-            "aboveWeight": 75.9921,
+            "value": 76,
+            "aboveWeight": 75.9549,
             "effectiveWeight": 99.9037
           },
           {
@@ -592927,8 +592957,8 @@ window.MARKET_SNAPSHOT = {
             "effectiveWeight": 99.9037
           },
           {
-            "value": 56.5,
-            "aboveWeight": 56.463,
+            "value": 56.6,
+            "aboveWeight": 56.5002,
             "effectiveWeight": 99.9037
           },
           {
@@ -592942,13 +592972,13 @@ window.MARKET_SNAPSHOT = {
             "effectiveWeight": 99.9037
           },
           {
-            "value": 45.3,
-            "aboveWeight": 45.2378,
+            "value": 45.2,
+            "aboveWeight": 45.2006,
             "effectiveWeight": 99.9037
           },
           {
             "value": 37.1,
-            "aboveWeight": 37.0299,
+            "aboveWeight": 37.0671,
             "effectiveWeight": 99.9037
           },
           {
@@ -592958,7 +592988,7 @@ window.MARKET_SNAPSHOT = {
           },
           {
             "value": 35,
-            "aboveWeight": 34.9666,
+            "aboveWeight": 34.9294,
             "effectiveWeight": 99.9037
           },
           {
@@ -592968,7 +592998,7 @@ window.MARKET_SNAPSHOT = {
           },
           {
             "value": 45.6,
-            "aboveWeight": 45.522,
+            "aboveWeight": 45.5592,
             "effectiveWeight": 99.9037
           },
           {
@@ -593028,7 +593058,7 @@ window.MARKET_SNAPSHOT = {
           },
           {
             "value": 53.4,
-            "aboveWeight": 53.3856,
+            "aboveWeight": 53.3483,
             "effectiveWeight": 99.9242
           },
           {
@@ -593112,13 +593142,13 @@ window.MARKET_SNAPSHOT = {
             "effectiveWeight": 100
           },
           {
-            "value": 52.8,
-            "aboveWeight": 52.8458,
+            "value": 52.9,
+            "aboveWeight": 52.8831,
             "effectiveWeight": 100
           },
           {
-            "value": 53,
-            "aboveWeight": 52.9778,
+            "value": 52.9,
+            "aboveWeight": 52.9406,
             "effectiveWeight": 100
           },
           {
@@ -593142,8 +593172,8 @@ window.MARKET_SNAPSHOT = {
             "effectiveWeight": 100
           },
           {
-            "value": 68.6,
-            "aboveWeight": 68.6497,
+            "value": 68.7,
+            "aboveWeight": 68.687,
             "effectiveWeight": 100
           },
           {
@@ -593193,7 +593223,7 @@ window.MARKET_SNAPSHOT = {
           },
           {
             "value": 58.4,
-            "aboveWeight": 58.4109,
+            "aboveWeight": 58.3737,
             "effectiveWeight": 100
           },
           {
@@ -593308,7 +593338,7 @@ window.MARKET_SNAPSHOT = {
           },
           {
             "value": 61.3,
-            "aboveWeight": 61.2979,
+            "aboveWeight": 61.3351,
             "effectiveWeight": 100
           },
           {
@@ -596678,8 +596708,8 @@ window.MARKET_SNAPSHOT = {
             "sectorSource": "source_field",
             "sectorMarket": "sp500",
             "sourceSymbol": "HUBB",
-            "price": 465.88,
-            "ma20": 454.29,
+            "price": 466.62,
+            "ma20": 454.11,
             "status": "MA20上方",
             "weight": 0.03720970315274668
           },
@@ -599837,7 +599867,7 @@ window.MARKET_SNAPSHOT = {
         "sourceUrl": "https://yfiua.github.io/index-constituents/constituents-csi300.csv",
         "weightSourceUrl": "https://stock.finance.sina.com.cn/fundInfo/view/FundInfo_CGMX.php?symbol=510300",
         "benchmarkCode": "CSI300",
-        "generatedAt": "2026-09-26T04:22:30.446Z",
+        "generatedAt": "2026-09-26T12:50:57.249Z",
         "coverage": {
           "total": 300,
           "effective": 300,
@@ -605268,8 +605298,8 @@ window.MARKET_SNAPSHOT = {
     }
   ],
   "health": {
-    "generatedAt": "2026-09-26T04:22:20.861Z",
-    "snapshotVersion": "20260926-042220-dw3q2p",
+    "generatedAt": "2026-09-26T12:50:48.242Z",
+    "snapshotVersion": "20260926-125048-d3xokg",
     "refreshIntervalHours": 4,
     "instruments": {
       "total": 116,
